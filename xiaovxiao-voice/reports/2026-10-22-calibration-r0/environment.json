@@ -1,0 +1,26 @@
+{
+  "xvx-vox": {
+    "environment": "xvx-vox",
+    "python": "3.11.15",
+    "praat_parselmouth": "0.4.7",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "cuda_available": true,
+    "capability": [
+      12,
+      0
+    ]
+  },
+  "xvx-qwen": {
+    "environment": "xvx-qwen",
+    "python": "3.11.15",
+    "praat_parselmouth": "0.4.7",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "cuda_available": true,
+    "capability": [
+      12,
+      0
+    ]
+  }
+}

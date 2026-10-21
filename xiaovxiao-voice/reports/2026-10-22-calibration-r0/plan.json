@@ -1,0 +1,50 @@
+{
+  "base_commit": "a37e7072c74b962028b34ee2f603c3913b8b70f8",
+  "started_at": "2026-10-22T00:11:42+08:00",
+  "source_sha256_before": {
+    "common.py": "ea3a4c429458a5055a9c9336a87c7ac1de564997160a413799db1fa95a36c25b",
+    "measure.py": "f69d34345ef7395385fa2f455c6ac77d9c49bc3ab9e401b1179bd2634e914979",
+    "rater.html": "69478e6bd69349300324b666859ee64569db8c3a0724094ec8758b95a9f8d476",
+    "specs.py": "cd895b7b0f697ac1ab0c7f66cb1f66884178a81bc06e47e3857de34edd9c1bd5",
+    "step1_audition.py": "0a3718cc9275eb5bef6b81d6ae02ffb4ec0424b75007b0eed962adbff09b07fd",
+    "step2_refine.py": "cd84dd34932c00267354ca08aa200fb6abbc76d3299f3866c5ee1723851b6321",
+    "step3_clone_test.py": "811e014c3e7742cc7561e0d11e6fa3fffee063fc348b9ef54b87dae4e4a2a725",
+    "step4_finalize.py": "5c707160832184768e749214c6f9090722b54d42db83b3f534d64ea4925ab7d8"
+  },
+  "round": "r0",
+  "planned": {
+    "voxcpm2": 16,
+    "qwen3": 8
+  },
+  "archetypes": [
+    "A",
+    "B",
+    "D",
+    "F"
+  ],
+  "description_language": "zh",
+  "seeds": [
+    1
+  ],
+  "grid": {
+    "voxcpm2": {
+      "cfg": [
+        1.5,
+        2.0
+      ],
+      "steps": [
+        10,
+        20
+      ]
+    },
+    "qwen3": {
+      "temperature": [
+        0.9,
+        1.0
+      ]
+    }
+  },
+  "run_models_sequentially": true,
+  "formal_120_audition_authorized": false,
+  "ratings_sync_trigger": "用户说评完了之后，复制 rounds/r0/ratings.json 到本报告目录并提交推送"
+}
