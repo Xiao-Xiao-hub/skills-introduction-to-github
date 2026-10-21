@@ -2,7 +2,7 @@
 
 做什么：
   1. 原描述换几个新种子 —— 分清「这个方向好」还是「这一条运气好」
-  2. 单变量微调 —— 年龄感/音调/质感/鼻音/语速/慵懒程度，各换成其它选项试一遍
+  2. 单变量微调 —— 年龄感/音调/质感/可爱程度/尾音/慵懒程度，各换成其它选项试一遍
   3. 统计最优组合 —— 把每个槽位里平均分最高的选项拼在一起
   4. （可选）--custom 你自己手写的描述
 
@@ -58,8 +58,8 @@ def main():
     parser.add_argument("--top", type=int, default=3, help="取前几名做精调（默认 3）")
     parser.add_argument("--min-score", type=int, default=4, help="最低分数（默认 4）")
     parser.add_argument("--ids", help="直接指定要精调的候选 id（逗号分隔，在试音台关闭盲听后可以看到）")
-    parser.add_argument("--axes", default="age,pitch,texture,nasal,pace,lazy",
-                        help="单变量微调哪些槽位：age,pitch,texture,nasal,pace,mood,lazy,manner 或 all")
+    parser.add_argument("--axes", default="age,pitch,texture,cute,ending,lazy",
+                        help="单变量微调哪些槽位：age,pitch,texture,nasal,pace,mood,cute,ending,lazy 或 all")
     parser.add_argument("--seeds", type=int, default=2, help="每个微调变体生成几个种子（默认 2）")
     parser.add_argument("--reseeds", type=int, default=4, help="原描述再换几个新种子（默认 4）")
     parser.add_argument("--no-best", action="store_true", help="不生成「统计最优组合」")

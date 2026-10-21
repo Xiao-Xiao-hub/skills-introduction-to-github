@@ -24,7 +24,7 @@ for _stream in (sys.stdout, sys.stderr):
         pass
 
 HERE = Path(__file__).resolve().parent
-MODEL_TAGS = {"voxcpm2": "vox", "qwen3": "qwen"}
+MODEL_TAGS = {"voxcpm2": "vox", "qwen3": "qwen", "moss": "moss"}
 MANIFEST = "manifest.jsonl"
 RATINGS = "ratings.json"
 
@@ -236,6 +236,49 @@ class Qwen3Backend:
         return wavs[0], sr, seed
 
 
+class MossBackend:
+    """MOSS-VoiceGenerator：只能造声（描述 + 台词），主打真人感。克隆请用另外两个模型。"""
+
+    def __init__(self, model_path=None, codec_path=None):
+        import torch
+        from transformers import AutoModel, AutoProcessor
+        # 官方示例：关掉有问题的 cuDNN SDPA，其它注意力实现保留
+        torch.backends.cuda.enable_cudnn_sdp(False)
+        path = model_path or "OpenMOSS-Team/MOSS-VoiceGenerator"
+        extra = {"codec_path": codec_path} if codec_path else {}
+        self.processor = AutoProcessor.from_pretrained(path, trust_remote_code=True, normalize_inputs=True, **extra)
+        self.processor.audio_tokenizer = self.processor.audio_tokenizer.to("cuda")
+        self.model = AutoModel.from_pretrained(path, trust_remote_code=True, attn_implementation="sdpa",
+                                               torch_dtype=torch.bfloat16).to("cuda").eval()
+        self.sr = int(getattr(self.processor.model_config, "sampling_rate", 24000))
+
+    def design(self, desc, text, seed, gen):
+        import torch
+        seed_everything(seed)
+        batch = self.processor([[self.processor.build_user_message(text=text, instruction=desc)]], mode="generation")
+        with torch.no_grad():
+            outputs = self.model.generate(
+                input_ids=batch["input_ids"].to("cuda"),
+                attention_mask=batch["attention_mask"].to("cuda"),
+                max_new_tokens=4096,
+                # 官方推荐的解码参数（模型对这些很敏感）
+                audio_temperature=gen.get("temperature", 1.5),
+                audio_top_p=0.6,
+                audio_top_k=50,
+                audio_repetition_penalty=1.1,
+            )
+        messages = self.processor.decode(outputs)
+        if not messages or messages[0] is None:
+            raise RuntimeError("模型没有返回可解码的音频")
+        audio = messages[0].audio_codes_list[0]
+        if hasattr(audio, "detach"):
+            audio = audio.detach().float().cpu().numpy()
+        return np.asarray(audio, dtype=np.float32).reshape(-1), self.sr, seed
+
+    def clone(self, *args, **kwargs):
+        raise SystemExit("MOSS-VoiceGenerator 只能造声，克隆测试请用 --model voxcpm2 或 qwen3")
+
+
 def add_model_args(parser, default_out):
     parser.add_argument("--model", choices=sorted(MODEL_TAGS), required=True,
                         help="用哪个模型生成（需要在对应的 Python 环境里运行）")
@@ -247,7 +290,8 @@ def add_model_args(parser, default_out):
     parser.add_argument("--cfg", help="VoxCPM2：引导强度，官方建议 1.0~3.0（默认 2.0）。越低越自由、越高越贴描述。"
                                       "逗号分隔可一次对比多个，如 1.5,2.0")
     parser.add_argument("--steps", help="VoxCPM2：推理步数，官方建议 4~30（默认 10）。越大细节越好、越慢。可写多个，如 10,20")
-    parser.add_argument("--temperature", help="Qwen3：采样温度（默认用模型自带设置）。可写多个，如 0.9,1.0")
+    parser.add_argument("--temperature", help="Qwen3 / MOSS：采样温度（默认用模型自带设置，MOSS 官方推荐 1.5）。可写多个，如 0.9,1.0")
+    parser.add_argument("--codec-path", help="MOSS：MOSS-Audio-Tokenizer 的本地路径（从 ModelScope 下到本地时用）")
 
 
 def _numbers(text):
@@ -281,6 +325,8 @@ def make_backend(args, kind):
     print(f"正在加载 {args.model}（第一次会下载模型，请耐心等待）…")
     if args.model == "voxcpm2":
         return VoxCPM2Backend(args.model_path, compile=args.compile)
+    if args.model == "moss":
+        return MossBackend(args.model_path, args.codec_path)
     return Qwen3Backend(kind, args.model_path, flash_attn=args.flash_attn)
 
 

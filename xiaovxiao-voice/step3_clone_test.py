@@ -25,6 +25,8 @@ def main():
     parser.add_argument("--ids", help="直接指定参考候选的 id（逗号分隔）")
     parser.add_argument("--seeds", type=int, default=1, help="每句生成几个种子（默认 1）")
     args = parser.parse_args()
+    if args.model == "moss":
+        raise SystemExit("MOSS-VoiceGenerator 只能造声，克隆测试请用 --model voxcpm2 或 qwen3")
 
     sources = [s for s in args.sources if Path(s).is_dir()]
     if not sources:

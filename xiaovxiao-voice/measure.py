@@ -22,10 +22,11 @@ except ImportError:
 
 ACOUSTIC = "acoustic.json"
 
-# 粗略参考线（按第一次试听的两条样本和普通话说话的一般情况定的，不是硬标准）
+# 粗略参考线，不是硬标准。校准轮 r0 的 24 条停顿都在 27%~42%，原来的 25% 线条条都报、没有区分度，已放宽。
+# r0 也说明：这些数字预测不了「人机感」，只能帮忙解释语调平、拖沓、气声重这类具体问题。
 FLAGS = [
     ("range_st", lambda v: v < 5, "语调偏平"),
-    ("pause_pct", lambda v: v > 25, "停顿偏多"),
+    ("pause_pct", lambda v: v > 40, "停顿偏多"),
     ("rate", lambda v: v < 3.5, "语速偏慢"),
     ("rate", lambda v: v > 6.5, "语速偏快"),
     ("f0", lambda v: v > 270, "音高偏高"),
