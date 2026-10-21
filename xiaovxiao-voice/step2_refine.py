@@ -2,22 +2,24 @@
 
 做什么：
   1. 原描述换几个新种子 —— 分清「这个方向好」还是「这一条运气好」
-  2. 单变量微调 —— 年龄感/音调/质感/鼻音/语速，各换成其它选项试一遍
+  2. 单变量微调 —— 年龄感/音调/质感/鼻音/语速/慵懒程度，各换成其它选项试一遍
   3. 统计最优组合 —— 把每个槽位里平均分最高的选项拼在一起
   4. （可选）--custom 你自己手写的描述
+
+生成参数（--cfg/--steps/--temperature）不写时，沿用每条候选自己当时的参数。
 
 例子：
   python step2_refine.py --model voxcpm2                         # 用 rounds/r1 的评分，取前 3 名
   python step2_refine.py --model voxcpm2 --top 5 --axes all
   python step2_refine.py --model voxcpm2 --ids r1_vox_3fa2c1,r1_vox_9b01de
   python step2_refine.py --model voxcpm2 --from rounds/r1 rounds/r2 --out rounds/r3   # 再精调一轮
-  python step2_refine.py --model voxcpm2 --custom "十七岁的少女，声音软软的，……"
+  python step2_refine.py --model voxcpm2 --custom "二十岁左右的女生，声音柔和，……"
 """
 from pathlib import Path
 
 import specs
-from common import (add_model_args, build_desc, clip_id, copy_clip, load_rounds, make_backend, new_parser,
-                    run_jobs, slots_zh, top_rated)
+from common import (add_model_args, build_desc, clip_id, copy_clip, gen_grid, gen_label, load_rounds, make_backend,
+                    new_parser, run_jobs, slots_valid, slots_zh, top_rated)
 
 
 def mean(xs):
@@ -26,7 +28,7 @@ def mean(xs):
 
 def best_combo(rated, fallback):
     """每个槽位取平均分最高（至少 2 条样本）的选项。样本太少时返回 None。"""
-    with_slots = [e for e in rated if e.get("slots")]
+    with_slots = rated
     if len(with_slots) < 6:
         return None
     print("\n各槽位平均分（同模型、已评分）：")
@@ -56,8 +58,8 @@ def main():
     parser.add_argument("--top", type=int, default=3, help="取前几名做精调（默认 3）")
     parser.add_argument("--min-score", type=int, default=4, help="最低分数（默认 4）")
     parser.add_argument("--ids", help="直接指定要精调的候选 id（逗号分隔，在试音台关闭盲听后可以看到）")
-    parser.add_argument("--axes", default="age,pitch,texture,nasal,pace",
-                        help="单变量微调哪些槽位：age,pitch,texture,nasal,pace,mood,manner 或 all")
+    parser.add_argument("--axes", default="age,pitch,texture,nasal,pace,lazy",
+                        help="单变量微调哪些槽位：age,pitch,texture,nasal,pace,mood,lazy,manner 或 all")
     parser.add_argument("--seeds", type=int, default=2, help="每个微调变体生成几个种子（默认 2）")
     parser.add_argument("--reseeds", type=int, default=4, help="原描述再换几个新种子（默认 4）")
     parser.add_argument("--no-best", action="store_true", help="不生成「统计最优组合」")
@@ -91,21 +93,30 @@ def main():
     vseeds = range(1, 1 + args.seeds)
     jobs = []
 
-    def add(desc, seeds, **meta_extra):
-        for seed in seeds:
-            cid = clip_id(round_name, args.model, desc, args.text, seed)
-            meta = dict(id=cid, file=f"{cid}.wav", round=round_name, model=args.model,
-                        desc=desc, text=args.text, seed=seed, **meta_extra)
-            jobs.append({"meta": meta, "run": lambda b, d=desc, s=seed: b.design(d, args.text, s)})
+    def add(desc, seeds, gens, **meta_extra):
+        for gen in gens:
+            for seed in seeds:
+                cid = clip_id(round_name, args.model, desc, args.text, seed, gen)
+                meta = dict(id=cid, file=f"{cid}.wav", round=round_name, model=args.model,
+                            desc=desc, text=args.text, seed=seed, gen=gen, gen_label=gen_label(gen), **meta_extra)
+                jobs.append({"meta": meta, "run": lambda b, d=desc, s=seed, g=gen: b.design(d, args.text, s, g)})
+
+    def inherited(p):
+        """命令行没指定生成参数时，沿用这条候选自己的参数（同一个模型才沿用）。"""
+        return gen_grid(args, inherit=p.get("gen") if p.get("model") == args.model else None)
 
     print("本轮精调的候选：")
     for p in picks:
-        print(f"  {p['id']}  ★{p['score']}  {p.get('archetype', '')}  {' '.join(p['tags'])}\n    {p['desc']}")
+        gens = inherited(p)
+        print(f"  {p['id']}  ★{p['score']}  {p.get('archetype', '')}  {p.get('gen_label', '')}  {' '.join(p['tags'])}\n"
+              f"    {p['desc']}")
         base = dict(archetype=p.get("archetype", "自定义"), parent=p["id"], desc_lang=p.get("desc_lang"))
-        slots = p.get("slots")
+        slots = p.get("slots") if slots_valid(p.get("slots")) else None
+        if p.get("slots") and not slots:
+            print("    （这条是旧版设定生成的，只换种子，不做单变量微调）")
         if slots:
             base.update(slots=slots, slots_zh=slots_zh(slots))
-        add(p["desc"], reseeds, variant="原描述·换种子", **base)
+        add(p["desc"], reseeds, gens, variant="原描述·换种子", **base)
         if slots and p.get("desc_lang") in ("zh", "en"):
             for axis in axes:
                 current = slots[axis]
@@ -114,27 +125,32 @@ def main():
                         continue
                     changed = {**slots, axis: value}
                     label = f"{specs.SLOT_LABELS[axis]}：{specs.SLOTS[axis][current][0]}→{specs.SLOTS[axis][value][0]}"
-                    add(build_desc(changed, p["desc_lang"]), vseeds, variant=label,
+                    add(build_desc(changed, p["desc_lang"]), vseeds, gens, variant=label,
                         **{**base, "slots": changed, "slots_zh": slots_zh(changed)})
         for tag in p["tags"]:
             if tag in specs.TAG_HINTS:
                 axis, direction = specs.TAG_HINTS[tag]
-                print(f"    提示：你标了「{tag}」，重点听「{specs.SLOT_LABELS[axis]}」往「{direction}」变的那几条")
+                if axis:
+                    print(f"    提示：你标了「{tag}」，重点听「{specs.SLOT_LABELS[axis]}」往「{direction}」变的那几条")
+                else:
+                    print(f"    提示：你标了「{tag}」——{direction}")
 
-    if picks and not args.no_best:
-        combo = best_combo([e for e in pool if e["score"]], picks[0])
+    valid_picks = [p for p in picks if slots_valid(p.get("slots"))]
+    if valid_picks and not args.no_best:
+        combo = best_combo([e for e in pool if e["score"] and slots_valid(e.get("slots"))], valid_picks[0])
         if combo:
             slots, lang = combo
             desc = build_desc(slots, lang)
             if all(desc != p["desc"] for p in picks):
                 print(f"\n统计最优组合 [{lang}]：{desc}")
-                add(desc, range(1, 1 + args.seeds + args.reseeds), archetype="★统计最优组合", variant="统计最优组合",
+                add(desc, range(1, 1 + args.seeds + args.reseeds), inherited(valid_picks[0]),
+                    archetype="★统计最优组合", variant="统计最优组合",
                     desc_lang=lang, slots=slots, slots_zh=slots_zh(slots))
             else:
                 print("\n统计最优组合和某个候选完全相同，已跳过。")
 
     for i, desc in enumerate(args.custom, 1):
-        add(desc, range(1, 1 + args.reseeds), archetype=f"自定义{i}", variant="手写描述",
+        add(desc, range(1, 1 + args.reseeds), gen_grid(args), archetype=f"自定义{i}", variant="手写描述",
             desc_lang="custom")
 
     # 把精调起点也放进这一轮：盲听时它是对照组，关掉盲听后可以按 C/B 和变体做 A/B

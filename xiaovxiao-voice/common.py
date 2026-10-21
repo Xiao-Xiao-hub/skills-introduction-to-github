@@ -1,6 +1,7 @@
 """哓v哓 声音工具包的公共代码：模型封装、描述拼接、清单与评分读写、批量生成。"""
 import argparse
 import hashlib
+import inspect
 import json
 import random
 import re
@@ -50,8 +51,14 @@ def slots_zh(slots):
     return {specs.SLOT_LABELS[k]: specs.SLOTS[k][slots[k]][0] for k in specs.SLOT_ORDER if k in slots}
 
 
+def slots_valid(slots):
+    """旧版设定生成的条目，槽位可能和现在的 specs.py 对不上。"""
+    return bool(slots) and all(k in slots and slots[k] in specs.SLOTS[k] for k in specs.SLOT_ORDER)
+
+
 def clip_id(round_name, model, *parts):
-    digest = hashlib.sha1("|".join(map(str, (model,) + parts)).encode("utf-8")).hexdigest()[:6]
+    text = "|".join(json.dumps(p, sort_keys=True) if isinstance(p, dict) else str(p) for p in (model,) + parts)
+    digest = hashlib.sha1(text.encode("utf-8")).hexdigest()[:6]
     return f"{round_name}_{MODEL_TAGS[model]}_{digest}"
 
 
@@ -99,7 +106,8 @@ def copy_clip(entry, out_dir, suffix, **meta):
     if new_id in {e["id"] for e in read_manifest(out_dir)}:
         return
     shutil.copy2(Path(entry["dir"]) / entry["file"], out_dir / f"{new_id}.wav")
-    keep = ("model", "archetype", "slots", "slots_zh", "desc_lang", "desc", "text", "seed", "seed_used", "sr", "duration")
+    keep = ("model", "archetype", "slots", "slots_zh", "desc_lang", "desc", "text", "seed", "seed_used",
+            "gen", "gen_label", "sr", "duration")
     record = {k: entry[k] for k in keep if k in entry}
     record.update(id=new_id, file=f"{new_id}.wav", round=out_dir.name, parent=entry["id"], **meta)
     append_manifest(out_dir, record)
@@ -167,28 +175,33 @@ def _strip_parens(text):
 class VoxCPM2Backend:
     """VoxCPM2：造声用「(描述)台词」，克隆支持「(语气)台词」。"""
 
-    def __init__(self, model_path=None, compile=False, cfg=2.0, steps=10):
+    def __init__(self, model_path=None, compile=False):
         from voxcpm import VoxCPM
         self.model = VoxCPM.from_pretrained(model_path or "openbmb/VoxCPM2",
                                             load_denoiser=False, optimize=compile)
         self.sr = self.model.tts_model.sample_rate
-        self.cfg, self.steps = cfg, steps
+        # voxcpm 2.0.3 的 generate 不接受 seed，较新的版本接受；两种都兼容
+        try:
+            self.takes_seed = "seed" in inspect.signature(self.model._generate).parameters
+        except (AttributeError, TypeError, ValueError):
+            self.takes_seed = False
 
-    def _generate(self, seed, **kwargs):
-        # voxcpm 2.0.3 的 generate 不接受 seed，通过随机数状态控制种子。
+    def _generate(self, seed, gen, **kwargs):
         seed_everything(seed)
-        wav = self.model.generate(cfg_value=self.cfg, inference_timesteps=self.steps, **kwargs)
+        if self.takes_seed:
+            kwargs["seed"] = seed
+        wav = self.model.generate(cfg_value=gen.get("cfg", 2.0), inference_timesteps=gen.get("steps", 10), **kwargs)
         # 若模型暴露重试后实际使用的种子则记录，否则保留本次初始种子。
         used = getattr(self.model.tts_model, "last_successful_seed", None)
         return wav, self.sr, seed if used is None else int(used)
 
-    def design(self, desc, text, seed):
-        return self._generate(seed, text=f"({_strip_parens(desc)}){text}")
+    def design(self, desc, text, seed, gen):
+        return self._generate(seed, gen, text=f"({_strip_parens(desc)}){text}")
 
-    def clone(self, ref_wav, ref_text, text, seed, style=""):
+    def clone(self, ref_wav, ref_text, text, seed, gen, style=""):
         if style:
-            return self._generate(seed, text=f"({_strip_parens(style)}){text}", reference_wav_path=str(ref_wav))
-        return self._generate(seed, text=text, prompt_wav_path=str(ref_wav),
+            return self._generate(seed, gen, text=f"({_strip_parens(style)}){text}", reference_wav_path=str(ref_wav))
+        return self._generate(seed, gen, text=text, prompt_wav_path=str(ref_wav),
                               prompt_text=ref_text, reference_wav_path=str(ref_wav))
 
 
@@ -208,18 +221,18 @@ class Qwen3Backend:
         )
         self._prompts = {}
 
-    def design(self, desc, text, seed):
+    def design(self, desc, text, seed, gen):
         seed_everything(seed)
-        wavs, sr = self.model.generate_voice_design(text=text, language="Chinese", instruct=desc)
+        wavs, sr = self.model.generate_voice_design(text=text, language="Chinese", instruct=desc, **gen)
         return wavs[0], sr, seed
 
-    def clone(self, ref_wav, ref_text, text, seed, style=""):
+    def clone(self, ref_wav, ref_text, text, seed, gen, style=""):
         key = str(ref_wav)
         if key not in self._prompts:
             self._prompts[key] = self.model.create_voice_clone_prompt(ref_audio=key, ref_text=ref_text)
         seed_everything(seed)
         wavs, sr = self.model.generate_voice_clone(text=text, language="Chinese",
-                                                   voice_clone_prompt=self._prompts[key])
+                                                   voice_clone_prompt=self._prompts[key], **gen)
         return wavs[0], sr, seed
 
 
@@ -231,14 +244,43 @@ def add_model_args(parser, default_out):
     parser.add_argument("--dry-run", action="store_true", help="只列出要生成什么，不加载模型")
     parser.add_argument("--compile", action="store_true", help="VoxCPM2：尝试 torch.compile 加速（Windows 上可能不可用）")
     parser.add_argument("--flash-attn", action="store_true", help="Qwen3：使用 flash-attn（需已安装）")
-    parser.add_argument("--cfg", type=float, default=2.0, help="VoxCPM2：引导强度，越大越贴描述（默认 2.0）")
-    parser.add_argument("--steps", type=int, default=10, help="VoxCPM2：推理步数，越大越细腻也越慢（默认 10）")
+    parser.add_argument("--cfg", help="VoxCPM2：引导强度，官方建议 1.0~3.0（默认 2.0）。越低越自由、越高越贴描述。"
+                                      "逗号分隔可一次对比多个，如 1.5,2.0")
+    parser.add_argument("--steps", help="VoxCPM2：推理步数，官方建议 4~30（默认 10）。越大细节越好、越慢。可写多个，如 10,20")
+    parser.add_argument("--temperature", help="Qwen3：采样温度（默认用模型自带设置）。可写多个，如 0.9,1.0")
+
+
+def _numbers(text):
+    return [float(x) for x in str(text).split(",") if x.strip()]
+
+
+def gen_grid(args, inherit=None):
+    """生成参数的所有组合。命令行写了就用命令行的（逗号分隔即网格），没写就沿用 inherit（上一轮那条的参数）。"""
+    inherit = inherit or {}
+    if args.model == "voxcpm2":
+        cfgs = _numbers(args.cfg) if args.cfg else [inherit.get("cfg", 2.0)]
+        steps = [int(x) for x in _numbers(args.steps)] if args.steps else [inherit.get("steps", 10)]
+        return [{"cfg": c, "steps": s} for c in cfgs for s in steps]
+    if args.temperature:
+        return [{"temperature": t} for t in _numbers(args.temperature)]
+    return [{"temperature": inherit["temperature"]}] if "temperature" in inherit else [{}]
+
+
+def gen_label(gen):
+    parts = []
+    if "cfg" in gen:
+        parts.append(f"cfg{gen['cfg']:g}")
+    if "steps" in gen:
+        parts.append(f"步数{gen['steps']}")
+    if "temperature" in gen:
+        parts.append(f"温度{gen['temperature']:g}")
+    return " ".join(parts) or "默认参数"
 
 
 def make_backend(args, kind):
     print(f"正在加载 {args.model}（第一次会下载模型，请耐心等待）…")
     if args.model == "voxcpm2":
-        return VoxCPM2Backend(args.model_path, compile=args.compile, cfg=args.cfg, steps=args.steps)
+        return VoxCPM2Backend(args.model_path, compile=args.compile)
     return Qwen3Backend(kind, args.model_path, flash_attn=args.flash_attn)
 
 
@@ -248,6 +290,8 @@ def _label(meta):
     label = " / ".join(str(meta[k]) for k in ("archetype", "variant", "line") if meta.get(k))
     if meta.get("desc_lang") in ("zh", "en"):
         label += f" [{meta['desc_lang']}]"
+    if meta.get("gen"):
+        label += f" {meta['gen_label']}"
     return label
 
 
@@ -296,6 +340,11 @@ def run_jobs(jobs, out_dir, load_backend, dry_run=False):
               f"预计还要 {eta / 60:.1f} 分钟")
     print(f"完成：成功 {len(todo) - failed} 条，失败 {failed} 条。")
     if failed < len(todo):
+        import measure
+        if measure.available():
+            measure.measure_folder(out_dir)
+        else:
+            print("（没装 praat-parselmouth，跳过声学测量。装上后可运行 python measure.py 补测）")
         print(f"用试音台（rater.html）打开 {out_dir} 开始听。")
     if failed:
         print("失败的条目重新运行同一条命令会再试一次。")

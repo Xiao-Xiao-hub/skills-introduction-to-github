@@ -115,7 +115,7 @@ kbd.k { font: 12px ui-monospace, Consolas, monospace; border: 1px solid var(--li
 .stat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; margin-top: 14px; }
 .stat-box { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
 .stat-box h4 { margin: 0 0 6px; font-size: 13px; color: var(--muted); font-weight: 600; }
-.srow { display: grid; grid-template-columns: minmax(0, 1fr) 90px 54px; gap: 8px; align-items: center; font-size: 13px; padding: 2px 0; }
+.srow { display: grid; grid-template-columns: minmax(0, 1fr) 64px 54px; gap: 8px; align-items: center; font-size: 13px; padding: 2px 0; }
 .srow .lbl { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .srow .sbar { height: 6px; background: var(--line); border-radius: 6px; overflow: hidden; }
 .srow .sbar i { display: block; height: 100%; background: var(--accent); }
@@ -151,7 +151,8 @@ table.toplist td.d { color: var(--muted); max-width: 420px; }
       <li>点「打开文件夹」，选生成好的那一轮文件夹（比如 <code>rounds/r1</code>）。用 Edge 或 Chrome 打开时，评分会自动保存到那个文件夹里的 <code>ratings.json</code>。</li>
       <li>没有「打开文件夹」按钮的浏览器，就用「选择文件夹」，评完点「导出评分」，再把下载的 <code>ratings.json</code> 放进那一轮的文件夹。</li>
       <li>先切到英文输入法。<kbd class="k">空格</kbd> 播放/暂停，<kbd class="k">1</kbd>–<kbd class="k">5</kbd> 打分，字母键贴标签，<kbd class="k">←</kbd><kbd class="k">→</kbd> 切换。先贴标签再打分，打完分会自动跳到下一条。</li>
-      <li>粗选只管「音色和气质对不对」，读错字、个别停顿先不管。每听 20 条左右歇一下，耳朵会累。</li>
+      <li>先判断「像不像真人」：一听就有人机感的，音色再喜欢也最多给 3 分，并按 <kbd class="k">D</kbd> 标「人机感」。慵懒一听就很明显的，按 <kbd class="k">F</kbd> 标「慵懒过重」。</li>
+      <li>其次看音色和气质对不对；读错字、个别停顿先不管。每听 20 条左右歇一下，耳朵会累。</li>
     </ol>
   </section>
 
@@ -241,12 +242,15 @@ table.toplist td.d { color: var(--muted); max-width: 420px; }
     { name: '太尖', code: 'KeyE', k: 'E', kind: 'bad' },
     { name: '太闷', code: 'KeyA', k: 'A', kind: 'bad' },
     { name: '夹/做作', code: 'KeyS', k: 'S', kind: 'bad' },
-    { name: 'AI味/杂音', code: 'KeyD', k: 'D', kind: 'bad' },
+    { name: '人机感', code: 'KeyD', k: 'D', kind: 'bad' },
+    { name: '慵懒过重', code: 'KeyF', k: 'F', kind: 'bad' },
     { name: '不够忧郁', code: 'KeyZ', k: 'Z', kind: 'bad' },
     { name: '不够可爱', code: 'KeyX', k: 'X', kind: 'bad' },
     { name: '哭腔重', kind: 'bad' },
     { name: '播音腔', kind: 'bad' },
+    { name: '杂音/电音', kind: 'bad' },
     { name: '读错字', kind: 'bad' },
+    { name: '✓像真人', code: 'KeyK', k: 'K', kind: 'good' },
     { name: '✓喜欢音色', code: 'KeyG', k: 'G', kind: 'good' },
     { name: '✓质感好', code: 'KeyH', k: 'H', kind: 'good' },
     { name: '✓情绪对', code: 'KeyJ', k: 'J', kind: 'good' },
@@ -303,6 +307,9 @@ table.toplist td.d { color: var(--muted); max-width: 420px; }
         try { const m = JSON.parse(line); if (m && m.file) { metaMap[m.file] = m; manifestOrder.push(m.file); } } catch { /* 跳过坏行 */ }
       }
     }
+    let acoustic = {};
+    const af = files.find((f) => f.name === 'acoustic.json');
+    if (af) { try { acoustic = JSON.parse(await af.text()) || {}; } catch { /* 忽略 */ } }
     let fileData = null;
     const rf = files.find((f) => f.name === 'ratings.json');
     if (rf) { try { fileData = JSON.parse(await rf.text()); } catch { setStatus('ratings.json 读不出来，已忽略', true); } }
@@ -312,7 +319,7 @@ table.toplist td.d { color: var(--muted); max-width: 420px; }
     const pos = {};
     manifestOrder.forEach((n, i) => { if (!(n in pos)) pos[n] = i; });
     const names = Object.keys(fileByName).sort((a, b) => ((pos[a] ?? 1e9) - (pos[b] ?? 1e9)) || a.localeCompare(b));
-    S.items = names.map((n) => ({ key: n, url: URL.createObjectURL(fileByName[n]), meta: metaMap[n] || null, no: 0 }));
+    S.items = names.map((n) => ({ key: n, url: URL.createObjectURL(fileByName[n]), meta: metaMap[n] || null, ac: acoustic[n] || null, no: 0 }));
     S.byKey = Object.fromEntries(S.items.map((it) => [it.key, it]));
     S.folder = folder; S.dir = dir; S.pin = null; S.saveError = null; S.savedAt = null;
 
@@ -380,13 +387,15 @@ table.toplist td.d { color: var(--muted); max-width: 420px; }
     setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
   }
   function exportCsv() {
-    const cols = ['文件', '盲听编号', '分数', '标签', '备注', '方向', '变体', '测试句', '模型', '描述语言', '种子', '描述'];
+    const cols = ['文件', '盲听编号', '分数', '标签', '备注', '方向', '变体', '测试句', '模型', '生成参数', '描述语言', '种子',
+      '音高Hz', '起伏半音', '停顿%', '语速字每秒', '谐噪比dB', '声学提示', '描述'];
     const q = (v) => '"' + String(v ?? '').replace(/"/g, '""') + '"';
     const lines = [cols.map(q).join(',')];
     for (const key of S.natOrder) {
-      const it = S.byKey[key], r = S.ratings[key] || {}, m = it.meta || {};
+      const it = S.byKey[key], r = S.ratings[key] || {}, m = it.meta || {}, ac = it.ac || {};
       lines.push([key, it.no, r.score || '', (r.tags || []).join(' '), r.note || '', m.archetype, m.variant, m.line,
-        m.model, LANG_LABELS[m.desc_lang] || m.desc_lang, m.seed_used ?? m.seed, m.desc || m.ref_desc].map(q).join(','));
+        m.model, m.gen_label, LANG_LABELS[m.desc_lang] || m.desc_lang, m.seed_used ?? m.seed,
+        ac.f0, ac.range_st, ac.pause_pct, ac.rate, ac.hnr, (ac.flags || []).join(' '), m.desc || m.ref_desc].map(q).join(','));
     }
     download(`评分_${S.folder}.csv`, '﻿' + lines.join('\r\n'), 'text/csv;charset=utf-8');
   }
@@ -404,6 +413,14 @@ table.toplist td.d { color: var(--muted); max-width: 420px; }
     }
   }
   const view = () => base().filter(passes);
+  function acousticText(ac, short) {
+    if (!ac) return '';
+    const parts = short
+      ? [`起伏${ac.range_st}`, `停顿${ac.pause_pct}%`, `${ac.f0}Hz`]
+      : [`音高 ${ac.f0}Hz`, `起伏 ${ac.range_st} 半音`, `停顿 ${ac.pause_pct}%`, ac.rate ? `语速 ${ac.rate} 字/秒` : '', ac.hnr != null ? `谐噪比 ${ac.hnr}dB` : ''];
+    const flags = (ac.flags || []).length ? '  ⚠' + ac.flags.join('、') : '';
+    return parts.filter(Boolean).join(short ? ' ' : ' · ') + flags;
+  }
   function select(key, play = S.opts.autoplay) {
     if (!key || !S.byKey[key]) return;
     S.cur = key;
@@ -479,7 +496,7 @@ table.toplist td.d { color: var(--muted); max-width: 420px; }
       const head = el('div');
       const title = [m.archetype, m.variant, m.line].filter(Boolean).join(' · ');
       head.append(el('b', null, title || it.key));
-      const facts = [m.model, LANG_LABELS[m.desc_lang] || m.desc_lang, m.seed_used != null ? '种子 ' + m.seed_used : (m.seed != null ? '种子 ' + m.seed : ''),
+      const facts = [m.model, LANG_LABELS[m.desc_lang] || m.desc_lang, m.gen_label, m.seed_used != null ? '种子 ' + m.seed_used : (m.seed != null ? '种子 ' + m.seed : ''),
         m.duration ? m.duration + ' 秒' : '', m.parent ? '来自 ' + m.parent : ''].filter(Boolean).join(' · ');
       head.append(el('span', null, '  ' + facts));
       meta.append(head);
@@ -487,6 +504,7 @@ table.toplist td.d { color: var(--muted); max-width: 420px; }
       meta.append(el('div', 'desc', m.desc || (m.ref_desc ? '参考音色描述：' + m.ref_desc : '')));
       if (m.line && m.text) meta.append(el('div', 'desc', '台词：' + m.text));
     }
+    if (!S.opts.blind && it.ac) meta.append(el('div', 'desc', '声学：' + acousticText(it.ac, false)));
 
     document.querySelectorAll('.star').forEach((b) => {
       const n = +b.dataset.n;
@@ -548,7 +566,8 @@ table.toplist td.d { color: var(--muted); max-width: 420px; }
     const rated = S.natOrder.filter((k) => scoreOf(k));
     if (!rated.length) { body.append(el('p', null, '还没有评分。')); return; }
 
-    const groups = [['archetype', '方向'], ['variant', '精调变体'], ['line', '测试句'], ['parent', '参考原声'], ['model', '模型'], ['desc_lang', '描述语言']];
+    const groups = [['archetype', '方向'], ['variant', '精调变体'], ['line', '测试句'], ['parent', '参考原声'], ['model', '模型'],
+      ['gen_label', '生成参数'], ['desc_lang', '描述语言']];
     const slotNames = [];
     for (const k of rated) {
       const sz = S.byKey[k].meta && S.byKey[k].meta.slots_zh;
@@ -602,7 +621,7 @@ table.toplist td.d { color: var(--muted); max-width: 420px; }
     const wrap = el('div', 'tbl-wrap');
     const table = el('table', 'toplist');
     const thead = el('tr');
-    ['#', 'id', '分', '方向 / 变体', '描述'].forEach((h) => thead.append(el('th', null, h)));
+    ['#', 'id', '分', '方向 / 变体', '声学', '描述'].forEach((h) => thead.append(el('th', null, h)));
     table.append(thead);
     for (const k of top) {
       const it = S.byKey[k], m = it.meta || {}, r = S.ratings[k];
@@ -610,7 +629,8 @@ table.toplist td.d { color: var(--muted); max-width: 420px; }
       tr.append(el('td', null, '#' + it.no));
       tr.append(el('td', 'mono', m.id || k));
       tr.append(el('td', null, String(r.score)));
-      tr.append(el('td', null, [m.archetype, m.variant, m.line, LANG_LABELS[m.desc_lang]].filter(Boolean).join(' · ')));
+      tr.append(el('td', null, [m.archetype, m.variant, m.line, LANG_LABELS[m.desc_lang], m.model, m.gen_label].filter(Boolean).join(' · ')));
+      tr.append(el('td', 'd', acousticText(it.ac, true)));
       tr.append(el('td', 'd', (m.desc || m.ref_desc || '') + (r.tags.length ? '  [' + r.tags.join(' ') + ']' : '')));
       tr.style.cursor = 'pointer';
       tr.addEventListener('click', () => select(k));

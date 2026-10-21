@@ -6,11 +6,15 @@
   python step1_audition.py --model voxcpm2 --smoke      # 部署后冒烟测试：只生成 1 条
   python step1_audition.py --model voxcpm2 --only A,D --seeds 5
   python step1_audition.py --model voxcpm2 --dry-run    # 只看会生成什么
+
+  # 参数校准：同样的描述，对比不同生成参数哪个更像真人
+  python step1_audition.py --model voxcpm2 --only A,B,D,F --langs zh --seeds 1 --cfg 1.5,2.0 --steps 10,20 --out rounds/r0
+  python step1_audition.py --model qwen3   --only A,B,D,F --langs zh --seeds 1 --temperature 0.9,1.0 --out rounds/r0
 """
 from pathlib import Path
 
 import specs
-from common import add_model_args, build_desc, clip_id, make_backend, new_parser, run_jobs, slots_zh
+from common import add_model_args, build_desc, clip_id, gen_grid, gen_label, make_backend, new_parser, run_jobs, slots_zh
 
 
 def main():
@@ -36,16 +40,19 @@ def main():
         raise SystemExit("没有要生成的内容，检查 --only / --langs / --seeds")
 
     round_name = Path(args.out).name
+    gens = gen_grid(args)
     jobs = []
     for code, name, slots in archetypes:
         for lang in langs:
             desc = build_desc(slots, lang)
-            for seed in seeds:
-                cid = clip_id(round_name, args.model, desc, args.text, seed)
-                meta = dict(id=cid, file=f"{cid}.wav", round=round_name, model=args.model,
-                            archetype=f"{code}{name}", slots=slots, slots_zh=slots_zh(slots),
-                            desc_lang=lang, desc=desc, text=args.text, seed=seed)
-                jobs.append({"meta": meta, "run": lambda b, d=desc, s=seed: b.design(d, args.text, s)})
+            for gen in gens:
+                for seed in seeds:
+                    cid = clip_id(round_name, args.model, desc, args.text, seed, gen)
+                    meta = dict(id=cid, file=f"{cid}.wav", round=round_name, model=args.model,
+                                archetype=f"{code}{name}", slots=slots, slots_zh=slots_zh(slots),
+                                desc_lang=lang, desc=desc, text=args.text, seed=seed,
+                                gen=gen, gen_label=gen_label(gen))
+                    jobs.append({"meta": meta, "run": lambda b, d=desc, s=seed, g=gen: b.design(d, args.text, s, g)})
 
     if args.dry_run:
         print("本轮的描述：")

@@ -25,7 +25,7 @@
 conda create -n xvx-vox python=3.11 -y
 conda activate xvx-vox
 pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu128
-pip install voxcpm
+pip install voxcpm praat-parselmouth
 ```
 
 ## 环境 B：`xvx-qwen`（Qwen3-TTS，造声 + 克隆）
@@ -34,8 +34,10 @@ pip install voxcpm
 conda create -n xvx-qwen python=3.11 -y
 conda activate xvx-qwen
 pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu128
-pip install -U qwen-tts
+pip install -U qwen-tts praat-parselmouth
 ```
+
+（`praat-parselmouth` 用来做声学测量：每轮生成完自动测音高、语调起伏、停顿等。没装也能生成，只是少了这些数字。）
 
 （不用 conda 也行，用 `uv venv` / `python -m venv`，要求一样。）
 
@@ -97,5 +99,5 @@ python step1_audition.py --model qwen3 --smoke
 - **`SoX could not be found`**：qwen-tts 的提示，不影响本工具包用到的功能。
 - **报错和 torchcodec / FFmpeg DLL 有关**：装一份共享库版 FFmpeg，例如 conda 环境里 `conda install -c conda-forge "ffmpeg<8"`。
 - **包更新后接口变了**：只需要改 `common.py` 里的 `VoxCPM2Backend` / `Qwen3Backend` 两个类，其它脚本不用动。
-  当前对应的接口：VoxCPM2 `VoxCPM.from_pretrained(...).generate(text, prompt_wav_path, prompt_text, reference_wav_path, cfg_value, inference_timesteps, seed)`；
+  当前对应的接口：VoxCPM2 `VoxCPM.from_pretrained(...).generate(text, prompt_wav_path, prompt_text, reference_wav_path, cfg_value, inference_timesteps[, seed])`（voxcpm 2.0.3 没有 seed 参数，脚本会自动判断）；
   Qwen3 `Qwen3TTSModel.from_pretrained(...).generate_voice_design(text, instruct, language)` / `create_voice_clone_prompt` / `generate_voice_clone`。

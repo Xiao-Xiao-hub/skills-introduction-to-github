@@ -11,7 +11,8 @@
 from pathlib import Path
 
 import specs
-from common import add_model_args, clip_id, copy_clip, load_rounds, make_backend, new_parser, run_jobs, top_rated
+from common import (add_model_args, clip_id, copy_clip, gen_grid, gen_label, load_rounds, make_backend, new_parser,
+                    run_jobs, top_rated)
 
 
 def main():
@@ -52,14 +53,17 @@ def main():
     for ref in refs:
         ref_path = Path(ref["dir"]) / ref["file"]
         print(f"  {ref['id']}  ★{ref['score']}  {ref.get('archetype', '')}  {ref.get('variant') or ''}")
+        # 命令行没指定生成参数时，同一个模型的参考沿用它自己的参数
+        gens = gen_grid(args, inherit=ref.get("gen") if ref.get("model") == args.model else None)
         for label, style, text in lines:
-            for seed in range(1, 1 + args.seeds):
-                cid = clip_id(round_name, args.model, "clone", ref["id"], text, style, seed)
-                meta = dict(id=cid, file=f"{cid}.wav", round=round_name, model=args.model, parent=ref["id"],
-                            archetype=ref.get("archetype"), line=label, style=style, text=text, seed=seed,
-                            ref_desc=ref.get("desc"))
-                jobs.append({"meta": meta, "run": lambda b, p=ref_path, rt=ref["text"], t=text, st=style, s=seed:
-                             b.clone(p, rt, t, s, st)})
+            for gen in gens:
+                for seed in range(1, 1 + args.seeds):
+                    cid = clip_id(round_name, args.model, "clone", ref["id"], text, style, seed, gen)
+                    meta = dict(id=cid, file=f"{cid}.wav", round=round_name, model=args.model, parent=ref["id"],
+                                archetype=ref.get("archetype"), line=label, style=style, text=text, seed=seed,
+                                gen=gen, gen_label=gen_label(gen), ref_desc=ref.get("desc"))
+                    jobs.append({"meta": meta, "run": lambda b, p=ref_path, rt=ref["text"], t=text, st=style, s=seed, g=gen:
+                                 b.clone(p, rt, t, s, g, st)})
 
     # 把参考原声也放进来，试音台里可以和克隆结果对照着听
     if not args.dry_run:
