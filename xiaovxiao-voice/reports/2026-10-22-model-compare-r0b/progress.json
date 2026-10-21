@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-22T01:47:41+08:00",
-  "stage": "installing_moss_and_downloading_models",
+  "updated_at": "2026-10-22T01:54:12+08:00",
+  "stage": "waiting_for_moss_codec_download",
   "planned": {
     "voxcpm2": 8,
     "qwen3": 8,
@@ -13,5 +13,7 @@
   },
   "moss_smoke": "pending",
   "ratings_synced": false,
-  "formal_audition_started": false
+  "formal_audition_started": false,
+  "moss_environment_validated": true,
+  "moss_pip_check": "No broken requirements found."
 }

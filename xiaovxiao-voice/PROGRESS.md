@@ -1,6 +1,6 @@
 # 部署与找音色进度
 
-更新时间：2026-10-22T01:47:41+08:00（北京时间）。分支：`claude/nifty-ritchie-n04rar`。
+更新时间：2026-10-22T01:54:12+08:00（北京时间）。分支：`claude/nifty-ritchie-n04rar`。
 
 当前状态：已按用户指令拉取v3，正在部署MOSS第三个环境并下载模型。计划完成模型对比r0b，三个模型各8条，共24条；正式海选未启动。
 
@@ -9,8 +9,8 @@
 | 阶段 | 结果 |
 |---|---|
 | 获取代码与阅读文档 | 已拉取 `2d6e4d3c2aa0d28b15b049a578442a9f07dc409f`，读完README第0、1、1b节和DEPLOY环境C |
-| MOSS第三环境 | .venvs/xvx-moss，Python 3.12.13；正在按torch-runtime安装依赖 |
-| MOSS代码与模型 | 代码位于工具包外E:/MOSS-TTS；两个ModelScope模型仓库已核实，正在下载 |
+| MOSS第三环境 | Python3.12.13；torch2.9.1+cu128、CUDA12.8、算力(12,0)、GPU运算及pip check均通过；未安装flash-attn |
+| MOSS代码与模型 | 代码在工具包外E:/MOSS-TTS；VoiceGenerator已齐，编解码器下载中 |
 | MOSS烟测 | 待环境与模型就绪后执行，记录单条生成用时 |
 | r0b三模型对比 | 待烟测；VoxCPM2、Qwen3、MOSS依次运行，各8条 |
 | 报告同步 | [本轮报告](reports/2026-10-22-model-compare-r0b/README.md)；阶段进展及时提交推送 |
