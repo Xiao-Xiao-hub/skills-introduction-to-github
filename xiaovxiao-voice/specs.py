@@ -4,7 +4,8 @@
 海选时用 ARCHETYPES 里的 10 个组合铺开试；精调时在最喜欢的组合附近，每次只换一个槽位。
 
 v2（第一次试听后）：
-- 偏幼 → 年龄整体上调到 18~23 岁，去掉「少女」「轻声细语」这类会把声音往小、往夹带的词。
+- 年龄定在 16~20 岁，17 岁为主。第一次偏幼主要是「少女」「轻声细语」这些词把声音往小、往夹带，
+  所以年龄只写「X 岁的女生」，不写「少女」。
 - 人机感重 → 去掉「气声明显」「语速慢、停顿多」「自言自语」等容易出 ASMR/机器腔的词，
   每条描述都要求「真人日常说话、口语自然、有语调起伏」；台词也改成口语，少用省略号。
 - 慵懒要「细听才有」→ 慵懒单独做成一个槽位，默认用最轻的一档。
@@ -23,9 +24,9 @@ AUDITION_LINE = (
 # 每个槽位的可选值：键 -> (简称, 中文描述片段, 英文描述片段)。空字符串表示不写这一项。
 SLOTS = {
     "age": {
-        "18": ("18-19岁", "十八九岁的女生", "a young woman about 18 or 19"),
-        "20": ("20岁左右", "二十岁左右的年轻女生", "a young woman around 20"),
-        "23": ("22-23岁", "二十二三岁的年轻女性", "a young woman about 22 or 23"),
+        "16": ("16岁", "十六岁左右的女生", "a girl about 16"),
+        "17": ("17岁", "十七岁的女生", "a 17-year-old girl"),
+        "19": ("19-20岁", "十九到二十岁的女生", "a young woman about 19 or 20"),
     },
     "pitch": {
         "midlow": ("中等偏低", "音调中等偏低", "a slightly low-medium pitch"),
@@ -80,18 +81,18 @@ DESC_SUFFIX = (
     "with natural breathing and intonation, not like a narrator, not exaggerated",
 )
 
-# 海选的 10 个方向（代号, 名字, 槽位）。A 是主推，其余围绕它探索。
+# 海选的 10 个方向（代号, 名字, 槽位）。A 是主推，其余围绕它探索。年龄以 17 岁为主，16、19-20 岁各留两个方向做对照。
 ARCHETYPES = [
-    ("A", "自然心事", dict(age="20", pitch="mid", texture="soft", nasal="none", pace="natural", mood="melancholy", lazy="hint", manner="chat")),
-    ("B", "清透安静", dict(age="20", pitch="mid", texture="clear", nasal="none", pace="relaxed", mood="calm", lazy="hint", manner="plain")),
-    ("C", "温柔低落", dict(age="18", pitch="midhigh", texture="soft", nasal="none", pace="relaxed", mood="sweetdown", lazy="hint", manner="soft")),
-    ("D", "松弛日常", dict(age="20", pitch="mid", texture="warm", nasal="none", pace="natural", mood="tender", lazy="light", manner="chat")),
-    ("E", "笑着藏心事", dict(age="18", pitch="midhigh", texture="clear", nasal="none", pace="natural", mood="melancholy", lazy="none", manner="smile")),
-    ("F", "低温疏离", dict(age="23", pitch="midlow", texture="clear", nasal="none", pace="relaxed", mood="distant", lazy="hint", manner="plain")),
-    ("G", "温润学姐", dict(age="23", pitch="mid", texture="warm", nasal="none", pace="relaxed", mood="tender", lazy="hint", manner="smile")),
-    ("H", "颗粒独白", dict(age="20", pitch="midlow", texture="grain", nasal="none", pace="slightslow", mood="melancholy", lazy="hint", manner="soft")),
-    ("I", "微甜鼻音", dict(age="18", pitch="mid", texture="soft", nasal="light", pace="natural", mood="sweetdown", lazy="hint", manner="chat")),
-    ("J", "晚安电台", dict(age="20", pitch="mid", texture="warm", nasal="none", pace="slightslow", mood="calm", lazy="light", manner="soft")),
+    ("A", "自然心事", dict(age="17", pitch="mid", texture="soft", nasal="none", pace="natural", mood="melancholy", lazy="hint", manner="chat")),
+    ("B", "清透安静", dict(age="17", pitch="mid", texture="clear", nasal="none", pace="relaxed", mood="calm", lazy="hint", manner="plain")),
+    ("C", "温柔低落", dict(age="16", pitch="midhigh", texture="soft", nasal="none", pace="relaxed", mood="sweetdown", lazy="hint", manner="soft")),
+    ("D", "松弛日常", dict(age="17", pitch="mid", texture="warm", nasal="none", pace="natural", mood="tender", lazy="light", manner="chat")),
+    ("E", "笑着藏心事", dict(age="17", pitch="midhigh", texture="clear", nasal="none", pace="natural", mood="melancholy", lazy="none", manner="smile")),
+    ("F", "低温疏离", dict(age="19", pitch="midlow", texture="clear", nasal="none", pace="relaxed", mood="distant", lazy="hint", manner="plain")),
+    ("G", "温润学姐", dict(age="19", pitch="mid", texture="warm", nasal="none", pace="relaxed", mood="tender", lazy="hint", manner="smile")),
+    ("H", "颗粒独白", dict(age="17", pitch="midlow", texture="grain", nasal="none", pace="slightslow", mood="melancholy", lazy="hint", manner="soft")),
+    ("I", "微甜鼻音", dict(age="16", pitch="mid", texture="soft", nasal="light", pace="natural", mood="sweetdown", lazy="hint", manner="chat")),
+    ("J", "晚安电台", dict(age="17", pitch="mid", texture="warm", nasal="none", pace="slightslow", mood="calm", lazy="light", manner="soft")),
 ]
 
 # 克隆测试用的台词：(标签, 语气控制, 台词)。语气控制只有 VoxCPM2 支持，留空则用高保真克隆。
