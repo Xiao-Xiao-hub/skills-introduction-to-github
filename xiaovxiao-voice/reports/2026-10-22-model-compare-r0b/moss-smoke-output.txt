@@ -1,0 +1,8 @@
+计划 1 条：已完成 0，本次生成 1 → rounds\smoke
+正在加载 moss（第一次会下载模型，请耐心等待）…
+`torch_dtype` is deprecated! Use `dtype` instead!
+[1/1] smoke_moss_c3b284  A忧郁小甜 [zh]  15.76s 音频，用时 139.2s，预计还要 0.0 分钟
+完成：成功 1 条，失败 0 条。
+声学测量：新测 3 条，共 3 条 → rounds\smoke\acoustic.json。提示项：语调偏平 1 条、停顿偏多 1 条、音高偏高 1 条
+用试音台（rater.html）打开 rounds\smoke 开始听。
+MOSS_SMOKE_PROCESS_EXIT=0; elapsed_seconds=158.4

@@ -1,6 +1,6 @@
 # 音色设定 v3 · 模型对比 r0b
 
-更新时间：2026-10-22T01:54:12+08:00（北京时间）。状态：MOSS环境安装与CUDA检查通过，等待编解码器模型下载完成。
+更新时间：2026-10-22T01:59:33+08:00（北京时间）。状态：MOSS烟测通过，已开始依次生成r0b，当前VoxCPM2运行中。
 
 已拉取分支 claude/nifty-ritchie-n04rar 到 `2d6e4d3c2aa0d28b15b049a578442a9f07dc409f`，阅读 README 第0、1、1b节及 DEPLOY.md 环境C。MOSS源代码单独克隆到 E:/MOSS-TTS，版本为 `934d6826b084c46a0d033402174d5f8ac4ed2519`；独立环境为工具包内 .venvs/xvx-moss，Python 3.12.13。
 
@@ -28,3 +28,7 @@
 ## 环境安装检查点
 
 MOSS环境已成功安装，torch2.9.1+cu128、CUDA12.8可用、算力(12,0)，实际CUDA bfloat16运算和pip check通过，未安装flash-attn。详情见 [moss-environment.json](moss-environment.json)，版本清单见 [requirements-xvx-moss.txt](requirements-xvx-moss.txt)。此时尚未通过MOSS实际生成烟测。
+
+## MOSS烟测通过
+
+成功1条、失败0条，15.76秒音频，单条生成用时139.2秒；整个命令进程158.4秒（包含加载、自动测量和退出等）。没有接口修改。见 [moss-smoke.json](moss-smoke.json)、[烟测音频与清单](moss-smoke/)、[非进度条控制台输出](moss-smoke-output.txt)。控制台文件仅去掉权重加载和token进度条，完整原始日志保留在本机deployment目录。原smoke目录已有2条旧样本，因此自动测量显示共3条；本次烟测仅运行MOSS的1条。

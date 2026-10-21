@@ -12,7 +12,7 @@
     "source": "https://modelscope.cn/models/openmoss/MOSS-Audio-Tokenizer",
     "file_count": 14,
     "total_bytes": 7101116247,
-    "download_status": "in_progress",
+    "download_status": "complete_size_verified",
     "verified_api_date": "2026-10-22"
   }
 ]

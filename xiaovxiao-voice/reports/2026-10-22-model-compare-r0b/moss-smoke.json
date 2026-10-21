@@ -1,0 +1,13 @@
+{
+  "completed_at": "2026-10-22T01:58:11",
+  "success": 1,
+  "failed": 0,
+  "sample": "moss-smoke/smoke_moss_c3b284.wav",
+  "duration_seconds": 15.76,
+  "generation_seconds": 139.2,
+  "process_elapsed_seconds": 158.4,
+  "process_exit_code": 0,
+  "sha256": "5e25be8b3d65554e293c5416179eee0961108011c44626d7cc14e101ea62aade",
+  "backend_changes": [],
+  "note": "原smoke目录保留2条旧样本；本次只运行MOSS的1条，报告只收录该条。"
+}

@@ -1,0 +1,13 @@
+{
+  "smoke_moss_c3b284.wav": {
+    "f0": 315,
+    "range_st": 9.7,
+    "pause_pct": 44,
+    "rate": 4.9,
+    "hnr": 18.4,
+    "flags": [
+      "停顿偏多",
+      "音高偏高"
+    ]
+  }
+}
