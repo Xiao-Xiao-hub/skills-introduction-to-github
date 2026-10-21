@@ -1,0 +1,354 @@
+{
+  "verified_at": "2026-10-22T00:33:33+08:00",
+  "source_base_commit": "a37e7072c74b962028b34ee2f603c3913b8b70f8",
+  "source_sha256_unchanged": {
+    "common.py": "ea3a4c429458a5055a9c9336a87c7ac1de564997160a413799db1fa95a36c25b",
+    "measure.py": "f69d34345ef7395385fa2f455c6ac77d9c49bc3ab9e401b1179bd2634e914979",
+    "rater.html": "69478e6bd69349300324b666859ee64569db8c3a0724094ec8758b95a9f8d476",
+    "specs.py": "cd895b7b0f697ac1ab0c7f66cb1f66884178a81bc06e47e3857de34edd9c1bd5",
+    "step1_audition.py": "0a3718cc9275eb5bef6b81d6ae02ffb4ec0424b75007b0eed962adbff09b07fd",
+    "step2_refine.py": "cd84dd34932c00267354ca08aa200fb6abbc76d3299f3866c5ee1723851b6321",
+    "step3_clone_test.py": "811e014c3e7742cc7561e0d11e6fa3fffee063fc348b9ef54b87dae4e4a2a725",
+    "step4_finalize.py": "5c707160832184768e749214c6f9090722b54d42db83b3f534d64ea4925ab7d8"
+  },
+  "backend_changes_this_round": [],
+  "sequential_models": true,
+  "final_results": {
+    "voxcpm2": {
+      "success": 16,
+      "failed": 0,
+      "process_exit_code": 0
+    },
+    "qwen3": {
+      "success": 8,
+      "failed": 0,
+      "process_exit_code": 0
+    }
+  },
+  "total_success": 24,
+  "total_failed": 0,
+  "parameter_grid_check": "PASS",
+  "wav_copy_sha256_check": "PASS",
+  "manifest_copy_check": "PASS",
+  "acoustic_copy_check": "PASS",
+  "acoustic_entries": 24,
+  "acoustic_flags": {
+    "停顿偏多": 24,
+    "气声偏重": 2,
+    "语速偏慢": 1
+  },
+  "measure_command": ".\\.venvs\\xvx-vox\\Scripts\\python.exe measure.py rounds\\r0",
+  "measure_process_exit_code": 0,
+  "measure_stdout": "measure-output.txt",
+  "wav_total_bytes": 29304096,
+  "artifacts": [
+    {
+      "file": "r0_vox_4d19a9.wav",
+      "model": "voxcpm2",
+      "gen": {
+        "cfg": 1.5,
+        "steps": 10
+      },
+      "bytes": 1505324,
+      "sha256": "fdb629cfb576d315c5f15e35485fd4459db480392127a1efdfc96b4372cc5d66",
+      "sample_rate": 48000,
+      "duration_seconds": 15.68,
+      "generation_seconds": 58.9
+    },
+    {
+      "file": "r0_vox_bb519a.wav",
+      "model": "voxcpm2",
+      "gen": {
+        "cfg": 1.5,
+        "steps": 20
+      },
+      "bytes": 1766444,
+      "sha256": "6f13d7007da985d1c4bb3d6dd4fca27af03a76eb3f57cf8c8d42bc6f041cb7e0",
+      "sample_rate": 48000,
+      "duration_seconds": 18.4,
+      "generation_seconds": 87.4
+    },
+    {
+      "file": "r0_vox_a91b7f.wav",
+      "model": "voxcpm2",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 10
+      },
+      "bytes": 1228844,
+      "sha256": "db16d3695b693df8d53383ce28fbf56e654b899cacb8421c348f858add20ee0b",
+      "sample_rate": 48000,
+      "duration_seconds": 12.8,
+      "generation_seconds": 35.1
+    },
+    {
+      "file": "r0_vox_7afffe.wav",
+      "model": "voxcpm2",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 20
+      },
+      "bytes": 1321004,
+      "sha256": "bd7075aaab53834b9b10558b86765cfb5dc8985f430f5b40f1d331f0a6572baf",
+      "sample_rate": 48000,
+      "duration_seconds": 13.76,
+      "generation_seconds": 67.3
+    },
+    {
+      "file": "r0_vox_4d51d7.wav",
+      "model": "voxcpm2",
+      "gen": {
+        "cfg": 1.5,
+        "steps": 10
+      },
+      "bytes": 1705004,
+      "sha256": "c47aaedd55ae0ad04459a2a510d7f254bbd45dbd22704d242a405a49f094635e",
+      "sample_rate": 48000,
+      "duration_seconds": 17.76,
+      "generation_seconds": 51.0
+    },
+    {
+      "file": "r0_vox_1beff2.wav",
+      "model": "voxcpm2",
+      "gen": {
+        "cfg": 1.5,
+        "steps": 20
+      },
+      "bytes": 1505324,
+      "sha256": "b72d69bf3552aeaa04cb48b8feb5c1e0c239fce85666b0bfd3f83ae9f0fda1fa",
+      "sample_rate": 48000,
+      "duration_seconds": 15.68,
+      "generation_seconds": 80.6
+    },
+    {
+      "file": "r0_vox_921cec.wav",
+      "model": "voxcpm2",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 10
+      },
+      "bytes": 1720364,
+      "sha256": "fb03f1d07fc1050a38222d6f7e36ba2fd24868e6eb846fd6882d0d953ce7281a",
+      "sample_rate": 48000,
+      "duration_seconds": 17.92,
+      "generation_seconds": 52.8
+    },
+    {
+      "file": "r0_vox_ab37bb.wav",
+      "model": "voxcpm2",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 20
+      },
+      "bytes": 1367084,
+      "sha256": "38df76509cd842f358b46cc0b2b23ef2f4d84b35f48aafa5062c513cd65525f2",
+      "sample_rate": 48000,
+      "duration_seconds": 14.24,
+      "generation_seconds": 49.4
+    },
+    {
+      "file": "r0_vox_c1093d.wav",
+      "model": "voxcpm2",
+      "gen": {
+        "cfg": 1.5,
+        "steps": 10
+      },
+      "bytes": 1443884,
+      "sha256": "e05e2a2330ba042f04566afdbbbb73c49f4ba30bcdc9f6ee4cbb6cc145ccd4eb",
+      "sample_rate": 48000,
+      "duration_seconds": 15.04,
+      "generation_seconds": 24.1
+    },
+    {
+      "file": "r0_vox_326d5a.wav",
+      "model": "voxcpm2",
+      "gen": {
+        "cfg": 1.5,
+        "steps": 20
+      },
+      "bytes": 1797164,
+      "sha256": "33acbb400a36db6578440fd8222818bf62629b794588fb00bb92881507ca79f9",
+      "sample_rate": 48000,
+      "duration_seconds": 18.72,
+      "generation_seconds": 53.0
+    },
+    {
+      "file": "r0_vox_15c882.wav",
+      "model": "voxcpm2",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 10
+      },
+      "bytes": 1351724,
+      "sha256": "14811c7dccac564d362abe801f91a78bf512c117904a1ff2721c607186e79c9e",
+      "sample_rate": 48000,
+      "duration_seconds": 14.08,
+      "generation_seconds": 24.2
+    },
+    {
+      "file": "r0_vox_86e378.wav",
+      "model": "voxcpm2",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 20
+      },
+      "bytes": 1367084,
+      "sha256": "af2a1d9439a43499a04718b0db836f3c73d659a8ea9329227e655989d9452dd1",
+      "sample_rate": 48000,
+      "duration_seconds": 14.24,
+      "generation_seconds": 41.7
+    },
+    {
+      "file": "r0_vox_f0793f.wav",
+      "model": "voxcpm2",
+      "gen": {
+        "cfg": 1.5,
+        "steps": 10
+      },
+      "bytes": 2089004,
+      "sha256": "5ca76cd6eba0502cc9ffc7eb77e90efc1eb953d6c5a82727c369f747cd7cb78c",
+      "sample_rate": 48000,
+      "duration_seconds": 21.76,
+      "generation_seconds": 38.1
+    },
+    {
+      "file": "r0_vox_2e7747.wav",
+      "model": "voxcpm2",
+      "gen": {
+        "cfg": 1.5,
+        "steps": 20
+      },
+      "bytes": 1520684,
+      "sha256": "e24a4a6c3d2c410b357430df401165160dc52f81600d229d85873d40ca1f0427",
+      "sample_rate": 48000,
+      "duration_seconds": 15.84,
+      "generation_seconds": 47.2
+    },
+    {
+      "file": "r0_vox_959950.wav",
+      "model": "voxcpm2",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 10
+      },
+      "bytes": 1397804,
+      "sha256": "60f1dcd17f0dfc9fe1002c21dc0975d1e71d57349e14c9aba7f9b17545db2f7c",
+      "sample_rate": 48000,
+      "duration_seconds": 14.56,
+      "generation_seconds": 25.1
+    },
+    {
+      "file": "r0_vox_883dd5.wav",
+      "model": "voxcpm2",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 20
+      },
+      "bytes": 1351724,
+      "sha256": "d15583f3a1f8390d43d8196e6b5bf36276022e037c54bc4ea5e1a34469ae0201",
+      "sample_rate": 48000,
+      "duration_seconds": 14.08,
+      "generation_seconds": 41.3
+    },
+    {
+      "file": "r0_qwen_72f38e.wav",
+      "model": "qwen3",
+      "gen": {
+        "temperature": 0.9
+      },
+      "bytes": 664364,
+      "sha256": "e56c6239feb0746c3fbb8295e65a83508182ab99c11769f80fceabc509465123",
+      "sample_rate": 24000,
+      "duration_seconds": 13.84,
+      "generation_seconds": 51.8
+    },
+    {
+      "file": "r0_qwen_064e76.wav",
+      "model": "qwen3",
+      "gen": {
+        "temperature": 1.0
+      },
+      "bytes": 606764,
+      "sha256": "15d771daa7064c7098459fb10c04428f525cfd2183aff12fb854c2ea480d0d55",
+      "sample_rate": 24000,
+      "duration_seconds": 12.64,
+      "generation_seconds": 32.5
+    },
+    {
+      "file": "r0_qwen_a13860.wav",
+      "model": "qwen3",
+      "gen": {
+        "temperature": 0.9
+      },
+      "bytes": 602924,
+      "sha256": "d9cc892e476f6dd0aa89f8e70bdc602c0398676561476adb92131f55174bf885",
+      "sample_rate": 24000,
+      "duration_seconds": 12.56,
+      "generation_seconds": 33.6
+    },
+    {
+      "file": "r0_qwen_aeec53.wav",
+      "model": "qwen3",
+      "gen": {
+        "temperature": 1.0
+      },
+      "bytes": 576044,
+      "sha256": "26b56d2d71bbf56f28a1a0cfc57eb641a668b12cbf82b82d9f588df133a70714",
+      "sample_rate": 24000,
+      "duration_seconds": 12.0,
+      "generation_seconds": 32.3
+    },
+    {
+      "file": "r0_qwen_6f49dd.wav",
+      "model": "qwen3",
+      "gen": {
+        "temperature": 0.9
+      },
+      "bytes": 606764,
+      "sha256": "15117e976c022838f1db513471e1acef399a9174ba013b26f3b6941cdcc36a21",
+      "sample_rate": 24000,
+      "duration_seconds": 12.64,
+      "generation_seconds": 34.5
+    },
+    {
+      "file": "r0_qwen_fb6e3e.wav",
+      "model": "qwen3",
+      "gen": {
+        "temperature": 1.0
+      },
+      "bytes": 579884,
+      "sha256": "995676ec7d3e8bf937be23bc81f8cbeabd440f6199aa709c4b219ba06a6fae9e",
+      "sample_rate": 24000,
+      "duration_seconds": 12.08,
+      "generation_seconds": 35.1
+    },
+    {
+      "file": "r0_qwen_9ae535.wav",
+      "model": "qwen3",
+      "gen": {
+        "temperature": 0.9
+      },
+      "bytes": 602924,
+      "sha256": "80863a87846ae5f2338575cddf2e32f56f49d6c0039b55534737395d9e68be40",
+      "sample_rate": 24000,
+      "duration_seconds": 12.56,
+      "generation_seconds": 35.5
+    },
+    {
+      "file": "r0_qwen_6d64e9.wav",
+      "model": "qwen3",
+      "gen": {
+        "temperature": 1.0
+      },
+      "bytes": 625964,
+      "sha256": "370135d2e29ff1b258f30761200af99cb6b6917e35872cd12f96235ed73e2f6b",
+      "sample_rate": 24000,
+      "duration_seconds": 13.04,
+      "generation_seconds": 38.8
+    }
+  ],
+  "ratings_synced": false,
+  "ratings_sync_trigger": "等用户说评完了，再复制 rounds/r0/ratings.json 到本报告目录并提交推送",
+  "selected_audition_parameters": null,
+  "formal_audition_started": false
+}

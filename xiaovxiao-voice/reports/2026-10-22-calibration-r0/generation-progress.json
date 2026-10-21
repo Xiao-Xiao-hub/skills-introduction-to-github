@@ -1,21 +1,29 @@
 {
-  "updated_at": "2026-10-22T00:29:26+08:00",
-  "stage": "qwen3_running",
-  "completed_total": 20,
+  "updated_at": "2026-10-22T00:33:33+08:00",
+  "stage": "awaiting_user_ratings_and_parameter_selection",
+  "completed_total": 24,
   "completed": {
     "voxcpm2": 16,
-    "qwen3": 4
+    "qwen3": 8
   },
   "planned": {
     "voxcpm2": 16,
     "qwen3": 8
   },
-  "voxcpm2_final_result": {
-    "success": 16,
-    "failed": 0,
-    "process_exit_code": 0
+  "final_results": {
+    "voxcpm2": {
+      "success": 16,
+      "failed": 0,
+      "process_exit_code": 0
+    },
+    "qwen3": {
+      "success": 8,
+      "failed": 0,
+      "process_exit_code": 0
+    }
   },
-  "acoustic_entries": 16,
+  "acoustic_entries": 24,
+  "report_copy_verified": true,
   "formal_audition_started": false,
-  "ratings_sync": "等待用户完成评分后明确说评完了"
+  "ratings_sync": "等待用户说评完了后执行；本次未复制 ratings.json"
 }
