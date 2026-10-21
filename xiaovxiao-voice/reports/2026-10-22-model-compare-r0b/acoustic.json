@@ -1,0 +1,246 @@
+{
+ "r0b_vox_438b14.wav": {
+  "f0": 307,
+  "range_st": 8.6,
+  "pause_pct": 23,
+  "rate": 4.4,
+  "hnr": 14.4,
+  "flags": [
+   "音高偏高"
+  ]
+ },
+ "r0b_vox_1915f0.wav": {
+  "f0": 299,
+  "range_st": 9.8,
+  "pause_pct": 37,
+  "rate": 4.9,
+  "hnr": 19.8,
+  "flags": [
+   "音高偏高"
+  ]
+ },
+ "r0b_vox_a1220a.wav": {
+  "f0": 376,
+  "range_st": 10.0,
+  "pause_pct": 31,
+  "rate": 6.1,
+  "hnr": 14.0,
+  "flags": [
+   "音高偏高"
+  ]
+ },
+ "r0b_vox_49a14f.wav": {
+  "f0": 278,
+  "range_st": 7.5,
+  "pause_pct": 36,
+  "rate": 5.4,
+  "hnr": 16.9,
+  "flags": [
+   "音高偏高"
+  ]
+ },
+ "r0b_vox_6806e0.wav": {
+  "f0": 363,
+  "range_st": 8.8,
+  "pause_pct": 32,
+  "rate": 6.2,
+  "hnr": 13.4,
+  "flags": [
+   "音高偏高"
+  ]
+ },
+ "r0b_vox_523f8f.wav": {
+  "f0": 299,
+  "range_st": 10.8,
+  "pause_pct": 41,
+  "rate": 5.0,
+  "hnr": 16.9,
+  "flags": [
+   "停顿偏多",
+   "音高偏高"
+  ]
+ },
+ "r0b_vox_809968.wav": {
+  "f0": 314,
+  "range_st": 9.6,
+  "pause_pct": 27,
+  "rate": 4.2,
+  "hnr": 15.6,
+  "flags": [
+   "音高偏高"
+  ]
+ },
+ "r0b_vox_821713.wav": {
+  "f0": 289,
+  "range_st": 7.0,
+  "pause_pct": 34,
+  "rate": 4.3,
+  "hnr": 20.6,
+  "flags": [
+   "音高偏高"
+  ]
+ },
+ "r0b_qwen_b9a973.wav": {
+  "f0": 283,
+  "range_st": 6.2,
+  "pause_pct": 32,
+  "rate": 4.2,
+  "hnr": 12.4,
+  "flags": [
+   "音高偏高"
+  ]
+ },
+ "r0b_qwen_9c3877.wav": {
+  "f0": 298,
+  "range_st": 7.8,
+  "pause_pct": 38,
+  "rate": 5.1,
+  "hnr": 14.6,
+  "flags": [
+   "音高偏高"
+  ]
+ },
+ "r0b_qwen_a50bf7.wav": {
+  "f0": 324,
+  "range_st": 6.1,
+  "pause_pct": 30,
+  "rate": 4.0,
+  "hnr": 14.6,
+  "flags": [
+   "音高偏高"
+  ]
+ },
+ "r0b_qwen_bdaa45.wav": {
+  "f0": 297,
+  "range_st": 7.1,
+  "pause_pct": 36,
+  "rate": 4.8,
+  "hnr": 14.5,
+  "flags": [
+   "音高偏高"
+  ]
+ },
+ "r0b_qwen_98d8b9.wav": {
+  "f0": 328,
+  "range_st": 7.3,
+  "pause_pct": 29,
+  "rate": 4.5,
+  "hnr": 16.7,
+  "flags": [
+   "音高偏高"
+  ]
+ },
+ "r0b_qwen_0e56a2.wav": {
+  "f0": 255,
+  "range_st": 7.0,
+  "pause_pct": 45,
+  "rate": 5.6,
+  "hnr": 13.0,
+  "flags": [
+   "停顿偏多"
+  ]
+ },
+ "r0b_qwen_ca7fb2.wav": {
+  "f0": 309,
+  "range_st": 9.3,
+  "pause_pct": 29,
+  "rate": 4.4,
+  "hnr": 14.6,
+  "flags": [
+   "音高偏高"
+  ]
+ },
+ "r0b_qwen_5a0feb.wav": {
+  "f0": 296,
+  "range_st": 5.9,
+  "pause_pct": 29,
+  "rate": 4.6,
+  "hnr": 13.1,
+  "flags": [
+   "音高偏高"
+  ]
+ },
+ "r0b_moss_c3b284.wav": {
+  "f0": 315,
+  "range_st": 9.7,
+  "pause_pct": 44,
+  "rate": 4.9,
+  "hnr": 18.4,
+  "flags": [
+   "停顿偏多",
+   "音高偏高"
+  ]
+ },
+ "r0b_moss_349437.wav": {
+  "f0": 271,
+  "range_st": 9.3,
+  "pause_pct": 58,
+  "rate": 5.8,
+  "hnr": 15.7,
+  "flags": [
+   "停顿偏多",
+   "音高偏高"
+  ]
+ },
+ "r0b_moss_4589f7.wav": {
+  "f0": 308,
+  "range_st": 10.5,
+  "pause_pct": 45,
+  "rate": 6.7,
+  "hnr": 16.1,
+  "flags": [
+   "停顿偏多",
+   "语速偏快",
+   "音高偏高"
+  ]
+ },
+ "r0b_moss_372c65.wav": {
+  "f0": 283,
+  "range_st": 7.6,
+  "pause_pct": 38,
+  "rate": 6.3,
+  "hnr": 18.5,
+  "flags": [
+   "音高偏高"
+  ]
+ },
+ "r0b_moss_ee26d3.wav": {
+  "f0": 304,
+  "range_st": 8.8,
+  "pause_pct": 44,
+  "rate": 6.5,
+  "hnr": 19.5,
+  "flags": [
+   "停顿偏多",
+   "音高偏高"
+  ]
+ },
+ "r0b_moss_fb92d6.wav": {
+  "f0": 293,
+  "range_st": 10.5,
+  "pause_pct": 37,
+  "rate": 5.3,
+  "hnr": 19.5,
+  "flags": [
+   "音高偏高"
+  ]
+ },
+ "r0b_moss_611767.wav": {
+  "f0": 257,
+  "range_st": 11.2,
+  "pause_pct": 35,
+  "rate": 4.2,
+  "hnr": 20.5,
+  "flags": []
+ },
+ "r0b_moss_623479.wav": {
+  "f0": 321,
+  "range_st": 7.7,
+  "pause_pct": 36,
+  "rate": 4.7,
+  "hnr": 22.2,
+  "flags": [
+   "音高偏高"
+  ]
+ }
+}

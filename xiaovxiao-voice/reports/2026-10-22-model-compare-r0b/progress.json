@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-22T02:20:34+08:00",
-  "stage": "moss_running",
+  "updated_at": "2026-10-22T02:24:31+08:00",
+  "stage": "awaiting_user_ratings",
   "planned": {
     "voxcpm2": 8,
     "qwen3": 8,
@@ -9,7 +9,7 @@
   "completed": {
     "voxcpm2": 8,
     "qwen3": 8,
-    "moss": 6
+    "moss": 8
   },
   "moss_smoke": "PASS: success1 failed0",
   "ratings_synced": false,
@@ -17,7 +17,7 @@
   "moss_environment_validated": true,
   "moss_pip_check": "No broken requirements found.",
   "moss_smoke_generation_seconds": 139.2,
-  "acoustic_count": 16,
+  "acoustic_count": 24,
   "batches": {
     "voxcpm2": {
       "success": 8,
@@ -28,6 +28,13 @@
       "success": 8,
       "failed": 0,
       "exit_code": 0
+    },
+    "moss": {
+      "success": 8,
+      "failed": 0,
+      "exit_code": 0
     }
-  }
+  },
+  "success": 24,
+  "failed": 0
 }
