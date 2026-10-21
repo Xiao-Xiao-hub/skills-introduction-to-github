@@ -1,17 +1,21 @@
 {
-  "updated_at": "2026-10-22T00:22:11+08:00",
-  "stage": "voxcpm2_running",
-  "completed_total": 9,
+  "updated_at": "2026-10-22T00:26:52+08:00",
+  "stage": "qwen3_running",
+  "completed_total": 16,
   "completed": {
-    "voxcpm2": 9,
+    "voxcpm2": 16,
     "qwen3": 0
   },
   "planned": {
     "voxcpm2": 16,
     "qwen3": 8
   },
-  "observed_failure_lines": 0,
-  "last_completed": "r0_vox_c1093d",
+  "voxcpm2_final_result": {
+    "success": 16,
+    "failed": 0,
+    "process_exit_code": 0
+  },
+  "acoustic_entries": 16,
   "formal_audition_started": false,
   "ratings_sync": "等待用户完成评分后明确说评完了"
 }

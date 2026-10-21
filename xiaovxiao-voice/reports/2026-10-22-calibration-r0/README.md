@@ -1,13 +1,13 @@
 # 音色设定 v2 · 参数校准 r0
 
-更新时间：2026-10-22T00:22:11+08:00（北京时间）。状态：运行中，尚未完成验收。
+更新时间：2026-10-22T00:26:52+08:00（北京时间）。状态：VoxCPM2 完成，Qwen3 运行中，尚未完成整轮验收。
 
 ## 范围与进度
 
 已在分支 `claude/nifty-ritchie-n04rar` 拉取到 `a37e7072c74b962028b34ee2f603c3913b8b70f8`，阅读 README 第 1、2、3 节。两环境测量库及 CUDA 检查均通过，详见 [environment.json](environment.json)。
 
-- VoxCPM2：A/B/D/F × 中文描述 × seed 1 × CFG 1.5/2.0 × 步数 10/20，共 16 条，已完成 9 条，其余继续运行。
-- Qwen3：A/B/D/F × 中文描述 × seed 1 × temperature 0.9/1.0，共 8 条，等待 VoxCPM2 进程退出后运行。
+- VoxCPM2：A/B/D/F × 中文描述 × seed 1 × CFG 1.5/2.0 × 步数 10/20，共 16 条，已全部成功，失败 0 条；其进程已退出，已自动测量 16 条。
+- Qwen3：A/B/D/F × 中文描述 × seed 1 × temperature 0.9/1.0，共 8 条，运行中，当前已完成 0/8 条。
 - 输出为工具包内 `rounds/r0`。生成结束后再显式运行 `.\.venvs\xvx-vox\Scripts\python.exe measure.py rounds\r0`，保存并原样报告控制台输出。
 - 最终将全部 WAV、manifest.jsonl、acoustic.json 原样复制到本目录，保持 manifest 的音频相对路径可用。
 
