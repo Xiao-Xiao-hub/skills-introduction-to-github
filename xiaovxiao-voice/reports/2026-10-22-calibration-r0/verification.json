@@ -353,5 +353,12 @@
   "formal_audition_started": false,
   "ratings_archived_at": "2026-10-22T01:12:11+08:00",
   "ratings_sha256": "9aab645ed5302cede1dccb806a7abcbfdad7e1b6c67849b2f5eda79610768662",
-  "rated_count": 24
+  "rated_count": 24,
+  "ratings_analysis": {
+    "analyzed_at": "2026-10-22T01:15:02+08:00",
+    "report": "ratings-analysis.md",
+    "summary": "ratings-summary.json",
+    "ratings_sha256": "9aab645ed5302cede1dccb806a7abcbfdad7e1b6c67849b2f5eda79610768662",
+    "rated": 24
+  }
 }

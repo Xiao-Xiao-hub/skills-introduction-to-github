@@ -1,6 +1,6 @@
 # 音色设定 v2 · 参数校准 r0
 
-更新时间：2026-10-22T01:12:11+08:00（北京时间）。状态：校准24条均已评分，评分原件归档完成，正在汇总分析；正式海选未启动。
+更新时间：2026-10-22T01:15:02+08:00（北京时间）。状态：24条评分已原样归档，评分分析完成；等待用户决定下一步，正式海选未启动。
 
 ## 结果
 
@@ -18,6 +18,8 @@
 - [acoustic.json](acoustic.json)：24 条声学测量结果。
 - [ratings.json](ratings.json)：用户完成的24条原始评分，按原文件字节复制。
 - [ratings-archive.json](ratings-archive.json)：复制时间、评分更新时间与文件 SHA256。
+- [ratings-analysis.md](ratings-analysis.md)：模型、参数、方向、标签及备注分析。
+- [ratings-summary.json](ratings-summary.json)：完整分组统计与配对比较。
 - [measure-output.txt](measure-output.txt)：用户指定的 measure.py 命令完整控制台输出，共 25 行，未做摘要替换。
 - [verification.json](verification.json)：数量、参数组合、音频 SHA256、生成用时、退出码和源文件完整性检查。
 - [environment.json](environment.json)：两个环境安装 praat-parselmouth 后的 torch/CUDA 检查。
@@ -44,4 +46,4 @@ Vox 自动测量 16 条，Qwen 结束后自动补测 8 条。因此最后显式�
 
 用户已明确说「评完了」，24/24条评分已完成，ratings.json 已从 rounds/r0 原样复制到本报告目录。归档副本与本机原件逐字节、SHA256 一致；原评分文件保留在运行目录。
 
-现在只汇总评分、标签和备注，暂不启动120条海选，不替用户确认音色或选定最终参数。后续运行须等待用户的新指令。
+评分分析已完成，见 [ratings-analysis.md](ratings-analysis.md)。评分分布为2分14条、3分9条、4分1条，尚无5分。仅将Vox的CFG 2/10步、Qwen的温度0.9列作候选起点；最终参数未选定，暂不启动120条海选，等待用户的新指令。

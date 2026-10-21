@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-22T01:12:11+08:00",
-  "stage": "ratings_archived_analysis_pending",
+  "updated_at": "2026-10-22T01:15:02+08:00",
+  "stage": "ratings_analyzed_waiting_user_decision",
   "completed_total": 24,
   "completed": {
     "voxcpm2": 16,
@@ -27,5 +27,8 @@
   "formal_audition_started": false,
   "ratings_sync": "已按用户指令归档24条评分，等待本轮分析；先不开始海选",
   "rated_count": 24,
-  "ratings_synced": true
+  "ratings_synced": true,
+  "ratings_analysis": "ratings-analysis.md",
+  "ratings_summary": "ratings-summary.json",
+  "selected_audition_parameters": null
 }

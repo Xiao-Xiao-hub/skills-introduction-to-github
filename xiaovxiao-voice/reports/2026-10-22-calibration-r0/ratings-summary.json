@@ -1,0 +1,497 @@
+{
+  "rated": 24,
+  "mean": 2.4583,
+  "score_counts": {
+    "2": 14,
+    "3": 9,
+    "4": 1
+  },
+  "models": [
+    {
+      "model": "voxcpm2",
+      "n": 16,
+      "sum": 40,
+      "mean": 2.5,
+      "scores": {
+        "2": 9,
+        "3": 6,
+        "4": 1
+      }
+    },
+    {
+      "model": "qwen3",
+      "n": 8,
+      "sum": 19,
+      "mean": 2.375,
+      "scores": {
+        "2": 5,
+        "3": 3
+      }
+    }
+  ],
+  "params": [
+    {
+      "model": "voxcpm2",
+      "gen_label": "cfg1.5 步数10",
+      "n": 4,
+      "sum": 10,
+      "mean": 2.5,
+      "scores": {
+        "2": 2,
+        "3": 2
+      }
+    },
+    {
+      "model": "voxcpm2",
+      "gen_label": "cfg1.5 步数20",
+      "n": 4,
+      "sum": 9,
+      "mean": 2.25,
+      "scores": {
+        "2": 3,
+        "3": 1
+      }
+    },
+    {
+      "model": "voxcpm2",
+      "gen_label": "cfg2 步数10",
+      "n": 4,
+      "sum": 11,
+      "mean": 2.75,
+      "scores": {
+        "2": 2,
+        "3": 1,
+        "4": 1
+      }
+    },
+    {
+      "model": "voxcpm2",
+      "gen_label": "cfg2 步数20",
+      "n": 4,
+      "sum": 10,
+      "mean": 2.5,
+      "scores": {
+        "2": 2,
+        "3": 2
+      }
+    },
+    {
+      "model": "qwen3",
+      "gen_label": "温度0.9",
+      "n": 4,
+      "sum": 10,
+      "mean": 2.5,
+      "scores": {
+        "2": 2,
+        "3": 2
+      }
+    },
+    {
+      "model": "qwen3",
+      "gen_label": "温度1",
+      "n": 4,
+      "sum": 9,
+      "mean": 2.25,
+      "scores": {
+        "2": 3,
+        "3": 1
+      }
+    }
+  ],
+  "archetypes": [
+    {
+      "archetype": "A自然心事",
+      "n": 6,
+      "sum": 18,
+      "mean": 3,
+      "scores": {
+        "3": 6
+      }
+    },
+    {
+      "archetype": "B清透安静",
+      "n": 6,
+      "sum": 13,
+      "mean": 2.1667,
+      "scores": {
+        "2": 5,
+        "3": 1
+      }
+    },
+    {
+      "archetype": "D松弛日常",
+      "n": 6,
+      "sum": 13,
+      "mean": 2.1667,
+      "scores": {
+        "2": 5,
+        "3": 1
+      }
+    },
+    {
+      "archetype": "F低温疏离",
+      "n": 6,
+      "sum": 15,
+      "mean": 2.5,
+      "scores": {
+        "2": 4,
+        "3": 1,
+        "4": 1
+      }
+    }
+  ],
+  "model_archetypes": [
+    {
+      "model": "voxcpm2",
+      "archetype": "A自然心事",
+      "n": 4,
+      "sum": 12,
+      "mean": 3,
+      "scores": {
+        "3": 4
+      }
+    },
+    {
+      "model": "voxcpm2",
+      "archetype": "B清透安静",
+      "n": 4,
+      "sum": 9,
+      "mean": 2.25,
+      "scores": {
+        "2": 3,
+        "3": 1
+      }
+    },
+    {
+      "model": "voxcpm2",
+      "archetype": "D松弛日常",
+      "n": 4,
+      "sum": 8,
+      "mean": 2,
+      "scores": {
+        "2": 4
+      }
+    },
+    {
+      "model": "voxcpm2",
+      "archetype": "F低温疏离",
+      "n": 4,
+      "sum": 11,
+      "mean": 2.75,
+      "scores": {
+        "2": 2,
+        "3": 1,
+        "4": 1
+      }
+    },
+    {
+      "model": "qwen3",
+      "archetype": "A自然心事",
+      "n": 2,
+      "sum": 6,
+      "mean": 3,
+      "scores": {
+        "3": 2
+      }
+    },
+    {
+      "model": "qwen3",
+      "archetype": "B清透安静",
+      "n": 2,
+      "sum": 4,
+      "mean": 2,
+      "scores": {
+        "2": 2
+      }
+    },
+    {
+      "model": "qwen3",
+      "archetype": "D松弛日常",
+      "n": 2,
+      "sum": 5,
+      "mean": 2.5,
+      "scores": {
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "model": "qwen3",
+      "archetype": "F低温疏离",
+      "n": 2,
+      "sum": 4,
+      "mean": 2,
+      "scores": {
+        "2": 2
+      }
+    }
+  ],
+  "tags": {
+    "人机感": 23,
+    "不够可爱": 17,
+    "不够忧郁": 11,
+    "播音腔": 11,
+    "杂音/电音": 9,
+    "太成熟": 9,
+    "慵懒过重": 6,
+    "✓质感好": 2,
+    "太闷": 1,
+    "✓情绪对": 1
+  },
+  "steps_paired": [
+    {
+      "archetype": "A",
+      "cfg": 1.5,
+      "steps10_score": 3,
+      "steps20_score": 3,
+      "delta_20_minus_10": 0
+    },
+    {
+      "archetype": "A",
+      "cfg": 2.0,
+      "steps10_score": 3,
+      "steps20_score": 3,
+      "delta_20_minus_10": 0
+    },
+    {
+      "archetype": "B",
+      "cfg": 1.5,
+      "steps10_score": 3,
+      "steps20_score": 2,
+      "delta_20_minus_10": -1
+    },
+    {
+      "archetype": "B",
+      "cfg": 2.0,
+      "steps10_score": 2,
+      "steps20_score": 2,
+      "delta_20_minus_10": 0
+    },
+    {
+      "archetype": "D",
+      "cfg": 1.5,
+      "steps10_score": 2,
+      "steps20_score": 2,
+      "delta_20_minus_10": 0
+    },
+    {
+      "archetype": "D",
+      "cfg": 2.0,
+      "steps10_score": 2,
+      "steps20_score": 2,
+      "delta_20_minus_10": 0
+    },
+    {
+      "archetype": "F",
+      "cfg": 1.5,
+      "steps10_score": 2,
+      "steps20_score": 2,
+      "delta_20_minus_10": 0
+    },
+    {
+      "archetype": "F",
+      "cfg": 2.0,
+      "steps10_score": 4,
+      "steps20_score": 3,
+      "delta_20_minus_10": -1
+    }
+  ],
+  "temperature_paired": [
+    {
+      "archetype": "A",
+      "temperature0.9_score": 3,
+      "temperature1.0_score": 3,
+      "delta_1_minus_0.9": 0
+    },
+    {
+      "archetype": "B",
+      "temperature0.9_score": 2,
+      "temperature1.0_score": 2,
+      "delta_1_minus_0.9": 0
+    },
+    {
+      "archetype": "D",
+      "temperature0.9_score": 3,
+      "temperature1.0_score": 2,
+      "delta_1_minus_0.9": -1
+    },
+    {
+      "archetype": "F",
+      "temperature0.9_score": 2,
+      "temperature1.0_score": 2,
+      "delta_1_minus_0.9": 0
+    }
+  ],
+  "four_plus": [
+    {
+      "file": "r0_vox_959950.wav",
+      "model": "voxcpm2",
+      "archetype": "F低温疏离",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 10
+      },
+      "score": 4,
+      "tags": [
+        "✓情绪对",
+        "人机感"
+      ],
+      "note": "情绪上比较接近了，只是音色上感觉就有点那种台湾腔还是什么？感觉好多的音色都是这样，但这个音色不太适配，不是说音色不行，只是感觉不太适配，稍微加一点点可爱就更合适了（情绪上），主要是人机感，还有音色上",
+      "acoustic": {
+        "f0": 216,
+        "range_st": 7.3,
+        "pause_pct": 29,
+        "rate": 4.6,
+        "hnr": 13.0,
+        "flags": [
+          "停顿偏多"
+        ]
+      }
+    }
+  ],
+  "notes": [
+    {
+      "file": "r0_vox_4d19a9.wav",
+      "archetype": "A自然心事",
+      "model": "voxcpm2",
+      "gen": {
+        "cfg": 1.5,
+        "steps": 10
+      },
+      "score": 3,
+      "note": "适合作为情绪低落时的情绪，还可以，但其他方面还是差点意思"
+    },
+    {
+      "file": "r0_vox_bb519a.wav",
+      "archetype": "A自然心事",
+      "model": "voxcpm2",
+      "gen": {
+        "cfg": 1.5,
+        "steps": 20
+      },
+      "score": 3,
+      "note": "最后一句还行，只是情绪上不太符合"
+    },
+    {
+      "file": "r0_vox_a91b7f.wav",
+      "archetype": "A自然心事",
+      "model": "voxcpm2",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 10
+      },
+      "score": 3,
+      "note": "可爱了，但是音色还是不对"
+    },
+    {
+      "file": "r0_vox_7afffe.wav",
+      "archetype": "A自然心事",
+      "model": "voxcpm2",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 20
+      },
+      "score": 3,
+      "note": "这个稍微可爱了点，但没体现出忧郁感，还有就是尾音处我觉得可以带点傲娇害羞感，但是的话还是要以忧郁感为底色"
+    },
+    {
+      "file": "r0_vox_4d51d7.wav",
+      "archetype": "B清透安静",
+      "model": "voxcpm2",
+      "gen": {
+        "cfg": 1.5,
+        "steps": 10
+      },
+      "score": 3,
+      "note": "有点哭腔，这个不错，作为哭腔不错，比较合适，可以保留参考，就是有点稍微成熟点了，差点可爱"
+    },
+    {
+      "file": "r0_vox_921cec.wav",
+      "archetype": "B清透安静",
+      "model": "voxcpm2",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 10
+      },
+      "score": 2,
+      "note": "感觉语速上有点满，还有年龄上感觉不像，有点偏大了那种"
+    },
+    {
+      "file": "r0_vox_f0793f.wav",
+      "archetype": "F低温疏离",
+      "model": "voxcpm2",
+      "gen": {
+        "cfg": 1.5,
+        "steps": 10
+      },
+      "score": 2,
+      "note": "语速太慢了，不合适"
+    },
+    {
+      "file": "r0_vox_959950.wav",
+      "archetype": "F低温疏离",
+      "model": "voxcpm2",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 10
+      },
+      "score": 4,
+      "note": "情绪上比较接近了，只是音色上感觉就有点那种台湾腔还是什么？感觉好多的音色都是这样，但这个音色不太适配，不是说音色不行，只是感觉不太适配，稍微加一点点可爱就更合适了（情绪上），主要是人机感，还有音色上"
+    },
+    {
+      "file": "r0_qwen_72f38e.wav",
+      "archetype": "A自然心事",
+      "model": "qwen3",
+      "gen": {
+        "temperature": 0.9
+      },
+      "score": 3,
+      "note": "情绪可以，然后也算是可爱"
+    },
+    {
+      "file": "r0_qwen_064e76.wav",
+      "archetype": "A自然心事",
+      "model": "qwen3",
+      "gen": {
+        "temperature": 1.0
+      },
+      "score": 3,
+      "note": "感觉有点电音的感觉，然后就是还行，但是不够可爱忧郁，和参考图不符合"
+    }
+  ],
+  "analyzed_at": "2026-10-22T01:15:02+08:00",
+  "ratings_sha256": "9aab645ed5302cede1dccb806a7abcbfdad7e1b6c67849b2f5eda79610768662",
+  "source_files": [
+    "ratings.json",
+    "manifest.jsonl",
+    "acoustic.json"
+  ],
+  "scope": {
+    "rater_count": 1,
+    "seed_count": 1,
+    "seed": 1,
+    "archetypes": [
+      "A",
+      "B",
+      "D",
+      "F"
+    ],
+    "clips_per_parameter_group": 4,
+    "same_audition_text": true
+  },
+  "candidate_parameters_not_selected": {
+    "voxcpm2": {
+      "cfg": 2.0,
+      "steps": 10,
+      "mean": 2.75,
+      "n": 4
+    },
+    "qwen3": {
+      "temperature": 0.9,
+      "mean": 2.5,
+      "n": 4
+    }
+  },
+  "selected_parameters": null,
+  "formal_audition_started": false
+}
