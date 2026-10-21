@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-22T02:24:31+08:00",
-  "stage": "awaiting_user_ratings",
+  "updated_at": "2026-10-22T02:41:47+08:00",
+  "stage": "ratings_synced_waiting_user",
   "planned": {
     "voxcpm2": 8,
     "qwen3": 8,
@@ -12,7 +12,7 @@
     "moss": 8
   },
   "moss_smoke": "PASS: success1 failed0",
-  "ratings_synced": false,
+  "ratings_synced": true,
   "formal_audition_started": false,
   "moss_environment_validated": true,
   "moss_pip_check": "No broken requirements found.",
@@ -36,5 +36,8 @@
     }
   },
   "success": 24,
-  "failed": 0
+  "failed": 0,
+  "rated_entries": 24,
+  "ratings_sha256": "ae245f450fc5a5165b84a47edafafd239f444512e9066b39538e2ebc6942a1ab",
+  "ratings_sync_record": "ratings-sync.json"
 }

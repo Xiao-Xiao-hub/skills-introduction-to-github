@@ -1,0 +1,16 @@
+{
+  "synced_at": "2026-10-22T02:41:47+08:00",
+  "round": "r0b",
+  "source": "rounds/r0b/ratings.json",
+  "destination": "reports/2026-10-22-model-compare-r0b/ratings.json",
+  "bytes": 3806,
+  "sha256": "ae245f450fc5a5165b84a47edafafd239f444512e9066b39538e2ebc6942a1ab",
+  "copy_sha256_match": true,
+  "manifest_entries": 24,
+  "rating_entries": 24,
+  "rated_entries": 24,
+  "missing_files": [],
+  "unknown_files": [],
+  "original_ratings_preserved": true,
+  "formal_audition_started": false
+}
