@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T02:11:07+08:00",
+  "updated_at": "2026-10-22T02:13:29+08:00",
   "stage": "moss_running",
   "planned": {
     "voxcpm2": 8,
@@ -9,7 +9,7 @@
   "completed": {
     "voxcpm2": 8,
     "qwen3": 8,
-    "moss": 1
+    "moss": 2
   },
   "moss_smoke": "PASS: success1 failed0",
   "ratings_synced": false,

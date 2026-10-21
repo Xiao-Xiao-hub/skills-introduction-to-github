@@ -1,6 +1,6 @@
 # 音色设定 v3 · 模型对比 r0b
 
-更新时间：2026-10-22T02:11:07+08:00（北京时间）。状态：VoxCPM2 8/8、Qwen3 8/8、MOSS 1/8，总进度17/24。当前阶段：moss_running。
+更新时间：2026-10-22T02:13:29+08:00（北京时间）。状态：VoxCPM2 8/8、Qwen3 8/8、MOSS 2/8，总进度18/24。当前阶段：moss_running。
 
 已拉取分支 claude/nifty-ritchie-n04rar 到 `2d6e4d3c2aa0d28b15b049a578442a9f07dc409f`，阅读 README 第0、1、1b节及 DEPLOY.md 环境C。MOSS源代码单独克隆到 E:/MOSS-TTS，版本为 `934d6826b084c46a0d033402174d5f8ac4ed2519`；独立环境为工具包内 .venvs/xvx-moss，Python 3.12.13。
 
