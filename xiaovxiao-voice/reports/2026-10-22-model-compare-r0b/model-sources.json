@@ -1,0 +1,18 @@
+[
+  {
+    "model": "openmoss/MOSS-VoiceGenerator",
+    "source": "https://modelscope.cn/models/openmoss/MOSS-VoiceGenerator",
+    "file_count": 17,
+    "total_bytes": 4244249582,
+    "download_status": "in_progress",
+    "verified_api_date": "2026-10-22"
+  },
+  {
+    "model": "openmoss/MOSS-Audio-Tokenizer",
+    "source": "https://modelscope.cn/models/openmoss/MOSS-Audio-Tokenizer",
+    "file_count": 14,
+    "total_bytes": 7101116247,
+    "download_status": "in_progress",
+    "verified_api_date": "2026-10-22"
+  }
+]

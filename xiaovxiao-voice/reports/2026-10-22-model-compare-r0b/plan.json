@@ -1,0 +1,39 @@
+{
+  "base_commit": "2d6e4d3c2aa0d28b15b049a578442a9f07dc409f",
+  "moss_source_commit": "934d6826b084c46a0d033402174d5f8ac4ed2519",
+  "started_at": "2026-10-22T01:44:55+08:00",
+  "sha256": {
+    "common.py": "5d45aed2854fe4224a0b0659312051240509c9a07bac6f70fe683606ddef262e",
+    "measure.py": "ddfad8c55df26063a83bcf8f7242e75d07414a46645f535183cf3dd130dec824",
+    "rater.html": "fa80ae1b8e5a55dc590e450793bb1eda7ebd50f148bdea231b846bd51e7bb289",
+    "specs.py": "2f9e47024a1b2455607fe21d0e4a665dd4bbfd5266cd687596682fb8bf259cc8",
+    "step1_audition.py": "0a3718cc9275eb5bef6b81d6ae02ffb4ec0424b75007b0eed962adbff09b07fd",
+    "step2_refine.py": "e0ec0831053df10633115e238e183dace2716392b7f0cd2b2a60c950ef0154ac",
+    "step3_clone_test.py": "b956a0eacb2f17dd84e998faf5b794ffc845ea7d9c9d6ae9b5563abc6337a942",
+    "step4_finalize.py": "5c707160832184768e749214c6f9090722b54d42db83b3f534d64ea4925ab7d8"
+  },
+  "round": "r0b",
+  "archetypes": [
+    "A",
+    "B",
+    "C",
+    "E"
+  ],
+  "seeds": [
+    1,
+    2
+  ],
+  "description_language": "zh",
+  "planned": {
+    "voxcpm2": 8,
+    "qwen3": 8,
+    "moss": 8
+  },
+  "moss_venv": ".venvs/xvx-moss",
+  "moss_python": "3.12.13",
+  "moss_source_directory": "E:/MOSS-TTS",
+  "sequential_models": true,
+  "fallback": "若MOSS在Windows无法安装或运行，保留原始报错并先完成VoxCPM2和Qwen3共16条",
+  "formal_audition_started": false,
+  "ratings_sync_trigger": "用户说评完了之后，再复制 rounds/r0b/ratings.json 到本报告目录并提交推送"
+}

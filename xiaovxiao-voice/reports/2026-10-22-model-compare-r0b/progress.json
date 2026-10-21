@@ -1,0 +1,17 @@
+{
+  "updated_at": "2026-10-22T01:47:41+08:00",
+  "stage": "installing_moss_and_downloading_models",
+  "planned": {
+    "voxcpm2": 8,
+    "qwen3": 8,
+    "moss": 8
+  },
+  "completed": {
+    "voxcpm2": 0,
+    "qwen3": 0,
+    "moss": 0
+  },
+  "moss_smoke": "pending",
+  "ratings_synced": false,
+  "formal_audition_started": false
+}
