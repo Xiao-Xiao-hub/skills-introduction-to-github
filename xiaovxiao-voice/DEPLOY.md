@@ -25,8 +25,11 @@
 conda create -n xvx-vox python=3.11 -y
 conda activate xvx-vox
 pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu128
-pip install voxcpm praat-parselmouth
+pip install voxcpm praat-parselmouth imageio-ffmpeg
 ```
+
+（`imageio-ffmpeg` 自带一个 ffmpeg，给视频配音（`dub.py`）用来变速、混音、合成视频。系统里已有 ffmpeg 可以不装。
+配音时的漏读核对用 voxcpm 已经带上的 funasr，第一次运行会从 ModelScope 下载 `paraformer-zh` 识别模型。）
 
 ## 环境 B：`xvx-qwen`（Qwen3-TTS，造声 + 克隆）
 
