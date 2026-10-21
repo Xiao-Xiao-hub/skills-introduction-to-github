@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-22T02:03:12+08:00",
-  "stage": "qwen3_running",
+  "updated_at": "2026-10-22T02:08:16+08:00",
+  "stage": "moss_running",
   "planned": {
     "voxcpm2": 8,
     "qwen3": 8,
@@ -8,7 +8,7 @@
   },
   "completed": {
     "voxcpm2": 8,
-    "qwen3": 0,
+    "qwen3": 8,
     "moss": 0
   },
   "moss_smoke": "PASS: success1 failed0",
@@ -17,9 +17,14 @@
   "moss_environment_validated": true,
   "moss_pip_check": "No broken requirements found.",
   "moss_smoke_generation_seconds": 139.2,
-  "acoustic_count": 8,
+  "acoustic_count": 16,
   "batches": {
     "voxcpm2": {
+      "success": 8,
+      "failed": 0,
+      "exit_code": 0
+    },
+    "qwen3": {
       "success": 8,
       "failed": 0,
       "exit_code": 0

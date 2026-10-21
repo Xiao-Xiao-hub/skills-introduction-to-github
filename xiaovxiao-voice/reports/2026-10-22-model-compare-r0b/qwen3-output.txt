@@ -1,0 +1,36 @@
+计划 8 条：已完成 0，本次生成 8 → rounds\r0b
+正在加载 qwen3（第一次会下载模型，请耐心等待）…
+
+********
+Warning: flash-attn is not installed. Will only run the manual PyTorch version. Please install flash-attn for faster inference.
+********
+ 
+'sox' is not recognized as an internal or external command,
+operable program or batch file.
+SoX could not be found!
+
+    If you do not have SoX, proceed here:
+     - - - http://sox.sourceforge.net/ - - -
+
+    If you do (or think that you should) have SoX, double-check your
+    path variables.
+    
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[1/8] r0b_qwen_b9a973  A忧郁小甜 [zh] 温度0.9  15.04s 音频，用时 50.2s，预计还要 5.9 分钟
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[2/8] r0b_qwen_9c3877  A忧郁小甜 [zh] 温度0.9  13.52s 音频，用时 33.7s，预计还要 4.2 分钟
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[3/8] r0b_qwen_a50bf7  B害羞心事 [zh] 温度0.9  15.2s 音频，用时 38.4s，预计还要 3.4 分钟
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[4/8] r0b_qwen_bdaa45  B害羞心事 [zh] 温度0.9  13.92s 音频，用时 35.5s，预计还要 2.6 分钟
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[5/8] r0b_qwen_98d8b9  C小傲娇 [zh] 温度0.9  13.44s 音频，用时 35.4s，预计还要 1.9 分钟
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[6/8] r0b_qwen_0e56a2  C小傲娇 [zh] 温度0.9  13.84s 音频，用时 37.2s，预计还要 1.3 分钟
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[7/8] r0b_qwen_ca7fb2  E寂寞小猫 [zh] 温度0.9  13.6s 音频，用时 36.7s，预计还要 0.6 分钟
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[8/8] r0b_qwen_5a0feb  E寂寞小猫 [zh] 温度0.9  13.04s 音频，用时 35.1s，预计还要 0.0 分钟
+完成：成功 8 条，失败 0 条。
+声学测量：新测 8 条，共 16 条 → rounds\r0b\acoustic.json。提示项：音高偏高 15 条、停顿偏多 2 条
+用试音台（rater.html）打开 rounds\r0b 开始听。
