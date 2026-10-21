@@ -1,0 +1,12 @@
+{
+  "archived_at": "2026-10-22T01:12:11+08:00",
+  "source": "rounds/r0/ratings.json",
+  "file": "ratings.json",
+  "sha256": "9aab645ed5302cede1dccb806a7abcbfdad7e1b6c67849b2f5eda79610768662",
+  "bytes": 5188,
+  "rated_count": 24,
+  "expected_count": 24,
+  "ratings_updated_at": "2026-10-22T01:08:38.449000+08:00",
+  "copy_check": "PASS: exact bytes",
+  "user_trigger": "用户明确说评完了，并要求同步评分和分析；先不开始海选"
+}

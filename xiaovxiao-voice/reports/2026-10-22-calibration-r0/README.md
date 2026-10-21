@@ -1,6 +1,6 @@
 # 音色设定 v2 · 参数校准 r0
 
-更新时间：2026-10-22T00:33:33+08:00（北京时间）。状态：生成、测量和本机归档完成，等待用户盲听评分及选择海选参数。
+更新时间：2026-10-22T01:12:11+08:00（北京时间）。状态：校准24条均已评分，评分原件归档完成，正在汇总分析；正式海选未启动。
 
 ## 结果
 
@@ -16,6 +16,8 @@
 
 - [manifest.jsonl](manifest.jsonl)：24 条音频的描述、台词、种子、参数和文件名；WAV 位于本目录，保持清单的相对路径。
 - [acoustic.json](acoustic.json)：24 条声学测量结果。
+- [ratings.json](ratings.json)：用户完成的24条原始评分，按原文件字节复制。
+- [ratings-archive.json](ratings-archive.json)：复制时间、评分更新时间与文件 SHA256。
 - [measure-output.txt](measure-output.txt)：用户指定的 measure.py 命令完整控制台输出，共 25 行，未做摘要替换。
 - [verification.json](verification.json)：数量、参数组合、音频 SHA256、生成用时、退出码和源文件完整性检查。
 - [environment.json](environment.json)：两个环境安装 praat-parselmouth 后的 torch/CUDA 检查。
@@ -40,6 +42,6 @@ Vox 自动测量 16 条，Qwen 结束后自动补测 8 条。因此最后显式�
 
 ## 停止点与下一步
 
-本轮已停在人工盲听评分阶段，未启动 120 条海选，未替用户选择参数。
+用户已明确说「评完了」，24/24条评分已完成，ratings.json 已从 rounds/r0 原样复制到本报告目录。归档副本与本机原件逐字节、SHA256 一致；原评分文件保留在运行目录。
 
-用 Edge 打开工具包内 rater.html，点「打开文件夹（自动保存）」，选择 rounds/r0，开始盲听打分。用户说「评完了」之后，再将 rounds/r0/ratings.json 复制到本目录并提交、推送；当前未复制评分文件。收到用户选定的具体参数后，才进行后续海选。
+现在只汇总评分、标签和备注，暂不启动120条海选，不替用户确认音色或选定最终参数。后续运行须等待用户的新指令。

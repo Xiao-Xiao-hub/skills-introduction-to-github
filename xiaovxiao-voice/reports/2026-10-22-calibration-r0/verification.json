@@ -347,8 +347,11 @@
       "generation_seconds": 38.8
     }
   ],
-  "ratings_synced": false,
-  "ratings_sync_trigger": "等用户说评完了，再复制 rounds/r0/ratings.json 到本报告目录并提交推送",
+  "ratings_synced": true,
+  "ratings_sync_trigger": "已收到用户评完了的明确指令，ratings.json 已原样归档；用户要求先不开始海选",
   "selected_audition_parameters": null,
-  "formal_audition_started": false
+  "formal_audition_started": false,
+  "ratings_archived_at": "2026-10-22T01:12:11+08:00",
+  "ratings_sha256": "9aab645ed5302cede1dccb806a7abcbfdad7e1b6c67849b2f5eda79610768662",
+  "rated_count": 24
 }
