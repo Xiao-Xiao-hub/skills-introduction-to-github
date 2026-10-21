@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-22T00:26:52+08:00",
+  "updated_at": "2026-10-22T00:29:26+08:00",
   "stage": "qwen3_running",
-  "completed_total": 16,
+  "completed_total": 20,
   "completed": {
     "voxcpm2": 16,
-    "qwen3": 0
+    "qwen3": 4
   },
   "planned": {
     "voxcpm2": 16,
