@@ -1,0 +1,28 @@
+计划 8 条：已完成 0，本次生成 8 → rounds\r0b
+正在加载 voxcpm2（第一次会下载模型，请耐心等待）…
+voxcpm_model_path: .\models\VoxCPM2, zipenhancer_model_path: None, enable_denoiser: False
+E:\skills-introduction-to-github\xiaovxiao-voice\.venvs\xvx-vox\Lib\site-packages\torch\nn\utils\weight_norm.py:144: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+Loading AudioVAE from pytorch: .\models\VoxCPM2\audiovae.pth
+Running on device: cuda, dtype: bfloat16
+Loading model from safetensors: .\models\VoxCPM2\model.safetensors
+Loaded VoxCPM2Model
+
+[1/8] r0b_vox_438b14  A忧郁小甜 [zh] cfg2 步数10  12.64s 音频，用时 29.3s，预计还要 3.4 分钟
+
+[2/8] r0b_vox_1915f0  A忧郁小甜 [zh] cfg2 步数10  13.76s 音频，用时 16.5s，预计还要 2.3 分钟
+
+[3/8] r0b_vox_a1220a  B害羞心事 [zh] cfg2 步数10  10.08s 音频，用时 12.9s，预计还要 1.6 分钟
+
+[4/8] r0b_vox_49a14f  B害羞心事 [zh] cfg2 步数10  12.32s 音频，用时 15.8s，预计还要 1.2 分钟
+
+[5/8] r0b_vox_6806e0  C小傲娇 [zh] cfg2 步数10  10.08s 音频，用时 14.5s，预计还要 0.9 分钟
+
+[6/8] r0b_vox_523f8f  C小傲娇 [zh] cfg2 步数10  14.56s 音频，用时 19.3s，预计还要 0.6 分钟
+
+[7/8] r0b_vox_809968  E寂寞小猫 [zh] cfg2 步数10  13.92s 音频，用时 19.0s，预计还要 0.3 分钟
+
+[8/8] r0b_vox_821713  E寂寞小猫 [zh] cfg2 步数10  15.2s 音频，用时 21.8s，预计还要 0.0 分钟
+完成：成功 8 条，失败 0 条。
+声学测量：新测 8 条，共 8 条 → rounds\r0b\acoustic.json。提示项：音高偏高 8 条、停顿偏多 1 条
+用试音台（rater.html）打开 rounds\r0b 开始听。
