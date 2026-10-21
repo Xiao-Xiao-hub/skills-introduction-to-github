@@ -24,6 +24,8 @@ step1 海选 ──► 试音台粗选 ──► step2 精调 ──► 试音�
 
 把 `DEPLOY.md` 交给帮你部署的 AI。它最后会跑两条 `--smoke` 验收命令，各生成 1 条音频，能播放就说明好了。
 
+本机部署和试听样本：[2026-10-21 Windows 部署报告](reports/2026-10-21-windows-deployment/README.md)。当前进度与同步约定见 [PROGRESS.md](PROGRESS.md)。
+
 下面的命令都在本文件夹里运行。`xvx-vox` 是 VoxCPM2 的环境，`xvx-qwen` 是 Qwen3-TTS 的环境。
 
 ## 1. 海选

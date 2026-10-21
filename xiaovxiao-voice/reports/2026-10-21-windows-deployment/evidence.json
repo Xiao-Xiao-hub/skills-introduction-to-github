@@ -1,0 +1,120 @@
+{
+  "recorded_at": "2026-10-21T23:36:01+08:00",
+  "source_base_commit": "42288cbee80388ff3e26e89d52e9e3790b497807",
+  "branch": "claude/nifty-ritchie-n04rar",
+  "environments": {
+    "xvx-vox": {
+      "python": "3.11.15 (main, May 10 2026, 19:31:25) [MSC v.1944 64 bit (AMD64)]",
+      "packages": {
+        "torch": "2.11.0+cu128",
+        "torchaudio": "2.11.0+cu128",
+        "transformers": "5.20.2",
+        "voxcpm": "2.0.3",
+        "qwen-tts": null,
+        "flash-attn": null,
+        "torchcodec": "0.17.0"
+      },
+      "cuda": "12.8",
+      "cuda_available": true,
+      "capability": [
+        12,
+        0
+      ],
+      "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+      "cuda_kernel_check": "PASS",
+      "directory": ".venvs/xvx-vox",
+      "pip_check": "No broken requirements found."
+    },
+    "xvx-qwen": {
+      "python": "3.11.15 (main, May 10 2026, 19:31:25) [MSC v.1944 64 bit (AMD64)]",
+      "packages": {
+        "torch": "2.11.0+cu128",
+        "torchaudio": "2.11.0+cu128",
+        "transformers": "4.57.3",
+        "qwen-tts": "0.1.1",
+        "voxcpm": null,
+        "flash-attn": null
+      },
+      "cuda": "12.8",
+      "cuda_available": true,
+      "capability": [
+        12,
+        0
+      ],
+      "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+      "cuda_kernel_check": "PASS",
+      "directory": ".venvs/xvx-qwen",
+      "pip_check": "No broken requirements found."
+    }
+  },
+  "models": [
+    {
+      "model": "OpenBMB/VoxCPM2",
+      "source": "https://modelscope.cn/models/OpenBMB/VoxCPM2",
+      "local_dir": "models/VoxCPM2",
+      "file_count": 9,
+      "total_bytes": 4960732453,
+      "file_size_check": "PASS"
+    },
+    {
+      "model": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "source": "https://modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "local_dir": "models/Qwen3-TTS-VoiceDesign",
+      "file_count": 14,
+      "total_bytes": 4520164607,
+      "file_size_check": "PASS"
+    }
+  ],
+  "smoke_results": {
+    "voxcpm2": {
+      "success": 1,
+      "failed": 0
+    },
+    "qwen3": {
+      "success": 1,
+      "failed": 0
+    }
+  },
+  "audios": [
+    {
+      "model": "qwen3",
+      "sample_rate": 24000,
+      "duration_seconds": 17.12,
+      "peak": 0.44140625,
+      "rms_dbfs": -20.37,
+      "bytes": 821804,
+      "path": "smoke/smoke_qwen_7020d0.wav",
+      "sha256": "63ac46053bd6672f75d453d5f197b6f2904c4b3a3e2b6bd95dd5ce510f0632aa",
+      "subtype": "PCM_16",
+      "channels": 1
+    },
+    {
+      "model": "voxcpm2",
+      "sample_rate": 48000,
+      "duration_seconds": 13.28,
+      "peak": 0.303314208984375,
+      "rms_dbfs": -32.27,
+      "bytes": 1274924,
+      "path": "smoke/smoke_vox_5b280b.wav",
+      "sha256": "d68cc2312afcfccfade19f5de2e3709767a2efa3f92ef5b8a95eec19341a8584",
+      "subtype": "PCM_16",
+      "channels": 1
+    }
+  ],
+  "initial_voxcpm_failure": {
+    "count": 1,
+    "error": "VoxCPM._generate() got an unexpected keyword argument 'seed'",
+    "resolved": true,
+    "resolution": "VoxCPM2Backend calls existing seed_everything(seed), then generate without the unsupported seed keyword."
+  },
+  "source_scope_check": "PASS: only VoxCPM2Backend changed; specs and all other scripts unchanged",
+  "specs_sha256": "cc3c5e4a5dc22f44e5c89d3d40edd5d7119ea2fae8d672d8a641047fc653016a",
+  "sample_copy_hash_check": "PASS",
+  "user_listening_confirmed": false,
+  "formal_audition": {
+    "started": false,
+    "generated": 0,
+    "planned_total": 120,
+    "per_model": 60
+  }
+}

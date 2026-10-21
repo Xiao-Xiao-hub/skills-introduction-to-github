@@ -175,8 +175,10 @@ class VoxCPM2Backend:
         self.cfg, self.steps = cfg, steps
 
     def _generate(self, seed, **kwargs):
-        wav = self.model.generate(cfg_value=self.cfg, inference_timesteps=self.steps, seed=seed, **kwargs)
-        # 遇到坏样本时 VoxCPM 会自动换种子重试，记下真正用到的种子
+        # voxcpm 2.0.3 的 generate 不接受 seed，通过随机数状态控制种子。
+        seed_everything(seed)
+        wav = self.model.generate(cfg_value=self.cfg, inference_timesteps=self.steps, **kwargs)
+        # 若模型暴露重试后实际使用的种子则记录，否则保留本次初始种子。
         used = getattr(self.model.tts_model, "last_successful_seed", None)
         return wav, self.sr, seed if used is None else int(used)
 
