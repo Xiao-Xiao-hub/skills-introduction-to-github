@@ -1,8 +1,8 @@
 # 部署与找音色进度
 
-更新时间：2026-10-22T02:08:16+08:00（北京时间）。分支：`claude/nifty-ritchie-n04rar`。
+更新时间：2026-10-22T02:11:07+08:00（北京时间）。分支：`claude/nifty-ritchie-n04rar`。
 
-当前状态：MOSS第三环境和烟测均通过，单条139.2秒；VoxCPM2 8/8、Qwen3 8/8、MOSS 0/8，总进度16/24。当前阶段：moss_running。正式海选未启动。
+当前状态：MOSS第三环境和烟测均通过，单条139.2秒；VoxCPM2 8/8、Qwen3 8/8、MOSS 1/8，总进度17/24。当前阶段：moss_running。正式海选未启动。
 
 ## 当前模型对比 r0b
 
@@ -12,7 +12,7 @@
 | MOSS第三环境 | Python3.12.13；torch2.9.1+cu128、CUDA12.8、算力(12,0)、GPU运算及pip check均通过；未安装flash-attn |
 | MOSS代码与模型 | 代码在工具包外E:/MOSS-TTS；两套模型31个文件大小核对通过 |
 | MOSS烟测 | 成功1条、失败0条；15.76秒音频，生成用时139.2秒，无接口修改 |
-| r0b三模型对比 | VoxCPM2 8/8、Qwen3 8/8、MOSS 0/8，总进度16/24。当前阶段：moss_running。 |
+| r0b三模型对比 | VoxCPM2 8/8、Qwen3 8/8、MOSS 1/8，总进度17/24。当前阶段：moss_running。 |
 | 报告同步 | [本轮报告](reports/2026-10-22-model-compare-r0b/README.md)；阶段进展及时提交推送 |
 | 异常回退 | MOSS若无法安装或运行，保存原始报错，先完成另外两个模型16条 |
 | 用户盲听与评分同步 | 对比轮完成后选择rounds/r0b盲听；用户说评完了后再归档ratings.json |
