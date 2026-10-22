@@ -1,0 +1,104 @@
+计划 72 条：已完成 4，本次生成 68 → E:\skills-introduction-to-github\xiaovxiao-voice\dub\out\r0b_moss_611767_style\takes
+voxcpm_model_path: .\models\VoxCPM2, zipenhancer_model_path: None, enable_denoiser: False
+E:\skills-introduction-to-github\xiaovxiao-voice\.venvs\xvx-vox\Lib\site-packages\torch\nn\utils\weight_norm.py:144: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+Loading AudioVAE from pytorch: .\models\VoxCPM2\audiovae.pth
+Running on device: cuda, dtype: bfloat16
+Loading model from safetensors: .\models\VoxCPM2\model.safetensors
+Loaded VoxCPM2Model
+[1/68] g01-02_t1_9c2a  组 01-02 / 第1条 cfg2 步数10  3.52s 音频，用时 9.2s，预计还要 10.2 分钟
+[2/68] g01-02_t2_76c5  组 01-02 / 第2条 cfg2 步数10  3.36s 音频，用时 3.6s，预计还要 7.0 分钟
+[3/68] g01-02_t3_d02b  组 01-02 / 第3条 cfg2 步数10  4.48s 音频，用时 4.7s，预计还要 6.3 分钟
+[4/68] g03_t1_1b0a  组 03 / 第1条 cfg2 步数10  4.8s 音频，用时 5.1s，预计还要 6.0 分钟
+[5/68] g03_t2_d88f  组 03 / 第2条 cfg2 步数10  4.96s 音频，用时 5.4s，预计还要 5.9 分钟
+[6/68] g03_t3_b9ef  组 03 / 第3条 cfg2 步数10  3.36s 音频，用时 4.1s，预计还要 5.5 分钟
+[7/68] g04_t1_3665  组 04 / 第1条 cfg2 步数10  3.84s 音频，用时 4.4s，预计还要 5.3 分钟
+[8/68] g04_t2_2d50  组 04 / 第2条 cfg2 步数10  4.16s 音频，用时 4.8s，预计还要 5.2 分钟
+[9/68] g04_t3_1038  组 04 / 第3条 cfg2 步数10  4.32s 音频，用时 4.7s，预计还要 5.0 分钟
+[10/68] g05-06_t2_eeab  组 05-06 / 第2条 cfg2 步数10  9.6s 音频，用时 10.8s，预计还要 5.5 分钟
+[11/68] g05-06_t3_e822  组 05-06 / 第3条 cfg2 步数10  11.36s 音频，用时 13.4s，预计还要 6.1 分钟
+[12/68] g07_t2_9fcc  组 07 / 第2条 cfg2 步数10  5.44s 音频，用时 6.5s，预计还要 6.0 分钟
+[13/68] g07_t3_14bc  组 07 / 第3条 cfg2 步数10  8.0s 音频，用时 9.5s，预计还要 6.1 分钟
+[14/68] g08_t1_bc62  组 08 / 第1条 cfg2 步数10  4.64s 音频，用时 5.8s，预计还要 5.9 分钟
+[15/68] g08_t2_6e65  组 08 / 第2条 cfg2 步数10  4.16s 音频，用时 5.7s，预计还要 5.8 分钟
+[16/68] g08_t3_7e10  组 08 / 第3条 cfg2 步数10  4.64s 音频，用时 6.1s，预计还要 5.6 分钟
+[17/68] g09_t1_3906  组 09 / 第1条 cfg2 步数10  4.8s 音频，用时 6.9s，预计还要 5.5 分钟
+[18/68] g09_t2_09cf  组 09 / 第2条 cfg2 步数10  4.32s 音频，用时 5.7s，预计还要 5.4 分钟
+[19/68] g09_t3_a887  组 09 / 第3条 cfg2 步数10  4.48s 音频，用时 5.5s，预计还要 5.2 分钟
+[20/68] g10_t1_177f  组 10 / 第1条 cfg2 步数10  5.44s 音频，用时 6.7s，预计还要 5.1 分钟
+[21/68] g10_t2_313c  组 10 / 第2条 cfg2 步数10  5.44s 音频，用时 6.9s，预计还要 5.1 分钟
+[22/68] g10_t3_0f43  组 10 / 第3条 cfg2 步数10  6.56s 音频，用时 9.2s，预计还要 5.0 分钟
+[23/68] g11_t1_ab0e  组 11 / 第1条 cfg2 步数10  5.44s 音频，用时 7.8s，预计还要 5.0 分钟
+[24/68] g11_t2_da57  组 11 / 第2条 cfg2 步数10  4.96s 音频，用时 6.1s，预计还要 4.8 分钟
+[25/68] g11_t3_6030  组 11 / 第3条 cfg2 步数10  5.6s 音频，用时 8.4s，预计还要 4.8 分钟
+[26/68] g12_t1_1149  组 12 / 第1条 cfg2 步数10  8.64s 音频，用时 11.4s，预计还要 4.8 分钟
+[27/68] g12_t2_8c99  组 12 / 第2条 cfg2 步数10  8.96s 音频，用时 13.2s，预计还要 4.9 分钟
+[28/68] g12_t3_a5db  组 12 / 第3条 cfg2 步数10  8.32s 音频，用时 11.8s，预计还要 4.8 分钟
+[29/68] g13_t1_80eb  组 13 / 第1条 cfg2 步数10  7.84s 音频，用时 10.8s，预计还要 4.8 分钟
+[30/68] g13_t2_0090  组 13 / 第2条 cfg2 步数10  5.28s 音频，用时 8.4s，预计还要 4.7 分钟
+[31/68] g13_t3_e8fd  组 13 / 第3条 cfg2 步数10  4.32s 音频，用时 6.0s，预计还要 4.5 分钟
+[32/68] g14_t2_d28b  组 14 / 第2条 cfg2 步数10  9.28s 音频，用时 13.7s，预计还要 4.5 分钟
+[33/68] g14_t3_edad  组 14 / 第3条 cfg2 步数10  11.2s 音频，用时 17.2s，预计还要 4.6 分钟
+[34/68] g15_t1_3cdf  组 15 / 第1条 cfg2 步数10  6.72s 音频，用时 9.1s，预计还要 4.5 分钟
+[35/68] g15_t2_6e21  组 15 / 第2条 cfg2 步数10  6.88s 音频，用时 9.1s，预计还要 4.4 分钟
+[36/68] g15_t3_582e  组 15 / 第3条 cfg2 步数10  7.04s 音频，用时 9.1s，预计还要 4.2 分钟
+[37/68] g16_t1_2321  组 16 / 第1条 cfg2 步数10  5.6s 音频，用时 7.6s，预计还要 4.1 分钟
+[38/68] g16_t2_bb62  组 16 / 第2条 cfg2 步数10  5.6s 音频，用时 8.5s，预计还要 4.0 分钟
+[39/68] g16_t3_b56c  组 16 / 第3条 cfg2 步数10  4.8s 音频，用时 6.4s，预计还要 3.8 分钟
+[40/68] g17_t1_f038  组 17 / 第1条 cfg2 步数10  6.4s 音频，用时 10.4s，预计还要 3.7 分钟
+[41/68] g17_t2_e9b7  组 17 / 第2条 cfg2 步数10  6.88s 音频，用时 10.1s，预计还要 3.6 分钟
+[42/68] g17_t3_766d  组 17 / 第3条 cfg2 步数10  6.88s 音频，用时 11.1s，预计还要 3.5 分钟
+[43/68] g18_t1_9bfc  组 18 / 第1条 cfg2 步数10  5.6s 音频，用时 7.4s，预计还要 3.4 分钟
+[44/68] g18_t2_4da5  组 18 / 第2条 cfg2 步数10  6.4s 音频，用时 8.2s，预计还要 3.2 分钟
+[45/68] g18_t3_9ca0  组 18 / 第3条 cfg2 步数10  9.6s 音频，用时 12.3s，预计还要 3.1 分钟
+[46/68] g19_t1_3a65  组 19 / 第1条 cfg2 步数10  7.52s 音频，用时 10.1s，预计还要 3.0 分钟
+[47/68] g19_t2_f966  组 19 / 第2条 cfg2 步数10  7.52s 音频，用时 9.8s，预计还要 2.9 分钟
+[48/68] g19_t3_e05c  组 19 / 第3条 cfg2 步数10  6.88s 音频，用时 11.4s，预计还要 2.8 分钟
+[49/68] g20_t1_233d  组 20 / 第1条 cfg2 步数10  8.16s 音频，用时 12.6s，预计还要 2.7 分钟
+[50/68] g20_t2_bb11  组 20 / 第2条 cfg2 步数10  7.52s 音频，用时 11.2s，预计还要 2.5 分钟
+[51/68] g20_t3_c70c  组 20 / 第3条 cfg2 步数10  8.64s 音频，用时 14.1s，预计还要 2.4 分钟
+[52/68] g21_t1_dea2  组 21 / 第1条 cfg2 步数10  3.68s 音频，用时 5.1s，预计还要 2.3 分钟
+[53/68] g21_t2_8516  组 21 / 第2条 cfg2 步数10  3.52s 音频，用时 6.2s，预计还要 2.1 分钟
+[54/68] g21_t3_4c76  组 21 / 第3条 cfg2 步数10  2.88s 音频，用时 4.6s，预计还要 2.0 分钟
+[55/68] g22_t1_091c  组 22 / 第1条 cfg2 步数10  5.76s 音频，用时 7.6s，预计还要 1.8 分钟
+[56/68] g22_t2_ab2c  组 22 / 第2条 cfg2 步数10  5.76s 音频，用时 7.4s，预计还要 1.7 分钟
+[57/68] g22_t3_c750  组 22 / 第3条 cfg2 步数10  5.76s 音频，用时 7.2s，预计还要 1.5 分钟
+[58/68] g23a_t2_62bd  组 23a / 第2条 cfg2 步数10  10.88s 音频，用时 16.6s，预计还要 1.4 分钟
+[59/68] g23a_t3_0fa0  组 23a / 第3条 cfg2 步数10  11.68s 音频，用时 16.4s，预计还要 1.3 分钟
+[60/68] g23b_t1_e969  组 23b / 第1条 cfg2 步数10  12.64s 音频，用时 19.0s，预计还要 1.2 分钟
+[61/68] g23b_t2_1861  组 23b / 第2条 cfg2 步数10  17.44s 音频，用时 21.9s，预计还要 1.1 分钟
+[62/68] g23b_t3_5ea9  组 23b / 第3条 cfg2 步数10  12.16s 音频，用时 19.1s，预计还要 0.9 分钟
+[63/68] g24_t1_18e8  组 24 / 第1条 cfg2 步数10  14.08s 音频，用时 20.4s，预计还要 0.8 分钟
+[64/68] g24_t2_8306  组 24 / 第2条 cfg2 步数10  12.8s 音频，用时 17.8s，预计还要 0.6 分钟
+[65/68] g24_t3_faa7  组 24 / 第3条 cfg2 步数10  12.16s 音频，用时 15.7s，预计还要 0.5 分钟
+[66/68] g26-27_t1_ba4f  组 26-27 / 第1条 cfg2 步数10  8.32s 音频，用时 10.7s，预计还要 0.3 分钟
+[67/68] g26-27_t2_c2e1  组 26-27 / 第2条 cfg2 步数10  10.56s 音频，用时 14.5s，预计还要 0.2 分钟
+[68/68] g26-27_t3_2b86  组 26-27 / 第3条 cfg2 步数10  8.64s 音频，用时 13.4s，预计还要 0.0 分钟
+完成：成功 68 条，失败 0 条。
+声学测量：新测 72 条，共 72 条 → E:\skills-introduction-to-github\xiaovxiao-voice\dub\out\r0b_moss_611767_style\takes\acoustic.json。提示项：音高偏高 16 条、停顿偏多 3 条、语速偏慢 2 条
+用试音台（rater.html）打开 E:\skills-introduction-to-github\xiaovxiao-voice\dub\out\r0b_moss_611767_style\takes 开始听。
+
+正在挑选每组最合适的一条、切句、落位……
+funasr version: 1.4.16.
+2026-10-22 11:43:22,597 [INFO] download models from model hub: ms
+2026-10-22 11:43:23,193 | INFO    | modelscope_hub.download | Downloading 13 files from iic/speech_seaco_paraformer_large_asr_nat-zh-cn-16k-common-vocab8404-pytorch@master
+2026-10-22 11:43:24,100 [WARNING] trust_remote_code: False
+2026-10-22 11:43:25,292 [INFO] Loading pretrained params from E:\skills-introduction-to-github\xiaovxiao-voice\.cache\modelscope\models\iic--speech_seaco_paraformer_large_asr_nat-zh-cn-16k-common-vocab8404-pytorch\snapshots\master\model.pt
+2026-10-22 11:43:25,296 [INFO] ckpt: E:\skills-introduction-to-github\xiaovxiao-voice\.cache\modelscope\models\iic--speech_seaco_paraformer_large_asr_nat-zh-cn-16k-common-vocab8404-pytorch\snapshots\master\model.pt
+2026-10-22 11:43:25,733 [INFO] scope_map: ['module.', 'None']
+2026-10-22 11:43:25,733 [INFO] excludes: None
+2026-10-22 11:43:25,787 [INFO] Loading ckpt: E:\skills-introduction-to-github\xiaovxiao-voice\.cache\modelscope\models\iic--speech_seaco_paraformer_large_asr_nat-zh-cn-16k-common-vocab8404-pytorch\snapshots\master\model.pt, status: <All keys matched successfully>
+
+人声轨：E:\skills-introduction-to-github\xiaovxiao-voice\dub\out\r0b_moss_611767_style\final\人声轨_48k24bit.wav
+报告：E:\skills-introduction-to-github\xiaovxiao-voice\dub\out\r0b_moss_611767_style\final\配音报告.md
+⚠ 组 07：需要加速 1.16 倍才放得下，已按上限 1.1 倍处理，后面的句子会顺延
+⚠ 组 08：识别出的文字和稿子差 6%，可能有漏读或读错，务必听一下
+⚠ 组 11：没能按句切开，整组从第一句的时间开始播放
+⚠ 组 14：没能按句切开，整组从第一句的时间开始播放
+⚠ 组 15：需要加速 1.16 倍才放得下，已按上限 1.1 倍处理，后面的句子会顺延
+⚠ 组 17：识别出的文字和稿子差 8%，可能有漏读或读错，务必听一下
+⚠ 组 23b：没能按句切开，整组从第一句的时间开始播放
+⚠ 组 24：没能按句切开，整组从第一句的时间开始播放
+⚠ 组 26-27：需要加速 1.28 倍才放得下，已按上限 1.1 倍处理，后面的句子会顺延
+⚠ 组 26-27：识别出的文字和稿子差 11%，可能有漏读或读错，务必听一下
+PROFILE_B_PROCESS_EXIT=0; elapsed_seconds=709.5
