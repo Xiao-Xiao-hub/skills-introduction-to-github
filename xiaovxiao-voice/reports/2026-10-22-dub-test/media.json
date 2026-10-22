@@ -1,0 +1,117 @@
+{
+  "checked_at": "2026-10-22T10:22:58+08:00",
+  "selected_video": "D:\\XiaoNian-Video\\review\\2026-10-21-v10\\晓念_V10_完整片_无旁白_30MB以内.mp4",
+  "music": "D:\\XiaoNian-Video\\review\\2026-10-21-v10\\audio\\music.wav",
+  "sfx": "D:\\XiaoNian-Video\\review\\2026-10-21-v10\\audio\\sfx.wav",
+  "files": [
+    {
+      "path": "D:\\XiaoNian-Video\\review\\2026-10-21-v10\\晓念_V10_完整片_无旁白.mp4",
+      "bytes": 89795477,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "60/1",
+            "bits_per_raw_sample": "8"
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "avg_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "178.000000",
+          "size": "89795477"
+        }
+      }
+    },
+    {
+      "path": "D:\\XiaoNian-Video\\review\\2026-10-21-v10\\晓念_V10_完整片_无旁白_30MB以内.mp4",
+      "bytes": 28945981,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "60/1",
+            "bits_per_raw_sample": "8"
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "avg_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "178.005000",
+          "size": "28945981"
+        }
+      }
+    },
+    {
+      "path": "D:\\XiaoNian-Video\\review\\2026-10-21-v10\\audio\\music.wav",
+      "bytes": 51264044,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "pcm_s24le",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "avg_frame_rate": "0/0",
+            "bits_per_raw_sample": "24"
+          }
+        ],
+        "format": {
+          "duration": "178.000000",
+          "size": "51264044"
+        }
+      }
+    },
+    {
+      "path": "D:\\XiaoNian-Video\\review\\2026-10-21-v10\\audio\\sfx.wav",
+      "bytes": 51264044,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "pcm_s24le",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "avg_frame_rate": "0/0",
+            "bits_per_raw_sample": "24"
+          }
+        ],
+        "format": {
+          "duration": "178.000000",
+          "size": "51264044"
+        }
+      }
+    }
+  ],
+  "selection_reason": "使用同为1080p60的30MB以内现成版本，供后续脚本拷贝视频流并替换音轨；正式配音等待用户选择音色。"
+}
