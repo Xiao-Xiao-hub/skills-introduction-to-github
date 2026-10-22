@@ -1,0 +1,29 @@
+计划 16 条：已完成 0，本次生成 16 → E:\skills-introduction-to-github\xiaovxiao-voice\dub\out\test
+voxcpm_model_path: .\models\VoxCPM2, zipenhancer_model_path: None, enable_denoiser: False
+E:\skills-introduction-to-github\xiaovxiao-voice\.venvs\xvx-vox\Lib\site-packages\torch\nn\utils\weight_norm.py:144: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+Loading AudioVAE from pytorch: .\models\VoxCPM2\audiovae.pth
+Running on device: cuda, dtype: bfloat16
+Loading model from safetensors: .\models\VoxCPM2\model.safetensors
+Loaded VoxCPM2Model
+[1/16] r0b_vox_821713_style_05-06_20eb  r0b_vox_821713 / 语气控制 / 05-06 cfg2 步数10  13.12s 音频，用时 68.1s，预计还要 17.0 分钟
+[2/16] r0b_vox_821713_style_07_cd02  r0b_vox_821713 / 语气控制 / 07 cfg2 步数10  5.76s 音频，用时 13.8s，预计还要 9.6 分钟
+[3/16] r0b_vox_821713_style_14_c6cf  r0b_vox_821713 / 语气控制 / 14 cfg2 步数10  11.2s 音频，用时 28.2s，预计还要 8.0 分钟
+[4/16] r0b_vox_821713_style_23a_894a  r0b_vox_821713 / 语气控制 / 23a cfg2 步数10  11.68s 音频，用时 27.8s，预计还要 6.9 分钟
+[5/16] r0b_vox_49a14f_style_05-06_e3f4  r0b_vox_49a14f / 语气控制 / 05-06 cfg2 步数10  10.4s 音频，用时 15.5s，预计还要 5.6 分钟
+[6/16] r0b_vox_49a14f_style_07_3f46  r0b_vox_49a14f / 语气控制 / 07 cfg2 步数10  5.12s 音频，用时 13.3s，预计还要 4.6 分钟
+[7/16] r0b_vox_49a14f_style_14_82d7  r0b_vox_49a14f / 语气控制 / 14 cfg2 步数10  9.76s 音频，用时 22.5s，预计还要 4.1 分钟
+[8/16] r0b_vox_49a14f_style_23a_1576  r0b_vox_49a14f / 语气控制 / 23a cfg2 步数10  12.48s 音频，用时 16.1s，预计还要 3.4 分钟
+[9/16] r0b_moss_611767_style_05-06_8202  r0b_moss_611767 / 语气控制 / 05-06 cfg2 步数10  10.56s 音频，用时 15.6s，预计还要 2.9 分钟
+[10/16] r0b_moss_611767_style_07_e119  r0b_moss_611767 / 语气控制 / 07 cfg2 步数10  6.72s 音频，用时 12.7s，预计还要 2.3 分钟
+[11/16] r0b_moss_611767_style_14_bbc5  r0b_moss_611767 / 语气控制 / 14 cfg2 步数10  10.72s 音频，用时 28.1s，预计还要 2.0 分钟
+[12/16] r0b_moss_611767_style_23a_7b27  r0b_moss_611767 / 语气控制 / 23a cfg2 步数10  11.84s 音频，用时 29.1s，预计还要 1.6 分钟
+[13/16] r0_vox_959950_style_05-06_a294  r0_vox_959950 / 语气控制 / 05-06 cfg2 步数10  13.12s 音频，用时 33.4s，预计还要 1.2 分钟
+[14/16] r0_vox_959950_style_07_4d69  r0_vox_959950 / 语气控制 / 07 cfg2 步数10  6.08s 音频，用时 17.6s，预计还要 0.8 分钟
+[15/16] r0_vox_959950_style_14_580a  r0_vox_959950 / 语气控制 / 14 cfg2 步数10  10.56s 音频，用时 30.3s，预计还要 0.4 分钟
+[16/16] r0_vox_959950_style_23a_10dc  r0_vox_959950 / 语气控制 / 23a cfg2 步数10  12.0s 音频，用时 31.9s，预计还要 0.0 分钟
+完成：成功 16 条，失败 0 条。
+声学测量：新测 16 条，共 16 条 → E:\skills-introduction-to-github\xiaovxiao-voice\dub\out\test\acoustic.json。提示项：音高偏高 6 条
+用试音台（rater.html）打开 E:\skills-introduction-to-github\xiaovxiao-voice\dub\out\test 开始听。
+试配完成。用试音台盲听 E:\skills-introduction-to-github\xiaovxiao-voice\dub\out\test，评完看统计里的「方向」（= 音色）和「精调变体」（= 方式）。
+DUB_TEST_PROCESS_EXIT=0; elapsed_seconds=436.6

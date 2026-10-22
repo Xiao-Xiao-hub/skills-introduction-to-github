@@ -1,14 +1,15 @@
 {
-  "updated_at": "2026-10-22T10:29:42+08:00",
-  "stage": "test_running",
+  "updated_at": "2026-10-22T10:32:40+08:00",
+  "stage": "awaiting_user_ref",
   "planned": 16,
-  "completed": 10,
+  "completed": 16,
   "failed": 0,
   "by_ref": {
     "r0b_vox_821713": 4,
     "r0b_vox_49a14f": 4,
-    "r0b_moss_611767": 2,
-    "r0_vox_959950": 0
+    "r0b_moss_611767": 4,
+    "r0_vox_959950": 4
   },
+  "acoustic_count": 16,
   "formal_render_started": false
 }

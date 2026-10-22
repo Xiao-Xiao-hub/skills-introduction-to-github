@@ -1,0 +1,326 @@
+{
+  "verified_at": "2026-10-22T10:32:40+08:00",
+  "success": 16,
+  "failed": 0,
+  "exit_code": 0,
+  "command_elapsed_seconds": 436.6,
+  "manifest_rows": 16,
+  "acoustic_rows": 16,
+  "expected_grid_verified": true,
+  "by_ref": {
+    "r0b_vox_821713": {
+      "success": 4,
+      "failed": 0,
+      "average_generation_seconds": 34.5,
+      "audio_seconds": 41.76
+    },
+    "r0b_vox_49a14f": {
+      "success": 4,
+      "failed": 0,
+      "average_generation_seconds": 16.9,
+      "audio_seconds": 37.76
+    },
+    "r0b_moss_611767": {
+      "success": 4,
+      "failed": 0,
+      "average_generation_seconds": 21.4,
+      "audio_seconds": 39.84
+    },
+    "r0_vox_959950": {
+      "success": 4,
+      "failed": 0,
+      "average_generation_seconds": 28.3,
+      "audio_seconds": 41.76
+    }
+  },
+  "files": [
+    {
+      "file": "r0b_vox_821713_style_05-06_20eb.wav",
+      "ref": "r0b_vox_821713",
+      "group": "05-06",
+      "sr": 48000,
+      "channels": 1,
+      "frames": 629760,
+      "duration_seconds": 13.12,
+      "generation_seconds": 68.1,
+      "peak_abs": 0.373901,
+      "bytes": 1259564,
+      "sha256": "dd7ada528c9c53e99b285a965402eced87996bccb8ee18f28964dfdaa0cbf61c",
+      "copy_sha256_match": true
+    },
+    {
+      "file": "r0b_vox_821713_style_07_cd02.wav",
+      "ref": "r0b_vox_821713",
+      "group": "07",
+      "sr": 48000,
+      "channels": 1,
+      "frames": 276480,
+      "duration_seconds": 5.76,
+      "generation_seconds": 13.8,
+      "peak_abs": 0.794861,
+      "bytes": 553004,
+      "sha256": "79b80537af9bceb2813677dc29cf94266f6c9b9702627408cfcfedd7dc3d9ff4",
+      "copy_sha256_match": true
+    },
+    {
+      "file": "r0b_vox_821713_style_14_c6cf.wav",
+      "ref": "r0b_vox_821713",
+      "group": "14",
+      "sr": 48000,
+      "channels": 1,
+      "frames": 537600,
+      "duration_seconds": 11.2,
+      "generation_seconds": 28.2,
+      "peak_abs": 0.79303,
+      "bytes": 1075244,
+      "sha256": "93a39b708dbada3b2c5287dc9527582f3c2b03b7ff8418749e9317a525da9718",
+      "copy_sha256_match": true
+    },
+    {
+      "file": "r0b_vox_821713_style_23a_894a.wav",
+      "ref": "r0b_vox_821713",
+      "group": "23a",
+      "sr": 48000,
+      "channels": 1,
+      "frames": 560640,
+      "duration_seconds": 11.68,
+      "generation_seconds": 27.8,
+      "peak_abs": 0.381744,
+      "bytes": 1121324,
+      "sha256": "010bdcb6a516239265dfed62cc04ee3b580dc9bc8f309f81822c7a945f8cee65",
+      "copy_sha256_match": true
+    },
+    {
+      "file": "r0b_vox_49a14f_style_05-06_e3f4.wav",
+      "ref": "r0b_vox_49a14f",
+      "group": "05-06",
+      "sr": 48000,
+      "channels": 1,
+      "frames": 499200,
+      "duration_seconds": 10.4,
+      "generation_seconds": 15.5,
+      "peak_abs": 0.371674,
+      "bytes": 998444,
+      "sha256": "c08c18dbf89941a7bed5f6006e2215b9e9eafb0514a849885b6af2a2d7a1e0a1",
+      "copy_sha256_match": true
+    },
+    {
+      "file": "r0b_vox_49a14f_style_07_3f46.wav",
+      "ref": "r0b_vox_49a14f",
+      "group": "07",
+      "sr": 48000,
+      "channels": 1,
+      "frames": 245760,
+      "duration_seconds": 5.12,
+      "generation_seconds": 13.3,
+      "peak_abs": 0.630798,
+      "bytes": 491564,
+      "sha256": "272c20d09781549fc4b701ab810935dfd8536390e68af793b1334b946a67fba2",
+      "copy_sha256_match": true
+    },
+    {
+      "file": "r0b_vox_49a14f_style_14_82d7.wav",
+      "ref": "r0b_vox_49a14f",
+      "group": "14",
+      "sr": 48000,
+      "channels": 1,
+      "frames": 468480,
+      "duration_seconds": 9.76,
+      "generation_seconds": 22.5,
+      "peak_abs": 0.930298,
+      "bytes": 937004,
+      "sha256": "5dfe80a0cad551aad4ea81a44230cb1ab738d879b37713b512a8940e42c7ecda",
+      "copy_sha256_match": true
+    },
+    {
+      "file": "r0b_vox_49a14f_style_23a_1576.wav",
+      "ref": "r0b_vox_49a14f",
+      "group": "23a",
+      "sr": 48000,
+      "channels": 1,
+      "frames": 599040,
+      "duration_seconds": 12.48,
+      "generation_seconds": 16.1,
+      "peak_abs": 0.395386,
+      "bytes": 1198124,
+      "sha256": "e09d778e95cb88d5c5381a0d9b8641d6c738ac79e002504c21facbf22b1208b5",
+      "copy_sha256_match": true
+    },
+    {
+      "file": "r0b_moss_611767_style_05-06_8202.wav",
+      "ref": "r0b_moss_611767",
+      "group": "05-06",
+      "sr": 48000,
+      "channels": 1,
+      "frames": 506880,
+      "duration_seconds": 10.56,
+      "generation_seconds": 15.6,
+      "peak_abs": 0.18576,
+      "bytes": 1013804,
+      "sha256": "ba8b37138b3157ef64850c7c0e4a7e37fc8ded10f5b383b056ba58a910ef84e0",
+      "copy_sha256_match": true
+    },
+    {
+      "file": "r0b_moss_611767_style_07_e119.wav",
+      "ref": "r0b_moss_611767",
+      "group": "07",
+      "sr": 48000,
+      "channels": 1,
+      "frames": 322560,
+      "duration_seconds": 6.72,
+      "generation_seconds": 12.7,
+      "peak_abs": 0.200317,
+      "bytes": 645164,
+      "sha256": "0f43fa99faa51b235d7a61408a3bfd6b0aa520bafaeba6abfec4a1267e84cf87",
+      "copy_sha256_match": true
+    },
+    {
+      "file": "r0b_moss_611767_style_14_bbc5.wav",
+      "ref": "r0b_moss_611767",
+      "group": "14",
+      "sr": 48000,
+      "channels": 1,
+      "frames": 514560,
+      "duration_seconds": 10.72,
+      "generation_seconds": 28.1,
+      "peak_abs": 0.16272,
+      "bytes": 1029164,
+      "sha256": "fe9c0fba8ddb3e0d5095525d09d60093f7574ed82d10c9c37bd85e978e74af1a",
+      "copy_sha256_match": true
+    },
+    {
+      "file": "r0b_moss_611767_style_23a_7b27.wav",
+      "ref": "r0b_moss_611767",
+      "group": "23a",
+      "sr": 48000,
+      "channels": 1,
+      "frames": 568320,
+      "duration_seconds": 11.84,
+      "generation_seconds": 29.1,
+      "peak_abs": 0.177795,
+      "bytes": 1136684,
+      "sha256": "238ffa1b751db3487ab944d9d40b972141231a82827ca439aca06c3146531d29",
+      "copy_sha256_match": true
+    },
+    {
+      "file": "r0_vox_959950_style_05-06_a294.wav",
+      "ref": "r0_vox_959950",
+      "group": "05-06",
+      "sr": 48000,
+      "channels": 1,
+      "frames": 629760,
+      "duration_seconds": 13.12,
+      "generation_seconds": 33.4,
+      "peak_abs": 0.991272,
+      "bytes": 1259564,
+      "sha256": "6c273460828c1aa651903371716c7fa78ad714742c06d7cab344d89a616dead4",
+      "copy_sha256_match": true
+    },
+    {
+      "file": "r0_vox_959950_style_07_4d69.wav",
+      "ref": "r0_vox_959950",
+      "group": "07",
+      "sr": 48000,
+      "channels": 1,
+      "frames": 291840,
+      "duration_seconds": 6.08,
+      "generation_seconds": 17.6,
+      "peak_abs": 0.993164,
+      "bytes": 583724,
+      "sha256": "e32c03165365b3a3eeb3bfd0f21121b7b84a06a9082c5d3e965a4bec943704c6",
+      "copy_sha256_match": true
+    },
+    {
+      "file": "r0_vox_959950_style_14_580a.wav",
+      "ref": "r0_vox_959950",
+      "group": "14",
+      "sr": 48000,
+      "channels": 1,
+      "frames": 506880,
+      "duration_seconds": 10.56,
+      "generation_seconds": 30.3,
+      "peak_abs": 0.994812,
+      "bytes": 1013804,
+      "sha256": "8832bd4c7d30b6cd1a01d81763ad177c380df2178e721ef4c3ec57ffc1acb142",
+      "copy_sha256_match": true
+    },
+    {
+      "file": "r0_vox_959950_style_23a_10dc.wav",
+      "ref": "r0_vox_959950",
+      "group": "23a",
+      "sr": 48000,
+      "channels": 1,
+      "frames": 576000,
+      "duration_seconds": 12.0,
+      "generation_seconds": 31.9,
+      "peak_abs": 0.971497,
+      "bytes": 1152044,
+      "sha256": "a84cf94a9dc67d15b327117790ff778023f55a80f26dd42198796910bf97bb67",
+      "copy_sha256_match": true
+    }
+  ],
+  "data_files": {
+    "manifest.jsonl": {
+      "sha256": "ad8407bafae40d82136d431fe1486b6f4d50e5a1424d5922ecc36338be7fdbd0",
+      "copy_sha256_match": true
+    },
+    "acoustic.json": {
+      "sha256": "aa660ec5a30f5e8a8c454c9de09e6da96de00bdffb5153ce64c6e69c72cee81a",
+      "copy_sha256_match": true
+    }
+  },
+  "protected_sources_unchanged": {
+    "common.py": {
+      "expected": "5d45aed2854fe4224a0b0659312051240509c9a07bac6f70fe683606ddef262e",
+      "actual": "5d45aed2854fe4224a0b0659312051240509c9a07bac6f70fe683606ddef262e"
+    },
+    "dub.py": {
+      "expected": "34e20dcfbb8749105cabd7272c67155ff0a68bc2f9b5392c2ccb17466eb629ac",
+      "actual": "34e20dcfbb8749105cabd7272c67155ff0a68bc2f9b5392c2ccb17466eb629ac"
+    },
+    "measure.py": {
+      "expected": "ddfad8c55df26063a83bcf8f7242e75d07414a46645f535183cf3dd130dec824",
+      "actual": "ddfad8c55df26063a83bcf8f7242e75d07414a46645f535183cf3dd130dec824"
+    },
+    "specs.py": {
+      "expected": "2f9e47024a1b2455607fe21d0e4a665dd4bbfd5266cd687596682fb8bf259cc8",
+      "actual": "2f9e47024a1b2455607fe21d0e4a665dd4bbfd5266cd687596682fb8bf259cc8"
+    },
+    "step1_audition.py": {
+      "expected": "0a3718cc9275eb5bef6b81d6ae02ffb4ec0424b75007b0eed962adbff09b07fd",
+      "actual": "0a3718cc9275eb5bef6b81d6ae02ffb4ec0424b75007b0eed962adbff09b07fd"
+    },
+    "step2_refine.py": {
+      "expected": "e0ec0831053df10633115e238e183dace2716392b7f0cd2b2a60c950ef0154ac",
+      "actual": "e0ec0831053df10633115e238e183dace2716392b7f0cd2b2a60c950ef0154ac"
+    },
+    "step3_clone_test.py": {
+      "expected": "b956a0eacb2f17dd84e998faf5b794ffc845ea7d9c9d6ae9b5563abc6337a942",
+      "actual": "b956a0eacb2f17dd84e998faf5b794ffc845ea7d9c9d6ae9b5563abc6337a942"
+    },
+    "step4_finalize.py": {
+      "expected": "5c707160832184768e749214c6f9090722b54d42db83b3f534d64ea4925ab7d8",
+      "actual": "5c707160832184768e749214c6f9090722b54d42db83b3f534d64ea4925ab7d8"
+    },
+    "dub/xiaonian_v10.json": {
+      "expected": "d8da845a59679b12305cac3226277b8d6b3c5bed93c6f49e034b1ed31cc81c9b",
+      "actual": "d8da845a59679b12305cac3226277b8d6b3c5bed93c6f49e034b1ed31cc81c9b"
+    },
+    "voices/v1/哓v哓_v1_声音档案.json": {
+      "expected": "2f489f0f5c516b7609026190d901cde9b204cca2577c4eb8e77ffb12812652a8",
+      "actual": "2f489f0f5c516b7609026190d901cde9b204cca2577c4eb8e77ffb12812652a8"
+    },
+    "voices/v1/哓v哓_v1_定妆音.txt": {
+      "expected": "f2340ce5cddd9fd302fac9cadd38d38e97e3bfd850e28a7c5df60117a2201d86",
+      "actual": "f2340ce5cddd9fd302fac9cadd38d38e97e3bfd850e28a7c5df60117a2201d86"
+    },
+    "voices/v1/哓v哓_v1_定妆音.wav": {
+      "expected": "612b3162df5925162377ec9ca2501911a53c5b73e96265538d53be68ee3b9024",
+      "actual": "612b3162df5925162377ec9ca2501911a53c5b73e96265538d53be68ee3b9024"
+    }
+  },
+  "backend_changes": [],
+  "ratings_archived": false,
+  "formal_render_started": false,
+  "acceptance_limit": "文件可解码、非静音及归档完整性已验证；正式解说音色由用户盲听选择。"
+}
