@@ -1,0 +1,3681 @@
+{
+  "profile": "c3",
+  "technical_passed": false,
+  "human_listening_passed": false,
+  "whole_group_alignment_only": true,
+  "exact_55_cue_alignment_verified": false,
+  "model_rows": [
+    {
+      "id": "c3_g01-02",
+      "profile": "c3",
+      "group": "01-02",
+      "text": "躺下了。脑子却停不下来。",
+      "file": "c3_g01-02.wav",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g01-02.wav",
+      "start": 0.35,
+      "end": 3.11,
+      "sha256": "b5cfce392196936694933d77740d300211cc7e86ed977b9e71ec1cdfa7591fbe",
+      "cue_windows": [
+        {
+          "shot": "01",
+          "text": "躺下了。",
+          "start": 0.35,
+          "end": 1.55
+        },
+        {
+          "shot": "02",
+          "text": "脑子却停不下来。",
+          "start": 2.15,
+          "end": 4.15
+        }
+      ],
+      "checks": {
+        "position_present": true,
+        "inside_178s": true,
+        "no_overlap": true,
+        "original_text": true,
+        "current_expression_bank": true,
+        "selection_passed": true,
+        "selected_source_hash": true,
+        "hard_window": true,
+        "speed": true,
+        "non_silent": true
+      },
+      "paraformer": {
+        "text": "躺 下 了 脑 子 却 停 不 下 来",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            450
+          ],
+          [
+            450,
+            690
+          ],
+          [
+            1430,
+            1670
+          ],
+          [
+            1690,
+            1850
+          ],
+          [
+            1850,
+            1990
+          ],
+          [
+            1990,
+            2150
+          ],
+          [
+            2150,
+            2250
+          ],
+          [
+            2250,
+            2370
+          ],
+          [
+            2370,
+            2605
+          ]
+        ]
+      },
+      "paraformer_normalized": "躺下了脑子却停不下来",
+      "paraformer_match": true
+    },
+    {
+      "id": "c3_g03",
+      "profile": "c3",
+      "group": "03",
+      "text": "一天里，许多念头冒出来，又慢慢散去。",
+      "file": "c3_g03.wav",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g03.wav",
+      "start": 4.65,
+      "end": 7.56,
+      "sha256": "b824c28607a78cf63747001134c64639c918c35799cfe4d8b3c9230cff7e2748",
+      "cue_windows": [
+        {
+          "shot": "03",
+          "text": "一天里，许多念头冒出来，又慢慢散去。",
+          "start": 4.65,
+          "end": 8.75
+        }
+      ],
+      "checks": {
+        "position_present": true,
+        "inside_178s": true,
+        "no_overlap": true,
+        "original_text": true,
+        "current_expression_bank": true,
+        "selection_passed": true,
+        "selected_source_hash": true,
+        "hard_window": true,
+        "speed": true,
+        "non_silent": true
+      },
+      "paraformer": {
+        "text": "一 天 里 许 多 念 头 冒 出 来 又 慢 慢 散 去",
+        "timestamp": [
+          [
+            90,
+            210
+          ],
+          [
+            210,
+            390
+          ],
+          [
+            390,
+            630
+          ],
+          [
+            710,
+            850
+          ],
+          [
+            850,
+            1030
+          ],
+          [
+            1030,
+            1150
+          ],
+          [
+            1150,
+            1350
+          ],
+          [
+            1350,
+            1490
+          ],
+          [
+            1490,
+            1670
+          ],
+          [
+            1670,
+            1910
+          ],
+          [
+            1910,
+            2110
+          ],
+          [
+            2110,
+            2190
+          ],
+          [
+            2190,
+            2390
+          ],
+          [
+            2390,
+            2550
+          ],
+          [
+            2550,
+            2785
+          ]
+        ]
+      },
+      "paraformer_normalized": "一天里许多念头冒出来又慢慢散去",
+      "paraformer_match": true
+    },
+    {
+      "id": "c3_g04",
+      "profile": "c3",
+      "group": "04",
+      "text": "睡前，把明天要做的事，先写下来。",
+      "file": "c3_g04.wav",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g04.wav",
+      "start": 9.2,
+      "end": 11.82,
+      "sha256": "981bfc06c0094e21eeeb90dae517670e2be4c16436f076e9e58eb4499525294d",
+      "cue_windows": [
+        {
+          "shot": "04",
+          "text": "睡前，把明天要做的事，先写下来。",
+          "start": 9.2,
+          "end": 13.7
+        }
+      ],
+      "checks": {
+        "position_present": true,
+        "inside_178s": true,
+        "no_overlap": true,
+        "original_text": true,
+        "current_expression_bank": true,
+        "selection_passed": true,
+        "selected_source_hash": true,
+        "hard_window": true,
+        "speed": true,
+        "non_silent": true
+      },
+      "paraformer": {
+        "text": "睡 前 把 明 天 要 做 的 事 先 写 下 来",
+        "timestamp": [
+          [
+            130,
+            330
+          ],
+          [
+            330,
+            570
+          ],
+          [
+            630,
+            810
+          ],
+          [
+            810,
+            970
+          ],
+          [
+            970,
+            1110
+          ],
+          [
+            1110,
+            1270
+          ],
+          [
+            1270,
+            1430
+          ],
+          [
+            1430,
+            1510
+          ],
+          [
+            1510,
+            1750
+          ],
+          [
+            1810,
+            1970
+          ],
+          [
+            1970,
+            2130
+          ],
+          [
+            2130,
+            2310
+          ],
+          [
+            2310,
+            2515
+          ]
+        ]
+      },
+      "paraformer_normalized": "睡前把明天要做的事先写下来",
+      "paraformer_match": true
+    },
+    {
+      "id": "c3_g05-06",
+      "profile": "c3",
+      "group": "05-06",
+      "text": "这是晓念，从随手记下一句话开始。要做的事、没想完的问题，AI整理成卡，原话也一起留着。记下之后，再接着想。",
+      "file": "c3_g05-06.wav",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g05-06.wav",
+      "start": 14.18,
+      "end": 24.03,
+      "sha256": "e4b52c0d8e5a9f80084b740395ae5af3817d73e4e8ff66a76fae6df7ec975d9b",
+      "cue_windows": [
+        {
+          "shot": "05",
+          "text": "这是晓念，从随手记下一句话开始。",
+          "start": 14.18,
+          "end": 17.6
+        },
+        {
+          "shot": "05",
+          "text": "要做的事、没想完的问题，",
+          "start": 17.68,
+          "end": 20.12
+        },
+        {
+          "shot": "05",
+          "text": "AI整理成卡，原话也一起留着。",
+          "start": 20.2,
+          "end": 23.38
+        },
+        {
+          "shot": "06",
+          "text": "记下之后，再接着想。",
+          "start": 23.68,
+          "end": 25.88
+        }
+      ],
+      "checks": {
+        "position_present": true,
+        "inside_178s": true,
+        "no_overlap": true,
+        "original_text": true,
+        "current_expression_bank": true,
+        "selection_passed": true,
+        "selected_source_hash": true,
+        "hard_window": true,
+        "speed": true,
+        "non_silent": true
+      },
+      "paraformer": {
+        "text": "这 是 小 念 从 随 手 记 下 一 句 话 开 始 要 做 的 事 没 想 完 的 问 题 ai 整 理 成 卡 原 话 也 一 起 留 着 记 下 之 后 再 接 着 想",
+        "timestamp": [
+          [
+            110,
+            210
+          ],
+          [
+            210,
+            350
+          ],
+          [
+            350,
+            570
+          ],
+          [
+            570,
+            810
+          ],
+          [
+            970,
+            1210
+          ],
+          [
+            1210,
+            1410
+          ],
+          [
+            1410,
+            1650
+          ],
+          [
+            1670,
+            1770
+          ],
+          [
+            1770,
+            1970
+          ],
+          [
+            1970,
+            2070
+          ],
+          [
+            2070,
+            2190
+          ],
+          [
+            2190,
+            2390
+          ],
+          [
+            2390,
+            2530
+          ],
+          [
+            2530,
+            2770
+          ],
+          [
+            3170,
+            3370
+          ],
+          [
+            3370,
+            3550
+          ],
+          [
+            3550,
+            3630
+          ],
+          [
+            3630,
+            3870
+          ],
+          [
+            3930,
+            4110
+          ],
+          [
+            4110,
+            4270
+          ],
+          [
+            4270,
+            4390
+          ],
+          [
+            4390,
+            4530
+          ],
+          [
+            4530,
+            4670
+          ],
+          [
+            4670,
+            4910
+          ],
+          [
+            5190,
+            5610
+          ],
+          [
+            5610,
+            5750
+          ],
+          [
+            5750,
+            5930
+          ],
+          [
+            5930,
+            6110
+          ],
+          [
+            6110,
+            6350
+          ],
+          [
+            6670,
+            6890
+          ],
+          [
+            6890,
+            7130
+          ],
+          [
+            7130,
+            7310
+          ],
+          [
+            7310,
+            7410
+          ],
+          [
+            7410,
+            7610
+          ],
+          [
+            7610,
+            7770
+          ],
+          [
+            7770,
+            8010
+          ],
+          [
+            8170,
+            8370
+          ],
+          [
+            8370,
+            8570
+          ],
+          [
+            8570,
+            8670
+          ],
+          [
+            8670,
+            8910
+          ],
+          [
+            9030,
+            9230
+          ],
+          [
+            9230,
+            9390
+          ],
+          [
+            9390,
+            9510
+          ],
+          [
+            9510,
+            9715
+          ]
+        ]
+      },
+      "paraformer_normalized": "这是晓念从随手记下一句话开始要做的事没想完的问题ai整理成卡原话也一起留着记下之后再接着想",
+      "paraformer_match": true
+    },
+    {
+      "id": "c3_g07",
+      "profile": "c3",
+      "group": "07",
+      "text": "过几天，带着原话回来看，那件想报竞赛的事，现在怎么想？",
+      "file": "c3_g07.wav",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g07.wav",
+      "start": 26.18,
+      "end": 30.79,
+      "sha256": "85865b5eac9d667e53ed93617d432c57c4431ad3bbf135d37588f91cf4fb1e46",
+      "cue_windows": [
+        {
+          "shot": "07",
+          "text": "过几天，带着原话回来看，",
+          "start": 26.18,
+          "end": 28.41
+        },
+        {
+          "shot": "07",
+          "text": "那件想报竞赛的事，现在怎么想？",
+          "start": 28.49,
+          "end": 31.38
+        }
+      ],
+      "checks": {
+        "position_present": true,
+        "inside_178s": true,
+        "no_overlap": true,
+        "original_text": true,
+        "current_expression_bank": true,
+        "selection_passed": true,
+        "selected_source_hash": true,
+        "hard_window": true,
+        "speed": true,
+        "non_silent": true
+      },
+      "paraformer": {
+        "text": "过 几 天 带 着 原 话 回 来 看 那 件 想 报 竞 赛 的 事 现 在 怎 么 想",
+        "timestamp": [
+          [
+            90,
+            210
+          ],
+          [
+            210,
+            390
+          ],
+          [
+            390,
+            630
+          ],
+          [
+            850,
+            990
+          ],
+          [
+            990,
+            1130
+          ],
+          [
+            1130,
+            1270
+          ],
+          [
+            1270,
+            1510
+          ],
+          [
+            1530,
+            1690
+          ],
+          [
+            1690,
+            1810
+          ],
+          [
+            1810,
+            2050
+          ],
+          [
+            2290,
+            2470
+          ],
+          [
+            2470,
+            2650
+          ],
+          [
+            2650,
+            2810
+          ],
+          [
+            2810,
+            2990
+          ],
+          [
+            2990,
+            3110
+          ],
+          [
+            3110,
+            3290
+          ],
+          [
+            3290,
+            3410
+          ],
+          [
+            3410,
+            3650
+          ],
+          [
+            3750,
+            3870
+          ],
+          [
+            3870,
+            4070
+          ],
+          [
+            4070,
+            4170
+          ],
+          [
+            4170,
+            4290
+          ],
+          [
+            4290,
+            4495
+          ]
+        ]
+      },
+      "sensevoice_result": {
+        "text": "<|zh|><|HAPPY|><|Speech|><|withitn|>过几天带着原画回来看那件想报竞赛的事，现在怎么想？"
+      },
+      "sensevoice_raw": "<|zh|><|HAPPY|><|Speech|><|withitn|>过几天带着原画回来看那件想报竞赛的事，现在怎么想？",
+      "sensevoice_plain": "过几天带着原画回来看那件想报竞赛的事，现在怎么想？",
+      "transcript_normalized": "过几天带着原话回来看那件想报竞赛的事现在怎么想",
+      "needs_review": false,
+      "paraformer_normalized": "过几天带着原话回来看那件想报竞赛的事现在怎么想",
+      "paraformer_match": true
+    },
+    {
+      "id": "c3_g08",
+      "profile": "c3",
+      "group": "08",
+      "text": "做完的待办勾掉，没想完的念头，留着继续。",
+      "file": "c3_g08.wav",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g08.wav",
+      "start": 31.68,
+      "end": 34.87,
+      "sha256": "c924b56a9782dd777e2b59a58206d80d9d8b57e5b1fd1566fca96c091825e8a1",
+      "cue_windows": [
+        {
+          "shot": "08",
+          "text": "做完的待办勾掉，",
+          "start": 31.68,
+          "end": 33.58
+        },
+        {
+          "shot": "08",
+          "text": "没想完的念头，留着继续。",
+          "start": 33.66,
+          "end": 36.38
+        }
+      ],
+      "checks": {
+        "position_present": true,
+        "inside_178s": true,
+        "no_overlap": true,
+        "original_text": true,
+        "current_expression_bank": true,
+        "selection_passed": true,
+        "selected_source_hash": true,
+        "hard_window": true,
+        "speed": true,
+        "non_silent": true
+      },
+      "paraformer": {
+        "text": "做 完 的 代 办 勾 掉 没 想 完 的 念 头 留 着 继 续",
+        "timestamp": [
+          [
+            110,
+            210
+          ],
+          [
+            210,
+            390
+          ],
+          [
+            390,
+            530
+          ],
+          [
+            530,
+            690
+          ],
+          [
+            690,
+            930
+          ],
+          [
+            930,
+            1090
+          ],
+          [
+            1090,
+            1290
+          ],
+          [
+            1290,
+            1450
+          ],
+          [
+            1450,
+            1550
+          ],
+          [
+            1550,
+            1730
+          ],
+          [
+            1730,
+            1830
+          ],
+          [
+            1830,
+            2030
+          ],
+          [
+            2030,
+            2270
+          ],
+          [
+            2350,
+            2490
+          ],
+          [
+            2490,
+            2630
+          ],
+          [
+            2630,
+            2790
+          ],
+          [
+            2790,
+            3025
+          ]
+        ]
+      },
+      "paraformer_normalized": "做完的待办勾掉没想完的念头留着继续",
+      "paraformer_match": true
+    },
+    {
+      "id": "c3_g09",
+      "profile": "c3",
+      "group": "09",
+      "text": "记录都在卡片墙上，想找回来时，不必从头翻。",
+      "file": "c3_g09.wav",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g09.wav",
+      "start": 36.68,
+      "end": 40.37,
+      "sha256": "4ebe7e5bab2d52b2c249354f086ef33b84a46597d834240c0303fcfe378e3d8a",
+      "cue_windows": [
+        {
+          "shot": "09",
+          "text": "记录都在卡片墙上，",
+          "start": 36.68,
+          "end": 38.73
+        },
+        {
+          "shot": "09",
+          "text": "想找回来时，不必从头翻。",
+          "start": 38.81,
+          "end": 41.38
+        }
+      ],
+      "checks": {
+        "position_present": true,
+        "inside_178s": true,
+        "no_overlap": true,
+        "original_text": true,
+        "current_expression_bank": true,
+        "selection_passed": true,
+        "selected_source_hash": true,
+        "hard_window": true,
+        "speed": true,
+        "non_silent": true
+      },
+      "paraformer": {
+        "text": "记 录 都 在 卡 片 墙 上 想 找 回 来 时 不 必 从 头 翻",
+        "timestamp": [
+          [
+            110,
+            210
+          ],
+          [
+            210,
+            450
+          ],
+          [
+            450,
+            570
+          ],
+          [
+            570,
+            770
+          ],
+          [
+            770,
+            910
+          ],
+          [
+            910,
+            1090
+          ],
+          [
+            1090,
+            1270
+          ],
+          [
+            1270,
+            1510
+          ],
+          [
+            1750,
+            1970
+          ],
+          [
+            1970,
+            2150
+          ],
+          [
+            2150,
+            2270
+          ],
+          [
+            2270,
+            2450
+          ],
+          [
+            2450,
+            2690
+          ],
+          [
+            2710,
+            2850
+          ],
+          [
+            2850,
+            3030
+          ],
+          [
+            3030,
+            3150
+          ],
+          [
+            3150,
+            3330
+          ],
+          [
+            3330,
+            3565
+          ]
+        ]
+      },
+      "paraformer_normalized": "记录都在卡片墙上想找回来时不必从头翻",
+      "paraformer_match": true
+    },
+    {
+      "id": "c3_g10",
+      "profile": "c3",
+      "group": "10",
+      "text": "点“接着聊”，先看最担心的时间安排，再把顾虑一步步说清楚。",
+      "file": "c3_g10.wav",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g10.wav",
+      "start": 41.68,
+      "end": 46.67,
+      "sha256": "ccdd512684a65ff1c500ab6fc197f78b7e404842421d60131dc4effe567d4373",
+      "cue_windows": [
+        {
+          "shot": "10",
+          "text": "点“接着聊”，先看最担心的时间安排，",
+          "start": 41.68,
+          "end": 46.12
+        },
+        {
+          "shot": "10",
+          "text": "再把顾虑一步步说清楚。",
+          "start": 46.2,
+          "end": 49.38
+        }
+      ],
+      "checks": {
+        "position_present": true,
+        "inside_178s": true,
+        "no_overlap": true,
+        "original_text": true,
+        "current_expression_bank": true,
+        "selection_passed": true,
+        "selected_source_hash": true,
+        "hard_window": true,
+        "speed": true,
+        "non_silent": true
+      },
+      "paraformer": {
+        "text": "点 接 着 聊 先 看 最 担 心 的 时 间 安 排 再 把 顾 虑 一 步 步 说 清 楚",
+        "timestamp": [
+          [
+            110,
+            290
+          ],
+          [
+            290,
+            450
+          ],
+          [
+            450,
+            570
+          ],
+          [
+            570,
+            810
+          ],
+          [
+            1050,
+            1230
+          ],
+          [
+            1230,
+            1470
+          ],
+          [
+            1470,
+            1650
+          ],
+          [
+            1650,
+            1810
+          ],
+          [
+            1810,
+            1990
+          ],
+          [
+            1990,
+            2090
+          ],
+          [
+            2090,
+            2230
+          ],
+          [
+            2230,
+            2370
+          ],
+          [
+            2370,
+            2510
+          ],
+          [
+            2510,
+            2750
+          ],
+          [
+            3090,
+            3230
+          ],
+          [
+            3230,
+            3430
+          ],
+          [
+            3430,
+            3590
+          ],
+          [
+            3590,
+            3830
+          ],
+          [
+            3850,
+            3930
+          ],
+          [
+            3930,
+            4110
+          ],
+          [
+            4110,
+            4250
+          ],
+          [
+            4250,
+            4430
+          ],
+          [
+            4430,
+            4650
+          ],
+          [
+            4650,
+            4855
+          ]
+        ]
+      },
+      "paraformer_normalized": "点接着聊先看最担心的时间安排再把顾虑一步步说清楚",
+      "paraformer_match": true
+    },
+    {
+      "id": "c3_g11",
+      "profile": "c3",
+      "group": "11",
+      "text": "聊出的新想法，先存成卡。再选几张相关的卡，一起看看。",
+      "file": "c3_g11.wav",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g11.wav",
+      "start": 49.68,
+      "end": 54.83,
+      "sha256": "a13fcd32ee958d6ab53df62f0fbd72afa59a07940df81a7f3ec1b5f64686cf41",
+      "cue_windows": [
+        {
+          "shot": "11",
+          "text": "聊出的新想法，先存成卡。",
+          "start": 49.68,
+          "end": 52.01
+        },
+        {
+          "shot": "11",
+          "text": "再选几张相关的卡，一起看看。",
+          "start": 52.09,
+          "end": 54.88
+        }
+      ],
+      "checks": {
+        "position_present": true,
+        "inside_178s": true,
+        "no_overlap": true,
+        "original_text": true,
+        "current_expression_bank": true,
+        "selection_passed": true,
+        "selected_source_hash": true,
+        "hard_window": true,
+        "speed": true,
+        "non_silent": true
+      },
+      "paraformer": {
+        "text": "聊 出 的 新 想 法 先 存 成 卡 再 选 几 张 相 关 的 卡 一 起 看 看",
+        "timestamp": [
+          [
+            130,
+            270
+          ],
+          [
+            270,
+            390
+          ],
+          [
+            390,
+            530
+          ],
+          [
+            530,
+            710
+          ],
+          [
+            710,
+            930
+          ],
+          [
+            930,
+            1170
+          ],
+          [
+            1330,
+            1570
+          ],
+          [
+            1590,
+            1750
+          ],
+          [
+            1750,
+            1930
+          ],
+          [
+            1930,
+            2170
+          ],
+          [
+            2590,
+            2770
+          ],
+          [
+            2770,
+            3010
+          ],
+          [
+            3010,
+            3170
+          ],
+          [
+            3170,
+            3410
+          ],
+          [
+            3450,
+            3590
+          ],
+          [
+            3590,
+            3770
+          ],
+          [
+            3770,
+            3870
+          ],
+          [
+            3870,
+            4110
+          ],
+          [
+            4290,
+            4470
+          ],
+          [
+            4470,
+            4610
+          ],
+          [
+            4610,
+            4770
+          ],
+          [
+            4770,
+            5005
+          ]
+        ]
+      },
+      "paraformer_normalized": "聊出的新想法先存成卡再选几张相关的卡一起看看",
+      "paraformer_match": true
+    },
+    {
+      "id": "c3_g12",
+      "profile": "c3",
+      "group": "12",
+      "text": "放进头脑风暴，分组、比较，找出这些念头之间的新联系。最后，把自己的结论写下来。",
+      "file": "c3_g12.wav",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g12.wav",
+      "start": 55.18,
+      "end": 62.16,
+      "sha256": "2c1354889ca0badba5daca69d355b7d8d7690f9ecf22f5691798a16dc64a6cb1",
+      "cue_windows": [
+        {
+          "shot": "12",
+          "text": "放进头脑风暴，分组、比较，",
+          "start": 55.18,
+          "end": 57.77
+        },
+        {
+          "shot": "12",
+          "text": "找出这些念头之间的新联系。",
+          "start": 57.85,
+          "end": 60.95
+        },
+        {
+          "shot": "12",
+          "text": "最后，把自己的结论写下来。",
+          "start": 61.03,
+          "end": 63.88
+        }
+      ],
+      "checks": {
+        "position_present": true,
+        "inside_178s": true,
+        "no_overlap": true,
+        "original_text": true,
+        "current_expression_bank": true,
+        "selection_passed": true,
+        "selected_source_hash": true,
+        "hard_window": true,
+        "speed": true,
+        "non_silent": true
+      },
+      "paraformer": {
+        "text": "放 进 头 脑 风 暴 分 组 比 较 找 出 这 些 念 头 之 间 的 新 联 系 最 后 把 自 己 的 结 论 写 下 来",
+        "timestamp": [
+          [
+            130,
+            270
+          ],
+          [
+            270,
+            510
+          ],
+          [
+            530,
+            690
+          ],
+          [
+            690,
+            890
+          ],
+          [
+            890,
+            1050
+          ],
+          [
+            1050,
+            1290
+          ],
+          [
+            1470,
+            1710
+          ],
+          [
+            1710,
+            1950
+          ],
+          [
+            2030,
+            2230
+          ],
+          [
+            2230,
+            2470
+          ],
+          [
+            2690,
+            2890
+          ],
+          [
+            2890,
+            3090
+          ],
+          [
+            3090,
+            3190
+          ],
+          [
+            3190,
+            3370
+          ],
+          [
+            3370,
+            3550
+          ],
+          [
+            3550,
+            3750
+          ],
+          [
+            3750,
+            3830
+          ],
+          [
+            3830,
+            3950
+          ],
+          [
+            3950,
+            4070
+          ],
+          [
+            4070,
+            4230
+          ],
+          [
+            4230,
+            4430
+          ],
+          [
+            4430,
+            4670
+          ],
+          [
+            5030,
+            5210
+          ],
+          [
+            5210,
+            5450
+          ],
+          [
+            5450,
+            5630
+          ],
+          [
+            5630,
+            5730
+          ],
+          [
+            5730,
+            5910
+          ],
+          [
+            5910,
+            6010
+          ],
+          [
+            6010,
+            6150
+          ],
+          [
+            6150,
+            6350
+          ],
+          [
+            6350,
+            6510
+          ],
+          [
+            6510,
+            6690
+          ],
+          [
+            6690,
+            6865
+          ]
+        ]
+      },
+      "paraformer_normalized": "放进头脑风暴分组比较找出这些念头之间的新联系最后把自己的结论写下来",
+      "paraformer_match": true
+    },
+    {
+      "id": "c3_g13",
+      "profile": "c3",
+      "group": "13",
+      "text": "一道极限题，卡在第一步。拍下来，先核对题目。",
+      "file": "c3_g13.wav",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g13.wav",
+      "start": 64.18,
+      "end": 68.45,
+      "sha256": "ac780a2664d0128e89cc6ef394f7d3db610c86d7d934be0a49074a3e046ec884",
+      "cue_windows": [
+        {
+          "shot": "13",
+          "text": "一道极限题，卡在第一步。",
+          "start": 64.18,
+          "end": 66.47
+        },
+        {
+          "shot": "13",
+          "text": "拍下来，先核对题目。",
+          "start": 66.55,
+          "end": 68.38
+        }
+      ],
+      "checks": {
+        "position_present": true,
+        "inside_178s": true,
+        "no_overlap": true,
+        "original_text": true,
+        "current_expression_bank": true,
+        "selection_passed": true,
+        "selected_source_hash": true,
+        "hard_window": true,
+        "speed": true,
+        "non_silent": true
+      },
+      "paraformer": {
+        "text": "一 道 极 限 题 卡 在 第 一 步 拍 下 来 先 核 对 题 目",
+        "timestamp": [
+          [
+            110,
+            210
+          ],
+          [
+            210,
+            370
+          ],
+          [
+            370,
+            510
+          ],
+          [
+            510,
+            750
+          ],
+          [
+            750,
+            990
+          ],
+          [
+            1210,
+            1390
+          ],
+          [
+            1390,
+            1570
+          ],
+          [
+            1570,
+            1690
+          ],
+          [
+            1690,
+            1790
+          ],
+          [
+            1790,
+            2030
+          ],
+          [
+            2530,
+            2750
+          ],
+          [
+            2750,
+            2930
+          ],
+          [
+            2930,
+            3170
+          ],
+          [
+            3270,
+            3490
+          ],
+          [
+            3490,
+            3630
+          ],
+          [
+            3630,
+            3810
+          ],
+          [
+            3810,
+            3990
+          ],
+          [
+            3990,
+            4165
+          ]
+        ]
+      },
+      "paraformer_normalized": "一道极限题卡在第一步拍下来先核对题目",
+      "paraformer_match": true
+    },
+    {
+      "id": "c3_g14",
+      "profile": "c3",
+      "group": "14",
+      "text": "先要一步提示，接着自己试算。相关研究中，直接给答案的那组，撤掉AI后表现下降。提示组未见明显下降。",
+      "file": "c3_g14.wav",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g14.wav",
+      "start": 68.68,
+      "end": 77.78,
+      "sha256": "dcdf418ac0616a605bcd5ce1892019bdd283780f8c3b443a3f1aa014cd6fe7bd",
+      "cue_windows": [
+        {
+          "shot": "14",
+          "text": "先要一步提示，接着自己试算。",
+          "start": 68.68,
+          "end": 71.76
+        },
+        {
+          "shot": "14",
+          "text": "相关研究中，直接给答案的那组，",
+          "start": 71.84,
+          "end": 74.67
+        },
+        {
+          "shot": "14",
+          "text": "撤掉AI后表现下降。提示组未见明显下降。",
+          "start": 74.75,
+          "end": 79.38
+        }
+      ],
+      "checks": {
+        "position_present": true,
+        "inside_178s": true,
+        "no_overlap": true,
+        "original_text": true,
+        "current_expression_bank": true,
+        "selection_passed": true,
+        "selected_source_hash": true,
+        "hard_window": true,
+        "speed": true,
+        "non_silent": true
+      },
+      "paraformer": {
+        "text": "先 要 一 步 提 示 接 着 自 己 试 算 相 关 研 究 中 直 接 给 答 案 的 那 组 撤 掉 ai 后 表 现 下 降 提 示 组 未 见 明 显 下 降",
+        "timestamp": [
+          [
+            130,
+            270
+          ],
+          [
+            270,
+            410
+          ],
+          [
+            410,
+            570
+          ],
+          [
+            570,
+            710
+          ],
+          [
+            710,
+            870
+          ],
+          [
+            870,
+            1110
+          ],
+          [
+            1270,
+            1470
+          ],
+          [
+            1470,
+            1590
+          ],
+          [
+            1590,
+            1710
+          ],
+          [
+            1710,
+            1910
+          ],
+          [
+            1910,
+            2070
+          ],
+          [
+            2070,
+            2310
+          ],
+          [
+            2650,
+            2830
+          ],
+          [
+            2830,
+            3030
+          ],
+          [
+            3030,
+            3190
+          ],
+          [
+            3190,
+            3310
+          ],
+          [
+            3310,
+            3550
+          ],
+          [
+            3710,
+            3910
+          ],
+          [
+            3910,
+            4030
+          ],
+          [
+            4030,
+            4210
+          ],
+          [
+            4210,
+            4330
+          ],
+          [
+            4330,
+            4430
+          ],
+          [
+            4430,
+            4570
+          ],
+          [
+            4570,
+            4730
+          ],
+          [
+            4730,
+            4970
+          ],
+          [
+            5090,
+            5330
+          ],
+          [
+            5330,
+            5530
+          ],
+          [
+            5530,
+            5810
+          ],
+          [
+            5810,
+            6050
+          ],
+          [
+            6090,
+            6230
+          ],
+          [
+            6230,
+            6450
+          ],
+          [
+            6450,
+            6570
+          ],
+          [
+            6570,
+            6810
+          ],
+          [
+            7190,
+            7410
+          ],
+          [
+            7410,
+            7590
+          ],
+          [
+            7590,
+            7830
+          ],
+          [
+            7870,
+            8010
+          ],
+          [
+            8010,
+            8230
+          ],
+          [
+            8230,
+            8370
+          ],
+          [
+            8370,
+            8570
+          ],
+          [
+            8570,
+            8730
+          ],
+          [
+            8730,
+            8965
+          ]
+        ]
+      },
+      "paraformer_normalized": "先要一步提示接着自己试算相关研究中直接给答案的那组撤掉ai后表现下降提示组未见明显下降",
+      "paraformer_match": true
+    },
+    {
+      "id": "c3_g15",
+      "profile": "c3",
+      "group": "15",
+      "text": "展开完整解析，还能查看计算核验。支持的算式，由程序重新计算。",
+      "file": "c3_g15.wav",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g15.wav",
+      "start": 79.68,
+      "end": 85.612979,
+      "sha256": "4dbd3bf4c27e71a29c6e16895e8694dc05c1eabcf73e569d62900c67b20b7852",
+      "cue_windows": [
+        {
+          "shot": "15",
+          "text": "展开完整解析，还能查看计算核验。",
+          "start": 79.68,
+          "end": 82.71
+        },
+        {
+          "shot": "15",
+          "text": "支持的算式，由程序重新计算。",
+          "start": 82.79,
+          "end": 85.38
+        }
+      ],
+      "checks": {
+        "position_present": true,
+        "inside_178s": true,
+        "no_overlap": true,
+        "original_text": true,
+        "current_expression_bank": true,
+        "selection_passed": true,
+        "selected_source_hash": true,
+        "hard_window": true,
+        "speed": true,
+        "non_silent": true
+      },
+      "paraformer": {
+        "text": "展 开 完 整 解 析 还 能 查 看 计 算 核 验 支 持 的 算 式 由 程 序 重 新 计 算",
+        "timestamp": [
+          [
+            130,
+            270
+          ],
+          [
+            270,
+            470
+          ],
+          [
+            470,
+            570
+          ],
+          [
+            570,
+            810
+          ],
+          [
+            830,
+            990
+          ],
+          [
+            990,
+            1230
+          ],
+          [
+            1530,
+            1690
+          ],
+          [
+            1690,
+            1890
+          ],
+          [
+            1890,
+            2050
+          ],
+          [
+            2050,
+            2250
+          ],
+          [
+            2250,
+            2350
+          ],
+          [
+            2350,
+            2590
+          ],
+          [
+            2590,
+            2710
+          ],
+          [
+            2710,
+            2950
+          ],
+          [
+            3350,
+            3530
+          ],
+          [
+            3530,
+            3710
+          ],
+          [
+            3710,
+            3850
+          ],
+          [
+            3850,
+            4010
+          ],
+          [
+            4010,
+            4250
+          ],
+          [
+            4410,
+            4610
+          ],
+          [
+            4610,
+            4770
+          ],
+          [
+            4770,
+            5010
+          ],
+          [
+            5030,
+            5190
+          ],
+          [
+            5190,
+            5430
+          ],
+          [
+            5450,
+            5550
+          ],
+          [
+            5550,
+            5785
+          ]
+        ]
+      },
+      "paraformer_normalized": "展开完整解析还能查看计算核验支持的算式由程序重新计算",
+      "paraformer_match": true
+    },
+    {
+      "id": "c3_g16",
+      "profile": "c3",
+      "group": "16",
+      "text": "算完，把草稿拿来批改，定位出错步骤，再收进错题本。",
+      "file": "c3_g16.wav",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g16.wav",
+      "start": 85.68,
+      "end": 90.22,
+      "sha256": "47028d600bd9f190663311d7c51b6df192c151e5ceb3637656cbc74fbab21bf3",
+      "cue_windows": [
+        {
+          "shot": "16",
+          "text": "算完，把草稿拿来批改，",
+          "start": 85.68,
+          "end": 88.09
+        },
+        {
+          "shot": "16",
+          "text": "定位出错步骤，再收进错题本。",
+          "start": 88.17,
+          "end": 91.38
+        }
+      ],
+      "checks": {
+        "position_present": true,
+        "inside_178s": true,
+        "no_overlap": true,
+        "original_text": true,
+        "current_expression_bank": true,
+        "selection_passed": true,
+        "selected_source_hash": true,
+        "hard_window": true,
+        "speed": true,
+        "non_silent": true
+      },
+      "paraformer": {
+        "text": "算 完 把 草 稿 拿 来 批 改 定 位 出 错 步 骤 再 收 进 错 题 本",
+        "timestamp": [
+          [
+            130,
+            330
+          ],
+          [
+            330,
+            570
+          ],
+          [
+            610,
+            830
+          ],
+          [
+            830,
+            990
+          ],
+          [
+            990,
+            1210
+          ],
+          [
+            1210,
+            1330
+          ],
+          [
+            1330,
+            1470
+          ],
+          [
+            1470,
+            1630
+          ],
+          [
+            1630,
+            1870
+          ],
+          [
+            2170,
+            2350
+          ],
+          [
+            2350,
+            2550
+          ],
+          [
+            2550,
+            2690
+          ],
+          [
+            2690,
+            2890
+          ],
+          [
+            2890,
+            3050
+          ],
+          [
+            3050,
+            3290
+          ],
+          [
+            3370,
+            3530
+          ],
+          [
+            3530,
+            3690
+          ],
+          [
+            3690,
+            3890
+          ],
+          [
+            3890,
+            4050
+          ],
+          [
+            4050,
+            4230
+          ],
+          [
+            4230,
+            4435
+          ]
+        ]
+      },
+      "paraformer_normalized": "算完把草稿拿来批改定位出错步骤再收进错题本",
+      "paraformer_match": true
+    },
+    {
+      "id": "c3_g17",
+      "profile": "c3",
+      "group": "17",
+      "text": "再把解题思路讲给小狸听。它会追问，再反馈哪些说清、哪些漏了。",
+      "file": "c3_g17.wav",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g17.wav",
+      "start": 91.68,
+      "end": 96.95,
+      "sha256": "dcf92692c64f0d25a77744c97e5cbd107142271282fdaa97525be3b9baffdb13",
+      "cue_windows": [
+        {
+          "shot": "17",
+          "text": "再把解题思路讲给小狸听。",
+          "start": 91.68,
+          "end": 94.48
+        },
+        {
+          "shot": "17",
+          "text": "它会追问，再反馈哪些说清、哪些漏了。",
+          "start": 94.56,
+          "end": 98.38
+        }
+      ],
+      "checks": {
+        "position_present": true,
+        "inside_178s": true,
+        "no_overlap": true,
+        "original_text": true,
+        "current_expression_bank": true,
+        "selection_passed": true,
+        "selected_source_hash": true,
+        "hard_window": true,
+        "speed": true,
+        "non_silent": true
+      },
+      "paraformer": {
+        "text": "再 把 解 题 思 路 讲 给 小 黎 听 他 会 追 问 再 反 馈 哪 些 说 清 哪 些 漏 了",
+        "timestamp": [
+          [
+            110,
+            210
+          ],
+          [
+            210,
+            350
+          ],
+          [
+            350,
+            510
+          ],
+          [
+            510,
+            650
+          ],
+          [
+            650,
+            810
+          ],
+          [
+            810,
+            1010
+          ],
+          [
+            1010,
+            1150
+          ],
+          [
+            1150,
+            1290
+          ],
+          [
+            1290,
+            1450
+          ],
+          [
+            1450,
+            1630
+          ],
+          [
+            1630,
+            1870
+          ],
+          [
+            2270,
+            2470
+          ],
+          [
+            2470,
+            2670
+          ],
+          [
+            2670,
+            2810
+          ],
+          [
+            2810,
+            3050
+          ],
+          [
+            3170,
+            3330
+          ],
+          [
+            3330,
+            3530
+          ],
+          [
+            3530,
+            3650
+          ],
+          [
+            3650,
+            3830
+          ],
+          [
+            3830,
+            3950
+          ],
+          [
+            3950,
+            4110
+          ],
+          [
+            4110,
+            4350
+          ],
+          [
+            4450,
+            4650
+          ],
+          [
+            4650,
+            4770
+          ],
+          [
+            4770,
+            5010
+          ],
+          [
+            5010,
+            5185
+          ]
+        ]
+      },
+      "paraformer_normalized": "再把解题思路讲给小狸听它会追问再反馈哪些说清哪些漏了",
+      "paraformer_match": true
+    },
+    {
+      "id": "c3_g18",
+      "profile": "c3",
+      "group": "18",
+      "text": "需要补充，就导入讲义。校对原文，再把相关段落整理成卡。",
+      "file": "c3_g18.wav",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g18.wav",
+      "start": 98.68,
+      "end": 104.28,
+      "sha256": "c336b9360996e3e780a91c78d529a68a1077057541328737b2653c36e689bf06",
+      "cue_windows": [
+        {
+          "shot": "18",
+          "text": "需要补充，就导入讲义。",
+          "start": 98.68,
+          "end": 100.88
+        },
+        {
+          "shot": "18",
+          "text": "校对原文，再把相关段落整理成卡。",
+          "start": 100.96,
+          "end": 104.38
+        }
+      ],
+      "checks": {
+        "position_present": true,
+        "inside_178s": true,
+        "no_overlap": true,
+        "original_text": true,
+        "current_expression_bank": true,
+        "selection_passed": true,
+        "selected_source_hash": true,
+        "hard_window": true,
+        "speed": true,
+        "non_silent": true
+      },
+      "paraformer": {
+        "text": "需 要 补 充 就 导 入 讲 义 校 对 原 文 再 把 相 关 段 落 整 理 成 卡",
+        "timestamp": [
+          [
+            130,
+            270
+          ],
+          [
+            270,
+            410
+          ],
+          [
+            410,
+            570
+          ],
+          [
+            570,
+            810
+          ],
+          [
+            970,
+            1190
+          ],
+          [
+            1190,
+            1330
+          ],
+          [
+            1330,
+            1470
+          ],
+          [
+            1470,
+            1690
+          ],
+          [
+            1690,
+            1930
+          ],
+          [
+            2590,
+            2830
+          ],
+          [
+            2830,
+            3030
+          ],
+          [
+            3030,
+            3170
+          ],
+          [
+            3170,
+            3410
+          ],
+          [
+            3690,
+            3830
+          ],
+          [
+            3830,
+            4030
+          ],
+          [
+            4030,
+            4190
+          ],
+          [
+            4190,
+            4330
+          ],
+          [
+            4330,
+            4530
+          ],
+          [
+            4530,
+            4750
+          ],
+          [
+            4750,
+            4890
+          ],
+          [
+            4890,
+            5070
+          ],
+          [
+            5070,
+            5250
+          ],
+          [
+            5250,
+            5455
+          ]
+        ]
+      },
+      "sensevoice_result": {
+        "text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>需要补充就导入讲义。校对原文，再把相关段落整理成卡。"
+      },
+      "sensevoice_raw": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>需要补充就导入讲义。校对原文，再把相关段落整理成卡。",
+      "sensevoice_plain": "需要补充就导入讲义。校对原文，再把相关段落整理成卡。",
+      "transcript_normalized": "需要补充就导入讲义校对原文再把相关段落整理成卡",
+      "needs_review": false,
+      "paraformer_normalized": "需要补充就导入讲义校对原文再把相关段落整理成卡",
+      "paraformer_match": true
+    },
+    {
+      "id": "c3_g19",
+      "profile": "c3",
+      "group": "19",
+      "text": "最后，去知识地图独立做一道。先判断会不会，再作答看结果。",
+      "file": "c3_g19.wav",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g19.wav",
+      "start": 104.68,
+      "end": 109.96,
+      "sha256": "098114be856615eba789ad2ec1c092661cb95cd40adc1d922f55dab441cade05",
+      "cue_windows": [
+        {
+          "shot": "19",
+          "text": "最后，去知识地图独立做一道。",
+          "start": 104.68,
+          "end": 107.74
+        },
+        {
+          "shot": "19",
+          "text": "先判断会不会，再作答看结果。",
+          "start": 107.82,
+          "end": 110.88
+        }
+      ],
+      "checks": {
+        "position_present": true,
+        "inside_178s": true,
+        "no_overlap": true,
+        "original_text": true,
+        "current_expression_bank": true,
+        "selection_passed": true,
+        "selected_source_hash": true,
+        "hard_window": true,
+        "speed": true,
+        "non_silent": true
+      },
+      "paraformer": {
+        "text": "最 后 去 知 识 地 图 独 立 做 一 道 先 判 断 会 不 会 再 作 答 看 结 果",
+        "timestamp": [
+          [
+            130,
+            270
+          ],
+          [
+            270,
+            510
+          ],
+          [
+            570,
+            810
+          ],
+          [
+            830,
+            990
+          ],
+          [
+            990,
+            1110
+          ],
+          [
+            1110,
+            1290
+          ],
+          [
+            1290,
+            1530
+          ],
+          [
+            1550,
+            1690
+          ],
+          [
+            1690,
+            1870
+          ],
+          [
+            1870,
+            2010
+          ],
+          [
+            2010,
+            2170
+          ],
+          [
+            2170,
+            2410
+          ],
+          [
+            2670,
+            2890
+          ],
+          [
+            2890,
+            3110
+          ],
+          [
+            3110,
+            3310
+          ],
+          [
+            3310,
+            3470
+          ],
+          [
+            3470,
+            3590
+          ],
+          [
+            3590,
+            3830
+          ],
+          [
+            4010,
+            4170
+          ],
+          [
+            4170,
+            4350
+          ],
+          [
+            4350,
+            4530
+          ],
+          [
+            4530,
+            4730
+          ],
+          [
+            4730,
+            4950
+          ],
+          [
+            4950,
+            5155
+          ]
+        ]
+      },
+      "paraformer_normalized": "最后去知识地图独立做一道先判断会不会再作答看结果",
+      "paraformer_match": true
+    },
+    {
+      "id": "c3_g20",
+      "profile": "c3",
+      "group": "20",
+      "text": "累的时候，也可以只是聊聊。今天发生了什么，哪句话放不下，先把感受说出来。",
+      "file": "c3_g20.wav",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g20.wav",
+      "start": 111.18,
+      "end": 117.0,
+      "sha256": "0b006d84a0fbcfdc41724fa3a93ef57520cd43ea1329f8115c2be5acc0107aeb",
+      "cue_windows": [
+        {
+          "shot": "20",
+          "text": "累的时候，也可以只是聊聊。",
+          "start": 111.18,
+          "end": 114.03
+        },
+        {
+          "shot": "20",
+          "text": "今天发生了什么，哪句话放不下，",
+          "start": 114.11,
+          "end": 117.48
+        },
+        {
+          "shot": "20",
+          "text": "先把感受说出来。",
+          "start": 117.56,
+          "end": 119.38
+        }
+      ],
+      "checks": {
+        "position_present": true,
+        "inside_178s": true,
+        "no_overlap": true,
+        "original_text": true,
+        "current_expression_bank": true,
+        "selection_passed": true,
+        "selected_source_hash": true,
+        "hard_window": true,
+        "speed": true,
+        "non_silent": true
+      },
+      "paraformer": {
+        "text": "累 的 时 候 也 可 以 只 是 聊 聊 今 天 发 生 了 什 么 哪 句 话 放 不 下 先 把 感 受 说 出 来",
+        "timestamp": [
+          [
+            110,
+            210
+          ],
+          [
+            210,
+            350
+          ],
+          [
+            350,
+            510
+          ],
+          [
+            510,
+            750
+          ],
+          [
+            750,
+            870
+          ],
+          [
+            870,
+            990
+          ],
+          [
+            990,
+            1130
+          ],
+          [
+            1130,
+            1290
+          ],
+          [
+            1290,
+            1410
+          ],
+          [
+            1410,
+            1570
+          ],
+          [
+            1570,
+            1810
+          ],
+          [
+            2110,
+            2290
+          ],
+          [
+            2290,
+            2530
+          ],
+          [
+            2550,
+            2650
+          ],
+          [
+            2650,
+            2830
+          ],
+          [
+            2830,
+            2930
+          ],
+          [
+            2930,
+            3050
+          ],
+          [
+            3050,
+            3290
+          ],
+          [
+            3370,
+            3530
+          ],
+          [
+            3530,
+            3710
+          ],
+          [
+            3710,
+            3910
+          ],
+          [
+            3910,
+            4010
+          ],
+          [
+            4010,
+            4190
+          ],
+          [
+            4190,
+            4430
+          ],
+          [
+            4530,
+            4710
+          ],
+          [
+            4710,
+            4870
+          ],
+          [
+            4870,
+            5010
+          ],
+          [
+            5010,
+            5250
+          ],
+          [
+            5270,
+            5370
+          ],
+          [
+            5370,
+            5550
+          ],
+          [
+            5550,
+            5725
+          ]
+        ]
+      },
+      "paraformer_normalized": "累的时候也可以只是聊聊今天发生了什么哪句话放不下先把感受说出来",
+      "paraformer_match": true
+    },
+    {
+      "id": "c3_g21",
+      "profile": "c3",
+      "group": "21",
+      "text": "涉及安全风险，先提示现实中的求助。",
+      "file": "c3_g21.wav",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g21.wav",
+      "start": 119.68,
+      "end": 122.82,
+      "sha256": "0ceb1e92fcce09a074f34da052c7638d8f2ff54bcbe655ed84cf1bc2056bf47f",
+      "cue_windows": [
+        {
+          "shot": "21",
+          "text": "涉及安全风险，先提示现实中的求助。",
+          "start": 119.68,
+          "end": 122.88
+        }
+      ],
+      "checks": {
+        "position_present": true,
+        "inside_178s": true,
+        "no_overlap": true,
+        "original_text": true,
+        "current_expression_bank": true,
+        "selection_passed": true,
+        "selected_source_hash": true,
+        "hard_window": true,
+        "speed": true,
+        "non_silent": true
+      },
+      "paraformer": {
+        "text": "涉 及 安 全 风 险 先 提 示 现 实 中 的 求 助",
+        "timestamp": [
+          [
+            130,
+            330
+          ],
+          [
+            330,
+            510
+          ],
+          [
+            510,
+            630
+          ],
+          [
+            630,
+            870
+          ],
+          [
+            870,
+            970
+          ],
+          [
+            970,
+            1210
+          ],
+          [
+            1370,
+            1590
+          ],
+          [
+            1590,
+            1790
+          ],
+          [
+            1790,
+            2030
+          ],
+          [
+            2030,
+            2210
+          ],
+          [
+            2210,
+            2390
+          ],
+          [
+            2390,
+            2490
+          ],
+          [
+            2490,
+            2630
+          ],
+          [
+            2630,
+            2790
+          ],
+          [
+            2790,
+            2995
+          ]
+        ]
+      },
+      "paraformer_normalized": "涉及安全风险先提示现实中的求助",
+      "paraformer_match": true
+    },
+    {
+      "id": "c3_g22",
+      "profile": "c3",
+      "group": "22",
+      "text": "从记下一句，到自己想清楚，学习和回顾，都留在记录里。",
+      "file": "c3_g22.wav",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g22.wav",
+      "start": 123.18,
+      "end": 128.14,
+      "sha256": "5df818c94925ea68ec5e8536fc741a215f12c199e0fd36dea179b9279399bbb3",
+      "cue_windows": [
+        {
+          "shot": "22",
+          "text": "从记下一句，到自己想清楚，",
+          "start": 123.18,
+          "end": 125.99
+        },
+        {
+          "shot": "22",
+          "text": "学习和回顾，都留在记录里。",
+          "start": 126.07,
+          "end": 128.88
+        }
+      ],
+      "checks": {
+        "position_present": true,
+        "inside_178s": true,
+        "no_overlap": true,
+        "original_text": true,
+        "current_expression_bank": true,
+        "selection_passed": true,
+        "selected_source_hash": true,
+        "hard_window": true,
+        "speed": true,
+        "non_silent": true
+      },
+      "paraformer": {
+        "text": "从 记 下 一 句 到 自 己 想 清 楚 学 习 和 回 顾 都 留 在 记 录 里",
+        "timestamp": [
+          [
+            110,
+            290
+          ],
+          [
+            290,
+            450
+          ],
+          [
+            450,
+            650
+          ],
+          [
+            650,
+            810
+          ],
+          [
+            810,
+            1050
+          ],
+          [
+            1350,
+            1590
+          ],
+          [
+            1590,
+            1690
+          ],
+          [
+            1690,
+            1830
+          ],
+          [
+            1830,
+            1990
+          ],
+          [
+            1990,
+            2230
+          ],
+          [
+            2230,
+            2470
+          ],
+          [
+            2610,
+            2810
+          ],
+          [
+            2810,
+            2990
+          ],
+          [
+            2990,
+            3190
+          ],
+          [
+            3190,
+            3410
+          ],
+          [
+            3410,
+            3650
+          ],
+          [
+            3770,
+            3950
+          ],
+          [
+            3950,
+            4110
+          ],
+          [
+            4110,
+            4250
+          ],
+          [
+            4250,
+            4410
+          ],
+          [
+            4410,
+            4590
+          ],
+          [
+            4590,
+            4825
+          ]
+        ]
+      },
+      "paraformer_normalized": "从记下一句到自己想清楚学习和回顾都留在记录里",
+      "paraformer_match": true
+    },
+    {
+      "id": "c3_g23a",
+      "profile": "c3",
+      "group": "23a",
+      "text": "刚才这些操作，由原生小程序发起。后端通过接口处理请求，S Q light保存记录。卡片、对话、导入和学习，各有业务模块。",
+      "file": "c3_g23a.wav",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g23a.wav",
+      "start": 129.18,
+      "end": 140.57,
+      "sha256": "c778701c16d684c882d6d2af3a36bf9fdc97c4c3fc3bfc71bf5e2ab5e1881157",
+      "cue_windows": [
+        {
+          "shot": "23",
+          "text": "刚才这些操作，由原生小程序发起。",
+          "start": 129.18,
+          "end": 132.54
+        },
+        {
+          "shot": "23",
+          "text": "后端通过接口处理请求，SQLite保存记录。",
+          "start": 132.62,
+          "end": 137.43
+        },
+        {
+          "shot": "23",
+          "text": "卡片、对话、导入和学习，各有业务模块。",
+          "start": 137.51,
+          "end": 141.11
+        }
+      ],
+      "checks": {
+        "position_present": true,
+        "inside_178s": true,
+        "no_overlap": true,
+        "original_text": true,
+        "current_expression_bank": true,
+        "selection_passed": true,
+        "selected_source_hash": true,
+        "hard_window": true,
+        "speed": true,
+        "non_silent": true
+      },
+      "paraformer": {
+        "text": "刚 才 这 些 操 作 由 原 生 小 程 序 发 起 后 端 通 过 接 口 处 理 请 求 SQ light 保 存 记 录 卡 片 对 话 导 入 和 学 习 各 有 业 务 模 块",
+        "timestamp": [
+          [
+            110,
+            210
+          ],
+          [
+            210,
+            450
+          ],
+          [
+            470,
+            570
+          ],
+          [
+            570,
+            710
+          ],
+          [
+            710,
+            930
+          ],
+          [
+            930,
+            1170
+          ],
+          [
+            1310,
+            1550
+          ],
+          [
+            1550,
+            1710
+          ],
+          [
+            1710,
+            1950
+          ],
+          [
+            1970,
+            2130
+          ],
+          [
+            2130,
+            2310
+          ],
+          [
+            2310,
+            2510
+          ],
+          [
+            2510,
+            2710
+          ],
+          [
+            2710,
+            2950
+          ],
+          [
+            3490,
+            3730
+          ],
+          [
+            3790,
+            4010
+          ],
+          [
+            4010,
+            4150
+          ],
+          [
+            4150,
+            4350
+          ],
+          [
+            4350,
+            4510
+          ],
+          [
+            4510,
+            4710
+          ],
+          [
+            4710,
+            4870
+          ],
+          [
+            4870,
+            5070
+          ],
+          [
+            5070,
+            5290
+          ],
+          [
+            5290,
+            5530
+          ],
+          [
+            5810,
+            6290
+          ],
+          [
+            6290,
+            6530
+          ],
+          [
+            6710,
+            6830
+          ],
+          [
+            6830,
+            7070
+          ],
+          [
+            7090,
+            7250
+          ],
+          [
+            7250,
+            7490
+          ],
+          [
+            7950,
+            8150
+          ],
+          [
+            8150,
+            8390
+          ],
+          [
+            8530,
+            8750
+          ],
+          [
+            8750,
+            8990
+          ],
+          [
+            9090,
+            9270
+          ],
+          [
+            9270,
+            9510
+          ],
+          [
+            9510,
+            9650
+          ],
+          [
+            9650,
+            9870
+          ],
+          [
+            9870,
+            10110
+          ],
+          [
+            10210,
+            10350
+          ],
+          [
+            10350,
+            10530
+          ],
+          [
+            10530,
+            10650
+          ],
+          [
+            10650,
+            10850
+          ],
+          [
+            10850,
+            11010
+          ],
+          [
+            11010,
+            11245
+          ]
+        ]
+      },
+      "sensevoice_result": {
+        "text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>刚才这些操作由原生小程序发起，后端通过接口处理，请求SQ light保存记录卡片对话导入和学习各有业务模块。"
+      },
+      "sensevoice_raw": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>刚才这些操作由原生小程序发起，后端通过接口处理，请求SQ light保存记录卡片对话导入和学习各有业务模块。",
+      "sensevoice_plain": "刚才这些操作由原生小程序发起，后端通过接口处理，请求SQ light保存记录卡片对话导入和学习各有业务模块。",
+      "transcript_normalized": "刚才这些操作由原生小程序发起后端通过接口处理请求sqlite保存记录卡片对话导入和学习各有业务模块",
+      "needs_review": false,
+      "paraformer_normalized": "刚才这些操作由原生小程序发起后端通过接口处理请求sqlite保存记录卡片对话导入和学习各有业务模块",
+      "paraformer_match": true
+    },
+    {
+      "id": "c3_g23b",
+      "profile": "c3",
+      "group": "23b",
+      "text": "接着聊，会带上选定卡片的相关上下文。原话、生成内容和版本分开保存。长任务先记状态，再执行；支持的算式另外核验。",
+      "file": "c3_g23b.wav",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g23b.wav",
+      "start": 141.19,
+      "end": 152.84,
+      "sha256": "09ff55ea249c8fa74bfca634c6f764ef1fd071c088164774036bbc3efe2b872b",
+      "cue_windows": [
+        {
+          "shot": "23",
+          "text": "接着聊，会带上选定卡片的相关上下文。",
+          "start": 141.19,
+          "end": 145.03
+        },
+        {
+          "shot": "23",
+          "text": "原话、生成内容和版本分开保存。",
+          "start": 145.11,
+          "end": 148.24
+        },
+        {
+          "shot": "23",
+          "text": "长任务先记状态，再执行；支持的算式另外核验。",
+          "start": 148.32,
+          "end": 152.88
+        }
+      ],
+      "checks": {
+        "position_present": true,
+        "inside_178s": true,
+        "no_overlap": true,
+        "original_text": true,
+        "current_expression_bank": true,
+        "selection_passed": true,
+        "selected_source_hash": true,
+        "hard_window": true,
+        "speed": true,
+        "non_silent": true
+      },
+      "paraformer": {
+        "text": "接 着 聊 会 带 上 选 定 卡 片 的 相 关 上 下 文 原 话 生 成 内 容 和 版 本 分 开 保 存 长 任 务 先 记 状 态 再 执 行 支 持 的 算 是 另 外 核 验",
+        "timestamp": [
+          [
+            110,
+            230
+          ],
+          [
+            230,
+            390
+          ],
+          [
+            390,
+            630
+          ],
+          [
+            730,
+            950
+          ],
+          [
+            950,
+            1110
+          ],
+          [
+            1110,
+            1310
+          ],
+          [
+            1310,
+            1530
+          ],
+          [
+            1530,
+            1730
+          ],
+          [
+            1730,
+            1950
+          ],
+          [
+            1950,
+            2190
+          ],
+          [
+            2190,
+            2330
+          ],
+          [
+            2330,
+            2550
+          ],
+          [
+            2550,
+            2730
+          ],
+          [
+            2730,
+            2890
+          ],
+          [
+            2890,
+            3070
+          ],
+          [
+            3070,
+            3310
+          ],
+          [
+            3730,
+            3970
+          ],
+          [
+            4030,
+            4270
+          ],
+          [
+            4390,
+            4630
+          ],
+          [
+            4630,
+            4830
+          ],
+          [
+            4830,
+            4990
+          ],
+          [
+            4990,
+            5170
+          ],
+          [
+            5170,
+            5370
+          ],
+          [
+            5370,
+            5530
+          ],
+          [
+            5530,
+            5770
+          ],
+          [
+            5810,
+            5990
+          ],
+          [
+            5990,
+            6190
+          ],
+          [
+            6190,
+            6350
+          ],
+          [
+            6350,
+            6590
+          ],
+          [
+            7070,
+            7310
+          ],
+          [
+            7330,
+            7490
+          ],
+          [
+            7490,
+            7710
+          ],
+          [
+            7710,
+            7850
+          ],
+          [
+            7850,
+            8070
+          ],
+          [
+            8070,
+            8270
+          ],
+          [
+            8270,
+            8510
+          ],
+          [
+            8590,
+            8750
+          ],
+          [
+            8750,
+            8970
+          ],
+          [
+            8970,
+            9210
+          ],
+          [
+            9590,
+            9810
+          ],
+          [
+            9810,
+            9990
+          ],
+          [
+            9990,
+            10130
+          ],
+          [
+            10130,
+            10350
+          ],
+          [
+            10350,
+            10590
+          ],
+          [
+            10710,
+            10890
+          ],
+          [
+            10890,
+            11090
+          ],
+          [
+            11090,
+            11310
+          ],
+          [
+            11310,
+            11515
+          ]
+        ]
+      },
+      "sensevoice_result": {
+        "text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>接着聊会带上选定卡片的相关上下文原画生成内容和版本分开保存，场任务先记状态再执行，支持的算是另外核验。"
+      },
+      "sensevoice_raw": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>接着聊会带上选定卡片的相关上下文原画生成内容和版本分开保存，场任务先记状态再执行，支持的算是另外核验。",
+      "sensevoice_plain": "接着聊会带上选定卡片的相关上下文原画生成内容和版本分开保存，场任务先记状态再执行，支持的算是另外核验。",
+      "transcript_normalized": "接着聊会带上选定卡片的相关上下文原话生成内容和版本分开保存场任务先记状态再执行支持的算式另外核验",
+      "needs_review": true,
+      "paraformer_normalized": "接着聊会带上选定卡片的相关上下文原话生成内容和版本分开保存长任务先记状态再执行支持的算式另外核验",
+      "paraformer_match": true
+    },
+    {
+      "id": "c3_g24",
+      "profile": "c3",
+      "group": "24",
+      "text": "导入时离开，回来还能继续处理。外部调用集中在后端，异常时尝试备用接口。管理台查看任务、运行状态和反馈，并保留用量与操作记录。",
+      "file": "c3_g24.wav",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g24.wav",
+      "start": 153.18,
+      "end": 165.8,
+      "sha256": "404bb6725f3e1ce011ad6fef236a6fa1160c5ff71242d526397c2479cb44839a",
+      "cue_windows": [
+        {
+          "shot": "24",
+          "text": "导入时离开，回来还能继续处理。",
+          "start": 153.18,
+          "end": 156.6
+        },
+        {
+          "shot": "24",
+          "text": "外部调用集中在后端，异常时尝试备用接口。",
+          "start": 156.68,
+          "end": 161.41
+        },
+        {
+          "shot": "24",
+          "text": "管理台查看任务、运行状态和反馈，",
+          "start": 161.49,
+          "end": 165.17
+        },
+        {
+          "shot": "24",
+          "text": "并保留用量与操作记录。",
+          "start": 165.25,
+          "end": 167.88
+        }
+      ],
+      "checks": {
+        "position_present": true,
+        "inside_178s": true,
+        "no_overlap": true,
+        "original_text": true,
+        "current_expression_bank": true,
+        "selection_passed": true,
+        "selected_source_hash": true,
+        "hard_window": true,
+        "speed": true,
+        "non_silent": true
+      },
+      "paraformer": {
+        "text": "导 入 时 离 开 回 来 还 能 继 续 处 理 外 部 调 用 集 中 在 后 端 异 常 时 尝 试 备 用 接 口 管 理 台 查 看 任 务 运 行 状 态 和 反 馈 并 保 留 用 量 与 操 作 记 录",
+        "timestamp": [
+          [
+            110,
+            290
+          ],
+          [
+            290,
+            450
+          ],
+          [
+            450,
+            650
+          ],
+          [
+            650,
+            810
+          ],
+          [
+            810,
+            1050
+          ],
+          [
+            1290,
+            1530
+          ],
+          [
+            1530,
+            1690
+          ],
+          [
+            1690,
+            1830
+          ],
+          [
+            1830,
+            2030
+          ],
+          [
+            2030,
+            2190
+          ],
+          [
+            2190,
+            2390
+          ],
+          [
+            2390,
+            2550
+          ],
+          [
+            2550,
+            2790
+          ],
+          [
+            3270,
+            3510
+          ],
+          [
+            3510,
+            3650
+          ],
+          [
+            3650,
+            3790
+          ],
+          [
+            3790,
+            4030
+          ],
+          [
+            4070,
+            4210
+          ],
+          [
+            4210,
+            4330
+          ],
+          [
+            4330,
+            4530
+          ],
+          [
+            4530,
+            4750
+          ],
+          [
+            4750,
+            4990
+          ],
+          [
+            5170,
+            5350
+          ],
+          [
+            5350,
+            5590
+          ],
+          [
+            5590,
+            5810
+          ],
+          [
+            5810,
+            6010
+          ],
+          [
+            6010,
+            6210
+          ],
+          [
+            6210,
+            6350
+          ],
+          [
+            6350,
+            6550
+          ],
+          [
+            6550,
+            6710
+          ],
+          [
+            6710,
+            6950
+          ],
+          [
+            7390,
+            7550
+          ],
+          [
+            7550,
+            7730
+          ],
+          [
+            7730,
+            7950
+          ],
+          [
+            7950,
+            8150
+          ],
+          [
+            8150,
+            8350
+          ],
+          [
+            8350,
+            8510
+          ],
+          [
+            8510,
+            8750
+          ],
+          [
+            8930,
+            9110
+          ],
+          [
+            9110,
+            9350
+          ],
+          [
+            9390,
+            9530
+          ],
+          [
+            9530,
+            9750
+          ],
+          [
+            9750,
+            9950
+          ],
+          [
+            9950,
+            10110
+          ],
+          [
+            10110,
+            10350
+          ],
+          [
+            10610,
+            10850
+          ],
+          [
+            10910,
+            11070
+          ],
+          [
+            11070,
+            11270
+          ],
+          [
+            11270,
+            11430
+          ],
+          [
+            11430,
+            11610
+          ],
+          [
+            11610,
+            11810
+          ],
+          [
+            11810,
+            11970
+          ],
+          [
+            11970,
+            12170
+          ],
+          [
+            12170,
+            12330
+          ],
+          [
+            12330,
+            12505
+          ]
+        ]
+      },
+      "paraformer_normalized": "导入时离开回来还能继续处理外部调用集中在后端异常时尝试备用接口管理台查看任务运行状态和反馈并保留用量与操作记录",
+      "paraformer_match": true
+    },
+    {
+      "id": "c3_g26-27",
+      "profile": "c3",
+      "group": "26-27",
+      "text": "念，是转瞬的念头。晓，是让所想渐渐明瞭。晓念。",
+      "file": "c3_g26-27.wav",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g26-27.wav",
+      "start": 169.75,
+      "end": 175.59,
+      "sha256": "855c61cab5cb097b4afeb5c1905af8c257f35530bf03418f7acfc53071c35166",
+      "cue_windows": [
+        {
+          "shot": "26",
+          "text": "念，是转瞬的念头。",
+          "start": 169.75,
+          "end": 171.85
+        },
+        {
+          "shot": "26",
+          "text": "晓，是让所想渐渐明了。",
+          "start": 172.12,
+          "end": 174.35
+        },
+        {
+          "shot": "27",
+          "text": "晓念。",
+          "start": 175.35,
+          "end": 176.25
+        }
+      ],
+      "checks": {
+        "position_present": true,
+        "inside_178s": true,
+        "no_overlap": true,
+        "original_text": true,
+        "current_expression_bank": true,
+        "selection_passed": true,
+        "selected_source_hash": true,
+        "hard_window": true,
+        "speed": true,
+        "non_silent": true
+      },
+      "paraformer": {
+        "text": "念 是 转 瞬 的 念 头 小 是 让 所 想 渐 渐 明 了 小 念",
+        "timestamp": [
+          [
+            110,
+            350
+          ],
+          [
+            470,
+            710
+          ],
+          [
+            790,
+            990
+          ],
+          [
+            990,
+            1170
+          ],
+          [
+            1170,
+            1290
+          ],
+          [
+            1290,
+            1510
+          ],
+          [
+            1510,
+            1750
+          ],
+          [
+            2350,
+            2590
+          ],
+          [
+            2870,
+            3110
+          ],
+          [
+            3130,
+            3310
+          ],
+          [
+            3310,
+            3530
+          ],
+          [
+            3530,
+            3770
+          ],
+          [
+            3870,
+            4070
+          ],
+          [
+            4070,
+            4270
+          ],
+          [
+            4270,
+            4470
+          ],
+          [
+            4470,
+            4710
+          ],
+          [
+            5130,
+            5370
+          ],
+          [
+            5430,
+            5665
+          ]
+        ]
+      },
+      "sensevoice_result": {
+        "text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>念是转瞬的念头，小是让所想渐渐明了。小念。"
+      },
+      "sensevoice_raw": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>念是转瞬的念头，小是让所想渐渐明了。小念。",
+      "sensevoice_plain": "念是转瞬的念头，小是让所想渐渐明了。小念。",
+      "transcript_normalized": "念是转瞬的念头晓是让所想渐渐明了晓念",
+      "needs_review": false,
+      "paraformer_normalized": "念是转瞬的念头晓是让所想渐渐明了晓念",
+      "paraformer_match": true
+    }
+  ],
+  "failures": [
+    "sensevoice_text:23b"
+  ],
+  "source_sha256": "36cf1badf96b9df694a452da7014f1007daf339b6c3f0430da59453b61883d14",
+  "source_report_sha256": "a3b1968726cc0a932f932cb4a6c0a12c30ee267e057286009dd2edf4e0b297f2",
+  "asr_completed": true,
+  "source_fullscale_check": true
+}

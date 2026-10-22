@@ -1,0 +1,34 @@
+{
+ "lively_g05-06_s43_4212f8f6.wav": {
+  "f0": 232,
+  "range_st": 11.3,
+  "pause_pct": 23,
+  "rate": 5.6,
+  "hnr": 12.1,
+  "flags": []
+ },
+ "lively_g05-06_s47_90295ee1.wav": {
+  "f0": 200,
+  "range_st": 10.7,
+  "pause_pct": 34,
+  "rate": 5.9,
+  "hnr": 10.6,
+  "flags": []
+ },
+ "lively_g20_s43_996b1ac7.wav": {
+  "f0": 228,
+  "range_st": 11.7,
+  "pause_pct": 21,
+  "rate": 6.4,
+  "hnr": 12.2,
+  "flags": []
+ },
+ "lively_g20_s47_1178523a.wav": {
+  "f0": 200,
+  "range_st": 12.0,
+  "pause_pct": 14,
+  "rate": 5.9,
+  "hnr": 11.7,
+  "flags": []
+ }
+}

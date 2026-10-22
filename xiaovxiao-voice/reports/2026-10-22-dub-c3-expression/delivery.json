@@ -1,0 +1,40 @@
+{
+  "completed_at": "2026-10-22T17:12:55.047617+08:00",
+  "waveform_sha256": "a0db0f1e86000b320f0d64d869c1e72122c89dacea3ba4bf3558ef530a4785b5",
+  "local_audio": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\delivery\\C3_交流起伏_完整旁白.wav",
+  "local_preview": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\delivery\\C3_重点片段试听.wav",
+  "bytes": 25632044,
+  "duration": 178,
+  "sample_rate": 48000,
+  "channels": 1,
+  "subtype": "PCM_24",
+  "groups": 24,
+  "original_cues": 55,
+  "final_asr_groups_passed": 24,
+  "secondary_whole_groups_matched": 5,
+  "secondary_targeted_groups_matched": 0,
+  "full_context_asr_disagreement_preserved": [],
+  "prior_wave_disagreement_preserved": [
+    "23b"
+  ],
+  "human_pronunciation_verified": false,
+  "synthesis_saved_candidates": 58,
+  "selected_takes": 24,
+  "reused_previous_takes": 2,
+  "identity_checks": {
+    "expression_prompt_min": true,
+    "peer_median_min": true,
+    "pairwise_p10": true,
+    "pairwise_min": true
+  },
+  "identity_reference_min": 0.8726385912686049,
+  "identity_pairwise_p10": 0.8578105769174423,
+  "identity_pairwise_min": 0.8036602061019931,
+  "identity_pairwise_mean": 0.9009166565382494,
+  "original_c2_calm_reference_min": 0.7842799221039876,
+  "naturalness_human_approved": false,
+  "exact_55_cue_alignment_verified": false,
+  "original_script_changes": false,
+  "backend_changes": false,
+  "video_created": false
+}

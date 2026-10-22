@@ -1,0 +1,36 @@
+{
+ "warm_g05-06_s41_c7979bd5.wav": {
+  "f0": 208,
+  "range_st": 10.4,
+  "pause_pct": 16,
+  "rate": 5.2,
+  "hnr": 11.9,
+  "flags": []
+ },
+ "warm_g07_s41_2168d94f.wav": {
+  "f0": 202,
+  "range_st": 11.0,
+  "pause_pct": 14,
+  "rate": 5.6,
+  "hnr": 13.2,
+  "flags": []
+ },
+ "warm_g20_s41_f9307674.wav": {
+  "f0": 178,
+  "range_st": 7.8,
+  "pause_pct": 29,
+  "rate": 6.8,
+  "hnr": 11.2,
+  "flags": [
+   "语速偏快"
+  ]
+ },
+ "warm_g23a_s41_ed3805a2.wav": {
+  "f0": 264,
+  "range_st": 14.7,
+  "pause_pct": 15,
+  "rate": 4.7,
+  "hnr": 13.5,
+  "flags": []
+ }
+}

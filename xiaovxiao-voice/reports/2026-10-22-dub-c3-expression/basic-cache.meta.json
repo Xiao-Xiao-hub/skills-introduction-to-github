@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "kind": "basic",
+  "funasr": "1.4.16",
+  "torch": "2.11.0+cu128",
+  "fs": 16000,
+  "pitch_floor": 100,
+  "pitch_ceiling": 500,
+  "source_sha256": {
+    "measure.py": "ddfad8c55df26063a83bcf8f7242e75d07414a46645f535183cf3dd130dec824"
+  }
+}

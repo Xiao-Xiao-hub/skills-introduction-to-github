@@ -184,7 +184,7 @@
     }
   },
   "bank_after_feedback": "Selected stronger conversational references after user asked for more emotion; 05-06/20 seed43 retain normalized transcript and identity cosine >=0.85. No pitch-nearness ranking.",
-  "stage": "repairing_final_consistency",
+  "stage": "technical_passed_user_listening_pending",
   "group_bank_before_repairs": {
     "01-02": "soft",
     "03": "soft",
@@ -267,5 +267,68 @@
       47
     ],
     "reason": "Research explanation retained old calm anchor; its median identity similarity to remaining updated expression groups is 0.8449, below frozen0.85, and full P10 0.8462 below0.85. Re-render with preselected conversational warm prompt; factual wording unchanged."
+  },
+  "rejected_take_sha256": {
+    "ce98e68148653af4c43085d8e7fcc1b956e26c283f1f32a31fce76111630e63c": "Final cue 10 ASR reads 包 rather than 报. Whole-group ASR was correct, but strict cue gate requires regeneration.",
+    "099cf8a6795b63e9a27c834f8fcb082fc8fc18ada64a374e7b265e5a9773f8cd": "Final cue 10 Paraformer still reads 包; existing seed43 agrees on 报 in both Paraformer and independent SenseVoice, select that take instead.",
+    "298853f6189ce537f8f9a2d0d62ddcaf2b8df54f70a4245ef911f1704f8e55ad": "Independent SenseVoice on final cue48 reads 场任务 rather than 长任务; regenerate this group to remove cross-recognizer uncertainty."
+  },
+  "technical23b_fallback": {
+    "source": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\takes\\calm_g23b_s43_63b4d06d.wav",
+    "sha256": "3ee9dcf7b9723650942758e1b7e70fa6b80ef25adf4c89860dba343460c87ef8",
+    "reason": "Final SenseVoice reads 场任务 for newly regenerated seed41, which matches previously rejected C2 hash. Reuse verified seed43 material for correct 长任务 and inherit historical rejected hashes.",
+    "newly_generated": false
+  },
+  "final_edge_policy": {
+    "rule": "Preserve complete original take whenever it fits the whole-group hard window; trim outer silence only when necessary.",
+    "scope": "All 24 groups; not special-cased to failed groups.",
+    "reason": "Preserve natural onset and release; avoid unnecessary postprocessing.",
+    "rejected_trimmed_identity": {
+      "pairwise_min": 0.7948207472644907,
+      "closing_peer_median": 0.8485893122343958
+    },
+    "thresholds_unchanged": true,
+    "new_final_wave_requires_fresh_asr_and_identity": true
+  },
+  "completed_at": "2026-10-22T17:12:55.047617+08:00",
+  "delivery": {
+    "completed_at": "2026-10-22T17:12:55.047617+08:00",
+    "waveform_sha256": "a0db0f1e86000b320f0d64d869c1e72122c89dacea3ba4bf3558ef530a4785b5",
+    "local_audio": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\delivery\\C3_交流起伏_完整旁白.wav",
+    "local_preview": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\delivery\\C3_重点片段试听.wav",
+    "bytes": 25632044,
+    "duration": 178,
+    "sample_rate": 48000,
+    "channels": 1,
+    "subtype": "PCM_24",
+    "groups": 24,
+    "original_cues": 55,
+    "final_asr_groups_passed": 24,
+    "secondary_whole_groups_matched": 5,
+    "secondary_targeted_groups_matched": 0,
+    "full_context_asr_disagreement_preserved": [],
+    "prior_wave_disagreement_preserved": [
+      "23b"
+    ],
+    "human_pronunciation_verified": false,
+    "synthesis_saved_candidates": 58,
+    "selected_takes": 24,
+    "reused_previous_takes": 2,
+    "identity_checks": {
+      "expression_prompt_min": true,
+      "peer_median_min": true,
+      "pairwise_p10": true,
+      "pairwise_min": true
+    },
+    "identity_reference_min": 0.8726385912686049,
+    "identity_pairwise_p10": 0.8578105769174423,
+    "identity_pairwise_min": 0.8036602061019931,
+    "identity_pairwise_mean": 0.9009166565382494,
+    "original_c2_calm_reference_min": 0.7842799221039876,
+    "naturalness_human_approved": false,
+    "exact_55_cue_alignment_verified": false,
+    "original_script_changes": false,
+    "backend_changes": false,
+    "video_created": false
   }
 }

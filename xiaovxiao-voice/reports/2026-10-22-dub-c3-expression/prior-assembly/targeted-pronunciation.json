@@ -1,0 +1,26 @@
+{
+  "expected": "长任务先记状态，再执行；支持的算式另外核验。",
+  "actual_final_wave_sha256": "95017dfa5f4091421c7b830e28084e3fd2ce81c3b20d5f55c3fe12115273284b",
+  "source_interval": [
+    148.4,
+    153.02
+  ],
+  "clip_file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\23b_长任务_最终音轨原句.wav",
+  "clip_sha256": "3ed761bb0df759a71d425c6ff2dd9a858e414b431b92272eb6a10272e11c074f",
+  "results": {
+    "paraformer": {
+      "raw": "长 任 务 先 记 状 态 再 执 行 支 持 的 算 式 另 外 核 验",
+      "plain": "长 任 务 先 记 状 态 再 执 行 支 持 的 算 式 另 外 核 验",
+      "normalized_equal": true
+    },
+    "sensevoice": {
+      "raw": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>长任务先记状态再执行，支持的算是另外核验。",
+      "plain": "长任务先记状态再执行，支持的算是另外核验。",
+      "normalized_equal": true
+    }
+  },
+  "passed": true,
+  "full_context_disagreement_preserved": "接着聊会带上选定卡片的相关上下文，原话生成内容和版本分开保存，场任务先记状态再执行，支持的算是另外核验。",
+  "expected_text_or_hotwords_passed_to_models": false,
+  "human_pronunciation_verified": false
+}

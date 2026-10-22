@@ -1,0 +1,28 @@
+{
+  "warm": {
+    "count": 4,
+    "pairwise_min": 0.42700797484737973,
+    "pairwise_p10": 0.42763625569138736,
+    "pairwise_mean": 0.6149671025783426,
+    "reference_scores": {
+      "warm": [
+        0.9085030166606824,
+        0.8768068633285275,
+        0.4356446391313302,
+        0.7584860251902006
+      ],
+      "engaged": [
+        0.7401328685922142,
+        0.7793666655512839,
+        0.36529400355937286,
+        0.6221047898015308
+      ]
+    },
+    "files": [
+      "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\expressive-refs\\warm_g05-06_s41_c7979bd5.wav",
+      "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\expressive-refs\\warm_g07_s41_2168d94f.wav",
+      "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\expressive-refs\\warm_g20_s41_f9307674.wav",
+      "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\expressive-refs\\warm_g23a_s41_ed3805a2.wav"
+    ]
+  }
+}

@@ -1,0 +1,3160 @@
+{
+  "groups": [
+    {
+      "group": "01-02",
+      "selected": {
+        "file": "c3_g01-02_s41_81068218.wav",
+        "sha256": "ad3ebdc435f268809eb2a09794c25a682cdef0943973e45975b825b4e75519ae",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "prompt_sha256": "2a21e2e79429ad79c84942fb538386a30dbe3c3012cc95da444991a80910cf98",
+        "expression_bank": "soft",
+        "speaker_cosine": 0.7970746509873007,
+        "need": 0.5277108433734939,
+        "asr": "躺 下 了 脑 子 却 停 不 下 来",
+        "expected": "躺下了。脑子却停不下来。",
+        "checks": {
+          "text": true,
+          "reference": true,
+          "current_expression_bank": true,
+          "no_spoken_control": true,
+          "transcript": true,
+          "duration": true,
+          "speaker": false,
+          "non_silent": true,
+          "sample_rate": true,
+          "not_rejected": true
+        },
+        "failed": [
+          "speaker"
+        ],
+        "basic": {
+          "acoustic": {
+            "f0": 193,
+            "range_st": 11.0,
+            "pause_pct": 21,
+            "rate": 6.4,
+            "hnr": 11.7,
+            "flags": []
+          },
+          "f0_median": 187.45410019348398,
+          "f0_p10": 133.1930537325387,
+          "f0_p90": 254.11778862783834,
+          "peak_db": -0.15188126266002655,
+          "duration": 2.56,
+          "speech_rms_db": -15.937154769897461,
+          "text_sha256": "85835489ac61861057531f182fc83047c45660799f3c088ca13b7ef88715840e",
+          "source_fullscale_samples": 0
+        },
+        "rank": [
+          1,
+          0,
+          0
+        ]
+      },
+      "candidates": [
+        {
+          "file": "c3_g01-02_s41_81068218.wav",
+          "sha256": "ad3ebdc435f268809eb2a09794c25a682cdef0943973e45975b825b4e75519ae",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "2a21e2e79429ad79c84942fb538386a30dbe3c3012cc95da444991a80910cf98",
+          "expression_bank": "soft",
+          "speaker_cosine": 0.7970746509873007,
+          "need": 0.5277108433734939,
+          "asr": "躺 下 了 脑 子 却 停 不 下 来",
+          "expected": "躺下了。脑子却停不下来。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": true,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": false,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "speaker"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 193,
+              "range_st": 11.0,
+              "pause_pct": 21,
+              "rate": 6.4,
+              "hnr": 11.7,
+              "flags": []
+            },
+            "f0_median": 187.45410019348398,
+            "f0_p10": 133.1930537325387,
+            "f0_p90": 254.11778862783834,
+            "peak_db": -0.15188126266002655,
+            "duration": 2.56,
+            "speech_rms_db": -15.937154769897461,
+            "text_sha256": "85835489ac61861057531f182fc83047c45660799f3c088ca13b7ef88715840e",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "file": "c3_g01-02_s41_4dd9964d.wav",
+          "sha256": "0c43eef689fb0b4aca7b816ff71c56254140d953f9151015391c6964aa077a3e",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "b98a04e3c6bd9410a6b2fb04bb26ea36cc928d27afb6f898262eb87748b71f63",
+          "expression_bank": "warm",
+          "speaker_cosine": 0.748489718691525,
+          "need": 0.489156626506024,
+          "asr": "躺 下 了 脑 子 却 停 不 下 来",
+          "expected": "躺下了。脑子却停不下来。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": false,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": false,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "current_expression_bank",
+            "speaker"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 219,
+              "range_st": 9.4,
+              "pause_pct": 15,
+              "rate": 6.4,
+              "hnr": 13.2,
+              "flags": []
+            },
+            "f0_median": 201.06980420837277,
+            "f0_p10": 163.37253795155112,
+            "f0_p90": 284.833535416985,
+            "peak_db": -0.3152570426464081,
+            "duration": 2.08,
+            "speech_rms_db": -14.739752769470215,
+            "text_sha256": "85835489ac61861057531f182fc83047c45660799f3c088ca13b7ef88715840e",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            2,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "group": "03",
+      "selected": {
+        "file": "c3_g03_s41_5368bc6f.wav",
+        "sha256": "c0f58b66eb1e78ec6ab35ea1be3591aa85b7b233b17d9bb1cd72cc5327298c47",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "prompt_sha256": "2a21e2e79429ad79c84942fb538386a30dbe3c3012cc95da444991a80910cf98",
+        "expression_bank": "soft",
+        "speaker_cosine": 0.8218635371174081,
+        "need": 0.653932584269663,
+        "asr": "一 天 里 许 多 念 头 冒 出 来 又 慢 慢 散 去",
+        "expected": "一天里，许多念头冒出来，又慢慢散去。",
+        "checks": {
+          "text": true,
+          "reference": true,
+          "current_expression_bank": true,
+          "no_spoken_control": true,
+          "transcript": true,
+          "duration": true,
+          "speaker": false,
+          "non_silent": true,
+          "sample_rate": true,
+          "not_rejected": true
+        },
+        "failed": [
+          "speaker"
+        ],
+        "basic": {
+          "acoustic": {
+            "f0": 212,
+            "range_st": 12.1,
+            "pause_pct": 0,
+            "rate": 5.5,
+            "hnr": 13.9,
+            "flags": []
+          },
+          "f0_median": 192.66590717615102,
+          "f0_p10": 145.35846064950198,
+          "f0_p90": 290.5865812772587,
+          "peak_db": -0.33865246176719666,
+          "duration": 3.2,
+          "speech_rms_db": -19.329792022705078,
+          "text_sha256": "3337c1aeccd3d188fbf1a4442089122422aa074a3541861f1c8933f2f8a5a355",
+          "source_fullscale_samples": 0
+        },
+        "rank": [
+          1,
+          0,
+          0
+        ]
+      },
+      "candidates": [
+        {
+          "file": "c3_g03_s41_5368bc6f.wav",
+          "sha256": "c0f58b66eb1e78ec6ab35ea1be3591aa85b7b233b17d9bb1cd72cc5327298c47",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "2a21e2e79429ad79c84942fb538386a30dbe3c3012cc95da444991a80910cf98",
+          "expression_bank": "soft",
+          "speaker_cosine": 0.8218635371174081,
+          "need": 0.653932584269663,
+          "asr": "一 天 里 许 多 念 头 冒 出 来 又 慢 慢 散 去",
+          "expected": "一天里，许多念头冒出来，又慢慢散去。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": true,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": false,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "speaker"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 212,
+              "range_st": 12.1,
+              "pause_pct": 0,
+              "rate": 5.5,
+              "hnr": 13.9,
+              "flags": []
+            },
+            "f0_median": 192.66590717615102,
+            "f0_p10": 145.35846064950198,
+            "f0_p90": 290.5865812772587,
+            "peak_db": -0.33865246176719666,
+            "duration": 3.2,
+            "speech_rms_db": -19.329792022705078,
+            "text_sha256": "3337c1aeccd3d188fbf1a4442089122422aa074a3541861f1c8933f2f8a5a355",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "file": "c3_g03_s41_55aff50a.wav",
+          "sha256": "39194268beaff1805b83a88338182b1b35e54e142fbbf1bc29d0a5c40df6cbef",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "b98a04e3c6bd9410a6b2fb04bb26ea36cc928d27afb6f898262eb87748b71f63",
+          "expression_bank": "warm",
+          "speaker_cosine": 0.8011810065558572,
+          "need": 0.7842696629213485,
+          "asr": "一 天 里 许 多 念 头 冒 出 来 又 慢 慢 散 去",
+          "expected": "一天里，许多念头冒出来，又慢慢散去。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": false,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": false,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "current_expression_bank",
+            "speaker"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 225,
+              "range_st": 10.3,
+              "pause_pct": 16,
+              "rate": 5.4,
+              "hnr": 14.5,
+              "flags": []
+            },
+            "f0_median": 216.48746445682866,
+            "f0_p10": 157.206200933325,
+            "f0_p90": 284.90944775860686,
+            "peak_db": -0.3643222153186798,
+            "duration": 3.84,
+            "speech_rms_db": -16.76609230041504,
+            "text_sha256": "3337c1aeccd3d188fbf1a4442089122422aa074a3541861f1c8933f2f8a5a355",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            2,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "group": "04",
+      "selected": {
+        "file": "c3_g04_s41_b1b682ee.wav",
+        "sha256": "db30369a53f69c885143bbac5c4ec13a9261809a4b84cfec0254cf5b2a0a553d",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "prompt_sha256": "2a21e2e79429ad79c84942fb538386a30dbe3c3012cc95da444991a80910cf98",
+        "expression_bank": "soft",
+        "speaker_cosine": 0.8171167049124546,
+        "need": 0.5402061855670104,
+        "asr": "睡 前 把 明 天 要 做 的 事 先 写 下 来",
+        "expected": "睡前，把明天要做的事，先写下来。",
+        "checks": {
+          "text": true,
+          "reference": true,
+          "current_expression_bank": true,
+          "no_spoken_control": true,
+          "transcript": true,
+          "duration": true,
+          "speaker": false,
+          "non_silent": true,
+          "sample_rate": true,
+          "not_rejected": true
+        },
+        "failed": [
+          "speaker"
+        ],
+        "basic": {
+          "acoustic": {
+            "f0": 232,
+            "range_st": 10.4,
+            "pause_pct": 0,
+            "rate": 5.4,
+            "hnr": 12.5,
+            "flags": []
+          },
+          "f0_median": 237.25293084829002,
+          "f0_p10": 156.63914563652406,
+          "f0_p90": 290.1783714975859,
+          "peak_db": -0.2282852828502655,
+          "duration": 3.04,
+          "speech_rms_db": -17.466018676757812,
+          "text_sha256": "90ef44e631feaf2bb72fd6e0394eebf6160cfa79e13e8c7fa0b3fd896d2e9113",
+          "source_fullscale_samples": 0
+        },
+        "rank": [
+          1,
+          0,
+          0
+        ]
+      },
+      "candidates": [
+        {
+          "file": "c3_g04_s41_b1b682ee.wav",
+          "sha256": "db30369a53f69c885143bbac5c4ec13a9261809a4b84cfec0254cf5b2a0a553d",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "2a21e2e79429ad79c84942fb538386a30dbe3c3012cc95da444991a80910cf98",
+          "expression_bank": "soft",
+          "speaker_cosine": 0.8171167049124546,
+          "need": 0.5402061855670104,
+          "asr": "睡 前 把 明 天 要 做 的 事 先 写 下 来",
+          "expected": "睡前，把明天要做的事，先写下来。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": true,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": false,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "speaker"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 232,
+              "range_st": 10.4,
+              "pause_pct": 0,
+              "rate": 5.4,
+              "hnr": 12.5,
+              "flags": []
+            },
+            "f0_median": 237.25293084829002,
+            "f0_p10": 156.63914563652406,
+            "f0_p90": 290.1783714975859,
+            "peak_db": -0.2282852828502655,
+            "duration": 3.04,
+            "speech_rms_db": -17.466018676757812,
+            "text_sha256": "90ef44e631feaf2bb72fd6e0394eebf6160cfa79e13e8c7fa0b3fd896d2e9113",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "file": "c3_g04_s41_95fa4339.wav",
+          "sha256": "4868b3861647a01973366d6ca6a907b98d4d5d74852ed4946d5d8429e8bf27a6",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "b98a04e3c6bd9410a6b2fb04bb26ea36cc928d27afb6f898262eb87748b71f63",
+          "expression_bank": "warm",
+          "speaker_cosine": 0.8442258525323063,
+          "need": 0.5835051546391753,
+          "asr": "睡 前 把 明 天 要 做 的 事 先 写 下 来",
+          "expected": "睡前，把明天要做的事，先写下来。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": false,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": false,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "current_expression_bank",
+            "speaker"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 233,
+              "range_st": 9.2,
+              "pause_pct": 8,
+              "rate": 5.3,
+              "hnr": 13.2,
+              "flags": []
+            },
+            "f0_median": 219.37291397946612,
+            "f0_p10": 172.54234346231647,
+            "f0_p90": 287.32287373845907,
+            "peak_db": -0.17565159499645233,
+            "duration": 2.88,
+            "speech_rms_db": -15.767396926879883,
+            "text_sha256": "90ef44e631feaf2bb72fd6e0394eebf6160cfa79e13e8c7fa0b3fd896d2e9113",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            2,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "group": "05-06",
+      "selected": {
+        "file": "c3_g05-06_s41_8df3ca36.wav",
+        "sha256": "b7f7ddf10aa65873c4faa13c51ee0c34630f770baf0118b5cf422bc3e628c457",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "prompt_sha256": "b98a04e3c6bd9410a6b2fb04bb26ea36cc928d27afb6f898262eb87748b71f63",
+        "expression_bank": "warm",
+        "speaker_cosine": 0.8700960588948101,
+        "need": 0.8107202680067,
+        "asr": "这 是 小 念 从 随 手 记 下 一 句 话 开 始 要 做 的 是 没 想 完 的 问 题 ai 整 理 成 卡 原 话 也 一 起 留 着 记 下 之 后 再 接 着 想",
+        "expected": "这是晓念，从随手记下一句话开始。要做的事、没想完的问题，AI整理成卡，原话也一起留着。记下之后，再接着想。",
+        "checks": {
+          "text": true,
+          "reference": true,
+          "current_expression_bank": false,
+          "no_spoken_control": true,
+          "transcript": true,
+          "duration": true,
+          "speaker": true,
+          "non_silent": true,
+          "sample_rate": true,
+          "not_rejected": true
+        },
+        "failed": [
+          "current_expression_bank"
+        ],
+        "basic": {
+          "acoustic": {
+            "f0": 221,
+            "range_st": 11.6,
+            "pause_pct": 14,
+            "rate": 5.3,
+            "hnr": 12.0,
+            "flags": []
+          },
+          "f0_median": 207.56676936769998,
+          "f0_p10": 148.2360222761992,
+          "f0_p90": 285.51617707061286,
+          "peak_db": -0.11688460409641266,
+          "duration": 9.76,
+          "speech_rms_db": -15.688667297363281,
+          "text_sha256": "a14dcf35a0e5f7342bbcc697e9be73d27fc8225a244e8aeef453ffc4003a1264",
+          "source_fullscale_samples": 0
+        },
+        "rank": [
+          1,
+          0,
+          0
+        ]
+      },
+      "candidates": [
+        {
+          "file": "c3_g05-06_s41_8df3ca36.wav",
+          "sha256": "b7f7ddf10aa65873c4faa13c51ee0c34630f770baf0118b5cf422bc3e628c457",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "b98a04e3c6bd9410a6b2fb04bb26ea36cc928d27afb6f898262eb87748b71f63",
+          "expression_bank": "warm",
+          "speaker_cosine": 0.8700960588948101,
+          "need": 0.8107202680067,
+          "asr": "这 是 小 念 从 随 手 记 下 一 句 话 开 始 要 做 的 是 没 想 完 的 问 题 ai 整 理 成 卡 原 话 也 一 起 留 着 记 下 之 后 再 接 着 想",
+          "expected": "这是晓念，从随手记下一句话开始。要做的事、没想完的问题，AI整理成卡，原话也一起留着。记下之后，再接着想。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": false,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": true,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "current_expression_bank"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 221,
+              "range_st": 11.6,
+              "pause_pct": 14,
+              "rate": 5.3,
+              "hnr": 12.0,
+              "flags": []
+            },
+            "f0_median": 207.56676936769998,
+            "f0_p10": 148.2360222761992,
+            "f0_p90": 285.51617707061286,
+            "peak_db": -0.11688460409641266,
+            "duration": 9.76,
+            "speech_rms_db": -15.688667297363281,
+            "text_sha256": "a14dcf35a0e5f7342bbcc697e9be73d27fc8225a244e8aeef453ffc4003a1264",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "file": "c3_g05-06_s41_67f74261.wav",
+          "sha256": "ee520fe80080af016af03936d3cf7e77e97f5aca44b5c0bbd7427dce7cea291f",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+          "expression_bank": "warm",
+          "speaker_cosine": 0.8339896467328993,
+          "need": 0.8249581239530988,
+          "asr": "这 是 小 念 从 随 手 记 下 一 句 话 开 始 要 做 的 是 没 想 完 的 问 题 AI 整 理 成 卡 原 话 也 一 起 留 着 记 下 之 后 再 接 着 想",
+          "expected": "这是晓念，从随手记下一句话开始。要做的事、没想完的问题，AI整理成卡，原话也一起留着。记下之后，再接着想。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": true,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": false,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "speaker"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 225,
+              "range_st": 10.5,
+              "pause_pct": 21,
+              "rate": 5.7,
+              "hnr": 12.7,
+              "flags": []
+            },
+            "f0_median": 226.08633905462705,
+            "f0_p10": 162.38809520478014,
+            "f0_p90": 296.45186461007927,
+            "peak_db": -0.037722062319517136,
+            "duration": 10.08,
+            "speech_rms_db": -14.870853424072266,
+            "text_sha256": "a14dcf35a0e5f7342bbcc697e9be73d27fc8225a244e8aeef453ffc4003a1264",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            1,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "group": "07",
+      "selected": {
+        "file": "c3_g07_s41_ac9fd02b.wav",
+        "sha256": "c14f97fae3931375d17782209a8cdcdab5d966c5d779e9ebb0ab3a1754b1b8e1",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "prompt_sha256": "97e4ca7562022696303861769b98903ff8fccb37b1563d008c22bc5f59131d50",
+        "expression_bank": "question",
+        "speaker_cosine": 0.8476603715418465,
+        "need": 0.858455882352941,
+        "asr": "过 几 天 带 着 原 话 回 来 看 那 件 想 包 竞 赛 的 事 现 在 怎 么 想",
+        "expected": "过几天，带着原话回来看，那件想报竞赛的事，现在怎么想？",
+        "checks": {
+          "text": true,
+          "reference": true,
+          "current_expression_bank": true,
+          "no_spoken_control": true,
+          "transcript": false,
+          "duration": true,
+          "speaker": false,
+          "non_silent": true,
+          "sample_rate": true,
+          "not_rejected": true
+        },
+        "failed": [
+          "transcript",
+          "speaker"
+        ],
+        "basic": {
+          "acoustic": {
+            "f0": 203,
+            "range_st": 11.3,
+            "pause_pct": 7,
+            "rate": 5.5,
+            "hnr": 12.7,
+            "flags": []
+          },
+          "f0_median": 186.48046720971553,
+          "f0_p10": 143.73197800551037,
+          "f0_p90": 265.9394185122261,
+          "peak_db": -0.05077693983912468,
+          "duration": 5.28,
+          "speech_rms_db": -14.031225204467773,
+          "text_sha256": "2e3524a7d7868331b70c16f23c7cb2eba0856a8e0e45cd2d3f4d670115182311",
+          "source_fullscale_samples": 0
+        },
+        "rank": [
+          2,
+          0,
+          0
+        ]
+      },
+      "candidates": [
+        {
+          "file": "c3_g07_s41_ac9fd02b.wav",
+          "sha256": "c14f97fae3931375d17782209a8cdcdab5d966c5d779e9ebb0ab3a1754b1b8e1",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "97e4ca7562022696303861769b98903ff8fccb37b1563d008c22bc5f59131d50",
+          "expression_bank": "question",
+          "speaker_cosine": 0.8476603715418465,
+          "need": 0.858455882352941,
+          "asr": "过 几 天 带 着 原 话 回 来 看 那 件 想 包 竞 赛 的 事 现 在 怎 么 想",
+          "expected": "过几天，带着原话回来看，那件想报竞赛的事，现在怎么想？",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": true,
+            "no_spoken_control": true,
+            "transcript": false,
+            "duration": true,
+            "speaker": false,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "transcript",
+            "speaker"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 203,
+              "range_st": 11.3,
+              "pause_pct": 7,
+              "rate": 5.5,
+              "hnr": 12.7,
+              "flags": []
+            },
+            "f0_median": 186.48046720971553,
+            "f0_p10": 143.73197800551037,
+            "f0_p90": 265.9394185122261,
+            "peak_db": -0.05077693983912468,
+            "duration": 5.28,
+            "speech_rms_db": -14.031225204467773,
+            "text_sha256": "2e3524a7d7868331b70c16f23c7cb2eba0856a8e0e45cd2d3f4d670115182311",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            2,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "group": "08",
+      "selected": {
+        "file": "c3_g08_s41_3021c5ba.wav",
+        "sha256": "8234d61827fca76cf133841b3e7cd70e5a4a7e99092620a1cba9b69c72004660",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "prompt_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+        "expression_bank": "warm",
+        "speaker_cosine": 0.7981396898347357,
+        "need": 0.6457489878542513,
+        "asr": "做 完 的 代 办 勾 掉 没 想 完 的 念 头 留 着 继 续",
+        "expected": "做完的待办勾掉，没想完的念头，留着继续。",
+        "checks": {
+          "text": true,
+          "reference": true,
+          "current_expression_bank": true,
+          "no_spoken_control": true,
+          "transcript": true,
+          "duration": true,
+          "speaker": false,
+          "non_silent": true,
+          "sample_rate": true,
+          "not_rejected": true
+        },
+        "failed": [
+          "speaker"
+        ],
+        "basic": {
+          "acoustic": {
+            "f0": 228,
+            "range_st": 9.9,
+            "pause_pct": 0,
+            "rate": 5.7,
+            "hnr": 14.5,
+            "flags": []
+          },
+          "f0_median": 225.89350661271857,
+          "f0_p10": 159.18804628164904,
+          "f0_p90": 281.3846648020331,
+          "peak_db": -0.04757801443338394,
+          "duration": 3.52,
+          "speech_rms_db": -14.707525253295898,
+          "text_sha256": "e0cc91b1549940bb554fd441c2b4ba0d88f6cab54d47f9c2710d10feef0d29b7",
+          "source_fullscale_samples": 0
+        },
+        "rank": [
+          1,
+          0,
+          0
+        ]
+      },
+      "candidates": [
+        {
+          "file": "c3_g08_s41_3021c5ba.wav",
+          "sha256": "8234d61827fca76cf133841b3e7cd70e5a4a7e99092620a1cba9b69c72004660",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+          "expression_bank": "warm",
+          "speaker_cosine": 0.7981396898347357,
+          "need": 0.6457489878542513,
+          "asr": "做 完 的 代 办 勾 掉 没 想 完 的 念 头 留 着 继 续",
+          "expected": "做完的待办勾掉，没想完的念头，留着继续。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": true,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": false,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "speaker"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 228,
+              "range_st": 9.9,
+              "pause_pct": 0,
+              "rate": 5.7,
+              "hnr": 14.5,
+              "flags": []
+            },
+            "f0_median": 225.89350661271857,
+            "f0_p10": 159.18804628164904,
+            "f0_p90": 281.3846648020331,
+            "peak_db": -0.04757801443338394,
+            "duration": 3.52,
+            "speech_rms_db": -14.707525253295898,
+            "text_sha256": "e0cc91b1549940bb554fd441c2b4ba0d88f6cab54d47f9c2710d10feef0d29b7",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "file": "c3_g08_s41_f7843c88.wav",
+          "sha256": "b0b51aebfe78025bf6e63831e091c02fa5e03acd3829e641efd09c11607d70ed",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "b98a04e3c6bd9410a6b2fb04bb26ea36cc928d27afb6f898262eb87748b71f63",
+          "expression_bank": "warm",
+          "speaker_cosine": 0.8017830590709306,
+          "need": 0.6477732793522271,
+          "asr": "做 完 的 代 办 勾 掉 没 想 完 的 念 头 留 着 继 续",
+          "expected": "做完的待办勾掉，没想完的念头，留着继续。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": false,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": false,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "current_expression_bank",
+            "speaker"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 228,
+              "range_st": 9.5,
+              "pause_pct": 0,
+              "rate": 5.7,
+              "hnr": 14.5,
+              "flags": []
+            },
+            "f0_median": 223.44584024681924,
+            "f0_p10": 161.65361495695979,
+            "f0_p90": 283.145073854387,
+            "peak_db": -0.21197274327278137,
+            "duration": 3.52,
+            "speech_rms_db": -15.203112602233887,
+            "text_sha256": "e0cc91b1549940bb554fd441c2b4ba0d88f6cab54d47f9c2710d10feef0d29b7",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            2,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "group": "09",
+      "selected": {
+        "file": "c3_g09_s41_c6950d79.wav",
+        "sha256": "de7d7f2dece74bb612f830ecbe297e989a5a39b3c7cde904f94cb7ae33bb5503",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "prompt_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+        "expression_bank": "warm",
+        "speaker_cosine": 0.7866430251880259,
+        "need": 0.7469635627530368,
+        "asr": "记 录 都 在 卡 片 墙 上 想 找 回 来 时 不 必 从 头 翻",
+        "expected": "记录都在卡片墙上，想找回来时，不必从头翻。",
+        "checks": {
+          "text": true,
+          "reference": true,
+          "current_expression_bank": true,
+          "no_spoken_control": true,
+          "transcript": true,
+          "duration": true,
+          "speaker": false,
+          "non_silent": true,
+          "sample_rate": true,
+          "not_rejected": true
+        },
+        "failed": [
+          "speaker"
+        ],
+        "basic": {
+          "acoustic": {
+            "f0": 219,
+            "range_st": 8.7,
+            "pause_pct": 10,
+            "rate": 5.8,
+            "hnr": 13.3,
+            "flags": []
+          },
+          "f0_median": 205.93612837807328,
+          "f0_p10": 163.33661022483557,
+          "f0_p90": 268.9435897844336,
+          "peak_db": -0.055044014006853104,
+          "duration": 4.0,
+          "speech_rms_db": -16.06082534790039,
+          "text_sha256": "031bde31fbf408bbede47c49b880356bbbc5fc5834ad484553579f6631ce3493",
+          "source_fullscale_samples": 0
+        },
+        "rank": [
+          1,
+          0,
+          0
+        ]
+      },
+      "candidates": [
+        {
+          "file": "c3_g09_s41_c6950d79.wav",
+          "sha256": "de7d7f2dece74bb612f830ecbe297e989a5a39b3c7cde904f94cb7ae33bb5503",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+          "expression_bank": "warm",
+          "speaker_cosine": 0.7866430251880259,
+          "need": 0.7469635627530368,
+          "asr": "记 录 都 在 卡 片 墙 上 想 找 回 来 时 不 必 从 头 翻",
+          "expected": "记录都在卡片墙上，想找回来时，不必从头翻。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": true,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": false,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "speaker"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 219,
+              "range_st": 8.7,
+              "pause_pct": 10,
+              "rate": 5.8,
+              "hnr": 13.3,
+              "flags": []
+            },
+            "f0_median": 205.93612837807328,
+            "f0_p10": 163.33661022483557,
+            "f0_p90": 268.9435897844336,
+            "peak_db": -0.055044014006853104,
+            "duration": 4.0,
+            "speech_rms_db": -16.06082534790039,
+            "text_sha256": "031bde31fbf408bbede47c49b880356bbbc5fc5834ad484553579f6631ce3493",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "file": "c3_g09_s41_7a5f0f12.wav",
+          "sha256": "680f9e95eed052547b285c492f3c06fe06bc6b4088adffda3938b0b0637ca0af",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "b98a04e3c6bd9410a6b2fb04bb26ea36cc928d27afb6f898262eb87748b71f63",
+          "expression_bank": "warm",
+          "speaker_cosine": 0.8419568785698079,
+          "need": 0.7955465587044538,
+          "asr": "记 录 都 在 卡 片 墙 上 想 找 回 来 时 不 必 从 头 翻",
+          "expected": "记录都在卡片墙上，想找回来时，不必从头翻。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": false,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": false,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "current_expression_bank",
+            "speaker"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 213,
+              "range_st": 10.2,
+              "pause_pct": 10,
+              "rate": 5.4,
+              "hnr": 12.1,
+              "flags": []
+            },
+            "f0_median": 205.37395086098394,
+            "f0_p10": 150.46914382005005,
+            "f0_p90": 266.8536340178266,
+            "peak_db": -0.24408327043056488,
+            "duration": 4.0,
+            "speech_rms_db": -15.70715045928955,
+            "text_sha256": "031bde31fbf408bbede47c49b880356bbbc5fc5834ad484553579f6631ce3493",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            2,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "group": "10",
+      "selected": {
+        "file": "c3_g10_s41_947d58b0.wav",
+        "sha256": "dfbf404c7b2711e3d60bb877190a4276acfc9ee19e36524d34f595af72e3b556",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "prompt_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+        "expression_bank": "warm",
+        "speaker_cosine": 0.8485911582901071,
+        "need": 0.6284634760705292,
+        "asr": "点 接 着 聊 先 看 最 担 心 的 时 间 安 排 再 把 顾 虑 一 步 步 说 清 楚",
+        "expected": "点“接着聊”，先看最担心的时间安排，再把顾虑一步步说清楚。",
+        "checks": {
+          "text": true,
+          "reference": true,
+          "current_expression_bank": true,
+          "no_spoken_control": true,
+          "transcript": true,
+          "duration": true,
+          "speaker": false,
+          "non_silent": true,
+          "sample_rate": true,
+          "not_rejected": true
+        },
+        "failed": [
+          "speaker"
+        ],
+        "basic": {
+          "acoustic": {
+            "f0": 229,
+            "range_st": 10.4,
+            "pause_pct": 15,
+            "rate": 5.9,
+            "hnr": 13.2,
+            "flags": []
+          },
+          "f0_median": 230.24660610595487,
+          "f0_p10": 163.80548649229115,
+          "f0_p90": 294.9978311916805,
+          "peak_db": -0.053176913410425186,
+          "duration": 5.44,
+          "speech_rms_db": -16.039731979370117,
+          "text_sha256": "f6261de9858c8260d2ac36d7a720eddb8b3f99c6720257e15df47ce251f3390f",
+          "source_fullscale_samples": 0
+        },
+        "rank": [
+          1,
+          0,
+          0
+        ]
+      },
+      "candidates": [
+        {
+          "file": "c3_g10_s41_947d58b0.wav",
+          "sha256": "dfbf404c7b2711e3d60bb877190a4276acfc9ee19e36524d34f595af72e3b556",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+          "expression_bank": "warm",
+          "speaker_cosine": 0.8485911582901071,
+          "need": 0.6284634760705292,
+          "asr": "点 接 着 聊 先 看 最 担 心 的 时 间 安 排 再 把 顾 虑 一 步 步 说 清 楚",
+          "expected": "点“接着聊”，先看最担心的时间安排，再把顾虑一步步说清楚。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": true,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": false,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "speaker"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 229,
+              "range_st": 10.4,
+              "pause_pct": 15,
+              "rate": 5.9,
+              "hnr": 13.2,
+              "flags": []
+            },
+            "f0_median": 230.24660610595487,
+            "f0_p10": 163.80548649229115,
+            "f0_p90": 294.9978311916805,
+            "peak_db": -0.053176913410425186,
+            "duration": 5.44,
+            "speech_rms_db": -16.039731979370117,
+            "text_sha256": "f6261de9858c8260d2ac36d7a720eddb8b3f99c6720257e15df47ce251f3390f",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "file": "c3_g10_s41_0f5eeeb9.wav",
+          "sha256": "a0afd366e86916928d69bdc467bca6853b7caa9b835a8961081a48d549bc933e",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "b98a04e3c6bd9410a6b2fb04bb26ea36cc928d27afb6f898262eb87748b71f63",
+          "expression_bank": "warm",
+          "speaker_cosine": 0.8462129091063345,
+          "need": 0.6196473551637282,
+          "asr": "点 接 着 聊 先 看 最 担 心 的 时 间 安 排 再 把 顾 虑 一 步 步 说 清 楚",
+          "expected": "点“接着聊”，先看最担心的时间安排，再把顾虑一步步说清楚。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": false,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": false,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "current_expression_bank",
+            "speaker"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 214,
+              "range_st": 10.6,
+              "pause_pct": 12,
+              "rate": 5.8,
+              "hnr": 13.3,
+              "flags": []
+            },
+            "f0_median": 207.20923519765768,
+            "f0_p10": 158.18142407158928,
+            "f0_p90": 294.4862678790612,
+            "peak_db": -0.13624994456768036,
+            "duration": 5.28,
+            "speech_rms_db": -16.54620361328125,
+            "text_sha256": "f6261de9858c8260d2ac36d7a720eddb8b3f99c6720257e15df47ce251f3390f",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            2,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "group": "11",
+      "selected": {
+        "file": "c3_g11_s41_f1fee6e6.wav",
+        "sha256": "bafe099d503ee0f85ecaa9ddb7df9f72bbb388ded5d8af178d3d142a4ba0e481",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "prompt_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+        "expression_bank": "warm",
+        "speaker_cosine": 0.8217082752314129,
+        "need": 0.9466911764705886,
+        "asr": "聊 出 的 新 想 法 先 存 成 卡 再 选 几 张 相 关 的 卡 一 起 看 看",
+        "expected": "聊出的新想法，先存成卡。再选几张相关的卡，一起看看。",
+        "checks": {
+          "text": true,
+          "reference": true,
+          "current_expression_bank": true,
+          "no_spoken_control": true,
+          "transcript": true,
+          "duration": true,
+          "speaker": false,
+          "non_silent": true,
+          "sample_rate": true,
+          "not_rejected": true
+        },
+        "failed": [
+          "speaker"
+        ],
+        "basic": {
+          "acoustic": {
+            "f0": 232,
+            "range_st": 11.3,
+            "pause_pct": 22,
+            "rate": 5.7,
+            "hnr": 13.1,
+            "flags": []
+          },
+          "f0_median": 219.10340538281451,
+          "f0_p10": 162.40708401919363,
+          "f0_p90": 287.856424701983,
+          "peak_db": -0.04571251571178436,
+          "duration": 5.6,
+          "speech_rms_db": -15.586015701293945,
+          "text_sha256": "a31f4db79c01cd1303dd7d106462dd5212c0d3ab23fda9532988cb6d691a3c08",
+          "source_fullscale_samples": 0
+        },
+        "rank": [
+          1,
+          0,
+          0
+        ]
+      },
+      "candidates": [
+        {
+          "file": "c3_g11_s41_f1fee6e6.wav",
+          "sha256": "bafe099d503ee0f85ecaa9ddb7df9f72bbb388ded5d8af178d3d142a4ba0e481",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+          "expression_bank": "warm",
+          "speaker_cosine": 0.8217082752314129,
+          "need": 0.9466911764705886,
+          "asr": "聊 出 的 新 想 法 先 存 成 卡 再 选 几 张 相 关 的 卡 一 起 看 看",
+          "expected": "聊出的新想法，先存成卡。再选几张相关的卡，一起看看。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": true,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": false,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "speaker"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 232,
+              "range_st": 11.3,
+              "pause_pct": 22,
+              "rate": 5.7,
+              "hnr": 13.1,
+              "flags": []
+            },
+            "f0_median": 219.10340538281451,
+            "f0_p10": 162.40708401919363,
+            "f0_p90": 287.856424701983,
+            "peak_db": -0.04571251571178436,
+            "duration": 5.6,
+            "speech_rms_db": -15.586015701293945,
+            "text_sha256": "a31f4db79c01cd1303dd7d106462dd5212c0d3ab23fda9532988cb6d691a3c08",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "file": "c3_g11_s41_39bae2d3.wav",
+          "sha256": "33c753068661dc0b617bffda0e686a7631634cb584fde96041392dfd8edfc049",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "b98a04e3c6bd9410a6b2fb04bb26ea36cc928d27afb6f898262eb87748b71f63",
+          "expression_bank": "warm",
+          "speaker_cosine": 0.8387281871183627,
+          "need": 0.8786764705882357,
+          "asr": "聊 出 的 新 想 法 先 存 成 卡 再 选 几 张 相 关 的 卡 一 起 看 看",
+          "expected": "聊出的新想法，先存成卡。再选几张相关的卡，一起看看。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": false,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": false,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "current_expression_bank",
+            "speaker"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 233,
+              "range_st": 12.7,
+              "pause_pct": 13,
+              "rate": 5.5,
+              "hnr": 11.1,
+              "flags": []
+            },
+            "f0_median": 216.99530362930437,
+            "f0_p10": 146.04828187952165,
+            "f0_p90": 305.0472159021429,
+            "peak_db": -0.07373713701963425,
+            "duration": 5.12,
+            "speech_rms_db": -15.741381645202637,
+            "text_sha256": "a31f4db79c01cd1303dd7d106462dd5212c0d3ab23fda9532988cb6d691a3c08",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            2,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "group": "12",
+      "selected": {
+        "file": "c3_g12_s41_ad802e0e.wav",
+        "sha256": "4f71c5162b128555cda33189fb4f4f86a2539ba252206a6beb3899d9b637bb6b",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "prompt_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+        "expression_bank": "warm",
+        "speaker_cosine": 0.8215098092409729,
+        "need": 0.7807606263982099,
+        "asr": "放 进 头 脑 风 暴 分 组 比 较 找 出 这 些 念 头 之 间 的 新 联 系 最 后 把 自 己 的 结 论 写 下 来",
+        "expected": "放进头脑风暴，分组、比较，找出这些念头之间的新联系。最后，把自己的结论写下来。",
+        "checks": {
+          "text": true,
+          "reference": true,
+          "current_expression_bank": true,
+          "no_spoken_control": true,
+          "transcript": true,
+          "duration": true,
+          "speaker": false,
+          "non_silent": true,
+          "sample_rate": true,
+          "not_rejected": true
+        },
+        "failed": [
+          "speaker"
+        ],
+        "basic": {
+          "acoustic": {
+            "f0": 219,
+            "range_st": 10.8,
+            "pause_pct": 17,
+            "rate": 5.9,
+            "hnr": 13.9,
+            "flags": []
+          },
+          "f0_median": 224.07662082369174,
+          "f0_p10": 148.22093274372963,
+          "f0_p90": 280.9768716746838,
+          "peak_db": -0.05477726086974144,
+          "duration": 7.36,
+          "speech_rms_db": -15.724390983581543,
+          "text_sha256": "5376d391fb3994852ad9fe6cdbb0b874a95803b9d0527152ef9d126e046e8751",
+          "source_fullscale_samples": 0
+        },
+        "rank": [
+          1,
+          0,
+          0
+        ]
+      },
+      "candidates": [
+        {
+          "file": "c3_g12_s41_ad802e0e.wav",
+          "sha256": "4f71c5162b128555cda33189fb4f4f86a2539ba252206a6beb3899d9b637bb6b",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+          "expression_bank": "warm",
+          "speaker_cosine": 0.8215098092409729,
+          "need": 0.7807606263982099,
+          "asr": "放 进 头 脑 风 暴 分 组 比 较 找 出 这 些 念 头 之 间 的 新 联 系 最 后 把 自 己 的 结 论 写 下 来",
+          "expected": "放进头脑风暴，分组、比较，找出这些念头之间的新联系。最后，把自己的结论写下来。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": true,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": false,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "speaker"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 219,
+              "range_st": 10.8,
+              "pause_pct": 17,
+              "rate": 5.9,
+              "hnr": 13.9,
+              "flags": []
+            },
+            "f0_median": 224.07662082369174,
+            "f0_p10": 148.22093274372963,
+            "f0_p90": 280.9768716746838,
+            "peak_db": -0.05477726086974144,
+            "duration": 7.36,
+            "speech_rms_db": -15.724390983581543,
+            "text_sha256": "5376d391fb3994852ad9fe6cdbb0b874a95803b9d0527152ef9d126e046e8751",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            1,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "group": "13",
+      "selected": {
+        "file": "c3_g13_s41_27222557.wav",
+        "sha256": "1bd6dfbc57c4f62db9b5e4d1e1e13233ea920a849dc418caaff95a44ddcdd575",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "prompt_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+        "expression_bank": "warm",
+        "speaker_cosine": 0.7953728347266312,
+        "need": 0.9617117117117121,
+        "asr": "一 道 极 限 题 卡 在 第 一 步 拍 下 来 先 核 对 题 目",
+        "expected": "一道极限题，卡在第一步。拍下来，先核对题目。",
+        "checks": {
+          "text": true,
+          "reference": true,
+          "current_expression_bank": true,
+          "no_spoken_control": true,
+          "transcript": true,
+          "duration": true,
+          "speaker": false,
+          "non_silent": true,
+          "sample_rate": true,
+          "not_rejected": true
+        },
+        "failed": [
+          "speaker"
+        ],
+        "basic": {
+          "acoustic": {
+            "f0": 244,
+            "range_st": 8.8,
+            "pause_pct": 28,
+            "rate": 6.1,
+            "hnr": 13.6,
+            "flags": []
+          },
+          "f0_median": 245.25939478156062,
+          "f0_p10": 177.6398312750191,
+          "f0_p90": 297.59604166898384,
+          "peak_db": -0.04757801443338394,
+          "duration": 4.64,
+          "speech_rms_db": -15.279781341552734,
+          "text_sha256": "9bdd45c80bd005100a681d81cc5f68ad40cc7fb3a5c358111b35782df6f312d8",
+          "source_fullscale_samples": 0
+        },
+        "rank": [
+          1,
+          0,
+          0
+        ]
+      },
+      "candidates": [
+        {
+          "file": "c3_g13_s41_27222557.wav",
+          "sha256": "1bd6dfbc57c4f62db9b5e4d1e1e13233ea920a849dc418caaff95a44ddcdd575",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+          "expression_bank": "warm",
+          "speaker_cosine": 0.7953728347266312,
+          "need": 0.9617117117117121,
+          "asr": "一 道 极 限 题 卡 在 第 一 步 拍 下 来 先 核 对 题 目",
+          "expected": "一道极限题，卡在第一步。拍下来，先核对题目。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": true,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": false,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "speaker"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 244,
+              "range_st": 8.8,
+              "pause_pct": 28,
+              "rate": 6.1,
+              "hnr": 13.6,
+              "flags": []
+            },
+            "f0_median": 245.25939478156062,
+            "f0_p10": 177.6398312750191,
+            "f0_p90": 297.59604166898384,
+            "peak_db": -0.04757801443338394,
+            "duration": 4.64,
+            "speech_rms_db": -15.279781341552734,
+            "text_sha256": "9bdd45c80bd005100a681d81cc5f68ad40cc7fb3a5c358111b35782df6f312d8",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            1,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "group": "14",
+      "selected": {
+        "file": "c3_g14_s41_243c95b0.wav",
+        "sha256": "b119a3cb4afa3941347c501548934d33a5076e2a3f524d187521c1bfe70263c8",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "prompt_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "expression_bank": "formal",
+        "speaker_cosine": 0.9719503741458295,
+        "need": 0.9332723948811703,
+        "asr": "先 要 一 步 提 示 接 着 自 己 试 算 相 关 研 究 中 直 接 给 答 案 的 那 组 撤 掉 AI 后 表 现 下 降 提 示 组 未 见 明 显 下 降",
+        "expected": "先要一步提示，接着自己试算。相关研究中，直接给答案的那组，撤掉AI后表现下降。提示组未见明显下降。",
+        "checks": {
+          "text": true,
+          "reference": true,
+          "current_expression_bank": true,
+          "no_spoken_control": true,
+          "transcript": true,
+          "duration": true,
+          "speaker": true,
+          "non_silent": true,
+          "sample_rate": true,
+          "not_rejected": true
+        },
+        "failed": [],
+        "basic": {
+          "acoustic": {
+            "f0": 215,
+            "range_st": 9.9,
+            "pause_pct": 20,
+            "rate": 5.1,
+            "hnr": 13.6,
+            "flags": []
+          },
+          "f0_median": 213.3755905302164,
+          "f0_p10": 145.9451669013082,
+          "f0_p90": 264.63619004144357,
+          "peak_db": -0.3037201762199402,
+          "duration": 10.56,
+          "speech_rms_db": -17.755678176879883,
+          "text_sha256": "c42721e99ba3410d2c4494837e3d3de51d1c32b0c0e9b0b562731c1ddd1eaf1f",
+          "source_fullscale_samples": 0
+        },
+        "rank": [
+          0,
+          0,
+          0
+        ]
+      },
+      "candidates": [
+        {
+          "file": "c3_g14_s41_243c95b0.wav",
+          "sha256": "b119a3cb4afa3941347c501548934d33a5076e2a3f524d187521c1bfe70263c8",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "expression_bank": "formal",
+          "speaker_cosine": 0.9719503741458295,
+          "need": 0.9332723948811703,
+          "asr": "先 要 一 步 提 示 接 着 自 己 试 算 相 关 研 究 中 直 接 给 答 案 的 那 组 撤 掉 AI 后 表 现 下 降 提 示 组 未 见 明 显 下 降",
+          "expected": "先要一步提示，接着自己试算。相关研究中，直接给答案的那组，撤掉AI后表现下降。提示组未见明显下降。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": true,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": true,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [],
+          "basic": {
+            "acoustic": {
+              "f0": 215,
+              "range_st": 9.9,
+              "pause_pct": 20,
+              "rate": 5.1,
+              "hnr": 13.6,
+              "flags": []
+            },
+            "f0_median": 213.3755905302164,
+            "f0_p10": 145.9451669013082,
+            "f0_p90": 264.63619004144357,
+            "peak_db": -0.3037201762199402,
+            "duration": 10.56,
+            "speech_rms_db": -17.755678176879883,
+            "text_sha256": "c42721e99ba3410d2c4494837e3d3de51d1c32b0c0e9b0b562731c1ddd1eaf1f",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "group": "15",
+      "selected": {
+        "file": "c3_g15_s41_49773427.wav",
+        "sha256": "6b58e1b2e439d23936f4f9eb2e092157cc90b96f55bdf1d7a33b89b66720a5b1",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "prompt_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "expression_bank": "formal",
+        "speaker_cosine": 0.9465317643550829,
+        "need": 1.0639730639730645,
+        "asr": "展 开 完 整 解 析 还 能 查 看 计 算 核 验 支 持 的 算 式 由 程 序 重 新 计 算",
+        "expected": "展开完整解析，还能查看计算核验。支持的算式，由程序重新计算。",
+        "checks": {
+          "text": true,
+          "reference": true,
+          "current_expression_bank": true,
+          "no_spoken_control": true,
+          "transcript": true,
+          "duration": false,
+          "speaker": true,
+          "non_silent": true,
+          "sample_rate": true,
+          "not_rejected": true
+        },
+        "failed": [
+          "duration"
+        ],
+        "basic": {
+          "acoustic": {
+            "f0": 210,
+            "range_st": 8.9,
+            "pause_pct": 14,
+            "rate": 4.9,
+            "hnr": 12.2,
+            "flags": []
+          },
+          "f0_median": 199.47133125985383,
+          "f0_p10": 149.70243248617976,
+          "f0_p90": 252.2437109248428,
+          "peak_db": -0.08738178759813309,
+          "duration": 6.72,
+          "speech_rms_db": -19.240245819091797,
+          "text_sha256": "1fc650ef878e06e44ed658413faad65c1338dbf6498f4e3a8c66d7530f1e5155",
+          "source_fullscale_samples": 0
+        },
+        "rank": [
+          1,
+          0.06397306397306446,
+          0
+        ]
+      },
+      "candidates": [
+        {
+          "file": "c3_g15_s41_49773427.wav",
+          "sha256": "6b58e1b2e439d23936f4f9eb2e092157cc90b96f55bdf1d7a33b89b66720a5b1",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "expression_bank": "formal",
+          "speaker_cosine": 0.9465317643550829,
+          "need": 1.0639730639730645,
+          "asr": "展 开 完 整 解 析 还 能 查 看 计 算 核 验 支 持 的 算 式 由 程 序 重 新 计 算",
+          "expected": "展开完整解析，还能查看计算核验。支持的算式，由程序重新计算。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": true,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": false,
+            "speaker": true,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "duration"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 210,
+              "range_st": 8.9,
+              "pause_pct": 14,
+              "rate": 4.9,
+              "hnr": 12.2,
+              "flags": []
+            },
+            "f0_median": 199.47133125985383,
+            "f0_p10": 149.70243248617976,
+            "f0_p90": 252.2437109248428,
+            "peak_db": -0.08738178759813309,
+            "duration": 6.72,
+            "speech_rms_db": -19.240245819091797,
+            "text_sha256": "1fc650ef878e06e44ed658413faad65c1338dbf6498f4e3a8c66d7530f1e5155",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            1,
+            0.06397306397306446,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "group": "16",
+      "selected": {
+        "file": "c3_g16_s41_9faaed27.wav",
+        "sha256": "ac47b423db8c8b98085999fa15d9ac33c94514aafb4cbcfdc92a913894204f5f",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "prompt_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+        "expression_bank": "warm",
+        "speaker_cosine": 0.8200334824340083,
+        "need": 0.7643097643097646,
+        "asr": "算 完 把 草 稿 拿 来 批 改 定 位 出 错 步 骤 再 收 进 错 题 本",
+        "expected": "算完，把草稿拿来批改，定位出错步骤，再收进错题本。",
+        "checks": {
+          "text": true,
+          "reference": true,
+          "current_expression_bank": true,
+          "no_spoken_control": true,
+          "transcript": true,
+          "duration": true,
+          "speaker": false,
+          "non_silent": true,
+          "sample_rate": true,
+          "not_rejected": true
+        },
+        "failed": [
+          "speaker"
+        ],
+        "basic": {
+          "acoustic": {
+            "f0": 231,
+            "range_st": 10.8,
+            "pause_pct": 9,
+            "rate": 5.5,
+            "hnr": 12.6,
+            "flags": []
+          },
+          "f0_median": 214.41892343156712,
+          "f0_p10": 158.67288844439238,
+          "f0_p90": 297.03515352582247,
+          "peak_db": -0.05797883868217468,
+          "duration": 4.8,
+          "speech_rms_db": -15.37110424041748,
+          "text_sha256": "6e895dc54143fa89a0231e210c2ac20b28ecf20d0672cad32f626ec0edbda6e8",
+          "source_fullscale_samples": 0
+        },
+        "rank": [
+          1,
+          0,
+          0
+        ]
+      },
+      "candidates": [
+        {
+          "file": "c3_g16_s41_9faaed27.wav",
+          "sha256": "ac47b423db8c8b98085999fa15d9ac33c94514aafb4cbcfdc92a913894204f5f",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+          "expression_bank": "warm",
+          "speaker_cosine": 0.8200334824340083,
+          "need": 0.7643097643097646,
+          "asr": "算 完 把 草 稿 拿 来 批 改 定 位 出 错 步 骤 再 收 进 错 题 本",
+          "expected": "算完，把草稿拿来批改，定位出错步骤，再收进错题本。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": true,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": false,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "speaker"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 231,
+              "range_st": 10.8,
+              "pause_pct": 9,
+              "rate": 5.5,
+              "hnr": 12.6,
+              "flags": []
+            },
+            "f0_median": 214.41892343156712,
+            "f0_p10": 158.67288844439238,
+            "f0_p90": 297.03515352582247,
+            "peak_db": -0.05797883868217468,
+            "duration": 4.8,
+            "speech_rms_db": -15.37110424041748,
+            "text_sha256": "6e895dc54143fa89a0231e210c2ac20b28ecf20d0672cad32f626ec0edbda6e8",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            1,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "group": "17",
+      "selected": {
+        "file": "c3_g17_s41_5d8e58be.wav",
+        "sha256": "34528989bc985cb9ca6dff0e8e4452836810c0096e102bb80765ad9865d31965",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "prompt_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+        "expression_bank": "warm",
+        "speaker_cosine": 0.8436655661656537,
+        "need": 0.7593659942363115,
+        "asr": "再 把 解 题 思 路 讲 给 小 黎 听 他 会 追 问 再 反 馈 哪 些 说 清 哪 些 漏 了",
+        "expected": "再把解题思路讲给小狸听。它会追问，再反馈哪些说清、哪些漏了。",
+        "checks": {
+          "text": true,
+          "reference": true,
+          "current_expression_bank": true,
+          "no_spoken_control": true,
+          "transcript": true,
+          "duration": true,
+          "speaker": false,
+          "non_silent": true,
+          "sample_rate": true,
+          "not_rejected": true
+        },
+        "failed": [
+          "speaker"
+        ],
+        "basic": {
+          "acoustic": {
+            "f0": 230,
+            "range_st": 11.1,
+            "pause_pct": 16,
+            "rate": 6.1,
+            "hnr": 13.9,
+            "flags": []
+          },
+          "f0_median": 239.19445776621512,
+          "f0_p10": 149.60501052075426,
+          "f0_p90": 287.5436817183071,
+          "peak_db": -0.05264353007078171,
+          "duration": 5.6,
+          "speech_rms_db": -15.10392951965332,
+          "text_sha256": "c3eac8fb36239d6b6ed491a853aeae1fb4611236ee51a842546fa6d9e021dd8c",
+          "source_fullscale_samples": 0
+        },
+        "rank": [
+          1,
+          0,
+          0
+        ]
+      },
+      "candidates": [
+        {
+          "file": "c3_g17_s41_5d8e58be.wav",
+          "sha256": "34528989bc985cb9ca6dff0e8e4452836810c0096e102bb80765ad9865d31965",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+          "expression_bank": "warm",
+          "speaker_cosine": 0.8436655661656537,
+          "need": 0.7593659942363115,
+          "asr": "再 把 解 题 思 路 讲 给 小 黎 听 他 会 追 问 再 反 馈 哪 些 说 清 哪 些 漏 了",
+          "expected": "再把解题思路讲给小狸听。它会追问，再反馈哪些说清、哪些漏了。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": true,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": false,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "speaker"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 230,
+              "range_st": 11.1,
+              "pause_pct": 16,
+              "rate": 6.1,
+              "hnr": 13.9,
+              "flags": []
+            },
+            "f0_median": 239.19445776621512,
+            "f0_p10": 149.60501052075426,
+            "f0_p90": 287.5436817183071,
+            "peak_db": -0.05264353007078171,
+            "duration": 5.6,
+            "speech_rms_db": -15.10392951965332,
+            "text_sha256": "c3eac8fb36239d6b6ed491a853aeae1fb4611236ee51a842546fa6d9e021dd8c",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            1,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "group": "18",
+      "selected": {
+        "file": "c3_g18_s41_ccaf7284.wav",
+        "sha256": "8677f505a0b275c4452ceb87c538fad52f30cb4ff871a582a4b3841351e94f06",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "prompt_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+        "expression_bank": "warm",
+        "speaker_cosine": 0.819063544651117,
+        "need": 0.9410774410774414,
+        "asr": "需 要 补 充 就 导 入 讲 义 校 对 原 文 再 把 相 关 段 落 整 理 成 卡",
+        "expected": "需要补充，就导入讲义。校对原文，再把相关段落整理成卡。",
+        "checks": {
+          "text": true,
+          "reference": true,
+          "current_expression_bank": true,
+          "no_spoken_control": true,
+          "transcript": true,
+          "duration": true,
+          "speaker": false,
+          "non_silent": true,
+          "sample_rate": true,
+          "not_rejected": true
+        },
+        "failed": [
+          "speaker"
+        ],
+        "basic": {
+          "acoustic": {
+            "f0": 216,
+            "range_st": 9.3,
+            "pause_pct": 27,
+            "rate": 5.9,
+            "hnr": 14.0,
+            "flags": []
+          },
+          "f0_median": 211.83112139549843,
+          "f0_p10": 155.45218175068536,
+          "f0_p90": 265.5800943837236,
+          "peak_db": -0.04304821789264679,
+          "duration": 5.76,
+          "speech_rms_db": -14.595986366271973,
+          "text_sha256": "a57aca60888a3a6e77b2a7ac2a0eaadfacbed0efff3534f1782630cc710dc228",
+          "source_fullscale_samples": 0
+        },
+        "rank": [
+          1,
+          0,
+          0
+        ]
+      },
+      "candidates": [
+        {
+          "file": "c3_g18_s41_ccaf7284.wav",
+          "sha256": "8677f505a0b275c4452ceb87c538fad52f30cb4ff871a582a4b3841351e94f06",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+          "expression_bank": "warm",
+          "speaker_cosine": 0.819063544651117,
+          "need": 0.9410774410774414,
+          "asr": "需 要 补 充 就 导 入 讲 义 校 对 原 文 再 把 相 关 段 落 整 理 成 卡",
+          "expected": "需要补充，就导入讲义。校对原文，再把相关段落整理成卡。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": true,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": false,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "speaker"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 216,
+              "range_st": 9.3,
+              "pause_pct": 27,
+              "rate": 5.9,
+              "hnr": 14.0,
+              "flags": []
+            },
+            "f0_median": 211.83112139549843,
+            "f0_p10": 155.45218175068536,
+            "f0_p90": 265.5800943837236,
+            "peak_db": -0.04304821789264679,
+            "duration": 5.76,
+            "speech_rms_db": -14.595986366271973,
+            "text_sha256": "a57aca60888a3a6e77b2a7ac2a0eaadfacbed0efff3534f1782630cc710dc228",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            1,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "group": "19",
+      "selected": {
+        "file": "c3_g19_s41_93ded55a.wav",
+        "sha256": "b0bfda1803762dc08cc0c595e5a88366778bf72725d9bf3c9a22a5ffd461c386",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "prompt_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+        "expression_bank": "warm",
+        "speaker_cosine": 0.8213658496437977,
+        "need": 0.8198757763975159,
+        "asr": "最 后 去 知 识 地 图 独 立 做 一 道 先 判 断 会 不 会 再 作 答 看 结 果",
+        "expected": "最后，去知识地图独立做一道。先判断会不会，再作答看结果。",
+        "checks": {
+          "text": true,
+          "reference": true,
+          "current_expression_bank": true,
+          "no_spoken_control": true,
+          "transcript": true,
+          "duration": true,
+          "speaker": false,
+          "non_silent": true,
+          "sample_rate": true,
+          "not_rejected": true
+        },
+        "failed": [
+          "speaker"
+        ],
+        "basic": {
+          "acoustic": {
+            "f0": 235,
+            "range_st": 10.4,
+            "pause_pct": 15,
+            "rate": 5.6,
+            "hnr": 13.3,
+            "flags": []
+          },
+          "f0_median": 231.33329955507088,
+          "f0_p10": 164.12506904270782,
+          "f0_p90": 298.75348728833427,
+          "peak_db": -0.05371032655239105,
+          "duration": 5.6,
+          "speech_rms_db": -15.14564037322998,
+          "text_sha256": "5c2e79d9bd66e47fcb4f7bf2bd2fd495f5782a08e37e77ba26a6f4819c33420f",
+          "source_fullscale_samples": 0
+        },
+        "rank": [
+          1,
+          0,
+          0
+        ]
+      },
+      "candidates": [
+        {
+          "file": "c3_g19_s41_93ded55a.wav",
+          "sha256": "b0bfda1803762dc08cc0c595e5a88366778bf72725d9bf3c9a22a5ffd461c386",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+          "expression_bank": "warm",
+          "speaker_cosine": 0.8213658496437977,
+          "need": 0.8198757763975159,
+          "asr": "最 后 去 知 识 地 图 独 立 做 一 道 先 判 断 会 不 会 再 作 答 看 结 果",
+          "expected": "最后，去知识地图独立做一道。先判断会不会，再作答看结果。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": true,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": false,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "speaker"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 235,
+              "range_st": 10.4,
+              "pause_pct": 15,
+              "rate": 5.6,
+              "hnr": 13.3,
+              "flags": []
+            },
+            "f0_median": 231.33329955507088,
+            "f0_p10": 164.12506904270782,
+            "f0_p90": 298.75348728833427,
+            "peak_db": -0.05371032655239105,
+            "duration": 5.6,
+            "speech_rms_db": -15.14564037322998,
+            "text_sha256": "5c2e79d9bd66e47fcb4f7bf2bd2fd495f5782a08e37e77ba26a6f4819c33420f",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            1,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "group": "20",
+      "selected": {
+        "file": "c3_g20_s41_75250b4f.wav",
+        "sha256": "a478d4a25739ee1cada020a7506e3e5bcab4fc4f0f3bbfb35d69ff99a58b9cbc",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "prompt_sha256": "2a21e2e79429ad79c84942fb538386a30dbe3c3012cc95da444991a80910cf98",
+        "expression_bank": "soft",
+        "speaker_cosine": 0.8146847282740264,
+        "need": 0.68957345971564,
+        "asr": "累 的 时 候 也 可 以 只 是 聊 聊 今 天 发 生 了 什 么 哪 句 话 放 不 下 先 把 感 受 说 出 来",
+        "expected": "累的时候，也可以只是聊聊。今天发生了什么，哪句话放不下，先把感受说出来。",
+        "checks": {
+          "text": true,
+          "reference": true,
+          "current_expression_bank": true,
+          "no_spoken_control": true,
+          "transcript": true,
+          "duration": true,
+          "speaker": false,
+          "non_silent": true,
+          "sample_rate": true,
+          "not_rejected": true
+        },
+        "failed": [
+          "speaker"
+        ],
+        "basic": {
+          "acoustic": {
+            "f0": 239,
+            "range_st": 12.6,
+            "pause_pct": 15,
+            "rate": 6.5,
+            "hnr": 12.1,
+            "flags": []
+          },
+          "f0_median": 244.6403385456224,
+          "f0_p10": 141.92472548230907,
+          "f0_p90": 292.91899262230663,
+          "peak_db": -0.06011388450860977,
+          "duration": 6.24,
+          "speech_rms_db": -16.192224502563477,
+          "text_sha256": "3c1d3efbf1b521d9ea7dda0a9c170ba3351d3a8f8057528e9098845287df4609",
+          "source_fullscale_samples": 0
+        },
+        "rank": [
+          1,
+          0,
+          0
+        ]
+      },
+      "candidates": [
+        {
+          "file": "c3_g20_s41_75250b4f.wav",
+          "sha256": "a478d4a25739ee1cada020a7506e3e5bcab4fc4f0f3bbfb35d69ff99a58b9cbc",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "2a21e2e79429ad79c84942fb538386a30dbe3c3012cc95da444991a80910cf98",
+          "expression_bank": "soft",
+          "speaker_cosine": 0.8146847282740264,
+          "need": 0.68957345971564,
+          "asr": "累 的 时 候 也 可 以 只 是 聊 聊 今 天 发 生 了 什 么 哪 句 话 放 不 下 先 把 感 受 说 出 来",
+          "expected": "累的时候，也可以只是聊聊。今天发生了什么，哪句话放不下，先把感受说出来。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": true,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": false,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "speaker"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 239,
+              "range_st": 12.6,
+              "pause_pct": 15,
+              "rate": 6.5,
+              "hnr": 12.1,
+              "flags": []
+            },
+            "f0_median": 244.6403385456224,
+            "f0_p10": 141.92472548230907,
+            "f0_p90": 292.91899262230663,
+            "peak_db": -0.06011388450860977,
+            "duration": 6.24,
+            "speech_rms_db": -16.192224502563477,
+            "text_sha256": "3c1d3efbf1b521d9ea7dda0a9c170ba3351d3a8f8057528e9098845287df4609",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            1,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "group": "21",
+      "selected": {
+        "file": "c3_g21_s41_373bcd44.wav",
+        "sha256": "47a69b731f1d669c1ee9c97d8bb5a1cf5b9915326f3fa5a391d745eeb68ac7d5",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "prompt_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "expression_bank": "formal",
+        "speaker_cosine": 0.932486657899803,
+        "need": 1.0058139534883728,
+        "asr": "涉 及 安 全 风 险 先 提 示 现 实 中 的 求 助",
+        "expected": "涉及安全风险，先提示现实中的求助。",
+        "checks": {
+          "text": true,
+          "reference": true,
+          "current_expression_bank": true,
+          "no_spoken_control": true,
+          "transcript": true,
+          "duration": true,
+          "speaker": true,
+          "non_silent": true,
+          "sample_rate": true,
+          "not_rejected": true
+        },
+        "failed": [],
+        "basic": {
+          "acoustic": {
+            "f0": 208,
+            "range_st": 10.9,
+            "pause_pct": 8,
+            "rate": 5.0,
+            "hnr": 12.3,
+            "flags": []
+          },
+          "f0_median": 205.14677536195762,
+          "f0_p10": 141.6241947708529,
+          "f0_p90": 274.37330951284036,
+          "peak_db": -1.139263391494751,
+          "duration": 3.84,
+          "speech_rms_db": -20.677902221679688,
+          "text_sha256": "9bf6c34f83682833017df4f9f2f4967b76e0b512bc729caad97c70790aebd7f1",
+          "source_fullscale_samples": 0
+        },
+        "rank": [
+          0,
+          0.0058139534883727695,
+          0
+        ]
+      },
+      "candidates": [
+        {
+          "file": "c3_g21_s41_373bcd44.wav",
+          "sha256": "47a69b731f1d669c1ee9c97d8bb5a1cf5b9915326f3fa5a391d745eeb68ac7d5",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "expression_bank": "formal",
+          "speaker_cosine": 0.932486657899803,
+          "need": 1.0058139534883728,
+          "asr": "涉 及 安 全 风 险 先 提 示 现 实 中 的 求 助",
+          "expected": "涉及安全风险，先提示现实中的求助。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": true,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": true,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [],
+          "basic": {
+            "acoustic": {
+              "f0": 208,
+              "range_st": 10.9,
+              "pause_pct": 8,
+              "rate": 5.0,
+              "hnr": 12.3,
+              "flags": []
+            },
+            "f0_median": 205.14677536195762,
+            "f0_p10": 141.6241947708529,
+            "f0_p90": 274.37330951284036,
+            "peak_db": -1.139263391494751,
+            "duration": 3.84,
+            "speech_rms_db": -20.677902221679688,
+            "text_sha256": "9bf6c34f83682833017df4f9f2f4967b76e0b512bc729caad97c70790aebd7f1",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            0,
+            0.0058139534883727695,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "group": "22",
+      "selected": {
+        "file": "c3_g22_s41_412fa7e0.wav",
+        "sha256": "59a63b8be3cc7c204db8d61f00a21d42a7219d6fe6a48fef807bf0d6e94ec369",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "prompt_sha256": "2a21e2e79429ad79c84942fb538386a30dbe3c3012cc95da444991a80910cf98",
+        "expression_bank": "soft",
+        "speaker_cosine": 0.8453740540699561,
+        "need": 0.8350168350168353,
+        "asr": "从 记 下 一 句 到 自 己 想 清 楚 学 习 和 回 顾 都 留 在 记 录 里",
+        "expected": "从记下一句，到自己想清楚，学习和回顾，都留在记录里。",
+        "checks": {
+          "text": true,
+          "reference": true,
+          "current_expression_bank": true,
+          "no_spoken_control": true,
+          "transcript": true,
+          "duration": true,
+          "speaker": false,
+          "non_silent": true,
+          "sample_rate": true,
+          "not_rejected": true
+        },
+        "failed": [
+          "speaker"
+        ],
+        "basic": {
+          "acoustic": {
+            "f0": 238,
+            "range_st": 12.2,
+            "pause_pct": 20,
+            "rate": 5.8,
+            "hnr": 13.2,
+            "flags": []
+          },
+          "f0_median": 224.12868718892062,
+          "f0_p10": 147.33346723833097,
+          "f0_p90": 304.1042678873558,
+          "peak_db": -0.07507389783859253,
+          "duration": 5.28,
+          "speech_rms_db": -18.484970092773438,
+          "text_sha256": "8531ac2730ce6a93050cb437abd05f5a86aacd4dc2a401cc75a76dd2cfe0d540",
+          "source_fullscale_samples": 0
+        },
+        "rank": [
+          1,
+          0,
+          0
+        ]
+      },
+      "candidates": [
+        {
+          "file": "c3_g22_s41_412fa7e0.wav",
+          "sha256": "59a63b8be3cc7c204db8d61f00a21d42a7219d6fe6a48fef807bf0d6e94ec369",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "2a21e2e79429ad79c84942fb538386a30dbe3c3012cc95da444991a80910cf98",
+          "expression_bank": "soft",
+          "speaker_cosine": 0.8453740540699561,
+          "need": 0.8350168350168353,
+          "asr": "从 记 下 一 句 到 自 己 想 清 楚 学 习 和 回 顾 都 留 在 记 录 里",
+          "expected": "从记下一句，到自己想清楚，学习和回顾，都留在记录里。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": true,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": false,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "speaker"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 238,
+              "range_st": 12.2,
+              "pause_pct": 20,
+              "rate": 5.8,
+              "hnr": 13.2,
+              "flags": []
+            },
+            "f0_median": 224.12868718892062,
+            "f0_p10": 147.33346723833097,
+            "f0_p90": 304.1042678873558,
+            "peak_db": -0.07507389783859253,
+            "duration": 5.28,
+            "speech_rms_db": -18.484970092773438,
+            "text_sha256": "8531ac2730ce6a93050cb437abd05f5a86aacd4dc2a401cc75a76dd2cfe0d540",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            1,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "group": "23a",
+      "selected": {
+        "file": "c3_g23a_s41_c1b4a913.wav",
+        "sha256": "4c0fcb1547060bf1237ff9e40c359008e1de51d11722974c05e73bef9c6ef6f0",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "prompt_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "expression_bank": "formal",
+        "speaker_cosine": 0.9328572445783462,
+        "need": 0.9531380753138085,
+        "asr": "刚 才 这 些 操 作 由 原 生 小 程 序 发 起 后 端 通 过 接 口 处 理 请 求 SQ light 保 存 记 录 卡 片 对 话 导 入 和 学 习 各 有 业 务 模 块",
+        "expected": "刚才这些操作，由原生小程序发起。后端通过接口处理请求，S Q light保存记录。卡片、对话、导入和学习，各有业务模块。",
+        "checks": {
+          "text": true,
+          "reference": true,
+          "current_expression_bank": true,
+          "no_spoken_control": true,
+          "transcript": true,
+          "duration": true,
+          "speaker": true,
+          "non_silent": true,
+          "sample_rate": true,
+          "not_rejected": true
+        },
+        "failed": [],
+        "basic": {
+          "acoustic": {
+            "f0": 216,
+            "range_st": 11.2,
+            "pause_pct": 18,
+            "rate": 4.7,
+            "hnr": 14.3,
+            "flags": []
+          },
+          "f0_median": 215.46246449188894,
+          "f0_p10": 144.03460186135803,
+          "f0_p90": 275.2307790379882,
+          "peak_db": -0.058245692402124405,
+          "duration": 11.84,
+          "speech_rms_db": -18.004356384277344,
+          "text_sha256": "2ec884efd7d0d5189b1574035602c57cc4cafa9b8b776bd9a1395b8dcbd6b8b0",
+          "source_fullscale_samples": 0
+        },
+        "rank": [
+          0,
+          0,
+          0
+        ]
+      },
+      "candidates": [
+        {
+          "file": "c3_g23a_s41_c1b4a913.wav",
+          "sha256": "4c0fcb1547060bf1237ff9e40c359008e1de51d11722974c05e73bef9c6ef6f0",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "expression_bank": "formal",
+          "speaker_cosine": 0.9328572445783462,
+          "need": 0.9531380753138085,
+          "asr": "刚 才 这 些 操 作 由 原 生 小 程 序 发 起 后 端 通 过 接 口 处 理 请 求 SQ light 保 存 记 录 卡 片 对 话 导 入 和 学 习 各 有 业 务 模 块",
+          "expected": "刚才这些操作，由原生小程序发起。后端通过接口处理请求，S Q light保存记录。卡片、对话、导入和学习，各有业务模块。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": true,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": true,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [],
+          "basic": {
+            "acoustic": {
+              "f0": 216,
+              "range_st": 11.2,
+              "pause_pct": 18,
+              "rate": 4.7,
+              "hnr": 14.3,
+              "flags": []
+            },
+            "f0_median": 215.46246449188894,
+            "f0_p10": 144.03460186135803,
+            "f0_p90": 275.2307790379882,
+            "peak_db": -0.058245692402124405,
+            "duration": 11.84,
+            "speech_rms_db": -18.004356384277344,
+            "text_sha256": "2ec884efd7d0d5189b1574035602c57cc4cafa9b8b776bd9a1395b8dcbd6b8b0",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "group": "23b",
+      "selected": {
+        "file": "c3_g23b_s41_bb016da4.wav",
+        "sha256": "298853f6189ce537f8f9a2d0d62ddcaf2b8df54f70a4245ef911f1704f8e55ad",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "prompt_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "expression_bank": "formal",
+        "speaker_cosine": 0.9364453834142954,
+        "need": 0.9765297569153389,
+        "asr": "接 着 聊 会 带 上 选 定 卡 片 的 相 关 上 下 文 原 画 生 成 内 容 和 版 本 分 开 保 存 长 任 务 先 记 状 态 再 执 行 支 持 的 算 式 另 外 核 验",
+        "expected": "接着聊，会带上选定卡片的相关上下文。原话、生成内容和版本分开保存。长任务先记状态，再执行；支持的算式另外核验。",
+        "checks": {
+          "text": true,
+          "reference": true,
+          "current_expression_bank": true,
+          "no_spoken_control": true,
+          "transcript": true,
+          "duration": true,
+          "speaker": true,
+          "non_silent": true,
+          "sample_rate": true,
+          "not_rejected": true
+        },
+        "failed": [],
+        "basic": {
+          "acoustic": {
+            "f0": 203,
+            "range_st": 9.9,
+            "pause_pct": 15,
+            "rate": 4.9,
+            "hnr": 12.9,
+            "flags": []
+          },
+          "f0_median": 195.24315034294978,
+          "f0_p10": 142.38029887254444,
+          "f0_p90": 253.29552791871984,
+          "peak_db": -0.37206560373306274,
+          "duration": 12.0,
+          "speech_rms_db": -17.944761276245117,
+          "text_sha256": "6ec73d3f161b9f7354fc9976a54a4a71a42fcc4f6f84a7c0247768547e00ea8d",
+          "source_fullscale_samples": 0
+        },
+        "rank": [
+          0,
+          0,
+          0
+        ]
+      },
+      "candidates": [
+        {
+          "file": "c3_g23b_s41_bb016da4.wav",
+          "sha256": "298853f6189ce537f8f9a2d0d62ddcaf2b8df54f70a4245ef911f1704f8e55ad",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "expression_bank": "formal",
+          "speaker_cosine": 0.9364453834142954,
+          "need": 0.9765297569153389,
+          "asr": "接 着 聊 会 带 上 选 定 卡 片 的 相 关 上 下 文 原 画 生 成 内 容 和 版 本 分 开 保 存 长 任 务 先 记 状 态 再 执 行 支 持 的 算 式 另 外 核 验",
+          "expected": "接着聊，会带上选定卡片的相关上下文。原话、生成内容和版本分开保存。长任务先记状态，再执行；支持的算式另外核验。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": true,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": true,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [],
+          "basic": {
+            "acoustic": {
+              "f0": 203,
+              "range_st": 9.9,
+              "pause_pct": 15,
+              "rate": 4.9,
+              "hnr": 12.9,
+              "flags": []
+            },
+            "f0_median": 195.24315034294978,
+            "f0_p10": 142.38029887254444,
+            "f0_p90": 253.29552791871984,
+            "peak_db": -0.37206560373306274,
+            "duration": 12.0,
+            "speech_rms_db": -17.944761276245117,
+            "text_sha256": "6ec73d3f161b9f7354fc9976a54a4a71a42fcc4f6f84a7c0247768547e00ea8d",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "group": "24",
+      "selected": {
+        "file": "c3_g24_s41_b04273be.wav",
+        "sha256": "4945f457453a3ce6cfaecbad37e1a6a886141273360cb293c36e8a3399f8594b",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "prompt_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "expression_bank": "formal",
+        "speaker_cosine": 0.9322548714540516,
+        "need": 0.8385382059800673,
+        "asr": "导 入 时 离 开 回 来 还 能 继 续 处 理 外 部 调 用 集 中 在 后 端 异 常 时 尝 试 备 用 接 口 管 理 台 查 看 任 务 运 行 状 态 和 反 馈 并 保 留 用 量 与 操 作 记 录",
+        "expected": "导入时离开，回来还能继续处理。外部调用集中在后端，异常时尝试备用接口。管理台查看任务、运行状态和反馈，并保留用量与操作记录。",
+        "checks": {
+          "text": true,
+          "reference": true,
+          "current_expression_bank": true,
+          "no_spoken_control": true,
+          "transcript": true,
+          "duration": true,
+          "speaker": true,
+          "non_silent": true,
+          "sample_rate": true,
+          "not_rejected": true
+        },
+        "failed": [],
+        "basic": {
+          "acoustic": {
+            "f0": 219,
+            "range_st": 9.6,
+            "pause_pct": 20,
+            "rate": 5.5,
+            "hnr": 13.5,
+            "flags": []
+          },
+          "f0_median": 207.29824296441546,
+          "f0_p10": 151.20072139380045,
+          "f0_p90": 263.85241916948644,
+          "peak_db": -0.21251600980758667,
+          "duration": 12.96,
+          "speech_rms_db": -18.250455856323242,
+          "text_sha256": "639b2c818a28ee441028986a39342388a2e35d7757f6cf67df9d4fd1c25d5d5c",
+          "source_fullscale_samples": 0
+        },
+        "rank": [
+          0,
+          0,
+          0
+        ]
+      },
+      "candidates": [
+        {
+          "file": "c3_g24_s41_b04273be.wav",
+          "sha256": "4945f457453a3ce6cfaecbad37e1a6a886141273360cb293c36e8a3399f8594b",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "expression_bank": "formal",
+          "speaker_cosine": 0.9322548714540516,
+          "need": 0.8385382059800673,
+          "asr": "导 入 时 离 开 回 来 还 能 继 续 处 理 外 部 调 用 集 中 在 后 端 异 常 时 尝 试 备 用 接 口 管 理 台 查 看 任 务 运 行 状 态 和 反 馈 并 保 留 用 量 与 操 作 记 录",
+          "expected": "导入时离开，回来还能继续处理。外部调用集中在后端，异常时尝试备用接口。管理台查看任务、运行状态和反馈，并保留用量与操作记录。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": true,
+            "no_spoken_control": true,
+            "transcript": true,
+            "duration": true,
+            "speaker": true,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [],
+          "basic": {
+            "acoustic": {
+              "f0": 219,
+              "range_st": 9.6,
+              "pause_pct": 20,
+              "rate": 5.5,
+              "hnr": 13.5,
+              "flags": []
+            },
+            "f0_median": 207.29824296441546,
+            "f0_p10": 151.20072139380045,
+            "f0_p90": 263.85241916948644,
+            "peak_db": -0.21251600980758667,
+            "duration": 12.96,
+            "speech_rms_db": -18.250455856323242,
+            "text_sha256": "639b2c818a28ee441028986a39342388a2e35d7757f6cf67df9d4fd1c25d5d5c",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "group": "26-27",
+      "selected": {
+        "file": "c3_g26-27_s41_f5a29985.wav",
+        "sha256": "6f83325c16d885ce306b0e258f9d22afb5b69f0a03c4493d10b6f9c6eea436c9",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "prompt_sha256": "2a21e2e79429ad79c84942fb538386a30dbe3c3012cc95da444991a80910cf98",
+        "expression_bank": "soft",
+        "speaker_cosine": 0.8137917195220896,
+        "need": 0.9532846715328476,
+        "asr": "念 是 转 瞬 的 念 头 想 是 让 所 想 渐 渐 明 了 小 念",
+        "expected": "念，是转瞬的念头。晓，是让所想渐渐明瞭。晓念。",
+        "checks": {
+          "text": true,
+          "reference": true,
+          "current_expression_bank": true,
+          "no_spoken_control": true,
+          "transcript": false,
+          "duration": true,
+          "speaker": false,
+          "non_silent": true,
+          "sample_rate": true,
+          "not_rejected": true
+        },
+        "failed": [
+          "transcript",
+          "speaker"
+        ],
+        "basic": {
+          "acoustic": {
+            "f0": 227,
+            "range_st": 13.4,
+            "pause_pct": 38,
+            "rate": 4.6,
+            "hnr": 12.6,
+            "flags": []
+          },
+          "f0_median": 218.51910888963013,
+          "f0_p10": 135.9125371175434,
+          "f0_p90": 295.80435470285,
+          "peak_db": -0.0483776330947876,
+          "duration": 6.88,
+          "speech_rms_db": -16.132944107055664,
+          "text_sha256": "7b7ee437f8c5d5035495f51f53bdf97ab63e094c8fda6c1e432e79f6c0f1bda8",
+          "source_fullscale_samples": 0
+        },
+        "rank": [
+          2,
+          0,
+          0
+        ]
+      },
+      "candidates": [
+        {
+          "file": "c3_g26-27_s41_f5a29985.wav",
+          "sha256": "6f83325c16d885ce306b0e258f9d22afb5b69f0a03c4493d10b6f9c6eea436c9",
+          "seed": 41,
+          "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+          "gen": {
+            "cfg": 2.0,
+            "steps": 20
+          },
+          "prompt_sha256": "2a21e2e79429ad79c84942fb538386a30dbe3c3012cc95da444991a80910cf98",
+          "expression_bank": "soft",
+          "speaker_cosine": 0.8137917195220896,
+          "need": 0.9532846715328476,
+          "asr": "念 是 转 瞬 的 念 头 想 是 让 所 想 渐 渐 明 了 小 念",
+          "expected": "念，是转瞬的念头。晓，是让所想渐渐明瞭。晓念。",
+          "checks": {
+            "text": true,
+            "reference": true,
+            "current_expression_bank": true,
+            "no_spoken_control": true,
+            "transcript": false,
+            "duration": true,
+            "speaker": false,
+            "non_silent": true,
+            "sample_rate": true,
+            "not_rejected": true
+          },
+          "failed": [
+            "transcript",
+            "speaker"
+          ],
+          "basic": {
+            "acoustic": {
+              "f0": 227,
+              "range_st": 13.4,
+              "pause_pct": 38,
+              "rate": 4.6,
+              "hnr": 12.6,
+              "flags": []
+            },
+            "f0_median": 218.51910888963013,
+            "f0_p10": 135.9125371175434,
+            "f0_p90": 295.80435470285,
+            "peak_db": -0.0483776330947876,
+            "duration": 6.88,
+            "speech_rms_db": -16.132944107055664,
+            "text_sha256": "7b7ee437f8c5d5035495f51f53bdf97ab63e094c8fda6c1e432e79f6c0f1bda8",
+            "source_fullscale_samples": 0
+          },
+          "rank": [
+            2,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "failed_groups": [
+    "01-02",
+    "03",
+    "04",
+    "05-06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "22",
+    "26-27"
+  ]
+}

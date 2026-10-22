@@ -1,0 +1,34 @@
+{
+  "lively": {
+    "count": 4,
+    "pairwise_min": 0.8501281706726529,
+    "pairwise_p10": 0.8569497015696468,
+    "pairwise_mean": 0.88463938032581,
+    "reference_scores": {
+      "warm": [
+        0.8530833640518076,
+        0.8954758941841182,
+        0.8649070058400494,
+        0.8696861990426297
+      ],
+      "engaged": [
+        0.7376737297731925,
+        0.7240460075007513,
+        0.7114656775739163,
+        0.7166741388727312
+      ],
+      "lively": [
+        0.8530833640518076,
+        0.8954758941841182,
+        0.8649070058400494,
+        0.8696861990426297
+      ]
+    },
+    "files": [
+      "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\lively-refs\\lively_g05-06_s43_4212f8f6.wav",
+      "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\lively-refs\\lively_g05-06_s47_90295ee1.wav",
+      "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\lively-refs\\lively_g20_s43_996b1ac7.wav",
+      "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\lively-refs\\lively_g20_s47_1178523a.wav"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "python": "3.11.15 (main, May 10 2026, 19:31:25) [MSC v.1944 64 bit (AMD64)]",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "cuda_available": true,
+  "capability": [
+    12,
+    0
+  ],
+  "voxcpm": "2.0.3",
+  "funasr": "1.4.16",
+  "new_packages_installed": false
+}

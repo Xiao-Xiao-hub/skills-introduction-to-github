@@ -1,0 +1,3085 @@
+{
+  "schema_version": 1,
+  "kind": "C3 natural whole-group assembly",
+  "status": "assembled_machine_checks_passed",
+  "source": {
+    "script": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\xiaonian_v10.json",
+    "script_sha256": "d8da845a59679b12305cac3226277b8d6b3c5bed93c6f49e034b1ed31cc81c9b",
+    "selection": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\selection.json",
+    "selection_sha256": "75c00ef0a5c8d69b5b7a9fa8b504e606cd78c3e377b95bd1c297736f96af2274",
+    "takes": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\takes",
+    "group_count": 24,
+    "cue_count": 55,
+    "script_duration_seconds": 178.0
+  },
+  "policy": {
+    "whole_group_only": true,
+    "per_cue_cut_or_reorder": false,
+    "head_keep_seconds": 0.06,
+    "tail_keep_seconds": 0.12,
+    "last_cue_end_grace_seconds": 0.35,
+    "next_group_gap_seconds": 0.06,
+    "max_whole_group_speed": 1.05,
+    "median_speech_rms_target_db": -20.0,
+    "group_rms_tolerance_db": 2.0,
+    "global_peak_limit": 0.89
+  },
+  "claims": {
+    "script_text_rewritten": false,
+    "exact_55_cue_alignment_verified": false,
+    "asr_verified": false,
+    "human_naturalness_approved": false
+  },
+  "limitations": [
+    "仅按整组首条字幕起点落位；55 条 cue 的窗口被记录，但未逐条精确对齐。",
+    "未运行 ASR，不能由本报告证明选条逐字正确。",
+    "未进行人工试听，不能由机器报告证明自然度、情感或最终听感合格。"
+  ],
+  "needs_rerecord": [],
+  "groups": [
+    {
+      "group": "01-02",
+      "script_text": "躺下了。脑子却停不下来。",
+      "cue_windows": [
+        {
+          "shot": "01",
+          "text": "躺下了。",
+          "start": 0.35,
+          "end": 1.55
+        },
+        {
+          "shot": "02",
+          "text": "脑子却停不下来。",
+          "start": 2.15,
+          "end": 4.15
+        }
+      ],
+      "group_window": {
+        "start": 0.35,
+        "end": 4.5,
+        "available_seconds": 4.15,
+        "last_cue_end_plus_0_35": 4.5,
+        "next_group_start": 4.65,
+        "next_group_start_minus_0_06": 4.59
+      },
+      "selection": {
+        "file": "c3_g01-02_s43_18092677.wav",
+        "seed": 43,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "source_wave_sha256": "76d3afea27df76ffbd6af8c9196c8b9f30f7da15ac428386d500bce2d7379ccb"
+      },
+      "input_wave": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 145920,
+        "decoded_to_mono_48000": false
+      },
+      "trim": {
+        "source_duration_seconds": 3.04,
+        "source_trim_start_seconds": 0.0,
+        "source_trim_end_seconds": 0.0,
+        "added_head_padding_seconds": 0.0,
+        "added_tail_padding_seconds": 0.0,
+        "preserved_head_seconds": 0.12,
+        "preserved_tail_seconds": 0.34,
+        "trimmed_duration_seconds": 3.04,
+        "policy": "preserve_full_take_if_it_fits"
+      },
+      "natural_pauses_before_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 1,
+        "total_seconds": 0.97,
+        "max_seconds": 0.97,
+        "intervals": [
+          {
+            "start_seconds": 0.61,
+            "end_seconds": 1.58,
+            "duration_seconds": 0.97
+          }
+        ]
+      },
+      "natural_pauses_after_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 1,
+        "total_seconds": 0.97,
+        "max_seconds": 0.97,
+        "intervals": [
+          {
+            "start_seconds": 0.61,
+            "end_seconds": 1.58,
+            "duration_seconds": 0.97
+          }
+        ]
+      },
+      "source_speech_rms_db": -14.34211,
+      "tempo": {
+        "required": 0.720403,
+        "maximum": 1.05,
+        "requested": 1.0,
+        "actual": 1.0,
+        "reason": null
+      },
+      "gain": {
+        "uniform_base_db": -4.117939,
+        "speech_rms_after_uniform_db": -18.460049,
+        "individual_correction_db": 0.0,
+        "planned_speech_rms_before_global_peak_safety_db": -18.460049,
+        "global_peak_safety_db": 0.0,
+        "total_applied_db": -4.117939,
+        "final_speech_rms_db": -18.460049
+      },
+      "actual_position": {
+        "start": 0.35,
+        "end": 3.39,
+        "duration_seconds": 3.04
+      }
+    },
+    {
+      "group": "03",
+      "script_text": "一天里，许多念头冒出来，又慢慢散去。",
+      "cue_windows": [
+        {
+          "shot": "03",
+          "text": "一天里，许多念头冒出来，又慢慢散去。",
+          "start": 4.65,
+          "end": 8.75
+        }
+      ],
+      "group_window": {
+        "start": 4.65,
+        "end": 9.1,
+        "available_seconds": 4.45,
+        "last_cue_end_plus_0_35": 9.1,
+        "next_group_start": 9.2,
+        "next_group_start_minus_0_06": 9.14
+      },
+      "selection": {
+        "file": "c3_g03_s41_5368bc6f.wav",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "source_wave_sha256": "c0f58b66eb1e78ec6ab35ea1be3591aa85b7b233b17d9bb1cd72cc5327298c47"
+      },
+      "input_wave": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 153600,
+        "decoded_to_mono_48000": false
+      },
+      "trim": {
+        "source_duration_seconds": 3.2,
+        "source_trim_start_seconds": 0.0,
+        "source_trim_end_seconds": 0.0,
+        "added_head_padding_seconds": 0.0,
+        "added_tail_padding_seconds": 0.0,
+        "preserved_head_seconds": 0.24,
+        "preserved_tail_seconds": 0.23,
+        "trimmed_duration_seconds": 3.2,
+        "policy": "preserve_full_take_if_it_fits"
+      },
+      "natural_pauses_before_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 1,
+        "total_seconds": 0.12,
+        "max_seconds": 0.12,
+        "intervals": [
+          {
+            "start_seconds": 2.02,
+            "end_seconds": 2.14,
+            "duration_seconds": 0.12
+          }
+        ]
+      },
+      "natural_pauses_after_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 1,
+        "total_seconds": 0.12,
+        "max_seconds": 0.12,
+        "intervals": [
+          {
+            "start_seconds": 2.02,
+            "end_seconds": 2.14,
+            "duration_seconds": 0.12
+          }
+        ]
+      },
+      "source_speech_rms_db": -19.329791,
+      "tempo": {
+        "required": 0.70726,
+        "maximum": 1.05,
+        "requested": 1.0,
+        "actual": 1.0,
+        "reason": null
+      },
+      "gain": {
+        "uniform_base_db": -4.117939,
+        "speech_rms_after_uniform_db": -23.44773,
+        "individual_correction_db": 1.44773,
+        "planned_speech_rms_before_global_peak_safety_db": -22.0,
+        "global_peak_safety_db": 0.0,
+        "total_applied_db": -2.670209,
+        "final_speech_rms_db": -22.0
+      },
+      "actual_position": {
+        "start": 4.65,
+        "end": 7.85,
+        "duration_seconds": 3.2
+      }
+    },
+    {
+      "group": "04",
+      "script_text": "睡前，把明天要做的事，先写下来。",
+      "cue_windows": [
+        {
+          "shot": "04",
+          "text": "睡前，把明天要做的事，先写下来。",
+          "start": 9.2,
+          "end": 13.7
+        }
+      ],
+      "group_window": {
+        "start": 9.2,
+        "end": 14.05,
+        "available_seconds": 4.85,
+        "last_cue_end_plus_0_35": 14.05,
+        "next_group_start": 14.18,
+        "next_group_start_minus_0_06": 14.12
+      },
+      "selection": {
+        "file": "c3_g04_s41_b1b682ee.wav",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "source_wave_sha256": "db30369a53f69c885143bbac5c4ec13a9261809a4b84cfec0254cf5b2a0a553d"
+      },
+      "input_wave": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 145920,
+        "decoded_to_mono_48000": false
+      },
+      "trim": {
+        "source_duration_seconds": 3.04,
+        "source_trim_start_seconds": 0.0,
+        "source_trim_end_seconds": 0.0,
+        "added_head_padding_seconds": 0.0,
+        "added_tail_padding_seconds": 0.0,
+        "preserved_head_seconds": 0.25,
+        "preserved_tail_seconds": 0.35,
+        "trimmed_duration_seconds": 3.04,
+        "policy": "preserve_full_take_if_it_fits"
+      },
+      "natural_pauses_before_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 0,
+        "total_seconds": 0.0,
+        "max_seconds": 0.0,
+        "intervals": []
+      },
+      "natural_pauses_after_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 0,
+        "total_seconds": 0.0,
+        "max_seconds": 0.0,
+        "intervals": []
+      },
+      "source_speech_rms_db": -17.46602,
+      "tempo": {
+        "required": 0.61242,
+        "maximum": 1.05,
+        "requested": 1.0,
+        "actual": 1.0,
+        "reason": null
+      },
+      "gain": {
+        "uniform_base_db": -4.117939,
+        "speech_rms_after_uniform_db": -21.583959,
+        "individual_correction_db": 0.0,
+        "planned_speech_rms_before_global_peak_safety_db": -21.583959,
+        "global_peak_safety_db": 0.0,
+        "total_applied_db": -4.117939,
+        "final_speech_rms_db": -21.583959
+      },
+      "actual_position": {
+        "start": 9.2,
+        "end": 12.24,
+        "duration_seconds": 3.04
+      }
+    },
+    {
+      "group": "05-06",
+      "script_text": "这是晓念，从随手记下一句话开始。要做的事、没想完的问题，AI整理成卡，原话也一起留着。记下之后，再接着想。",
+      "cue_windows": [
+        {
+          "shot": "05",
+          "text": "这是晓念，从随手记下一句话开始。",
+          "start": 14.18,
+          "end": 17.6
+        },
+        {
+          "shot": "05",
+          "text": "要做的事、没想完的问题，",
+          "start": 17.68,
+          "end": 20.12
+        },
+        {
+          "shot": "05",
+          "text": "AI整理成卡，原话也一起留着。",
+          "start": 20.2,
+          "end": 23.38
+        },
+        {
+          "shot": "06",
+          "text": "记下之后，再接着想。",
+          "start": 23.68,
+          "end": 25.88
+        }
+      ],
+      "group_window": {
+        "start": 14.18,
+        "end": 26.12,
+        "available_seconds": 11.94,
+        "last_cue_end_plus_0_35": 26.23,
+        "next_group_start": 26.18,
+        "next_group_start_minus_0_06": 26.12
+      },
+      "selection": {
+        "file": "c3_g05-06_s41_67f74261.wav",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "source_wave_sha256": "ee520fe80080af016af03936d3cf7e77e97f5aca44b5c0bbd7427dce7cea291f"
+      },
+      "input_wave": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 483840,
+        "decoded_to_mono_48000": false
+      },
+      "trim": {
+        "source_duration_seconds": 10.08,
+        "source_trim_start_seconds": 0.0,
+        "source_trim_end_seconds": 0.0,
+        "added_head_padding_seconds": 0.0,
+        "added_tail_padding_seconds": 0.0,
+        "preserved_head_seconds": 0.29,
+        "preserved_tail_seconds": 0.12,
+        "trimmed_duration_seconds": 10.08,
+        "policy": "preserve_full_take_if_it_fits"
+      },
+      "natural_pauses_before_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 7,
+        "total_seconds": 1.94,
+        "max_seconds": 0.45,
+        "intervals": [
+          {
+            "start_seconds": 1.01,
+            "end_seconds": 1.21,
+            "duration_seconds": 0.2
+          },
+          {
+            "start_seconds": 3.0,
+            "end_seconds": 3.45,
+            "duration_seconds": 0.45
+          },
+          {
+            "start_seconds": 4.1,
+            "end_seconds": 4.18,
+            "duration_seconds": 0.08
+          },
+          {
+            "start_seconds": 5.19,
+            "end_seconds": 5.54,
+            "duration_seconds": 0.35
+          },
+          {
+            "start_seconds": 6.6,
+            "end_seconds": 6.97,
+            "duration_seconds": 0.37
+          },
+          {
+            "start_seconds": 8.19,
+            "end_seconds": 8.5,
+            "duration_seconds": 0.31
+          },
+          {
+            "start_seconds": 9.17,
+            "end_seconds": 9.35,
+            "duration_seconds": 0.18
+          }
+        ]
+      },
+      "natural_pauses_after_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 7,
+        "total_seconds": 1.94,
+        "max_seconds": 0.45,
+        "intervals": [
+          {
+            "start_seconds": 1.01,
+            "end_seconds": 1.21,
+            "duration_seconds": 0.2
+          },
+          {
+            "start_seconds": 3.0,
+            "end_seconds": 3.45,
+            "duration_seconds": 0.45
+          },
+          {
+            "start_seconds": 4.1,
+            "end_seconds": 4.18,
+            "duration_seconds": 0.08
+          },
+          {
+            "start_seconds": 5.19,
+            "end_seconds": 5.54,
+            "duration_seconds": 0.35
+          },
+          {
+            "start_seconds": 6.6,
+            "end_seconds": 6.97,
+            "duration_seconds": 0.37
+          },
+          {
+            "start_seconds": 8.19,
+            "end_seconds": 8.5,
+            "duration_seconds": 0.31
+          },
+          {
+            "start_seconds": 9.17,
+            "end_seconds": 9.35,
+            "duration_seconds": 0.18
+          }
+        ]
+      },
+      "source_speech_rms_db": -14.870853,
+      "tempo": {
+        "required": 0.841837,
+        "maximum": 1.05,
+        "requested": 1.0,
+        "actual": 1.0,
+        "reason": null
+      },
+      "gain": {
+        "uniform_base_db": -4.117939,
+        "speech_rms_after_uniform_db": -18.988792,
+        "individual_correction_db": 0.0,
+        "planned_speech_rms_before_global_peak_safety_db": -18.988792,
+        "global_peak_safety_db": 0.0,
+        "total_applied_db": -4.117939,
+        "final_speech_rms_db": -18.988792
+      },
+      "actual_position": {
+        "start": 14.18,
+        "end": 24.26,
+        "duration_seconds": 10.08
+      }
+    },
+    {
+      "group": "07",
+      "script_text": "过几天，带着原话回来看，那件想报竞赛的事，现在怎么想？",
+      "cue_windows": [
+        {
+          "shot": "07",
+          "text": "过几天，带着原话回来看，",
+          "start": 26.18,
+          "end": 28.41
+        },
+        {
+          "shot": "07",
+          "text": "那件想报竞赛的事，现在怎么想？",
+          "start": 28.49,
+          "end": 31.38
+        }
+      ],
+      "group_window": {
+        "start": 26.18,
+        "end": 31.62,
+        "available_seconds": 5.44,
+        "last_cue_end_plus_0_35": 31.73,
+        "next_group_start": 31.68,
+        "next_group_start_minus_0_06": 31.62
+      },
+      "selection": {
+        "file": "c3_g07_s47_7e721a74.wav",
+        "seed": 47,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "source_wave_sha256": "ad8df6b04fc9acb223b6c6467ca97cfb5407e05314714c48c3a59d264af07421"
+      },
+      "input_wave": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 245760,
+        "decoded_to_mono_48000": false
+      },
+      "trim": {
+        "source_duration_seconds": 5.12,
+        "source_trim_start_seconds": 0.0,
+        "source_trim_end_seconds": 0.0,
+        "added_head_padding_seconds": 0.0,
+        "added_tail_padding_seconds": 0.0,
+        "preserved_head_seconds": 0.38,
+        "preserved_tail_seconds": 0.31,
+        "trimmed_duration_seconds": 5.12,
+        "policy": "preserve_full_take_if_it_fits"
+      },
+      "natural_pauses_before_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 3,
+        "total_seconds": 0.62,
+        "max_seconds": 0.29,
+        "intervals": [
+          {
+            "start_seconds": 0.94,
+            "end_seconds": 1.18,
+            "duration_seconds": 0.24
+          },
+          {
+            "start_seconds": 2.33,
+            "end_seconds": 2.62,
+            "duration_seconds": 0.29
+          },
+          {
+            "start_seconds": 3.97,
+            "end_seconds": 4.06,
+            "duration_seconds": 0.09
+          }
+        ]
+      },
+      "natural_pauses_after_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 3,
+        "total_seconds": 0.62,
+        "max_seconds": 0.29,
+        "intervals": [
+          {
+            "start_seconds": 0.94,
+            "end_seconds": 1.18,
+            "duration_seconds": 0.24
+          },
+          {
+            "start_seconds": 2.33,
+            "end_seconds": 2.62,
+            "duration_seconds": 0.29
+          },
+          {
+            "start_seconds": 3.97,
+            "end_seconds": 4.06,
+            "duration_seconds": 0.09
+          }
+        ]
+      },
+      "source_speech_rms_db": -14.720497,
+      "tempo": {
+        "required": 0.939163,
+        "maximum": 1.05,
+        "requested": 1.0,
+        "actual": 1.0,
+        "reason": null
+      },
+      "gain": {
+        "uniform_base_db": -4.117939,
+        "speech_rms_after_uniform_db": -18.838436,
+        "individual_correction_db": 0.0,
+        "planned_speech_rms_before_global_peak_safety_db": -18.838436,
+        "global_peak_safety_db": 0.0,
+        "total_applied_db": -4.117939,
+        "final_speech_rms_db": -18.838436
+      },
+      "actual_position": {
+        "start": 26.18,
+        "end": 31.3,
+        "duration_seconds": 5.12
+      }
+    },
+    {
+      "group": "08",
+      "script_text": "做完的待办勾掉，没想完的念头，留着继续。",
+      "cue_windows": [
+        {
+          "shot": "08",
+          "text": "做完的待办勾掉，",
+          "start": 31.68,
+          "end": 33.58
+        },
+        {
+          "shot": "08",
+          "text": "没想完的念头，留着继续。",
+          "start": 33.66,
+          "end": 36.38
+        }
+      ],
+      "group_window": {
+        "start": 31.68,
+        "end": 36.62,
+        "available_seconds": 4.94,
+        "last_cue_end_plus_0_35": 36.73,
+        "next_group_start": 36.68,
+        "next_group_start_minus_0_06": 36.62
+      },
+      "selection": {
+        "file": "c3_g08_s41_3021c5ba.wav",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "source_wave_sha256": "8234d61827fca76cf133841b3e7cd70e5a4a7e99092620a1cba9b69c72004660"
+      },
+      "input_wave": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 168960,
+        "decoded_to_mono_48000": false
+      },
+      "trim": {
+        "source_duration_seconds": 3.52,
+        "source_trim_start_seconds": 0.0,
+        "source_trim_end_seconds": 0.0,
+        "added_head_padding_seconds": 0.0,
+        "added_tail_padding_seconds": 0.0,
+        "preserved_head_seconds": 0.3,
+        "preserved_tail_seconds": 0.21,
+        "trimmed_duration_seconds": 3.52,
+        "policy": "preserve_full_take_if_it_fits"
+      },
+      "natural_pauses_before_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 1,
+        "total_seconds": 0.09,
+        "max_seconds": 0.09,
+        "intervals": [
+          {
+            "start_seconds": 2.51,
+            "end_seconds": 2.6,
+            "duration_seconds": 0.09
+          }
+        ]
+      },
+      "natural_pauses_after_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 1,
+        "total_seconds": 0.09,
+        "max_seconds": 0.09,
+        "intervals": [
+          {
+            "start_seconds": 2.51,
+            "end_seconds": 2.6,
+            "duration_seconds": 0.09
+          }
+        ]
+      },
+      "source_speech_rms_db": -14.707525,
+      "tempo": {
+        "required": 0.701681,
+        "maximum": 1.05,
+        "requested": 1.0,
+        "actual": 1.0,
+        "reason": null
+      },
+      "gain": {
+        "uniform_base_db": -4.117939,
+        "speech_rms_after_uniform_db": -18.825464,
+        "individual_correction_db": 0.0,
+        "planned_speech_rms_before_global_peak_safety_db": -18.825464,
+        "global_peak_safety_db": 0.0,
+        "total_applied_db": -4.117939,
+        "final_speech_rms_db": -18.825464
+      },
+      "actual_position": {
+        "start": 31.68,
+        "end": 35.2,
+        "duration_seconds": 3.52
+      }
+    },
+    {
+      "group": "09",
+      "script_text": "记录都在卡片墙上，想找回来时，不必从头翻。",
+      "cue_windows": [
+        {
+          "shot": "09",
+          "text": "记录都在卡片墙上，",
+          "start": 36.68,
+          "end": 38.73
+        },
+        {
+          "shot": "09",
+          "text": "想找回来时，不必从头翻。",
+          "start": 38.81,
+          "end": 41.38
+        }
+      ],
+      "group_window": {
+        "start": 36.68,
+        "end": 41.62,
+        "available_seconds": 4.94,
+        "last_cue_end_plus_0_35": 41.73,
+        "next_group_start": 41.68,
+        "next_group_start_minus_0_06": 41.62
+      },
+      "selection": {
+        "file": "c3_g09_s41_c6950d79.wav",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "source_wave_sha256": "de7d7f2dece74bb612f830ecbe297e989a5a39b3c7cde904f94cb7ae33bb5503"
+      },
+      "input_wave": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 192000,
+        "decoded_to_mono_48000": false
+      },
+      "trim": {
+        "source_duration_seconds": 4.0,
+        "source_trim_start_seconds": 0.0,
+        "source_trim_end_seconds": 0.0,
+        "added_head_padding_seconds": 0.0,
+        "added_tail_padding_seconds": 0.0,
+        "preserved_head_seconds": 0.29,
+        "preserved_tail_seconds": 0.2,
+        "trimmed_duration_seconds": 4.0,
+        "policy": "preserve_full_take_if_it_fits"
+      },
+      "natural_pauses_before_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 2,
+        "total_seconds": 0.36,
+        "max_seconds": 0.28,
+        "intervals": [
+          {
+            "start_seconds": 1.72,
+            "end_seconds": 2.0,
+            "duration_seconds": 0.28
+          },
+          {
+            "start_seconds": 2.93,
+            "end_seconds": 3.01,
+            "duration_seconds": 0.08
+          }
+        ]
+      },
+      "natural_pauses_after_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 2,
+        "total_seconds": 0.36,
+        "max_seconds": 0.28,
+        "intervals": [
+          {
+            "start_seconds": 1.72,
+            "end_seconds": 2.0,
+            "duration_seconds": 0.28
+          },
+          {
+            "start_seconds": 2.93,
+            "end_seconds": 3.01,
+            "duration_seconds": 0.08
+          }
+        ]
+      },
+      "source_speech_rms_db": -16.060824,
+      "tempo": {
+        "required": 0.802521,
+        "maximum": 1.05,
+        "requested": 1.0,
+        "actual": 1.0,
+        "reason": null
+      },
+      "gain": {
+        "uniform_base_db": -4.117939,
+        "speech_rms_after_uniform_db": -20.178763,
+        "individual_correction_db": 0.0,
+        "planned_speech_rms_before_global_peak_safety_db": -20.178763,
+        "global_peak_safety_db": 0.0,
+        "total_applied_db": -4.117939,
+        "final_speech_rms_db": -20.178763
+      },
+      "actual_position": {
+        "start": 36.68,
+        "end": 40.68,
+        "duration_seconds": 4.0
+      }
+    },
+    {
+      "group": "10",
+      "script_text": "点“接着聊”，先看最担心的时间安排，再把顾虑一步步说清楚。",
+      "cue_windows": [
+        {
+          "shot": "10",
+          "text": "点“接着聊”，先看最担心的时间安排，",
+          "start": 41.68,
+          "end": 46.12
+        },
+        {
+          "shot": "10",
+          "text": "再把顾虑一步步说清楚。",
+          "start": 46.2,
+          "end": 49.38
+        }
+      ],
+      "group_window": {
+        "start": 41.68,
+        "end": 49.62,
+        "available_seconds": 7.94,
+        "last_cue_end_plus_0_35": 49.73,
+        "next_group_start": 49.68,
+        "next_group_start_minus_0_06": 49.62
+      },
+      "selection": {
+        "file": "c3_g10_s41_947d58b0.wav",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "source_wave_sha256": "dfbf404c7b2711e3d60bb877190a4276acfc9ee19e36524d34f595af72e3b556"
+      },
+      "input_wave": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 261120,
+        "decoded_to_mono_48000": false
+      },
+      "trim": {
+        "source_duration_seconds": 5.44,
+        "source_trim_start_seconds": 0.0,
+        "source_trim_end_seconds": 0.0,
+        "added_head_padding_seconds": 0.0,
+        "added_tail_padding_seconds": 0.0,
+        "preserved_head_seconds": 0.39,
+        "preserved_tail_seconds": 0.24,
+        "trimmed_duration_seconds": 5.44,
+        "policy": "preserve_full_take_if_it_fits"
+      },
+      "natural_pauses_before_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 2,
+        "total_seconds": 0.6,
+        "max_seconds": 0.37,
+        "intervals": [
+          {
+            "start_seconds": 1.11,
+            "end_seconds": 1.34,
+            "duration_seconds": 0.23
+          },
+          {
+            "start_seconds": 3.09,
+            "end_seconds": 3.46,
+            "duration_seconds": 0.37
+          }
+        ]
+      },
+      "natural_pauses_after_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 2,
+        "total_seconds": 0.6,
+        "max_seconds": 0.37,
+        "intervals": [
+          {
+            "start_seconds": 1.11,
+            "end_seconds": 1.34,
+            "duration_seconds": 0.23
+          },
+          {
+            "start_seconds": 3.09,
+            "end_seconds": 3.46,
+            "duration_seconds": 0.37
+          }
+        ]
+      },
+      "source_speech_rms_db": -16.039732,
+      "tempo": {
+        "required": 0.677835,
+        "maximum": 1.05,
+        "requested": 1.0,
+        "actual": 1.0,
+        "reason": null
+      },
+      "gain": {
+        "uniform_base_db": -4.117939,
+        "speech_rms_after_uniform_db": -20.157671,
+        "individual_correction_db": 0.0,
+        "planned_speech_rms_before_global_peak_safety_db": -20.157671,
+        "global_peak_safety_db": 0.0,
+        "total_applied_db": -4.117939,
+        "final_speech_rms_db": -20.157671
+      },
+      "actual_position": {
+        "start": 41.68,
+        "end": 47.12,
+        "duration_seconds": 5.44
+      }
+    },
+    {
+      "group": "11",
+      "script_text": "聊出的新想法，先存成卡。再选几张相关的卡，一起看看。",
+      "cue_windows": [
+        {
+          "shot": "11",
+          "text": "聊出的新想法，先存成卡。",
+          "start": 49.68,
+          "end": 52.01
+        },
+        {
+          "shot": "11",
+          "text": "再选几张相关的卡，一起看看。",
+          "start": 52.09,
+          "end": 54.88
+        }
+      ],
+      "group_window": {
+        "start": 49.68,
+        "end": 55.12,
+        "available_seconds": 5.44,
+        "last_cue_end_plus_0_35": 55.23,
+        "next_group_start": 55.18,
+        "next_group_start_minus_0_06": 55.12
+      },
+      "selection": {
+        "file": "c3_g11_s41_f1fee6e6.wav",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "source_wave_sha256": "bafe099d503ee0f85ecaa9ddb7df9f72bbb388ded5d8af178d3d142a4ba0e481"
+      },
+      "input_wave": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 268800,
+        "decoded_to_mono_48000": false
+      },
+      "trim": {
+        "source_duration_seconds": 5.6,
+        "source_trim_start_seconds": 0.34,
+        "source_trim_end_seconds": 0.11,
+        "added_head_padding_seconds": 0.0,
+        "added_tail_padding_seconds": 0.0,
+        "preserved_head_seconds": 0.06,
+        "preserved_tail_seconds": 0.12,
+        "trimmed_duration_seconds": 5.15,
+        "policy": "trim_outer_silence_to_fit"
+      },
+      "natural_pauses_before_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 3,
+        "total_seconds": 0.95,
+        "max_seconds": 0.48,
+        "intervals": [
+          {
+            "start_seconds": 1.12,
+            "end_seconds": 1.34,
+            "duration_seconds": 0.22
+          },
+          {
+            "start_seconds": 2.15,
+            "end_seconds": 2.63,
+            "duration_seconds": 0.48
+          },
+          {
+            "start_seconds": 4.11,
+            "end_seconds": 4.36,
+            "duration_seconds": 0.25
+          }
+        ]
+      },
+      "natural_pauses_after_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 3,
+        "total_seconds": 0.95,
+        "max_seconds": 0.48,
+        "intervals": [
+          {
+            "start_seconds": 1.12,
+            "end_seconds": 1.34,
+            "duration_seconds": 0.22
+          },
+          {
+            "start_seconds": 2.15,
+            "end_seconds": 2.63,
+            "duration_seconds": 0.48
+          },
+          {
+            "start_seconds": 4.11,
+            "end_seconds": 4.36,
+            "duration_seconds": 0.25
+          }
+        ]
+      },
+      "source_speech_rms_db": -15.586016,
+      "tempo": {
+        "required": 0.944867,
+        "maximum": 1.05,
+        "requested": 1.0,
+        "actual": 1.0,
+        "reason": null
+      },
+      "gain": {
+        "uniform_base_db": -4.117939,
+        "speech_rms_after_uniform_db": -19.703955,
+        "individual_correction_db": 0.0,
+        "planned_speech_rms_before_global_peak_safety_db": -19.703955,
+        "global_peak_safety_db": 0.0,
+        "total_applied_db": -4.117939,
+        "final_speech_rms_db": -19.703955
+      },
+      "actual_position": {
+        "start": 49.68,
+        "end": 54.83,
+        "duration_seconds": 5.15
+      }
+    },
+    {
+      "group": "12",
+      "script_text": "放进头脑风暴，分组、比较，找出这些念头之间的新联系。最后，把自己的结论写下来。",
+      "cue_windows": [
+        {
+          "shot": "12",
+          "text": "放进头脑风暴，分组、比较，",
+          "start": 55.18,
+          "end": 57.77
+        },
+        {
+          "shot": "12",
+          "text": "找出这些念头之间的新联系。",
+          "start": 57.85,
+          "end": 60.95
+        },
+        {
+          "shot": "12",
+          "text": "最后，把自己的结论写下来。",
+          "start": 61.03,
+          "end": 63.88
+        }
+      ],
+      "group_window": {
+        "start": 55.18,
+        "end": 64.12,
+        "available_seconds": 8.94,
+        "last_cue_end_plus_0_35": 64.23,
+        "next_group_start": 64.18,
+        "next_group_start_minus_0_06": 64.12
+      },
+      "selection": {
+        "file": "c3_g12_s41_ad802e0e.wav",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "source_wave_sha256": "4f71c5162b128555cda33189fb4f4f86a2539ba252206a6beb3899d9b637bb6b"
+      },
+      "input_wave": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 353280,
+        "decoded_to_mono_48000": false
+      },
+      "trim": {
+        "source_duration_seconds": 7.36,
+        "source_trim_start_seconds": 0.0,
+        "source_trim_end_seconds": 0.0,
+        "added_head_padding_seconds": 0.0,
+        "added_tail_padding_seconds": 0.0,
+        "preserved_head_seconds": 0.29,
+        "preserved_tail_seconds": 0.27,
+        "trimmed_duration_seconds": 7.36,
+        "policy": "preserve_full_take_if_it_fits"
+      },
+      "natural_pauses_before_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 4,
+        "total_seconds": 1.16,
+        "max_seconds": 0.41,
+        "intervals": [
+          {
+            "start_seconds": 1.44,
+            "end_seconds": 1.69,
+            "duration_seconds": 0.25
+          },
+          {
+            "start_seconds": 2.13,
+            "end_seconds": 2.3,
+            "duration_seconds": 0.17
+          },
+          {
+            "start_seconds": 2.63,
+            "end_seconds": 2.96,
+            "duration_seconds": 0.33
+          },
+          {
+            "start_seconds": 4.89,
+            "end_seconds": 5.3,
+            "duration_seconds": 0.41
+          }
+        ]
+      },
+      "natural_pauses_after_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 4,
+        "total_seconds": 1.16,
+        "max_seconds": 0.41,
+        "intervals": [
+          {
+            "start_seconds": 1.44,
+            "end_seconds": 1.69,
+            "duration_seconds": 0.25
+          },
+          {
+            "start_seconds": 2.13,
+            "end_seconds": 2.3,
+            "duration_seconds": 0.17
+          },
+          {
+            "start_seconds": 2.63,
+            "end_seconds": 2.96,
+            "duration_seconds": 0.33
+          },
+          {
+            "start_seconds": 4.89,
+            "end_seconds": 5.3,
+            "duration_seconds": 0.41
+          }
+        ]
+      },
+      "source_speech_rms_db": -15.724391,
+      "tempo": {
+        "required": 0.819635,
+        "maximum": 1.05,
+        "requested": 1.0,
+        "actual": 1.0,
+        "reason": null
+      },
+      "gain": {
+        "uniform_base_db": -4.117939,
+        "speech_rms_after_uniform_db": -19.84233,
+        "individual_correction_db": 0.0,
+        "planned_speech_rms_before_global_peak_safety_db": -19.84233,
+        "global_peak_safety_db": 0.0,
+        "total_applied_db": -4.117939,
+        "final_speech_rms_db": -19.84233
+      },
+      "actual_position": {
+        "start": 55.18,
+        "end": 62.54,
+        "duration_seconds": 7.36
+      }
+    },
+    {
+      "group": "13",
+      "script_text": "一道极限题，卡在第一步。拍下来，先核对题目。",
+      "cue_windows": [
+        {
+          "shot": "13",
+          "text": "一道极限题，卡在第一步。",
+          "start": 64.18,
+          "end": 66.47
+        },
+        {
+          "shot": "13",
+          "text": "拍下来，先核对题目。",
+          "start": 66.55,
+          "end": 68.38
+        }
+      ],
+      "group_window": {
+        "start": 64.18,
+        "end": 68.62,
+        "available_seconds": 4.44,
+        "last_cue_end_plus_0_35": 68.73,
+        "next_group_start": 68.68,
+        "next_group_start_minus_0_06": 68.62
+      },
+      "selection": {
+        "file": "c3_g13_s41_27222557.wav",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "source_wave_sha256": "1bd6dfbc57c4f62db9b5e4d1e1e13233ea920a849dc418caaff95a44ddcdd575"
+      },
+      "input_wave": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 222720,
+        "decoded_to_mono_48000": false
+      },
+      "trim": {
+        "source_duration_seconds": 4.64,
+        "source_trim_start_seconds": 0.34,
+        "source_trim_end_seconds": 0.03,
+        "added_head_padding_seconds": 0.0,
+        "added_tail_padding_seconds": 0.0,
+        "preserved_head_seconds": 0.06,
+        "preserved_tail_seconds": 0.12,
+        "trimmed_duration_seconds": 4.27,
+        "policy": "trim_outer_silence_to_fit"
+      },
+      "natural_pauses_before_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 3,
+        "total_seconds": 1.01,
+        "max_seconds": 0.62,
+        "intervals": [
+          {
+            "start_seconds": 0.98,
+            "end_seconds": 1.26,
+            "duration_seconds": 0.28
+          },
+          {
+            "start_seconds": 1.99,
+            "end_seconds": 2.61,
+            "duration_seconds": 0.62
+          },
+          {
+            "start_seconds": 3.16,
+            "end_seconds": 3.27,
+            "duration_seconds": 0.11
+          }
+        ]
+      },
+      "natural_pauses_after_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 3,
+        "total_seconds": 1.01,
+        "max_seconds": 0.62,
+        "intervals": [
+          {
+            "start_seconds": 0.98,
+            "end_seconds": 1.26,
+            "duration_seconds": 0.28
+          },
+          {
+            "start_seconds": 1.99,
+            "end_seconds": 2.61,
+            "duration_seconds": 0.62
+          },
+          {
+            "start_seconds": 3.16,
+            "end_seconds": 3.27,
+            "duration_seconds": 0.11
+          }
+        ]
+      },
+      "source_speech_rms_db": -15.279782,
+      "tempo": {
+        "required": 0.960094,
+        "maximum": 1.05,
+        "requested": 1.0,
+        "actual": 1.0,
+        "reason": null
+      },
+      "gain": {
+        "uniform_base_db": -4.117939,
+        "speech_rms_after_uniform_db": -19.397721,
+        "individual_correction_db": 0.0,
+        "planned_speech_rms_before_global_peak_safety_db": -19.397721,
+        "global_peak_safety_db": 0.0,
+        "total_applied_db": -4.117939,
+        "final_speech_rms_db": -19.397721
+      },
+      "actual_position": {
+        "start": 64.18,
+        "end": 68.45,
+        "duration_seconds": 4.27
+      }
+    },
+    {
+      "group": "14",
+      "script_text": "先要一步提示，接着自己试算。相关研究中，直接给答案的那组，撤掉AI后表现下降。提示组未见明显下降。",
+      "cue_windows": [
+        {
+          "shot": "14",
+          "text": "先要一步提示，接着自己试算。",
+          "start": 68.68,
+          "end": 71.76
+        },
+        {
+          "shot": "14",
+          "text": "相关研究中，直接给答案的那组，",
+          "start": 71.84,
+          "end": 74.67
+        },
+        {
+          "shot": "14",
+          "text": "撤掉AI后表现下降。提示组未见明显下降。",
+          "start": 74.75,
+          "end": 79.38
+        }
+      ],
+      "group_window": {
+        "start": 68.68,
+        "end": 79.62,
+        "available_seconds": 10.94,
+        "last_cue_end_plus_0_35": 79.73,
+        "next_group_start": 79.68,
+        "next_group_start_minus_0_06": 79.62
+      },
+      "selection": {
+        "file": "c3_g14_s47_5e570592.wav",
+        "seed": 47,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "source_wave_sha256": "b1c3ef9eba01bd4348b6bc9d253c7f7a861bb74472059a3d8538be0bc43d9c3f"
+      },
+      "input_wave": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 453120,
+        "decoded_to_mono_48000": false
+      },
+      "trim": {
+        "source_duration_seconds": 9.44,
+        "source_trim_start_seconds": 0.0,
+        "source_trim_end_seconds": 0.0,
+        "added_head_padding_seconds": 0.0,
+        "added_tail_padding_seconds": 0.0,
+        "preserved_head_seconds": 0.25,
+        "preserved_tail_seconds": 0.27,
+        "trimmed_duration_seconds": 9.44,
+        "policy": "preserve_full_take_if_it_fits"
+      },
+      "natural_pauses_before_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 6,
+        "total_seconds": 1.5,
+        "max_seconds": 0.46,
+        "intervals": [
+          {
+            "start_seconds": 1.28,
+            "end_seconds": 1.46,
+            "duration_seconds": 0.18
+          },
+          {
+            "start_seconds": 2.44,
+            "end_seconds": 2.86,
+            "duration_seconds": 0.42
+          },
+          {
+            "start_seconds": 3.75,
+            "end_seconds": 3.94,
+            "duration_seconds": 0.19
+          },
+          {
+            "start_seconds": 5.14,
+            "end_seconds": 5.3,
+            "duration_seconds": 0.16
+          },
+          {
+            "start_seconds": 6.22,
+            "end_seconds": 6.31,
+            "duration_seconds": 0.09
+          },
+          {
+            "start_seconds": 7.03,
+            "end_seconds": 7.49,
+            "duration_seconds": 0.46
+          }
+        ]
+      },
+      "natural_pauses_after_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 6,
+        "total_seconds": 1.5,
+        "max_seconds": 0.46,
+        "intervals": [
+          {
+            "start_seconds": 1.28,
+            "end_seconds": 1.46,
+            "duration_seconds": 0.18
+          },
+          {
+            "start_seconds": 2.44,
+            "end_seconds": 2.86,
+            "duration_seconds": 0.42
+          },
+          {
+            "start_seconds": 3.75,
+            "end_seconds": 3.94,
+            "duration_seconds": 0.19
+          },
+          {
+            "start_seconds": 5.14,
+            "end_seconds": 5.3,
+            "duration_seconds": 0.16
+          },
+          {
+            "start_seconds": 6.22,
+            "end_seconds": 6.31,
+            "duration_seconds": 0.09
+          },
+          {
+            "start_seconds": 7.03,
+            "end_seconds": 7.49,
+            "duration_seconds": 0.46
+          }
+        ]
+      },
+      "source_speech_rms_db": -15.060731,
+      "tempo": {
+        "required": 0.860595,
+        "maximum": 1.05,
+        "requested": 1.0,
+        "actual": 1.0,
+        "reason": null
+      },
+      "gain": {
+        "uniform_base_db": -4.117939,
+        "speech_rms_after_uniform_db": -19.17867,
+        "individual_correction_db": 0.0,
+        "planned_speech_rms_before_global_peak_safety_db": -19.17867,
+        "global_peak_safety_db": 0.0,
+        "total_applied_db": -4.117939,
+        "final_speech_rms_db": -19.17867
+      },
+      "actual_position": {
+        "start": 68.68,
+        "end": 78.12,
+        "duration_seconds": 9.44
+      }
+    },
+    {
+      "group": "15",
+      "script_text": "展开完整解析，还能查看计算核验。支持的算式，由程序重新计算。",
+      "cue_windows": [
+        {
+          "shot": "15",
+          "text": "展开完整解析，还能查看计算核验。",
+          "start": 79.68,
+          "end": 82.71
+        },
+        {
+          "shot": "15",
+          "text": "支持的算式，由程序重新计算。",
+          "start": 82.79,
+          "end": 85.38
+        }
+      ],
+      "group_window": {
+        "start": 79.68,
+        "end": 85.62,
+        "available_seconds": 5.94,
+        "last_cue_end_plus_0_35": 85.73,
+        "next_group_start": 85.68,
+        "next_group_start_minus_0_06": 85.62
+      },
+      "selection": {
+        "file": "c3_g15_s47_d889dbf8.wav",
+        "seed": 47,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "source_wave_sha256": "5106fa77a6f79517ba11c8d096e7cf429d14fd22b429ff2c232543c5655b7c2f"
+      },
+      "input_wave": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 307200,
+        "decoded_to_mono_48000": false
+      },
+      "trim": {
+        "source_duration_seconds": 6.4,
+        "source_trim_start_seconds": 0.4,
+        "source_trim_end_seconds": 0.01,
+        "added_head_padding_seconds": 0.0,
+        "added_tail_padding_seconds": 0.0,
+        "preserved_head_seconds": 0.06,
+        "preserved_tail_seconds": 0.12,
+        "trimmed_duration_seconds": 5.99,
+        "policy": "trim_outer_silence_to_fit"
+      },
+      "natural_pauses_before_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 3,
+        "total_seconds": 1.03,
+        "max_seconds": 0.5,
+        "intervals": [
+          {
+            "start_seconds": 1.21,
+            "end_seconds": 1.55,
+            "duration_seconds": 0.34
+          },
+          {
+            "start_seconds": 2.95,
+            "end_seconds": 3.45,
+            "duration_seconds": 0.5
+          },
+          {
+            "start_seconds": 4.31,
+            "end_seconds": 4.5,
+            "duration_seconds": 0.19
+          }
+        ]
+      },
+      "natural_pauses_after_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 3,
+        "total_seconds": 0.97,
+        "max_seconds": 0.48,
+        "intervals": [
+          {
+            "start_seconds": 1.2,
+            "end_seconds": 1.52,
+            "duration_seconds": 0.32
+          },
+          {
+            "start_seconds": 2.92,
+            "end_seconds": 3.4,
+            "duration_seconds": 0.48
+          },
+          {
+            "start_seconds": 4.27,
+            "end_seconds": 4.44,
+            "duration_seconds": 0.17
+          }
+        ]
+      },
+      "source_speech_rms_db": -16.41958,
+      "tempo": {
+        "required": 1.008681,
+        "maximum": 1.05,
+        "requested": 1.009689,
+        "actual": 1.009912,
+        "reason": null
+      },
+      "gain": {
+        "uniform_base_db": -4.117939,
+        "speech_rms_after_uniform_db": -20.537519,
+        "individual_correction_db": 0.0,
+        "planned_speech_rms_before_global_peak_safety_db": -20.537519,
+        "global_peak_safety_db": 0.0,
+        "total_applied_db": -4.117939,
+        "final_speech_rms_db": -20.537519
+      },
+      "actual_position": {
+        "start": 79.68,
+        "end": 85.612979,
+        "duration_seconds": 5.932979
+      }
+    },
+    {
+      "group": "16",
+      "script_text": "算完，把草稿拿来批改，定位出错步骤，再收进错题本。",
+      "cue_windows": [
+        {
+          "shot": "16",
+          "text": "算完，把草稿拿来批改，",
+          "start": 85.68,
+          "end": 88.09
+        },
+        {
+          "shot": "16",
+          "text": "定位出错步骤，再收进错题本。",
+          "start": 88.17,
+          "end": 91.38
+        }
+      ],
+      "group_window": {
+        "start": 85.68,
+        "end": 91.62,
+        "available_seconds": 5.94,
+        "last_cue_end_plus_0_35": 91.73,
+        "next_group_start": 91.68,
+        "next_group_start_minus_0_06": 91.62
+      },
+      "selection": {
+        "file": "c3_g16_s41_9faaed27.wav",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "source_wave_sha256": "ac47b423db8c8b98085999fa15d9ac33c94514aafb4cbcfdc92a913894204f5f"
+      },
+      "input_wave": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 230400,
+        "decoded_to_mono_48000": false
+      },
+      "trim": {
+        "source_duration_seconds": 4.8,
+        "source_trim_start_seconds": 0.0,
+        "source_trim_end_seconds": 0.0,
+        "added_head_padding_seconds": 0.0,
+        "added_tail_padding_seconds": 0.0,
+        "preserved_head_seconds": 0.26,
+        "preserved_tail_seconds": 0.18,
+        "trimmed_duration_seconds": 4.8,
+        "policy": "preserve_full_take_if_it_fits"
+      },
+      "natural_pauses_before_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 2,
+        "total_seconds": 0.52,
+        "max_seconds": 0.37,
+        "intervals": [
+          {
+            "start_seconds": 2.05,
+            "end_seconds": 2.42,
+            "duration_seconds": 0.37
+          },
+          {
+            "start_seconds": 3.46,
+            "end_seconds": 3.61,
+            "duration_seconds": 0.15
+          }
+        ]
+      },
+      "natural_pauses_after_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 2,
+        "total_seconds": 0.52,
+        "max_seconds": 0.37,
+        "intervals": [
+          {
+            "start_seconds": 2.05,
+            "end_seconds": 2.42,
+            "duration_seconds": 0.37
+          },
+          {
+            "start_seconds": 3.46,
+            "end_seconds": 3.61,
+            "duration_seconds": 0.15
+          }
+        ]
+      },
+      "source_speech_rms_db": -15.371104,
+      "tempo": {
+        "required": 0.802083,
+        "maximum": 1.05,
+        "requested": 1.0,
+        "actual": 1.0,
+        "reason": null
+      },
+      "gain": {
+        "uniform_base_db": -4.117939,
+        "speech_rms_after_uniform_db": -19.489043,
+        "individual_correction_db": 0.0,
+        "planned_speech_rms_before_global_peak_safety_db": -19.489043,
+        "global_peak_safety_db": 0.0,
+        "total_applied_db": -4.117939,
+        "final_speech_rms_db": -19.489043
+      },
+      "actual_position": {
+        "start": 85.68,
+        "end": 90.48,
+        "duration_seconds": 4.8
+      }
+    },
+    {
+      "group": "17",
+      "script_text": "再把解题思路讲给小狸听。它会追问，再反馈哪些说清、哪些漏了。",
+      "cue_windows": [
+        {
+          "shot": "17",
+          "text": "再把解题思路讲给小狸听。",
+          "start": 91.68,
+          "end": 94.48
+        },
+        {
+          "shot": "17",
+          "text": "它会追问，再反馈哪些说清、哪些漏了。",
+          "start": 94.56,
+          "end": 98.38
+        }
+      ],
+      "group_window": {
+        "start": 91.68,
+        "end": 98.62,
+        "available_seconds": 6.94,
+        "last_cue_end_plus_0_35": 98.73,
+        "next_group_start": 98.68,
+        "next_group_start_minus_0_06": 98.62
+      },
+      "selection": {
+        "file": "c3_g17_s41_5d8e58be.wav",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "source_wave_sha256": "34528989bc985cb9ca6dff0e8e4452836810c0096e102bb80765ad9865d31965"
+      },
+      "input_wave": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 268800,
+        "decoded_to_mono_48000": false
+      },
+      "trim": {
+        "source_duration_seconds": 5.6,
+        "source_trim_start_seconds": 0.0,
+        "source_trim_end_seconds": 0.0,
+        "added_head_padding_seconds": 0.0,
+        "added_tail_padding_seconds": 0.0,
+        "preserved_head_seconds": 0.3,
+        "preserved_tail_seconds": 0.21,
+        "trimmed_duration_seconds": 5.6,
+        "policy": "preserve_full_take_if_it_fits"
+      },
+      "natural_pauses_before_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 3,
+        "total_seconds": 0.84,
+        "max_seconds": 0.49,
+        "intervals": [
+          {
+            "start_seconds": 2.09,
+            "end_seconds": 2.58,
+            "duration_seconds": 0.49
+          },
+          {
+            "start_seconds": 3.24,
+            "end_seconds": 3.45,
+            "duration_seconds": 0.21
+          },
+          {
+            "start_seconds": 4.64,
+            "end_seconds": 4.78,
+            "duration_seconds": 0.14
+          }
+        ]
+      },
+      "natural_pauses_after_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 3,
+        "total_seconds": 0.84,
+        "max_seconds": 0.49,
+        "intervals": [
+          {
+            "start_seconds": 2.09,
+            "end_seconds": 2.58,
+            "duration_seconds": 0.49
+          },
+          {
+            "start_seconds": 3.24,
+            "end_seconds": 3.45,
+            "duration_seconds": 0.21
+          },
+          {
+            "start_seconds": 4.64,
+            "end_seconds": 4.78,
+            "duration_seconds": 0.14
+          }
+        ]
+      },
+      "source_speech_rms_db": -15.103928,
+      "tempo": {
+        "required": 0.801775,
+        "maximum": 1.05,
+        "requested": 1.0,
+        "actual": 1.0,
+        "reason": null
+      },
+      "gain": {
+        "uniform_base_db": -4.117939,
+        "speech_rms_after_uniform_db": -19.221867,
+        "individual_correction_db": 0.0,
+        "planned_speech_rms_before_global_peak_safety_db": -19.221867,
+        "global_peak_safety_db": 0.0,
+        "total_applied_db": -4.117939,
+        "final_speech_rms_db": -19.221867
+      },
+      "actual_position": {
+        "start": 91.68,
+        "end": 97.28,
+        "duration_seconds": 5.6
+      }
+    },
+    {
+      "group": "18",
+      "script_text": "需要补充，就导入讲义。校对原文，再把相关段落整理成卡。",
+      "cue_windows": [
+        {
+          "shot": "18",
+          "text": "需要补充，就导入讲义。",
+          "start": 98.68,
+          "end": 100.88
+        },
+        {
+          "shot": "18",
+          "text": "校对原文，再把相关段落整理成卡。",
+          "start": 100.96,
+          "end": 104.38
+        }
+      ],
+      "group_window": {
+        "start": 98.68,
+        "end": 104.62,
+        "available_seconds": 5.94,
+        "last_cue_end_plus_0_35": 104.73,
+        "next_group_start": 104.68,
+        "next_group_start_minus_0_06": 104.62
+      },
+      "selection": {
+        "file": "c3_g18_s41_ccaf7284.wav",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "source_wave_sha256": "8677f505a0b275c4452ceb87c538fad52f30cb4ff871a582a4b3841351e94f06"
+      },
+      "input_wave": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 276480,
+        "decoded_to_mono_48000": false
+      },
+      "trim": {
+        "source_duration_seconds": 5.76,
+        "source_trim_start_seconds": 0.0,
+        "source_trim_end_seconds": 0.0,
+        "added_head_padding_seconds": 0.0,
+        "added_tail_padding_seconds": 0.0,
+        "preserved_head_seconds": 0.23,
+        "preserved_tail_seconds": 0.11,
+        "trimmed_duration_seconds": 5.76,
+        "policy": "preserve_full_take_if_it_fits"
+      },
+      "natural_pauses_before_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 3,
+        "total_seconds": 1.31,
+        "max_seconds": 0.8,
+        "intervals": [
+          {
+            "start_seconds": 0.97,
+            "end_seconds": 1.18,
+            "duration_seconds": 0.21
+          },
+          {
+            "start_seconds": 2.03,
+            "end_seconds": 2.83,
+            "duration_seconds": 0.8
+          },
+          {
+            "start_seconds": 3.61,
+            "end_seconds": 3.91,
+            "duration_seconds": 0.3
+          }
+        ]
+      },
+      "natural_pauses_after_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 3,
+        "total_seconds": 1.31,
+        "max_seconds": 0.8,
+        "intervals": [
+          {
+            "start_seconds": 0.97,
+            "end_seconds": 1.18,
+            "duration_seconds": 0.21
+          },
+          {
+            "start_seconds": 2.03,
+            "end_seconds": 2.83,
+            "duration_seconds": 0.8
+          },
+          {
+            "start_seconds": 3.61,
+            "end_seconds": 3.91,
+            "duration_seconds": 0.3
+          }
+        ]
+      },
+      "source_speech_rms_db": -14.595987,
+      "tempo": {
+        "required": 0.96875,
+        "maximum": 1.05,
+        "requested": 1.0,
+        "actual": 1.0,
+        "reason": null
+      },
+      "gain": {
+        "uniform_base_db": -4.117939,
+        "speech_rms_after_uniform_db": -18.713926,
+        "individual_correction_db": 0.0,
+        "planned_speech_rms_before_global_peak_safety_db": -18.713926,
+        "global_peak_safety_db": 0.0,
+        "total_applied_db": -4.117939,
+        "final_speech_rms_db": -18.713926
+      },
+      "actual_position": {
+        "start": 98.68,
+        "end": 104.44,
+        "duration_seconds": 5.76
+      }
+    },
+    {
+      "group": "19",
+      "script_text": "最后，去知识地图独立做一道。先判断会不会，再作答看结果。",
+      "cue_windows": [
+        {
+          "shot": "19",
+          "text": "最后，去知识地图独立做一道。",
+          "start": 104.68,
+          "end": 107.74
+        },
+        {
+          "shot": "19",
+          "text": "先判断会不会，再作答看结果。",
+          "start": 107.82,
+          "end": 110.88
+        }
+      ],
+      "group_window": {
+        "start": 104.68,
+        "end": 111.12,
+        "available_seconds": 6.44,
+        "last_cue_end_plus_0_35": 111.23,
+        "next_group_start": 111.18,
+        "next_group_start_minus_0_06": 111.12
+      },
+      "selection": {
+        "file": "c3_g19_s41_93ded55a.wav",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "source_wave_sha256": "b0bfda1803762dc08cc0c595e5a88366778bf72725d9bf3c9a22a5ffd461c386"
+      },
+      "input_wave": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 268800,
+        "decoded_to_mono_48000": false
+      },
+      "trim": {
+        "source_duration_seconds": 5.6,
+        "source_trim_start_seconds": 0.0,
+        "source_trim_end_seconds": 0.0,
+        "added_head_padding_seconds": 0.0,
+        "added_tail_padding_seconds": 0.0,
+        "preserved_head_seconds": 0.3,
+        "preserved_tail_seconds": 0.2,
+        "trimmed_duration_seconds": 5.6,
+        "policy": "preserve_full_take_if_it_fits"
+      },
+      "natural_pauses_before_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 3,
+        "total_seconds": 0.76,
+        "max_seconds": 0.41,
+        "intervals": [
+          {
+            "start_seconds": 0.72,
+            "end_seconds": 0.83,
+            "duration_seconds": 0.11
+          },
+          {
+            "start_seconds": 2.53,
+            "end_seconds": 2.94,
+            "duration_seconds": 0.41
+          },
+          {
+            "start_seconds": 4.06,
+            "end_seconds": 4.3,
+            "duration_seconds": 0.24
+          }
+        ]
+      },
+      "natural_pauses_after_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 3,
+        "total_seconds": 0.76,
+        "max_seconds": 0.41,
+        "intervals": [
+          {
+            "start_seconds": 0.72,
+            "end_seconds": 0.83,
+            "duration_seconds": 0.11
+          },
+          {
+            "start_seconds": 2.53,
+            "end_seconds": 2.94,
+            "duration_seconds": 0.41
+          },
+          {
+            "start_seconds": 4.06,
+            "end_seconds": 4.3,
+            "duration_seconds": 0.24
+          }
+        ]
+      },
+      "source_speech_rms_db": -15.14564,
+      "tempo": {
+        "required": 0.865815,
+        "maximum": 1.05,
+        "requested": 1.0,
+        "actual": 1.0,
+        "reason": null
+      },
+      "gain": {
+        "uniform_base_db": -4.117939,
+        "speech_rms_after_uniform_db": -19.263579,
+        "individual_correction_db": 0.0,
+        "planned_speech_rms_before_global_peak_safety_db": -19.263579,
+        "global_peak_safety_db": 0.0,
+        "total_applied_db": -4.117939,
+        "final_speech_rms_db": -19.263579
+      },
+      "actual_position": {
+        "start": 104.68,
+        "end": 110.28,
+        "duration_seconds": 5.6
+      }
+    },
+    {
+      "group": "20",
+      "script_text": "累的时候，也可以只是聊聊。今天发生了什么，哪句话放不下，先把感受说出来。",
+      "cue_windows": [
+        {
+          "shot": "20",
+          "text": "累的时候，也可以只是聊聊。",
+          "start": 111.18,
+          "end": 114.03
+        },
+        {
+          "shot": "20",
+          "text": "今天发生了什么，哪句话放不下，",
+          "start": 114.11,
+          "end": 117.48
+        },
+        {
+          "shot": "20",
+          "text": "先把感受说出来。",
+          "start": 117.56,
+          "end": 119.38
+        }
+      ],
+      "group_window": {
+        "start": 111.18,
+        "end": 119.62,
+        "available_seconds": 8.44,
+        "last_cue_end_plus_0_35": 119.73,
+        "next_group_start": 119.68,
+        "next_group_start_minus_0_06": 119.62
+      },
+      "selection": {
+        "file": "c3_g20_s41_75250b4f.wav",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "source_wave_sha256": "a478d4a25739ee1cada020a7506e3e5bcab4fc4f0f3bbfb35d69ff99a58b9cbc"
+      },
+      "input_wave": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 299520,
+        "decoded_to_mono_48000": false
+      },
+      "trim": {
+        "source_duration_seconds": 6.24,
+        "source_trim_start_seconds": 0.0,
+        "source_trim_end_seconds": 0.0,
+        "added_head_padding_seconds": 0.0,
+        "added_tail_padding_seconds": 0.0,
+        "preserved_head_seconds": 0.24,
+        "preserved_tail_seconds": 0.36,
+        "trimmed_duration_seconds": 6.24,
+        "policy": "preserve_full_take_if_it_fits"
+      },
+      "natural_pauses_before_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 3,
+        "total_seconds": 0.8,
+        "max_seconds": 0.4,
+        "intervals": [
+          {
+            "start_seconds": 1.9,
+            "end_seconds": 2.3,
+            "duration_seconds": 0.4
+          },
+          {
+            "start_seconds": 3.41,
+            "end_seconds": 3.63,
+            "duration_seconds": 0.22
+          },
+          {
+            "start_seconds": 4.57,
+            "end_seconds": 4.75,
+            "duration_seconds": 0.18
+          }
+        ]
+      },
+      "natural_pauses_after_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 3,
+        "total_seconds": 0.8,
+        "max_seconds": 0.4,
+        "intervals": [
+          {
+            "start_seconds": 1.9,
+            "end_seconds": 2.3,
+            "duration_seconds": 0.4
+          },
+          {
+            "start_seconds": 3.41,
+            "end_seconds": 3.63,
+            "duration_seconds": 0.22
+          },
+          {
+            "start_seconds": 4.57,
+            "end_seconds": 4.75,
+            "duration_seconds": 0.18
+          }
+        ]
+      },
+      "source_speech_rms_db": -16.192226,
+      "tempo": {
+        "required": 0.733656,
+        "maximum": 1.05,
+        "requested": 1.0,
+        "actual": 1.0,
+        "reason": null
+      },
+      "gain": {
+        "uniform_base_db": -4.117939,
+        "speech_rms_after_uniform_db": -20.310165,
+        "individual_correction_db": 0.0,
+        "planned_speech_rms_before_global_peak_safety_db": -20.310165,
+        "global_peak_safety_db": 0.0,
+        "total_applied_db": -4.117939,
+        "final_speech_rms_db": -20.310165
+      },
+      "actual_position": {
+        "start": 111.18,
+        "end": 117.42,
+        "duration_seconds": 6.24
+      }
+    },
+    {
+      "group": "21",
+      "script_text": "涉及安全风险，先提示现实中的求助。",
+      "cue_windows": [
+        {
+          "shot": "21",
+          "text": "涉及安全风险，先提示现实中的求助。",
+          "start": 119.68,
+          "end": 122.88
+        }
+      ],
+      "group_window": {
+        "start": 119.68,
+        "end": 123.12,
+        "available_seconds": 3.44,
+        "last_cue_end_plus_0_35": 123.23,
+        "next_group_start": 123.18,
+        "next_group_start_minus_0_06": 123.12
+      },
+      "selection": {
+        "file": "c3_g21_s47_9cc0cb33.wav",
+        "seed": 47,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "source_wave_sha256": "79f373f506792b645a25e1c72af549cd8c5da4018c2e91858035429abe74bc6c"
+      },
+      "input_wave": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 161280,
+        "decoded_to_mono_48000": false
+      },
+      "trim": {
+        "source_duration_seconds": 3.36,
+        "source_trim_start_seconds": 0.0,
+        "source_trim_end_seconds": 0.0,
+        "added_head_padding_seconds": 0.0,
+        "added_tail_padding_seconds": 0.0,
+        "preserved_head_seconds": 0.18,
+        "preserved_tail_seconds": 0.22,
+        "trimmed_duration_seconds": 3.36,
+        "policy": "preserve_full_take_if_it_fits"
+      },
+      "natural_pauses_before_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 1,
+        "total_seconds": 0.12,
+        "max_seconds": 0.12,
+        "intervals": [
+          {
+            "start_seconds": 1.35,
+            "end_seconds": 1.47,
+            "duration_seconds": 0.12
+          }
+        ]
+      },
+      "natural_pauses_after_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 1,
+        "total_seconds": 0.12,
+        "max_seconds": 0.12,
+        "intervals": [
+          {
+            "start_seconds": 1.35,
+            "end_seconds": 1.47,
+            "duration_seconds": 0.12
+          }
+        ]
+      },
+      "source_speech_rms_db": -18.059656,
+      "tempo": {
+        "required": 0.97546,
+        "maximum": 1.05,
+        "requested": 1.0,
+        "actual": 1.0,
+        "reason": null
+      },
+      "gain": {
+        "uniform_base_db": -4.117939,
+        "speech_rms_after_uniform_db": -22.177595,
+        "individual_correction_db": 0.177595,
+        "planned_speech_rms_before_global_peak_safety_db": -22.0,
+        "global_peak_safety_db": 0.0,
+        "total_applied_db": -3.940344,
+        "final_speech_rms_db": -22.0
+      },
+      "actual_position": {
+        "start": 119.68,
+        "end": 123.04,
+        "duration_seconds": 3.36
+      }
+    },
+    {
+      "group": "22",
+      "script_text": "从记下一句，到自己想清楚，学习和回顾，都留在记录里。",
+      "cue_windows": [
+        {
+          "shot": "22",
+          "text": "从记下一句，到自己想清楚，",
+          "start": 123.18,
+          "end": 125.99
+        },
+        {
+          "shot": "22",
+          "text": "学习和回顾，都留在记录里。",
+          "start": 126.07,
+          "end": 128.88
+        }
+      ],
+      "group_window": {
+        "start": 123.18,
+        "end": 129.12,
+        "available_seconds": 5.94,
+        "last_cue_end_plus_0_35": 129.23,
+        "next_group_start": 129.18,
+        "next_group_start_minus_0_06": 129.12
+      },
+      "selection": {
+        "file": "c3_g22_s41_412fa7e0.wav",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "source_wave_sha256": "59a63b8be3cc7c204db8d61f00a21d42a7219d6fe6a48fef807bf0d6e94ec369"
+      },
+      "input_wave": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 253440,
+        "decoded_to_mono_48000": false
+      },
+      "trim": {
+        "source_duration_seconds": 5.28,
+        "source_trim_start_seconds": 0.0,
+        "source_trim_end_seconds": 0.0,
+        "added_head_padding_seconds": 0.0,
+        "added_tail_padding_seconds": 0.0,
+        "preserved_head_seconds": 0.27,
+        "preserved_tail_seconds": 0.23,
+        "trimmed_duration_seconds": 5.28,
+        "policy": "preserve_full_take_if_it_fits"
+      },
+      "natural_pauses_before_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 3,
+        "total_seconds": 0.86,
+        "max_seconds": 0.43,
+        "intervals": [
+          {
+            "start_seconds": 1.19,
+            "end_seconds": 1.62,
+            "duration_seconds": 0.43
+          },
+          {
+            "start_seconds": 2.65,
+            "end_seconds": 2.84,
+            "duration_seconds": 0.19
+          },
+          {
+            "start_seconds": 3.82,
+            "end_seconds": 4.06,
+            "duration_seconds": 0.24
+          }
+        ]
+      },
+      "natural_pauses_after_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 3,
+        "total_seconds": 0.86,
+        "max_seconds": 0.43,
+        "intervals": [
+          {
+            "start_seconds": 1.19,
+            "end_seconds": 1.62,
+            "duration_seconds": 0.43
+          },
+          {
+            "start_seconds": 2.65,
+            "end_seconds": 2.84,
+            "duration_seconds": 0.19
+          },
+          {
+            "start_seconds": 3.82,
+            "end_seconds": 4.06,
+            "duration_seconds": 0.24
+          }
+        ]
+      },
+      "source_speech_rms_db": -18.48497,
+      "tempo": {
+        "required": 0.885417,
+        "maximum": 1.05,
+        "requested": 1.0,
+        "actual": 1.0,
+        "reason": null
+      },
+      "gain": {
+        "uniform_base_db": -4.117939,
+        "speech_rms_after_uniform_db": -22.602909,
+        "individual_correction_db": 0.602909,
+        "planned_speech_rms_before_global_peak_safety_db": -22.0,
+        "global_peak_safety_db": 0.0,
+        "total_applied_db": -3.51503,
+        "final_speech_rms_db": -22.0
+      },
+      "actual_position": {
+        "start": 123.18,
+        "end": 128.46,
+        "duration_seconds": 5.28
+      }
+    },
+    {
+      "group": "23a",
+      "script_text": "刚才这些操作，由原生小程序发起。后端通过接口处理请求，S Q light保存记录。卡片、对话、导入和学习，各有业务模块。",
+      "cue_windows": [
+        {
+          "shot": "23",
+          "text": "刚才这些操作，由原生小程序发起。",
+          "start": 129.18,
+          "end": 132.54
+        },
+        {
+          "shot": "23",
+          "text": "后端通过接口处理请求，SQLite保存记录。",
+          "start": 132.62,
+          "end": 137.43
+        },
+        {
+          "shot": "23",
+          "text": "卡片、对话、导入和学习，各有业务模块。",
+          "start": 137.51,
+          "end": 141.11
+        }
+      ],
+      "group_window": {
+        "start": 129.18,
+        "end": 141.13,
+        "available_seconds": 11.95,
+        "last_cue_end_plus_0_35": 141.46,
+        "next_group_start": 141.19,
+        "next_group_start_minus_0_06": 141.13
+      },
+      "selection": {
+        "file": "c3_g23a_s41_c1b4a913.wav",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "source_wave_sha256": "4c0fcb1547060bf1237ff9e40c359008e1de51d11722974c05e73bef9c6ef6f0"
+      },
+      "input_wave": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 568320,
+        "decoded_to_mono_48000": false
+      },
+      "trim": {
+        "source_duration_seconds": 11.84,
+        "source_trim_start_seconds": 0.0,
+        "source_trim_end_seconds": 0.0,
+        "added_head_padding_seconds": 0.0,
+        "added_tail_padding_seconds": 0.0,
+        "preserved_head_seconds": 0.37,
+        "preserved_tail_seconds": 0.26,
+        "trimmed_duration_seconds": 11.84,
+        "policy": "preserve_full_take_if_it_fits"
+      },
+      "natural_pauses_before_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 8,
+        "total_seconds": 2.26,
+        "max_seconds": 0.64,
+        "intervals": [
+          {
+            "start_seconds": 1.44,
+            "end_seconds": 1.64,
+            "duration_seconds": 0.2
+          },
+          {
+            "start_seconds": 3.25,
+            "end_seconds": 3.89,
+            "duration_seconds": 0.64
+          },
+          {
+            "start_seconds": 5.88,
+            "end_seconds": 6.17,
+            "duration_seconds": 0.29
+          },
+          {
+            "start_seconds": 6.91,
+            "end_seconds": 7.05,
+            "duration_seconds": 0.14
+          },
+          {
+            "start_seconds": 7.73,
+            "end_seconds": 8.31,
+            "duration_seconds": 0.58
+          },
+          {
+            "start_seconds": 8.74,
+            "end_seconds": 8.9,
+            "duration_seconds": 0.16
+          },
+          {
+            "start_seconds": 9.32,
+            "end_seconds": 9.48,
+            "duration_seconds": 0.16
+          },
+          {
+            "start_seconds": 10.47,
+            "end_seconds": 10.56,
+            "duration_seconds": 0.09
+          }
+        ]
+      },
+      "natural_pauses_after_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 8,
+        "total_seconds": 2.26,
+        "max_seconds": 0.64,
+        "intervals": [
+          {
+            "start_seconds": 1.44,
+            "end_seconds": 1.64,
+            "duration_seconds": 0.2
+          },
+          {
+            "start_seconds": 3.25,
+            "end_seconds": 3.89,
+            "duration_seconds": 0.64
+          },
+          {
+            "start_seconds": 5.88,
+            "end_seconds": 6.17,
+            "duration_seconds": 0.29
+          },
+          {
+            "start_seconds": 6.91,
+            "end_seconds": 7.05,
+            "duration_seconds": 0.14
+          },
+          {
+            "start_seconds": 7.73,
+            "end_seconds": 8.31,
+            "duration_seconds": 0.58
+          },
+          {
+            "start_seconds": 8.74,
+            "end_seconds": 8.9,
+            "duration_seconds": 0.16
+          },
+          {
+            "start_seconds": 9.32,
+            "end_seconds": 9.48,
+            "duration_seconds": 0.16
+          },
+          {
+            "start_seconds": 10.47,
+            "end_seconds": 10.56,
+            "duration_seconds": 0.09
+          }
+        ]
+      },
+      "source_speech_rms_db": -18.004356,
+      "tempo": {
+        "required": 0.990654,
+        "maximum": 1.05,
+        "requested": 1.0,
+        "actual": 1.0,
+        "reason": null
+      },
+      "gain": {
+        "uniform_base_db": -4.117939,
+        "speech_rms_after_uniform_db": -22.122295,
+        "individual_correction_db": 0.122295,
+        "planned_speech_rms_before_global_peak_safety_db": -22.0,
+        "global_peak_safety_db": 0.0,
+        "total_applied_db": -3.995644,
+        "final_speech_rms_db": -22.0
+      },
+      "actual_position": {
+        "start": 129.18,
+        "end": 141.02,
+        "duration_seconds": 11.84
+      }
+    },
+    {
+      "group": "23b",
+      "script_text": "接着聊，会带上选定卡片的相关上下文。原话、生成内容和版本分开保存。长任务先记状态，再执行；支持的算式另外核验。",
+      "cue_windows": [
+        {
+          "shot": "23",
+          "text": "接着聊，会带上选定卡片的相关上下文。",
+          "start": 141.19,
+          "end": 145.03
+        },
+        {
+          "shot": "23",
+          "text": "原话、生成内容和版本分开保存。",
+          "start": 145.11,
+          "end": 148.24
+        },
+        {
+          "shot": "23",
+          "text": "长任务先记状态，再执行；支持的算式另外核验。",
+          "start": 148.32,
+          "end": 152.88
+        }
+      ],
+      "group_window": {
+        "start": 141.19,
+        "end": 153.12,
+        "available_seconds": 11.93,
+        "last_cue_end_plus_0_35": 153.23,
+        "next_group_start": 153.18,
+        "next_group_start_minus_0_06": 153.12
+      },
+      "selection": {
+        "file": "c3_g23b_reused_c2_3ee9dcf7.wav",
+        "seed": 43,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "source_wave_sha256": "3ee9dcf7b9723650942758e1b7e70fa6b80ef25adf4c89860dba343460c87ef8"
+      },
+      "input_wave": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 583680,
+        "decoded_to_mono_48000": false
+      },
+      "trim": {
+        "source_duration_seconds": 12.16,
+        "source_trim_start_seconds": 0.18,
+        "source_trim_end_seconds": 0.15,
+        "added_head_padding_seconds": 0.0,
+        "added_tail_padding_seconds": 0.0,
+        "preserved_head_seconds": 0.06,
+        "preserved_tail_seconds": 0.12,
+        "trimmed_duration_seconds": 11.83,
+        "policy": "trim_outer_silence_to_fit"
+      },
+      "natural_pauses_before_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 6,
+        "total_seconds": 2.09,
+        "max_seconds": 0.57,
+        "intervals": [
+          {
+            "start_seconds": 0.66,
+            "end_seconds": 0.96,
+            "duration_seconds": 0.3
+          },
+          {
+            "start_seconds": 3.51,
+            "end_seconds": 3.98,
+            "duration_seconds": 0.47
+          },
+          {
+            "start_seconds": 4.44,
+            "end_seconds": 4.58,
+            "duration_seconds": 0.14
+          },
+          {
+            "start_seconds": 6.83,
+            "end_seconds": 7.4,
+            "duration_seconds": 0.57
+          },
+          {
+            "start_seconds": 8.8,
+            "end_seconds": 8.97,
+            "duration_seconds": 0.17
+          },
+          {
+            "start_seconds": 9.59,
+            "end_seconds": 10.03,
+            "duration_seconds": 0.44
+          }
+        ]
+      },
+      "natural_pauses_after_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 6,
+        "total_seconds": 2.09,
+        "max_seconds": 0.57,
+        "intervals": [
+          {
+            "start_seconds": 0.66,
+            "end_seconds": 0.96,
+            "duration_seconds": 0.3
+          },
+          {
+            "start_seconds": 3.51,
+            "end_seconds": 3.98,
+            "duration_seconds": 0.47
+          },
+          {
+            "start_seconds": 4.44,
+            "end_seconds": 4.58,
+            "duration_seconds": 0.14
+          },
+          {
+            "start_seconds": 6.83,
+            "end_seconds": 7.4,
+            "duration_seconds": 0.57
+          },
+          {
+            "start_seconds": 8.8,
+            "end_seconds": 8.97,
+            "duration_seconds": 0.17
+          },
+          {
+            "start_seconds": 9.59,
+            "end_seconds": 10.03,
+            "duration_seconds": 0.44
+          }
+        ]
+      },
+      "source_speech_rms_db": -18.826439,
+      "tempo": {
+        "required": 0.991489,
+        "maximum": 1.05,
+        "requested": 1.0,
+        "actual": 1.0,
+        "reason": null
+      },
+      "gain": {
+        "uniform_base_db": -4.117939,
+        "speech_rms_after_uniform_db": -22.944378,
+        "individual_correction_db": 0.944378,
+        "planned_speech_rms_before_global_peak_safety_db": -22.0,
+        "global_peak_safety_db": 0.0,
+        "total_applied_db": -3.173561,
+        "final_speech_rms_db": -22.0
+      },
+      "actual_position": {
+        "start": 141.19,
+        "end": 153.02,
+        "duration_seconds": 11.83
+      }
+    },
+    {
+      "group": "24",
+      "script_text": "导入时离开，回来还能继续处理。外部调用集中在后端，异常时尝试备用接口。管理台查看任务、运行状态和反馈，并保留用量与操作记录。",
+      "cue_windows": [
+        {
+          "shot": "24",
+          "text": "导入时离开，回来还能继续处理。",
+          "start": 153.18,
+          "end": 156.6
+        },
+        {
+          "shot": "24",
+          "text": "外部调用集中在后端，异常时尝试备用接口。",
+          "start": 156.68,
+          "end": 161.41
+        },
+        {
+          "shot": "24",
+          "text": "管理台查看任务、运行状态和反馈，",
+          "start": 161.49,
+          "end": 165.17
+        },
+        {
+          "shot": "24",
+          "text": "并保留用量与操作记录。",
+          "start": 165.25,
+          "end": 167.88
+        }
+      ],
+      "group_window": {
+        "start": 153.18,
+        "end": 168.23,
+        "available_seconds": 15.05,
+        "last_cue_end_plus_0_35": 168.23,
+        "next_group_start": 169.75,
+        "next_group_start_minus_0_06": 169.69
+      },
+      "selection": {
+        "file": "c3_g24_s41_b04273be.wav",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "source_wave_sha256": "4945f457453a3ce6cfaecbad37e1a6a886141273360cb293c36e8a3399f8594b"
+      },
+      "input_wave": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 622080,
+        "decoded_to_mono_48000": false
+      },
+      "trim": {
+        "source_duration_seconds": 12.96,
+        "source_trim_start_seconds": 0.0,
+        "source_trim_end_seconds": 0.0,
+        "added_head_padding_seconds": 0.0,
+        "added_tail_padding_seconds": 0.0,
+        "preserved_head_seconds": 0.37,
+        "preserved_tail_seconds": 0.15,
+        "trimmed_duration_seconds": 12.96,
+        "policy": "preserve_full_take_if_it_fits"
+      },
+      "natural_pauses_before_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 6,
+        "total_seconds": 2.3,
+        "max_seconds": 0.64,
+        "intervals": [
+          {
+            "start_seconds": 1.37,
+            "end_seconds": 1.64,
+            "duration_seconds": 0.27
+          },
+          {
+            "start_seconds": 2.99,
+            "end_seconds": 3.63,
+            "duration_seconds": 0.64
+          },
+          {
+            "start_seconds": 5.27,
+            "end_seconds": 5.53,
+            "duration_seconds": 0.26
+          },
+          {
+            "start_seconds": 7.25,
+            "end_seconds": 7.79,
+            "duration_seconds": 0.54
+          },
+          {
+            "start_seconds": 9.06,
+            "end_seconds": 9.3,
+            "duration_seconds": 0.24
+          },
+          {
+            "start_seconds": 10.71,
+            "end_seconds": 11.06,
+            "duration_seconds": 0.35
+          }
+        ]
+      },
+      "natural_pauses_after_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 6,
+        "total_seconds": 2.3,
+        "max_seconds": 0.64,
+        "intervals": [
+          {
+            "start_seconds": 1.37,
+            "end_seconds": 1.64,
+            "duration_seconds": 0.27
+          },
+          {
+            "start_seconds": 2.99,
+            "end_seconds": 3.63,
+            "duration_seconds": 0.64
+          },
+          {
+            "start_seconds": 5.27,
+            "end_seconds": 5.53,
+            "duration_seconds": 0.26
+          },
+          {
+            "start_seconds": 7.25,
+            "end_seconds": 7.79,
+            "duration_seconds": 0.54
+          },
+          {
+            "start_seconds": 9.06,
+            "end_seconds": 9.3,
+            "duration_seconds": 0.24
+          },
+          {
+            "start_seconds": 10.71,
+            "end_seconds": 11.06,
+            "duration_seconds": 0.35
+          }
+        ]
+      },
+      "source_speech_rms_db": -18.250456,
+      "tempo": {
+        "required": 0.859449,
+        "maximum": 1.05,
+        "requested": 1.0,
+        "actual": 1.0,
+        "reason": null
+      },
+      "gain": {
+        "uniform_base_db": -4.117939,
+        "speech_rms_after_uniform_db": -22.368395,
+        "individual_correction_db": 0.368395,
+        "planned_speech_rms_before_global_peak_safety_db": -22.0,
+        "global_peak_safety_db": 0.0,
+        "total_applied_db": -3.749544,
+        "final_speech_rms_db": -22.0
+      },
+      "actual_position": {
+        "start": 153.18,
+        "end": 166.14,
+        "duration_seconds": 12.96
+      }
+    },
+    {
+      "group": "26-27",
+      "script_text": "念，是转瞬的念头。晓，是让所想渐渐明瞭。晓念。",
+      "cue_windows": [
+        {
+          "shot": "26",
+          "text": "念，是转瞬的念头。",
+          "start": 169.75,
+          "end": 171.85
+        },
+        {
+          "shot": "26",
+          "text": "晓，是让所想渐渐明了。",
+          "start": 172.12,
+          "end": 174.35
+        },
+        {
+          "shot": "27",
+          "text": "晓念。",
+          "start": 175.35,
+          "end": 176.25
+        }
+      ],
+      "group_window": {
+        "start": 169.75,
+        "end": 176.6,
+        "available_seconds": 6.85,
+        "last_cue_end_plus_0_35": 176.6,
+        "next_group_start": null,
+        "next_group_start_minus_0_06": null
+      },
+      "selection": {
+        "file": "c3_g26-27_reused_c2_c2198c01.wav",
+        "seed": 41,
+        "reference_sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+        "gen": {
+          "cfg": 2.0,
+          "steps": 20
+        },
+        "source_wave_sha256": "c2198c011188b7006367e1b3822d78df1af12f2425dbd4502e53b13f70e4a993"
+      },
+      "input_wave": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 299520,
+        "decoded_to_mono_48000": false
+      },
+      "trim": {
+        "source_duration_seconds": 6.24,
+        "source_trim_start_seconds": 0.0,
+        "source_trim_end_seconds": 0.0,
+        "added_head_padding_seconds": 0.0,
+        "added_tail_padding_seconds": 0.0,
+        "preserved_head_seconds": 0.36,
+        "preserved_tail_seconds": 0.22,
+        "trimmed_duration_seconds": 6.24,
+        "policy": "preserve_full_take_if_it_fits"
+      },
+      "natural_pauses_before_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 5,
+        "total_seconds": 1.85,
+        "max_seconds": 0.72,
+        "intervals": [
+          {
+            "start_seconds": 0.56,
+            "end_seconds": 0.82,
+            "duration_seconds": 0.26
+          },
+          {
+            "start_seconds": 1.98,
+            "end_seconds": 2.7,
+            "duration_seconds": 0.72
+          },
+          {
+            "start_seconds": 2.98,
+            "end_seconds": 3.22,
+            "duration_seconds": 0.24
+          },
+          {
+            "start_seconds": 4.08,
+            "end_seconds": 4.18,
+            "duration_seconds": 0.1
+          },
+          {
+            "start_seconds": 5.01,
+            "end_seconds": 5.54,
+            "duration_seconds": 0.53
+          }
+        ]
+      },
+      "natural_pauses_after_speed": {
+        "minimum_reported_seconds": 0.08,
+        "count": 5,
+        "total_seconds": 1.85,
+        "max_seconds": 0.72,
+        "intervals": [
+          {
+            "start_seconds": 0.56,
+            "end_seconds": 0.82,
+            "duration_seconds": 0.26
+          },
+          {
+            "start_seconds": 1.98,
+            "end_seconds": 2.7,
+            "duration_seconds": 0.72
+          },
+          {
+            "start_seconds": 2.98,
+            "end_seconds": 3.22,
+            "duration_seconds": 0.24
+          },
+          {
+            "start_seconds": 4.08,
+            "end_seconds": 4.18,
+            "duration_seconds": 0.1
+          },
+          {
+            "start_seconds": 5.01,
+            "end_seconds": 5.54,
+            "duration_seconds": 0.53
+          }
+        ]
+      },
+      "source_speech_rms_db": -17.645054,
+      "tempo": {
+        "required": 0.908546,
+        "maximum": 1.05,
+        "requested": 1.0,
+        "actual": 1.0,
+        "reason": null
+      },
+      "gain": {
+        "uniform_base_db": -4.117939,
+        "speech_rms_after_uniform_db": -21.762993,
+        "individual_correction_db": 0.0,
+        "planned_speech_rms_before_global_peak_safety_db": -21.762993,
+        "global_peak_safety_db": 0.0,
+        "total_applied_db": -4.117939,
+        "final_speech_rms_db": -21.762993
+      },
+      "actual_position": {
+        "start": 169.75,
+        "end": 175.99,
+        "duration_seconds": 6.24
+      }
+    }
+  ],
+  "output": {
+    "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\natural-final\\人声轨_48k24bit.wav",
+    "bytes": 25632044,
+    "sha256": "a0db0f1e86000b320f0d64d869c1e72122c89dacea3ba4bf3558ef530a4785b5",
+    "duration_seconds": 178.0,
+    "frames": 8544000,
+    "sample_rate": 48000,
+    "channels": 1,
+    "subtype": "PCM_24"
+  },
+  "loudness": {
+    "source_median_speech_rms_db": -15.882061,
+    "uniform_base_gain_db": -4.117939,
+    "group_rms_allowed_range_after_base_db": [
+      -22.0,
+      -18.0
+    ],
+    "global_peak_before_safety": 0.707223896,
+    "global_peak_safety_gain_db": 0.0,
+    "global_peak_after_safety": 0.707223896
+  },
+  "checks": {
+    "all_24_groups_present": true,
+    "all_groups_inside_hard_window": true,
+    "no_group_overlap": true,
+    "no_placed_audio_truncated": true,
+    "duration_exactly_178_seconds": true,
+    "format_48000_mono_pcm24": true,
+    "peak_at_or_below_0_89": true
+  }
+}
