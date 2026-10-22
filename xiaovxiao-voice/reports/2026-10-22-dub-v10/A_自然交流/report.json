@@ -1,0 +1,894 @@
+{
+ "ref": "r0b_vox_49a14f",
+ "mode": "style",
+ "lines": [
+  {
+   "shot": "01",
+   "text": "躺下了。",
+   "window": [
+    0.35,
+    1.55
+   ],
+   "start": 0.35,
+   "end": 1.45,
+   "group": "01-02",
+   "take": 3,
+   "file": "g01-02_t3_b142.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "02",
+   "text": "脑子却停不下来。",
+   "window": [
+    2.15,
+    4.15
+   ],
+   "start": 2.15,
+   "end": 4.2,
+   "group": "01-02",
+   "take": 3,
+   "file": "g01-02_t3_b142.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "03",
+   "text": "一天里，许多念头冒出来，又慢慢散去。",
+   "window": [
+    4.65,
+    8.75
+   ],
+   "start": 4.65,
+   "end": 9.12,
+   "group": "03",
+   "take": 1,
+   "file": "g03_t1_e88c.wav",
+   "speed": 1.004,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "04",
+   "text": "睡前，把明天要做的事，先写下来。",
+   "window": [
+    9.2,
+    13.7
+   ],
+   "start": 9.2,
+   "end": 13.6,
+   "group": "04",
+   "take": 1,
+   "file": "g04_t1_af75.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "05",
+   "text": "这是晓念，从随手记下一句话开始。",
+   "window": [
+    14.18,
+    17.6
+   ],
+   "start": 14.18,
+   "end": 16.99,
+   "group": "05-06",
+   "take": 1,
+   "file": "g05-06_t1_e3f4.wav",
+   "speed": 1.0,
+   "cer": 0.023,
+   "split_ok": true
+  },
+  {
+   "shot": "05",
+   "text": "要做的事、没想完的问题，",
+   "window": [
+    17.68,
+    20.12
+   ],
+   "start": 17.68,
+   "end": 19.63,
+   "group": "05-06",
+   "take": 1,
+   "file": "g05-06_t1_e3f4.wav",
+   "speed": 1.0,
+   "cer": 0.023,
+   "split_ok": true
+  },
+  {
+   "shot": "05",
+   "text": "AI整理成卡，原话也一起留着。",
+   "window": [
+    20.2,
+    23.38
+   ],
+   "start": 20.2,
+   "end": 22.74,
+   "group": "05-06",
+   "take": 1,
+   "file": "g05-06_t1_e3f4.wav",
+   "speed": 1.0,
+   "cer": 0.023,
+   "split_ok": true
+  },
+  {
+   "shot": "06",
+   "text": "记下之后，再接着想。",
+   "window": [
+    23.68,
+    25.88
+   ],
+   "start": 23.68,
+   "end": 25.3,
+   "group": "05-06",
+   "take": 1,
+   "file": "g05-06_t1_e3f4.wav",
+   "speed": 1.0,
+   "cer": 0.023,
+   "split_ok": true
+  },
+  {
+   "shot": "07",
+   "text": "过几天，带着原话回来看，",
+   "window": [
+    26.18,
+    28.41
+   ],
+   "start": 26.18,
+   "end": 28.44,
+   "group": "07",
+   "take": 1,
+   "file": "g07_t1_3f46.wav",
+   "speed": 1.004,
+   "cer": 0.087,
+   "split_ok": true
+  },
+  {
+   "shot": "07",
+   "text": "那件想报竞赛的事，现在怎么想？",
+   "window": [
+    28.49,
+    31.38
+   ],
+   "start": 28.5,
+   "end": 30.93,
+   "group": "07",
+   "take": 1,
+   "file": "g07_t1_3f46.wav",
+   "speed": 1.004,
+   "cer": 0.087,
+   "split_ok": true
+  },
+  {
+   "shot": "08",
+   "text": "做完的待办勾掉，",
+   "window": [
+    31.68,
+    33.58
+   ],
+   "start": 31.68,
+   "end": 33.26,
+   "group": "08",
+   "take": 2,
+   "file": "g08_t2_eb02.wav",
+   "speed": 1.0,
+   "cer": 0.059,
+   "split_ok": true
+  },
+  {
+   "shot": "08",
+   "text": "没想完的念头，留着继续。",
+   "window": [
+    33.66,
+    36.38
+   ],
+   "start": 33.66,
+   "end": 36.08,
+   "group": "08",
+   "take": 2,
+   "file": "g08_t2_eb02.wav",
+   "speed": 1.0,
+   "cer": 0.059,
+   "split_ok": true
+  },
+  {
+   "shot": "09",
+   "text": "记录都在卡片墙上，",
+   "window": [
+    36.68,
+    38.73
+   ],
+   "start": 36.68,
+   "end": 38.66,
+   "group": "09",
+   "take": 3,
+   "file": "g09_t3_2f4e.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "09",
+   "text": "想找回来时，不必从头翻。",
+   "window": [
+    38.81,
+    41.38
+   ],
+   "start": 38.81,
+   "end": 41.2,
+   "group": "09",
+   "take": 3,
+   "file": "g09_t3_2f4e.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "10",
+   "text": "点“接着聊”，先看最担心的时间安排，",
+   "window": [
+    41.68,
+    46.12
+   ],
+   "start": 41.68,
+   "end": 44.8,
+   "group": "10",
+   "take": 2,
+   "file": "g10_t2_2179.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "10",
+   "text": "再把顾虑一步步说清楚。",
+   "window": [
+    46.2,
+    49.38
+   ],
+   "start": 46.2,
+   "end": 47.86,
+   "group": "10",
+   "take": 2,
+   "file": "g10_t2_2179.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "11",
+   "text": "聊出的新想法，先存成卡。",
+   "window": [
+    49.68,
+    52.01
+   ],
+   "start": 49.68,
+   "end": 51.85,
+   "group": "11",
+   "take": 1,
+   "file": "g11_t1_c1ff.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "11",
+   "text": "再选几张相关的卡，一起看看。",
+   "window": [
+    52.09,
+    54.88
+   ],
+   "start": 52.09,
+   "end": 54.28,
+   "group": "11",
+   "take": 1,
+   "file": "g11_t1_c1ff.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "12",
+   "text": "放进头脑风暴，分组、比较，",
+   "window": [
+    55.18,
+    57.77
+   ],
+   "start": 55.18,
+   "end": 57.72,
+   "group": "12",
+   "take": 3,
+   "file": "g12_t3_ba90.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "12",
+   "text": "找出这些念头之间的新联系。",
+   "window": [
+    57.85,
+    60.95
+   ],
+   "start": 57.85,
+   "end": 59.63,
+   "group": "12",
+   "take": 3,
+   "file": "g12_t3_ba90.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "12",
+   "text": "最后，把自己的结论写下来。",
+   "window": [
+    61.03,
+    63.88
+   ],
+   "start": 61.03,
+   "end": 63.03,
+   "group": "12",
+   "take": 3,
+   "file": "g12_t3_ba90.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "13",
+   "text": "一道极限题，卡在第一步。",
+   "window": [
+    64.18,
+    66.47
+   ],
+   "start": 64.18,
+   "end": 66.19,
+   "group": "13",
+   "take": 3,
+   "file": "g13_t3_29b2.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "13",
+   "text": "拍下来，先核对题目。",
+   "window": [
+    66.55,
+    68.38
+   ],
+   "start": 66.55,
+   "end": 68.23,
+   "group": "13",
+   "take": 3,
+   "file": "g13_t3_29b2.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "14",
+   "text": "先要一步提示，接着自己试算。",
+   "window": [
+    68.68,
+    71.76
+   ],
+   "start": 68.68,
+   "end": 71.23,
+   "group": "14",
+   "take": 1,
+   "file": "g14_t1_82d7.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "14",
+   "text": "相关研究中，直接给答案的那组，",
+   "window": [
+    71.84,
+    74.67
+   ],
+   "start": 71.84,
+   "end": 74.61,
+   "group": "14",
+   "take": 1,
+   "file": "g14_t1_82d7.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "14",
+   "text": "撤掉AI后表现下降。提示组未见明显下降。",
+   "window": [
+    74.75,
+    79.38
+   ],
+   "start": 74.75,
+   "end": 78.66,
+   "group": "14",
+   "take": 1,
+   "file": "g14_t1_82d7.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "15",
+   "text": "展开完整解析，还能查看计算核验。",
+   "window": [
+    79.68,
+    82.71
+   ],
+   "start": 79.68,
+   "end": 82.58,
+   "group": "15",
+   "take": 1,
+   "file": "g15_t1_8f44.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "15",
+   "text": "支持的算式，由程序重新计算。",
+   "window": [
+    82.79,
+    85.38
+   ],
+   "start": 82.79,
+   "end": 85.11,
+   "group": "15",
+   "take": 1,
+   "file": "g15_t1_8f44.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "16",
+   "text": "算完，把草稿拿来批改，",
+   "window": [
+    85.68,
+    88.09
+   ],
+   "start": 85.68,
+   "end": 88.06,
+   "group": "16",
+   "take": 1,
+   "file": "g16_t1_611d.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "16",
+   "text": "定位出错步骤，再收进错题本。",
+   "window": [
+    88.17,
+    91.38
+   ],
+   "start": 88.17,
+   "end": 91.39,
+   "group": "16",
+   "take": 1,
+   "file": "g16_t1_611d.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "17",
+   "text": "再把解题思路讲给小狸听。",
+   "window": [
+    91.68,
+    94.48
+   ],
+   "start": 91.68,
+   "end": 93.89,
+   "group": "17",
+   "take": 2,
+   "file": "g17_t2_76a3.wav",
+   "speed": 1.0,
+   "cer": 0.077,
+   "split_ok": true
+  },
+  {
+   "shot": "17",
+   "text": "它会追问，再反馈哪些说清、哪些漏了。",
+   "window": [
+    94.56,
+    98.38
+   ],
+   "start": 94.56,
+   "end": 97.98,
+   "group": "17",
+   "take": 2,
+   "file": "g17_t2_76a3.wav",
+   "speed": 1.0,
+   "cer": 0.077,
+   "split_ok": true
+  },
+  {
+   "shot": "18",
+   "text": "需要补充，就导入讲义。",
+   "window": [
+    98.68,
+    100.88
+   ],
+   "start": 98.68,
+   "end": 100.77,
+   "group": "18",
+   "take": 1,
+   "file": "g18_t1_4e94.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "18",
+   "text": "校对原文，再把相关段落整理成卡。",
+   "window": [
+    100.96,
+    104.38
+   ],
+   "start": 100.96,
+   "end": 104.18,
+   "group": "18",
+   "take": 1,
+   "file": "g18_t1_4e94.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "19",
+   "text": "最后，去知识地图独立做一道。",
+   "window": [
+    104.68,
+    107.74
+   ],
+   "start": 104.68,
+   "end": 107.02,
+   "group": "19",
+   "take": 1,
+   "file": "g19_t1_b18b.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "19",
+   "text": "先判断会不会，再作答看结果。",
+   "window": [
+    107.82,
+    110.88
+   ],
+   "start": 107.82,
+   "end": 110.28,
+   "group": "19",
+   "take": 1,
+   "file": "g19_t1_b18b.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "20",
+   "text": "累的时候，也可以只是聊聊。",
+   "window": [
+    111.18,
+    114.03
+   ],
+   "start": 111.18,
+   "end": 114.04,
+   "group": "20",
+   "take": 3,
+   "file": "g20_t3_6468.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "20",
+   "text": "今天发生了什么，哪句话放不下，",
+   "window": [
+    114.11,
+    117.48
+   ],
+   "start": 114.11,
+   "end": 117.22,
+   "group": "20",
+   "take": 3,
+   "file": "g20_t3_6468.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "20",
+   "text": "先把感受说出来。",
+   "window": [
+    117.56,
+    119.38
+   ],
+   "start": 117.56,
+   "end": 119.18,
+   "group": "20",
+   "take": 3,
+   "file": "g20_t3_6468.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "21",
+   "text": "涉及安全风险，先提示现实中的求助。",
+   "window": [
+    119.68,
+    122.88
+   ],
+   "start": 119.68,
+   "end": 123.06,
+   "group": "21",
+   "take": 2,
+   "file": "g21_t2_1647.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "22",
+   "text": "从记下一句，到自己想清楚，",
+   "window": [
+    123.18,
+    125.99
+   ],
+   "start": 123.18,
+   "end": 125.91,
+   "group": "22",
+   "take": 2,
+   "file": "g22_t2_4467.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "22",
+   "text": "学习和回顾，都留在记录里。",
+   "window": [
+    126.07,
+    128.88
+   ],
+   "start": 126.07,
+   "end": 128.51,
+   "group": "22",
+   "take": 2,
+   "file": "g22_t2_4467.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "23",
+   "text": "刚才这些操作，由原生小程序发起。",
+   "window": [
+    129.18,
+    132.54
+   ],
+   "start": 129.18,
+   "end": 132.46,
+   "group": "23a",
+   "take": 3,
+   "file": "g23a_t3_36c9.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "23",
+   "text": "后端通过接口处理请求，SQLite保存记录。",
+   "window": [
+    132.62,
+    137.43
+   ],
+   "start": 132.62,
+   "end": 136.57,
+   "group": "23a",
+   "take": 3,
+   "file": "g23a_t3_36c9.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "23",
+   "text": "卡片、对话、导入和学习，各有业务模块。",
+   "window": [
+    137.51,
+    141.11
+   ],
+   "start": 137.51,
+   "end": 141.13,
+   "group": "23a",
+   "take": 3,
+   "file": "g23a_t3_36c9.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "23",
+   "text": "接着聊，会带上选定卡片的相关上下文。",
+   "window": [
+    141.19,
+    145.03
+   ],
+   "start": 141.19,
+   "end": 144.7,
+   "group": "23b",
+   "take": 2,
+   "file": "g23b_t2_193e.wav",
+   "speed": 1.0,
+   "cer": 0.042,
+   "split_ok": true
+  },
+  {
+   "shot": "23",
+   "text": "原话、生成内容和版本分开保存。",
+   "window": [
+    145.11,
+    148.24
+   ],
+   "start": 145.11,
+   "end": 148.21,
+   "group": "23b",
+   "take": 2,
+   "file": "g23b_t2_193e.wav",
+   "speed": 1.0,
+   "cer": 0.042,
+   "split_ok": true
+  },
+  {
+   "shot": "23",
+   "text": "长任务先记状态，再执行；支持的算式另外核验。",
+   "window": [
+    148.32,
+    152.88
+   ],
+   "start": 148.32,
+   "end": 152.64,
+   "group": "23b",
+   "take": 2,
+   "file": "g23b_t2_193e.wav",
+   "speed": 1.0,
+   "cer": 0.042,
+   "split_ok": true
+  },
+  {
+   "shot": "24",
+   "text": "导入时离开，回来还能继续处理。",
+   "window": [
+    153.18,
+    156.6
+   ],
+   "start": 153.18,
+   "end": 156.53,
+   "group": "24",
+   "take": 3,
+   "file": "g24_t3_84c5.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "24",
+   "text": "外部调用集中在后端，异常时尝试备用接口。",
+   "window": [
+    156.68,
+    161.41
+   ],
+   "start": 156.68,
+   "end": 161.23,
+   "group": "24",
+   "take": 3,
+   "file": "g24_t3_84c5.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "24",
+   "text": "管理台查看任务、运行状态和反馈，",
+   "window": [
+    161.49,
+    165.17
+   ],
+   "start": 161.49,
+   "end": 164.88,
+   "group": "24",
+   "take": 3,
+   "file": "g24_t3_84c5.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "24",
+   "text": "并保留用量与操作记录。",
+   "window": [
+    165.25,
+    167.88
+   ],
+   "start": 165.25,
+   "end": 167.41,
+   "group": "24",
+   "take": 3,
+   "file": "g24_t3_84c5.wav",
+   "speed": 1.0,
+   "cer": 0.0,
+   "split_ok": true
+  },
+  {
+   "shot": "26",
+   "text": "念，是转瞬的念头。",
+   "window": [
+    169.75,
+    171.85
+   ],
+   "start": 169.75,
+   "end": 171.58,
+   "group": "26-27",
+   "take": 3,
+   "file": "g26-27_t3_aea2.wav",
+   "speed": 1.1,
+   "cer": 0.111,
+   "split_ok": true
+  },
+  {
+   "shot": "26",
+   "text": "晓，是让所想渐渐明了。",
+   "window": [
+    172.12,
+    174.35
+   ],
+   "start": 172.12,
+   "end": 174.96,
+   "group": "26-27",
+   "take": 3,
+   "file": "g26-27_t3_aea2.wav",
+   "speed": 1.1,
+   "cer": 0.111,
+   "split_ok": true
+  },
+  {
+   "shot": "27",
+   "text": "晓念。",
+   "window": [
+    175.35,
+    176.25
+   ],
+   "start": 175.35,
+   "end": 176.12,
+   "group": "26-27",
+   "take": 3,
+   "file": "g26-27_t3_aea2.wav",
+   "speed": 1.1,
+   "cer": 0.111,
+   "split_ok": true
+  }
+ ],
+ "warnings": [
+  "组 07：识别出的文字和稿子差 9%，可能有漏读或读错，务必听一下",
+  "组 08：识别出的文字和稿子差 6%，可能有漏读或读错，务必听一下",
+  "组 17：识别出的文字和稿子差 8%，可能有漏读或读错，务必听一下",
+  "组 26-27：需要加速 1.22 倍才放得下，已按上限 1.1 倍处理，后面的句子会顺延",
+  "组 26-27：识别出的文字和稿子差 11%，可能有漏读或读错，务必听一下"
+ ],
+ "mix": null
+}

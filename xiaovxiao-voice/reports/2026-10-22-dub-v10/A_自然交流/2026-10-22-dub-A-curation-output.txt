@@ -1,0 +1,9 @@
+
+人声轨：E:\skills-introduction-to-github\xiaovxiao-voice\dub\out\r0b_vox_49a14f_style\final\人声轨_48k24bit.wav
+报告：E:\skills-introduction-to-github\xiaovxiao-voice\dub\out\r0b_vox_49a14f_style\final\配音报告.md
+⚠ 组 07：识别出的文字和稿子差 9%，可能有漏读或读错，务必听一下
+⚠ 组 08：识别出的文字和稿子差 6%，可能有漏读或读错，务必听一下
+⚠ 组 17：识别出的文字和稿子差 8%，可能有漏读或读错，务必听一下
+⚠ 组 26-27：需要加速 1.22 倍才放得下，已按上限 1.1 倍处理，后面的句子会顺延
+⚠ 组 26-27：识别出的文字和稿子差 11%，可能有漏读或读错，务必听一下
+CURATION_RECORD={"group": "26-27", "file": "g26-27_t3_aea2.wav", "take": 3, "reason": "选识别为明了的既有条，字面其余差异仅小/晓同音字；自动所选条识别为明亮", "recognized_text": "念 是 转 瞬 的 念 头 小 是 让 所 想 渐 渐 明 了 小 念", "cer": 0.111, "need": 1.221, "max_speed_kept": 1.1, "last_end": 176.12, "within_178_seconds": true, "functions_used": ["dub.choose_takes (asr=None, uses existing ASR cache)", "dub.prepare_take", "dub.assemble", "dub.write_outputs"], "script_source_changed": false, "ratings_fabricated": false, "previous_automatic_outputs_preserved": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\r0b_vox_49a14f_style\\automatic-before-curation"}

@@ -19,7 +19,28 @@
       },
       "delivery_file": "A_自然交流_完整旁白.wav",
       "command": ".\\.venvs\\xvx-vox\\Scripts\\python.exe dub.py render --model-path .\\models\\VoxCPM2 --ref r0b_vox_49a14f --mode style --takes 3",
-      "rating_policy": "保留用户两条真实4分音频对应评分，优先选择；音频SHA256与原试配完全相同"
+      "rating_policy": "字幕窗口能容纳的用户4分复用片段优先；技术段需加速超过1.1，原评分保留但不强制优先，按原逻辑选更合时长备选",
+      "post_selection": {
+        "group": "26-27",
+        "file": "g26-27_t3_aea2.wav",
+        "take": 3,
+        "reason": "选识别为明了的既有条，字面其余差异仅小/晓同音字；自动所选条识别为明亮",
+        "recognized_text": "念 是 转 瞬 的 念 头 小 是 让 所 想 渐 渐 明 了 小 念",
+        "cer": 0.111,
+        "need": 1.221,
+        "max_speed_kept": 1.1,
+        "last_end": 176.12,
+        "within_178_seconds": true,
+        "functions_used": [
+          "dub.choose_takes (asr=None, uses existing ASR cache)",
+          "dub.prepare_take",
+          "dub.assemble",
+          "dub.write_outputs"
+        ],
+        "script_source_changed": false,
+        "ratings_fabricated": false,
+        "previous_automatic_outputs_preserved": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\r0b_vox_49a14f_style\\automatic-before-curation"
+      }
     },
     {
       "key": "B",

@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-10-22T11:25:35+08:00",
-  "stage": "profile_A_asr_assembly",
+  "updated_at": "2026-10-22T11:33:03+08:00",
+  "stage": "profile_B_running",
   "takes_total": 216,
   "reused_takes": 12,
-  "completed_takes": 80,
+  "completed_takes": 89,
   "profiles": {
     "A": {
       "ref": "r0b_vox_49a14f",
       "takes_completed": 72,
       "takes_planned": 72,
-      "status": "running",
-      "extra_takes": 0
+      "status": "ready_for_user_comparison",
+      "extra_takes": 3
     },
     "B": {
       "ref": "r0b_moss_611767",
-      "takes_completed": 4,
+      "takes_completed": 13,
       "takes_planned": 72,
-      "status": "queued",
+      "status": "running",
       "extra_takes": 0
     },
     "C": {
@@ -27,8 +27,8 @@
       "extra_takes": 0
     }
   },
-  "full_audio_completed": 0,
+  "full_audio_completed": 1,
   "video_mux_started": false,
   "final_voice_selected": null,
-  "extra_takes": 0
+  "extra_takes": 3
 }

@@ -1,0 +1,33 @@
+计划 6 条：已完成 3，本次生成 3 → E:\skills-introduction-to-github\xiaovxiao-voice\dub\out\r0b_vox_49a14f_style\takes
+voxcpm_model_path: .\models\VoxCPM2, zipenhancer_model_path: None, enable_denoiser: False
+E:\skills-introduction-to-github\xiaovxiao-voice\.venvs\xvx-vox\Lib\site-packages\torch\nn\utils\weight_norm.py:144: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+Loading AudioVAE from pytorch: .\models\VoxCPM2\audiovae.pth
+Running on device: cuda, dtype: bfloat16
+Loading model from safetensors: .\models\VoxCPM2\model.safetensors
+Loaded VoxCPM2Model
+[1/3] g26-27_t4_ffc5  组 26-27 / 第4条 cfg2 步数10  6.72s 音频，用时 13.5s，预计还要 0.5 分钟
+[2/3] g26-27_t5_f1f8  组 26-27 / 第5条 cfg2 步数10  6.88s 音频，用时 7.5s，预计还要 0.2 分钟
+[3/3] g26-27_t6_7894  组 26-27 / 第6条 cfg2 步数10  6.88s 音频，用时 7.4s，预计还要 0.0 分钟
+完成：成功 3 条，失败 0 条。
+声学测量：新测 3 条，共 75 条 → E:\skills-introduction-to-github\xiaovxiao-voice\dub\out\r0b_vox_49a14f_style\takes\acoustic.json。提示项：音高偏高 54 条、语速偏快 4 条、语调偏平 2 条、语速偏慢 1 条、停顿偏多 1 条
+用试音台（rater.html）打开 E:\skills-introduction-to-github\xiaovxiao-voice\dub\out\r0b_vox_49a14f_style\takes 开始听。
+
+正在挑选每组最合适的一条、切句、落位……
+2026-10-22 11:28:11,036 [INFO] download models from model hub: ms
+funasr version: 1.4.16.
+2026-10-22 11:28:11,654 | INFO    | modelscope_hub.download | Downloading 13 files from iic/speech_seaco_paraformer_large_asr_nat-zh-cn-16k-common-vocab8404-pytorch@master
+2026-10-22 11:28:12,447 [WARNING] trust_remote_code: False
+2026-10-22 11:28:13,545 [INFO] Loading pretrained params from E:\skills-introduction-to-github\xiaovxiao-voice\.cache\modelscope\models\iic--speech_seaco_paraformer_large_asr_nat-zh-cn-16k-common-vocab8404-pytorch\snapshots\master\model.pt
+2026-10-22 11:28:13,550 [INFO] ckpt: E:\skills-introduction-to-github\xiaovxiao-voice\.cache\modelscope\models\iic--speech_seaco_paraformer_large_asr_nat-zh-cn-16k-common-vocab8404-pytorch\snapshots\master\model.pt
+2026-10-22 11:28:14,008 [INFO] scope_map: ['module.', 'None']
+2026-10-22 11:28:14,008 [INFO] excludes: None
+2026-10-22 11:28:14,065 [INFO] Loading ckpt: E:\skills-introduction-to-github\xiaovxiao-voice\.cache\modelscope\models\iic--speech_seaco_paraformer_large_asr_nat-zh-cn-16k-common-vocab8404-pytorch\snapshots\master\model.pt, status: <All keys matched successfully>
+
+人声轨：E:\skills-introduction-to-github\xiaovxiao-voice\dub\out\r0b_vox_49a14f_style\final\人声轨_48k24bit.wav
+报告：E:\skills-introduction-to-github\xiaovxiao-voice\dub\out\r0b_vox_49a14f_style\final\配音报告.md
+⚠ 组 07：识别出的文字和稿子差 9%，可能有漏读或读错，务必听一下
+⚠ 组 08：识别出的文字和稿子差 6%，可能有漏读或读错，务必听一下
+⚠ 组 17：识别出的文字和稿子差 8%，可能有漏读或读错，务必听一下
+⚠ 组 26-27：识别出的文字和稿子差 17%，可能有漏读或读错，务必听一下
+PROFILE_A_REPAIR_1_PROCESS_EXIT=0; elapsed_seconds=64.4
