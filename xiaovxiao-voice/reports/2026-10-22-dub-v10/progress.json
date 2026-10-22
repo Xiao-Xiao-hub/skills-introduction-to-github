@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-22T11:33:03+08:00",
+  "updated_at": "2026-10-22T11:36:29+08:00",
   "stage": "profile_B_running",
   "takes_total": 216,
   "reused_takes": 12,
-  "completed_takes": 89,
+  "completed_takes": 112,
   "profiles": {
     "A": {
       "ref": "r0b_vox_49a14f",
@@ -14,7 +14,7 @@
     },
     "B": {
       "ref": "r0b_moss_611767",
-      "takes_completed": 13,
+      "takes_completed": 36,
       "takes_planned": 72,
       "status": "running",
       "extra_takes": 0
