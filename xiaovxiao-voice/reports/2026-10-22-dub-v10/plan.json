@@ -18,7 +18,8 @@
         "steps": 10
       },
       "delivery_file": "A_自然交流_完整旁白.wav",
-      "command": ".\\.venvs\\xvx-vox\\Scripts\\python.exe dub.py render --model-path .\\models\\VoxCPM2 --ref r0b_vox_49a14f --mode style --takes 3"
+      "command": ".\\.venvs\\xvx-vox\\Scripts\\python.exe dub.py render --model-path .\\models\\VoxCPM2 --ref r0b_vox_49a14f --mode style --takes 3",
+      "rating_policy": "保留用户两条真实4分音频对应评分，优先选择；音频SHA256与原试配完全相同"
     },
     {
       "key": "B",
@@ -36,7 +37,8 @@
         "steps": 10
       },
       "delivery_file": "B_柔和亲近_完整旁白.wav",
-      "command": ".\\.venvs\\xvx-vox\\Scripts\\python.exe dub.py render --model-path .\\models\\VoxCPM2 --ref r0b_moss_611767 --mode style --takes 3"
+      "command": ".\\.venvs\\xvx-vox\\Scripts\\python.exe dub.py render --model-path .\\models\\VoxCPM2 --ref r0b_moss_611767 --mode style --takes 3",
+      "rating_policy": "3分只作为选音色依据，映射记录保留在reference-ratings-mapped.json，不强制压过新的文字/时长更合适备选"
     },
     {
       "key": "C",
@@ -54,7 +56,8 @@
         "steps": 10
       },
       "delivery_file": "C_沉稳讲述_完整旁白.wav",
-      "command": ".\\.venvs\\xvx-vox\\Scripts\\python.exe dub.py render --model-path .\\models\\VoxCPM2 --ref r0_vox_959950 --mode style --takes 3"
+      "command": ".\\.venvs\\xvx-vox\\Scripts\\python.exe dub.py render --model-path .\\models\\VoxCPM2 --ref r0_vox_959950 --mode style --takes 3",
+      "rating_policy": "3分只作为选音色依据，映射记录保留在reference-ratings-mapped.json，不强制压过新的文字/时长更合适备选"
     }
   ],
   "duration": 178.0,
@@ -122,5 +125,6 @@
     "elapsed_seconds": 73.5
   },
   "video_mux_started": false,
-  "final_voice_selected": null
+  "final_voice_selected": null,
+  "rating_priority_policy": "只有明确4分的两条复用片段优先；3分片段保留评分来源记录，按ASR和时长与新条共同筛选"
 }

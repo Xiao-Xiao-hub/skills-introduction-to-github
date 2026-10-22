@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-22T11:21:09+08:00",
-  "stage": "profile_A_running",
+  "updated_at": "2026-10-22T11:25:35+08:00",
+  "stage": "profile_A_asr_assembly",
   "takes_total": 216,
   "reused_takes": 12,
-  "completed_takes": 61,
+  "completed_takes": 80,
   "profiles": {
     "A": {
       "ref": "r0b_vox_49a14f",
-      "takes_completed": 53,
+      "takes_completed": 72,
       "takes_planned": 72,
       "status": "running",
       "extra_takes": 0
