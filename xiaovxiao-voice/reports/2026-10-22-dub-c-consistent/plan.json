@@ -1,0 +1,108 @@
+{
+  "created": "2026-10-22T14:00:21.749148+08:00",
+  "stage": "full_generation",
+  "user_feedback": "C版一致性差；沉稳、正式作品介绍、音色一致、语调相近",
+  "output": "dub\\out\\c-consistent-2026-10-22",
+  "profiles": [
+    {
+      "id": "original",
+      "reference": "dub\\out\\c-consistent-2026-10-22\\reference\\original.wav",
+      "reference_text": "嗨，我是晓晓。嗯，今天也没什么特别的事，就是想来跟你说说话。其实下雨天也挺好的，只是偶尔……会有点想念某个人吧。",
+      "source": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\reports\\2026-10-22-calibration-r0\\r0_vox_959950.wav",
+      "sha256": "60f1dcd17f0dfc9fe1002c21dc0975d1e71d57349e14c9aba7f9b17545db2f7c",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 20
+      }
+    },
+    {
+      "id": "formal",
+      "reference": "dub\\out\\c-consistent-2026-10-22\\reference\\formal.wav",
+      "reference_text": "刚才这些操作，由原生小程序发起。后端通过接口处理请求，S Q light保存记录。卡片、对话、导入和学习，各有业务模块。",
+      "source": "dub\\out\\r0_vox_959950_style\\takes\\g23a_t3_c866.wav",
+      "sha256": "e8f2e5adbd2b1daa40358f11c10f309c3622cb1129115d47d9b2bee8bd18be1a",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 20
+      }
+    },
+    {
+      "id": "calm",
+      "reference": "dub\\out\\c-consistent-2026-10-22\\reference\\calm.wav",
+      "reference_text": "先要一步提示，接着自己试算。相关研究中，直接给答案的那组，撤掉AI后表现下降。提示组未见明显下降。",
+      "source": "dub\\out\\r0_vox_959950_style\\takes\\g14_t2_a6b0.wav",
+      "sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 20
+      }
+    }
+  ],
+  "source_hashes": {
+    "common.py": "5d45aed2854fe4224a0b0659312051240509c9a07bac6f70fe683606ddef262e",
+    "dub.py": "34e20dcfbb8749105cabd7272c67155ff0a68bc2f9b5392c2ccb17466eb629ac",
+    "measure.py": "ddfad8c55df26063a83bcf8f7242e75d07414a46645f535183cf3dd130dec824",
+    "specs.py": "2f9e47024a1b2455607fe21d0e4a665dd4bbfd5266cd687596682fb8bf259cc8",
+    "step1_audition.py": "0a3718cc9275eb5bef6b81d6ae02ffb4ec0424b75007b0eed962adbff09b07fd",
+    "step2_refine.py": "e0ec0831053df10633115e238e183dace2716392b7f0cd2b2a60c950ef0154ac",
+    "step3_clone_test.py": "b956a0eacb2f17dd84e998faf5b794ffc845ea7d9c9d6ae9b5563abc6337a942",
+    "step4_finalize.py": "5c707160832184768e749214c6f9090722b54d42db83b3f534d64ea4925ab7d8",
+    "dub\\xiaonian_v10.json": "d8da845a59679b12305cac3226277b8d6b3c5bed93c6f49e034b1ed31cc81c9b",
+    "voices\\v1\\哓v哓_v1_声音档案.json": "2f489f0f5c516b7609026190d901cde9b204cca2577c4eb8e77ffb12812652a8",
+    "voices\\v1\\哓v哓_v1_定妆音.txt": "f2340ce5cddd9fd302fac9cadd38d38e97e3bfd850e28a7c5df60117a2201d86",
+    "voices\\v1\\哓v哓_v1_定妆音.wav": "612b3162df5925162377ec9ca2501911a53c5b73e96265538d53be68ee3b9024"
+  },
+  "pilot_groups": [
+    "07",
+    "16",
+    "20"
+  ],
+  "model": "VoxCPM2",
+  "mode": "clone",
+  "rules": [
+    "一个固定参考音频及准确文字，prompt+reference组合",
+    "不使用各段不同语气指令",
+    "同一时间只运行一个模型",
+    "说话人嵌入仅作一致性比较，不证明真人感",
+    "最终逐句ASR核对，不能仅核对合成输入"
+  ],
+  "selected_profile": "calm",
+  "seed": 41,
+  "selection_reason": "在07/16/20三个此前漂移明显的相同文本测试上：calm三条字面CER均0，F0均值209–220Hz，speaker pairwise mean0.933/min0.923；formal偏高偏快，original存在盖/带及并位/定位识别差异。",
+  "acceptance_targets": {
+    "speaker_reference_min": 0.85,
+    "speaker_pairwise_p10_min": 0.85,
+    "speaker_pairwise_min": 0.75,
+    "f0_median_from_anchor_max_semitones": 2,
+    "f0_mean_p90_p10_max_semitones": 2.5,
+    "adjacent_mean_f0_max_semitones": 3,
+    "hnr_min_db": 10,
+    "speech_rate_max_char_per_second": 6.5,
+    "max_atempo": 1.05,
+    "cue_count": 55,
+    "max_cue_start_delay_s": 0.05,
+    "max_cue_end_after_subtitle_s": 0.35,
+    "minimum_gap_s": 0.06,
+    "asr_missing_or_extra_words": 0,
+    "interpretation": "本轮工程筛选门槛，不是官方自然度标准；字面异写与真实读音差异分开列明；最终自然度待用户试听。"
+  },
+  "sources": [
+    {
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "scope": "VoxCPM2 Ultimate Cloning 同一音频同时作prompt/reference，提供准确参考文字"
+    },
+    {
+      "url": "https://github.com/modelscope/FunASR/blob/main/docs/speaker_emotion.md",
+      "scope": "CAM++说话人嵌入API"
+    },
+    {
+      "url": "https://modelscope.cn/models/iic/speech_campplus_sv_zh-cn_16k-common",
+      "scope": "本地CPU说话人向量模型，28MB"
+    },
+    {
+      "url": "https://github.com/QwenLM/Qwen3-TTS",
+      "scope": "备选Base克隆功能；当前试验VoxCPM2已呈现改善，未安装或运行Qwen Base"
+    }
+  ],
+  "orchestration_issue": "首条生成后，单次编排辅助程序缺少gen_label导致日志打印退出；音频与manifest已落盘。补齐辅助程序元数据后续跑8条；未修改common.py或任何原脚本。"
+}

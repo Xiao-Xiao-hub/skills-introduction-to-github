@@ -1,0 +1,884 @@
+[
+  {
+    "path": "dub\\out\\c-consistent-2026-10-22\\reference\\original.wav",
+    "text": "嗨，我是晓晓。嗯，今天也没什么特别的事，就是想来跟你说说话。其实下雨天也挺好的，只是偶尔……会有点想念某个人吧。",
+    "set": "reference",
+    "profile": "original",
+    "group": "reference",
+    "sha256": "60f1dcd17f0dfc9fe1002c21dc0975d1e71d57349e14c9aba7f9b17545db2f7c",
+    "acoustic": {
+      "f0": 216,
+      "range_st": 7.3,
+      "pause_pct": 29,
+      "rate": 4.6,
+      "hnr": 13.0,
+      "flags": []
+    },
+    "f0_median": 208.10740691612813,
+    "f0_p10": 168.29217323903376,
+    "f0_p90": 255.94030272378237,
+    "peak_db": -1.2929351329803467,
+    "duration": 14.56,
+    "speech_rms_db": -17.84219741821289
+  },
+  {
+    "path": "dub\\out\\c-consistent-2026-10-22\\reference\\formal.wav",
+    "text": "刚才这些操作，由原生小程序发起。后端通过接口处理请求，S Q light保存记录。卡片、对话、导入和学习，各有业务模块。",
+    "set": "reference",
+    "profile": "formal",
+    "group": "reference",
+    "sha256": "e8f2e5adbd2b1daa40358f11c10f309c3622cb1129115d47d9b2bee8bd18be1a",
+    "acoustic": {
+      "f0": 246,
+      "range_st": 8.7,
+      "pause_pct": 14,
+      "rate": 5.3,
+      "hnr": 11.3,
+      "flags": []
+    },
+    "f0_median": 248.9558279666352,
+    "f0_p10": 174.01506231251912,
+    "f0_p90": 285.92514806005704,
+    "peak_db": -4.194234848022461,
+    "duration": 9.6,
+    "speech_rms_db": -20.74806022644043
+  },
+  {
+    "path": "dub\\out\\c-consistent-2026-10-22\\reference\\calm.wav",
+    "text": "先要一步提示，接着自己试算。相关研究中，直接给答案的那组，撤掉AI后表现下降。提示组未见明显下降。",
+    "set": "reference",
+    "profile": "calm",
+    "group": "reference",
+    "sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+    "acoustic": {
+      "f0": 215,
+      "range_st": 11.2,
+      "pause_pct": 21,
+      "rate": 5.0,
+      "hnr": 12.5,
+      "flags": []
+    },
+    "f0_median": 210.8981119929249,
+    "f0_p10": 142.714774540077,
+    "f0_p90": 268.70687100380997,
+    "peak_db": -1.909223198890686,
+    "duration": 10.88,
+    "speech_rms_db": -19.453636169433594
+  },
+  {
+    "path": "dub\\out\\r0_vox_959950_style\\takes\\g01-02_t3_0806.wav",
+    "text": "躺下了。脑子却停不下来。",
+    "set": "old_C",
+    "profile": "old_C",
+    "group": "01-02",
+    "sha256": "0c7aa052384a99c867022d00ba9b7de4c2f7dbeac6b6839ec908587f24ae236e",
+    "acoustic": {
+      "f0": 233,
+      "range_st": 11.8,
+      "pause_pct": 23,
+      "rate": 4.0,
+      "hnr": 13.1,
+      "flags": []
+    },
+    "f0_median": 209.24044371593754,
+    "f0_p10": 163.84804109091155,
+    "f0_p90": 322.9935850022487,
+    "peak_db": -2.853335380554199,
+    "duration": 3.36,
+    "speech_rms_db": -19.10245704650879
+  },
+  {
+    "path": "dub\\out\\r0_vox_959950_style\\takes\\g03_t3_0156.wav",
+    "text": "一天里，许多念头冒出来，又慢慢散去。",
+    "set": "old_C",
+    "profile": "old_C",
+    "group": "03",
+    "sha256": "d9d25500a602d4d11c441096c74f171ff2ec6e23550e22d75c38dd07177fc085",
+    "acoustic": {
+      "f0": 246,
+      "range_st": 7.4,
+      "pause_pct": 31,
+      "rate": 4.8,
+      "hnr": 14.4,
+      "flags": []
+    },
+    "f0_median": 247.09065426719798,
+    "f0_p10": 188.55298532766707,
+    "f0_p90": 290.09507736970374,
+    "peak_db": -10.452628135681152,
+    "duration": 4.64,
+    "speech_rms_db": -24.24492835998535
+  },
+  {
+    "path": "dub\\out\\r0_vox_959950_style\\takes\\g04_t1_e81a.wav",
+    "text": "睡前，把明天要做的事，先写下来。",
+    "set": "old_C",
+    "profile": "old_C",
+    "group": "04",
+    "sha256": "1a96600f188f05d27fd9cb1408b6dd6fa06e81406f6ebf8f7ebce78738febe69",
+    "acoustic": {
+      "f0": 232,
+      "range_st": 8.0,
+      "pause_pct": 27,
+      "rate": 4.5,
+      "hnr": 7.6,
+      "flags": [
+        "气声偏重"
+      ]
+    },
+    "f0_median": 218.75991602241112,
+    "f0_p10": 178.036642536733,
+    "f0_p90": 279.0317165445357,
+    "peak_db": -0.6675420999526978,
+    "duration": 4.0,
+    "speech_rms_db": -15.80395793914795
+  },
+  {
+    "path": "dub\\out\\r0_vox_959950_style\\takes\\g05-06_t3_e38a.wav",
+    "text": "这是晓念，从随手记下一句话开始。要做的事、没想完的问题，AI整理成卡，原话也一起留着。记下之后，再接着想。",
+    "set": "old_C",
+    "profile": "old_C",
+    "group": "05-06",
+    "sha256": "fbfa25568807f46659f358a8901d4deafbcb712db178b8f0c78d2c0659b95dee",
+    "acoustic": {
+      "f0": 242,
+      "range_st": 12.7,
+      "pause_pct": 31,
+      "rate": 5.6,
+      "hnr": 11.0,
+      "flags": []
+    },
+    "f0_median": 228.91539428602815,
+    "f0_p10": 158.42611201427673,
+    "f0_p90": 329.39484239062426,
+    "peak_db": -1.1320130825042725,
+    "duration": 11.36,
+    "speech_rms_db": -17.710765838623047
+  },
+  {
+    "path": "dub\\out\\r0_vox_959950_style\\takes\\g07_t2_040c.wav",
+    "text": "过几天，带着原话回来看，那件想报竞赛的事，现在怎么想？",
+    "set": "old_C",
+    "profile": "old_C",
+    "group": "07",
+    "sha256": "7d12a9548ff0ec698b90cd5087db4a3fee4bc85014a1240600b4294d7c9beb3b",
+    "acoustic": {
+      "f0": 271,
+      "range_st": 13.3,
+      "pause_pct": 28,
+      "rate": 7.0,
+      "hnr": 12.3,
+      "flags": [
+        "语速偏快",
+        "音高偏高"
+      ]
+    },
+    "f0_median": 255.39618632410227,
+    "f0_p10": 188.22298805745834,
+    "f0_p90": 383.95424181115584,
+    "peak_db": -0.07748059183359146,
+    "duration": 4.8,
+    "speech_rms_db": -17.056251525878906
+  },
+  {
+    "path": "dub\\out\\r0_vox_959950_style\\takes\\g08_t2_907b.wav",
+    "text": "做完的待办勾掉，没想完的念头，留着继续。",
+    "set": "old_C",
+    "profile": "old_C",
+    "group": "08",
+    "sha256": "c52ae20428f11feafd52000d79473c695bf421c36e6ea559793cf5e2fe2f7b1e",
+    "acoustic": {
+      "f0": 219,
+      "range_st": 7.6,
+      "pause_pct": 15,
+      "rate": 4.4,
+      "hnr": 16.5,
+      "flags": []
+    },
+    "f0_median": 213.3712293366545,
+    "f0_p10": 163.27983818746029,
+    "f0_p90": 252.66069343631497,
+    "peak_db": -8.772550582885742,
+    "duration": 4.96,
+    "speech_rms_db": -24.774993896484375
+  },
+  {
+    "path": "dub\\out\\r0_vox_959950_style\\takes\\g09_t1_de55.wav",
+    "text": "记录都在卡片墙上，想找回来时，不必从头翻。",
+    "set": "old_C",
+    "profile": "old_C",
+    "group": "09",
+    "sha256": "54bc04dd92ff777498a8606f6833df04e6d1b33f330eb7b7ab8e60c6cd466e8f",
+    "acoustic": {
+      "f0": 201,
+      "range_st": 6.9,
+      "pause_pct": 11,
+      "rate": 5.1,
+      "hnr": 12.9,
+      "flags": []
+    },
+    "f0_median": 195.53704481869374,
+    "f0_p10": 169.65946537296855,
+    "f0_p90": 251.8256769674024,
+    "peak_db": -0.49410194158554077,
+    "duration": 4.16,
+    "speech_rms_db": -16.400634765625
+  },
+  {
+    "path": "dub\\out\\r0_vox_959950_style\\takes\\g10_t3_38f9.wav",
+    "text": "点“接着聊”，先看最担心的时间安排，再把顾虑一步步说清楚。",
+    "set": "old_C",
+    "profile": "old_C",
+    "group": "10",
+    "sha256": "0aba33672c4aaccc9cfacd097d98e5692348c2a8a3869369a96b50fd77180f27",
+    "acoustic": {
+      "f0": 233,
+      "range_st": 8.9,
+      "pause_pct": 14,
+      "rate": 4.3,
+      "hnr": 11.4,
+      "flags": []
+    },
+    "f0_median": 217.87787968129243,
+    "f0_p10": 174.2521778627684,
+    "f0_p90": 283.2930338866468,
+    "peak_db": -3.7654995918273926,
+    "duration": 7.2,
+    "speech_rms_db": -19.927404403686523
+  },
+  {
+    "path": "dub\\out\\r0_vox_959950_style\\takes\\g11_t2_141e.wav",
+    "text": "聊出的新想法，先存成卡。再选几张相关的卡，一起看看。",
+    "set": "old_C",
+    "profile": "old_C",
+    "group": "11",
+    "sha256": "27a785902860412345576198abba2b11fa448aa81bb8fb383a69d8e2b32a1b90",
+    "acoustic": {
+      "f0": 238,
+      "range_st": 11.4,
+      "pause_pct": 16,
+      "rate": 5.4,
+      "hnr": 13.3,
+      "flags": []
+    },
+    "f0_median": 239.10679523609798,
+    "f0_p10": 161.94452748374374,
+    "f0_p90": 313.23440009042804,
+    "peak_db": -0.12898288667201996,
+    "duration": 5.28,
+    "speech_rms_db": -18.060590744018555
+  },
+  {
+    "path": "dub\\out\\r0_vox_959950_style\\takes\\g12_t3_fcf2.wav",
+    "text": "放进头脑风暴，分组、比较，找出这些念头之间的新联系。最后，把自己的结论写下来。",
+    "set": "old_C",
+    "profile": "old_C",
+    "group": "12",
+    "sha256": "c878bf97083aeb5877652a16405fbb9a86c038d6d72e719e063a060f96f93009",
+    "acoustic": {
+      "f0": 209,
+      "range_st": 10.8,
+      "pause_pct": 34,
+      "rate": 6.5,
+      "hnr": 13.8,
+      "flags": []
+    },
+    "f0_median": 208.1240905145378,
+    "f0_p10": 145.1317471080798,
+    "f0_p90": 270.64733269316827,
+    "peak_db": -0.19433529675006866,
+    "duration": 8.0,
+    "speech_rms_db": -18.76543617248535
+  },
+  {
+    "path": "dub\\out\\r0_vox_959950_style\\takes\\g13_t3_5c93.wav",
+    "text": "一道极限题，卡在第一步。拍下来，先核对题目。",
+    "set": "old_C",
+    "profile": "old_C",
+    "group": "13",
+    "sha256": "ef0b8cd50f9e0d3d0d387258563f492a76b69fb11b406c70895f1156bc3efece",
+    "acoustic": {
+      "f0": 281,
+      "range_st": 11.8,
+      "pause_pct": 28,
+      "rate": 5.9,
+      "hnr": 15.0,
+      "flags": [
+        "音高偏高"
+      ]
+    },
+    "f0_median": 262.43801715518697,
+    "f0_p10": 192.09045992216457,
+    "f0_p90": 371.10071845483407,
+    "peak_db": -0.05077693983912468,
+    "duration": 4.48,
+    "speech_rms_db": -16.09807777404785
+  },
+  {
+    "path": "dub\\out\\r0_vox_959950_style\\takes\\g14_t2_a6b0.wav",
+    "text": "先要一步提示，接着自己试算。相关研究中，直接给答案的那组，撤掉AI后表现下降。提示组未见明显下降。",
+    "set": "old_C",
+    "profile": "old_C",
+    "group": "14",
+    "sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+    "acoustic": {
+      "f0": 215,
+      "range_st": 11.2,
+      "pause_pct": 21,
+      "rate": 5.0,
+      "hnr": 12.5,
+      "flags": []
+    },
+    "f0_median": 210.8981119929249,
+    "f0_p10": 142.714774540077,
+    "f0_p90": 268.70687100380997,
+    "peak_db": -1.909223198890686,
+    "duration": 10.88,
+    "speech_rms_db": -19.453636169433594
+  },
+  {
+    "path": "dub\\out\\r0_vox_959950_style\\takes\\g15_t2_3caa.wav",
+    "text": "展开完整解析，还能查看计算核验。支持的算式，由程序重新计算。",
+    "set": "old_C",
+    "profile": "old_C",
+    "group": "15",
+    "sha256": "13e48619cf2452779c1e0e9e22935f828c52041ac945181cfc9d2f669e63d2e7",
+    "acoustic": {
+      "f0": 227,
+      "range_st": 8.5,
+      "pause_pct": 9,
+      "rate": 5.2,
+      "hnr": 12.6,
+      "flags": []
+    },
+    "f0_median": 222.19089561575504,
+    "f0_p10": 174.52332728609844,
+    "f0_p90": 283.49977360808475,
+    "peak_db": -0.2930210828781128,
+    "duration": 6.08,
+    "speech_rms_db": -18.439529418945312
+  },
+  {
+    "path": "dub\\out\\r0_vox_959950_style\\takes\\g16_t1_c4d6.wav",
+    "text": "算完，把草稿拿来批改，定位出错步骤，再收进错题本。",
+    "set": "old_C",
+    "profile": "old_C",
+    "group": "16",
+    "sha256": "de8f8a989874a96f9c6c2e2cabf9f6fc1fb0888d4eeef575af5a1810b6f66cf0",
+    "acoustic": {
+      "f0": 318,
+      "range_st": 9.8,
+      "pause_pct": 31,
+      "rate": 6.9,
+      "hnr": 9.8,
+      "flags": [
+        "语速偏快",
+        "音高偏高",
+        "气声偏重"
+      ]
+    },
+    "f0_median": 307.8171513545658,
+    "f0_p10": 229.4969684443815,
+    "f0_p90": 408.17913826408767,
+    "peak_db": -0.049977097660303116,
+    "duration": 5.44,
+    "speech_rms_db": -12.945243835449219
+  },
+  {
+    "path": "dub\\out\\r0_vox_959950_style\\takes\\g17_t1_465e.wav",
+    "text": "再把解题思路讲给小狸听。它会追问，再反馈哪些说清、哪些漏了。",
+    "set": "old_C",
+    "profile": "old_C",
+    "group": "17",
+    "sha256": "179dbbed790eaa5dda373c68705e661f099585b858e34a58fdcb8b1b9d4e97e1",
+    "acoustic": {
+      "f0": 216,
+      "range_st": 10.6,
+      "pause_pct": 18,
+      "rate": 5.1,
+      "hnr": 15.1,
+      "flags": []
+    },
+    "f0_median": 217.36714628158805,
+    "f0_p10": 147.46947485886238,
+    "f0_p90": 272.87415608386647,
+    "peak_db": -0.09005971997976303,
+    "duration": 6.56,
+    "speech_rms_db": -14.116641998291016
+  },
+  {
+    "path": "dub\\out\\r0_vox_959950_style\\takes\\g18_t1_0a1a.wav",
+    "text": "需要补充，就导入讲义。校对原文，再把相关段落整理成卡。",
+    "set": "old_C",
+    "profile": "old_C",
+    "group": "18",
+    "sha256": "3dd646d3b2f20df5a5d44705c6669f1c7c9ba35e36c8836885b653754b3e96fa",
+    "acoustic": {
+      "f0": 239,
+      "range_st": 10.3,
+      "pause_pct": 23,
+      "rate": 4.7,
+      "hnr": 12.1,
+      "flags": []
+    },
+    "f0_median": 232.62107091002915,
+    "f0_p10": 163.60197950276697,
+    "f0_p90": 295.416420624908,
+    "peak_db": -0.16862176358699799,
+    "duration": 6.56,
+    "speech_rms_db": -17.818363189697266
+  },
+  {
+    "path": "dub\\out\\r0_vox_959950_style\\takes\\g19_t2_7a5e.wav",
+    "text": "最后，去知识地图独立做一道。先判断会不会，再作答看结果。",
+    "set": "old_C",
+    "profile": "old_C",
+    "group": "19",
+    "sha256": "4cf6fdb8639f627433a12d5dc64808def4c00da2629c1b49bc17a91e09b3a0b9",
+    "acoustic": {
+      "f0": 310,
+      "range_st": 10.6,
+      "pause_pct": 29,
+      "rate": 5.5,
+      "hnr": 13.0,
+      "flags": [
+        "音高偏高"
+      ]
+    },
+    "f0_median": 294.26445262877803,
+    "f0_p10": 231.5289767515472,
+    "f0_p90": 420.86481685718627,
+    "peak_db": -0.5030853748321533,
+    "duration": 6.4,
+    "speech_rms_db": -18.366899490356445
+  },
+  {
+    "path": "dub\\out\\r0_vox_959950_style\\takes\\g20_t2_c992.wav",
+    "text": "累的时候，也可以只是聊聊。今天发生了什么，哪句话放不下，先把感受说出来。",
+    "set": "old_C",
+    "profile": "old_C",
+    "group": "20",
+    "sha256": "d79e94cd3802d88417e6d06599a1bb4df3cb70fe31555e71d2e031f610bb5ded",
+    "acoustic": {
+      "f0": 307,
+      "range_st": 13.5,
+      "pause_pct": 33,
+      "rate": 6.9,
+      "hnr": 13.2,
+      "flags": [
+        "语速偏快",
+        "音高偏高"
+      ]
+    },
+    "f0_median": 310.79292136716026,
+    "f0_p10": 190.05407062754693,
+    "f0_p90": 412.8527838188482,
+    "peak_db": -0.7987710237503052,
+    "duration": 7.04,
+    "speech_rms_db": -21.504150390625
+  },
+  {
+    "path": "dub\\out\\r0_vox_959950_style\\takes\\g21_t3_00fc.wav",
+    "text": "涉及安全风险，先提示现实中的求助。",
+    "set": "old_C",
+    "profile": "old_C",
+    "group": "21",
+    "sha256": "315b5cc804f0891216dd4adfb399e91eac4a31fa15ad63862da31c1ae5ebbc95",
+    "acoustic": {
+      "f0": 222,
+      "range_st": 7.1,
+      "pause_pct": 16,
+      "rate": 6.0,
+      "hnr": 9.8,
+      "flags": [
+        "气声偏重"
+      ]
+    },
+    "f0_median": 215.40596160124852,
+    "f0_p10": 173.51897175706216,
+    "f0_p90": 264.05774657064774,
+    "peak_db": -2.191148281097412,
+    "duration": 3.52,
+    "speech_rms_db": -20.359146118164062
+  },
+  {
+    "path": "dub\\out\\r0_vox_959950_style\\takes\\g22_t2_3bf2.wav",
+    "text": "从记下一句，到自己想清楚，学习和回顾，都留在记录里。",
+    "set": "old_C",
+    "profile": "old_C",
+    "group": "22",
+    "sha256": "fc79f0e01e1f9e5fa969b1f2ea6646735de6b93d4a33ccc3c585d3577a72069b",
+    "acoustic": {
+      "f0": 217,
+      "range_st": 11.6,
+      "pause_pct": 15,
+      "rate": 4.8,
+      "hnr": 14.0,
+      "flags": []
+    },
+    "f0_median": 197.36132384075904,
+    "f0_p10": 149.90238957709704,
+    "f0_p90": 289.8053495378347,
+    "peak_db": -8.158016204833984,
+    "duration": 5.92,
+    "speech_rms_db": -26.094188690185547
+  },
+  {
+    "path": "dub\\out\\r0_vox_959950_style\\takes\\g23a_t3_c866.wav",
+    "text": "刚才这些操作，由原生小程序发起。后端通过接口处理请求，S Q light保存记录。卡片、对话、导入和学习，各有业务模块。",
+    "set": "old_C",
+    "profile": "old_C",
+    "group": "23a",
+    "sha256": "e8f2e5adbd2b1daa40358f11c10f309c3622cb1129115d47d9b2bee8bd18be1a",
+    "acoustic": {
+      "f0": 246,
+      "range_st": 8.7,
+      "pause_pct": 14,
+      "rate": 5.3,
+      "hnr": 11.3,
+      "flags": []
+    },
+    "f0_median": 248.9558279666352,
+    "f0_p10": 174.01506231251912,
+    "f0_p90": 285.92514806005704,
+    "peak_db": -4.194234848022461,
+    "duration": 9.6,
+    "speech_rms_db": -20.74806022644043
+  },
+  {
+    "path": "dub\\out\\r0_vox_959950_style\\takes\\g23b_t2_91e3.wav",
+    "text": "接着聊，会带上选定卡片的相关上下文。原话、生成内容和版本分开保存。长任务先记状态，再执行；支持的算式另外核验。",
+    "set": "old_C",
+    "profile": "old_C",
+    "group": "23b",
+    "sha256": "eaa557e5100cb10624ccdcec2e77d1a689bdad0b3dad7a0080e136d9144eac2a",
+    "acoustic": {
+      "f0": 238,
+      "range_st": 13.9,
+      "pause_pct": 23,
+      "rate": 5.2,
+      "hnr": 12.4,
+      "flags": []
+    },
+    "f0_median": 218.18811335733363,
+    "f0_p10": 158.69347323660136,
+    "f0_p90": 354.52920150849775,
+    "peak_db": -0.5182660818099976,
+    "duration": 12.0,
+    "speech_rms_db": -18.876062393188477
+  },
+  {
+    "path": "dub\\out\\r0_vox_959950_style\\takes\\g24_t1_77c8.wav",
+    "text": "导入时离开，回来还能继续处理。外部调用集中在后端，异常时尝试备用接口。管理台查看任务、运行状态和反馈，并保留用量与操作记录。",
+    "set": "old_C",
+    "profile": "old_C",
+    "group": "24",
+    "sha256": "88bdaf0f048bf65dd3c2608d4e40353cce1b8dd8cbb18a9cb60d869ece82d389",
+    "acoustic": {
+      "f0": 250,
+      "range_st": 10.0,
+      "pause_pct": 24,
+      "rate": 5.8,
+      "hnr": 11.5,
+      "flags": []
+    },
+    "f0_median": 240.31733202264823,
+    "f0_p10": 182.5651636826134,
+    "f0_p90": 321.4792233899699,
+    "peak_db": -0.043314605951309204,
+    "duration": 12.48,
+    "speech_rms_db": -13.968589782714844
+  },
+  {
+    "path": "dub\\out\\r0_vox_959950_style\\takes\\g26-27_t4_1ceb.wav",
+    "text": "念，是转瞬的念头。晓，是让所想渐渐明瞭。晓念。",
+    "set": "old_C",
+    "profile": "old_C",
+    "group": "26-27",
+    "sha256": "02fd3e94a26f395b202875c7d18c92df3d5d8b75d4118f19fdcf52a9ead87fc5",
+    "acoustic": {
+      "f0": 195,
+      "range_st": 8.4,
+      "pause_pct": 32,
+      "rate": 4.5,
+      "hnr": 13.9,
+      "flags": []
+    },
+    "f0_median": 184.36713473708386,
+    "f0_p10": 149.69578680245942,
+    "f0_p90": 235.08988252234045,
+    "peak_db": -3.2788703441619873,
+    "duration": 5.92,
+    "speech_rms_db": -19.687007904052734
+  },
+  {
+    "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\reports\\2026-10-22-model-compare-r0b\\r0b_vox_49a14f.wav",
+    "text": "嗨，我是晓晓。今天下雨了，有点闷闷的……不过，能跟你说说话，好像也没那么糟啦。才、才不是特意来找你的哦。",
+    "set": "other_reference",
+    "profile": "r0b_vox_49a14f",
+    "group": "reference",
+    "sha256": "e62ace368cd58429dec1be1d6bd354d8a9ce8763192cda150c4ed69c3b53f4cb",
+    "acoustic": {
+      "f0": 278,
+      "range_st": 7.5,
+      "pause_pct": 36,
+      "rate": 5.4,
+      "hnr": 16.9,
+      "flags": [
+        "音高偏高"
+      ]
+    },
+    "f0_median": 279.94436490282646,
+    "f0_p10": 219.33053755781683,
+    "f0_p90": 337.44542524192826,
+    "peak_db": -8.342355728149414,
+    "duration": 12.32,
+    "speech_rms_db": -23.413681030273438
+  },
+  {
+    "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\reports\\2026-10-22-model-compare-r0b\\r0b_moss_611767.wav",
+    "text": "嗨，我是晓晓。今天下雨了，有点闷闷的……不过，能跟你说说话，好像也没那么糟啦。才、才不是特意来找你的哦。",
+    "set": "other_reference",
+    "profile": "r0b_moss_611767",
+    "group": "reference",
+    "sha256": "85a0cc88719631b28f7048a45d45769773854f6f6333f56b20e67166d77177db",
+    "acoustic": {
+      "f0": 257,
+      "range_st": 11.2,
+      "pause_pct": 35,
+      "rate": 4.2,
+      "hnr": 20.5,
+      "flags": []
+    },
+    "f0_median": 256.9425840429544,
+    "f0_p10": 173.2528091166825,
+    "f0_p90": 333.16102601259354,
+    "peak_db": -16.78244400024414,
+    "duration": 15.52,
+    "speech_rms_db": -31.67156219482422
+  },
+  {
+    "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\reports\\2026-10-22-model-compare-r0b\\r0b_vox_821713.wav",
+    "text": "嗨，我是晓晓。今天下雨了，有点闷闷的……不过，能跟你说说话，好像也没那么糟啦。才、才不是特意来找你的哦。",
+    "set": "other_reference",
+    "profile": "r0b_vox_821713",
+    "group": "reference",
+    "sha256": "26adc087407ab9621a84e39deec619b49da45cbfc1db82382658f593a6962a3f",
+    "acoustic": {
+      "f0": 289,
+      "range_st": 7.0,
+      "pause_pct": 34,
+      "rate": 4.3,
+      "hnr": 20.6,
+      "flags": [
+        "音高偏高"
+      ]
+    },
+    "f0_median": 280.66524376582123,
+    "f0_p10": 233.14925044979321,
+    "f0_p90": 348.2547954708409,
+    "peak_db": -10.08266544342041,
+    "duration": 15.2,
+    "speech_rms_db": -25.51323127746582
+  },
+  {
+    "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\pilot\\original_g07_s41_9b3de4a0.wav",
+    "text": "过几天，带着原话回来看，那件想报竞赛的事，现在怎么想？",
+    "set": "pilot",
+    "profile": "original",
+    "group": "07",
+    "sha256": "1924ca3034fc2c05eeddab8a55105a58b8da017c74e32e73d4eb6575b7f7cc4e",
+    "acoustic": {
+      "f0": 202,
+      "range_st": 6.8,
+      "pause_pct": 21,
+      "rate": 5.2,
+      "hnr": 15.8,
+      "flags": []
+    },
+    "f0_median": 200.0078344127644,
+    "f0_p10": 165.3457003163413,
+    "f0_p90": 240.6007824899754,
+    "peak_db": -0.44597434997558594,
+    "duration": 6.4,
+    "speech_rms_db": -16.167816162109375
+  },
+  {
+    "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\pilot\\original_g16_s41_1cfccd0e.wav",
+    "text": "算完，把草稿拿来批改，定位出错步骤，再收进错题本。",
+    "set": "pilot",
+    "profile": "original",
+    "group": "16",
+    "sha256": "b04e87780ba3edc002834f9c278d419ca682cdb72d594059754aee3d1da60efe",
+    "acoustic": {
+      "f0": 219,
+      "range_st": 8.2,
+      "pause_pct": 25,
+      "rate": 5.5,
+      "hnr": 14.8,
+      "flags": []
+    },
+    "f0_median": 222.1016993534744,
+    "f0_p10": 169.40045079445005,
+    "f0_p90": 271.971928050477,
+    "peak_db": -0.9535818696022034,
+    "duration": 6.24,
+    "speech_rms_db": -15.880029678344727
+  },
+  {
+    "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\pilot\\original_g20_s41_6aa00020.wav",
+    "text": "累的时候，也可以只是聊聊。今天发生了什么，哪句话放不下，先把感受说出来。",
+    "set": "pilot",
+    "profile": "original",
+    "group": "20",
+    "sha256": "8dc90173eed0f5bbc0256786323b15189ea069f85c9bf0e0a497323b3b373310",
+    "acoustic": {
+      "f0": 212,
+      "range_st": 7.8,
+      "pause_pct": 26,
+      "rate": 5.8,
+      "hnr": 15.0,
+      "flags": []
+    },
+    "f0_median": 205.9928374899918,
+    "f0_p10": 169.05057046567842,
+    "f0_p90": 265.526332323549,
+    "peak_db": -0.584357500076294,
+    "duration": 8.0,
+    "speech_rms_db": -16.756113052368164
+  },
+  {
+    "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\pilot\\formal_g07_s41_dca1b881.wav",
+    "text": "过几天，带着原话回来看，那件想报竞赛的事，现在怎么想？",
+    "set": "pilot",
+    "profile": "formal",
+    "group": "07",
+    "sha256": "0468eda5ee2f7df8bf5a8c756a9fa1654bc35b1b16c3df6305e1c682ffaa78a8",
+    "acoustic": {
+      "f0": 237,
+      "range_st": 9.5,
+      "pause_pct": 12,
+      "rate": 6.4,
+      "hnr": 12.6,
+      "flags": []
+    },
+    "f0_median": 235.26879170609416,
+    "f0_p10": 172.2660980463352,
+    "f0_p90": 299.0319584188926,
+    "peak_db": -3.658209800720215,
+    "duration": 4.32,
+    "speech_rms_db": -20.700176239013672
+  },
+  {
+    "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\pilot\\formal_g16_s41_049911ac.wav",
+    "text": "算完，把草稿拿来批改，定位出错步骤，再收进错题本。",
+    "set": "pilot",
+    "profile": "formal",
+    "group": "16",
+    "sha256": "7582b60b9dbccbb981a345ebee17859261f1db1b31e0259a42e68d57e4d16f49",
+    "acoustic": {
+      "f0": 233,
+      "range_st": 7.7,
+      "pause_pct": 18,
+      "rate": 6.5,
+      "hnr": 12.6,
+      "flags": []
+    },
+    "f0_median": 235.52299487909914,
+    "f0_p10": 184.32815073298588,
+    "f0_p90": 287.2464553227795,
+    "peak_db": -3.717787027359009,
+    "duration": 4.32,
+    "speech_rms_db": -20.26565933227539
+  },
+  {
+    "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\pilot\\formal_g20_s41_596855ec.wav",
+    "text": "累的时候，也可以只是聊聊。今天发生了什么，哪句话放不下，先把感受说出来。",
+    "set": "pilot",
+    "profile": "formal",
+    "group": "20",
+    "sha256": "a46d776d2fa6d1ef547fced7baa48e3c8ec75da9c13057f1ff4d3fce139a7873",
+    "acoustic": {
+      "f0": 244,
+      "range_st": 8.3,
+      "pause_pct": 13,
+      "rate": 6.6,
+      "hnr": 12.5,
+      "flags": [
+        "语速偏快"
+      ]
+    },
+    "f0_median": 247.46166542716014,
+    "f0_p10": 182.17876677894154,
+    "f0_p90": 294.3540117904041,
+    "peak_db": -4.548488140106201,
+    "duration": 5.76,
+    "speech_rms_db": -19.97634506225586
+  },
+  {
+    "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\pilot\\calm_g07_s41_5b0b88d0.wav",
+    "text": "过几天，带着原话回来看，那件想报竞赛的事，现在怎么想？",
+    "set": "pilot",
+    "profile": "calm",
+    "group": "07",
+    "sha256": "ce98e68148653af4c43085d8e7fcc1b956e26c283f1f32a31fce76111630e63c",
+    "acoustic": {
+      "f0": 219,
+      "range_st": 9.9,
+      "pause_pct": 17,
+      "rate": 5.7,
+      "hnr": 13.5,
+      "flags": []
+    },
+    "f0_median": 222.65928435863088,
+    "f0_p10": 159.26037644110383,
+    "f0_p90": 281.42680082478967,
+    "peak_db": -0.12279722094535828,
+    "duration": 5.6,
+    "speech_rms_db": -17.34050941467285
+  },
+  {
+    "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\pilot\\calm_g16_s41_751dbdee.wav",
+    "text": "算完，把草稿拿来批改，定位出错步骤，再收进错题本。",
+    "set": "pilot",
+    "profile": "calm",
+    "group": "16",
+    "sha256": "bcf0ceeafd9e8d79dd75c7093800372acf7f31b9737c06fd0d683d00f7c739e2",
+    "acoustic": {
+      "f0": 220,
+      "range_st": 10.2,
+      "pause_pct": 14,
+      "rate": 5.0,
+      "hnr": 13.0,
+      "flags": []
+    },
+    "f0_median": 210.34446499815374,
+    "f0_p10": 149.59741198321726,
+    "f0_p90": 276.2905541816078,
+    "peak_db": -0.14271466434001923,
+    "duration": 5.44,
+    "speech_rms_db": -17.7108211517334
+  },
+  {
+    "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\pilot\\calm_g20_s41_9c761bd9.wav",
+    "text": "累的时候，也可以只是聊聊。今天发生了什么，哪句话放不下，先把感受说出来。",
+    "set": "pilot",
+    "profile": "calm",
+    "group": "20",
+    "sha256": "9a9b7f298db2814b632e269eaed6a2c2099128b298d9823a76abd7547286456a",
+    "acoustic": {
+      "f0": 209,
+      "range_st": 11.9,
+      "pause_pct": 19,
+      "rate": 5.8,
+      "hnr": 11.8,
+      "flags": []
+    },
+    "f0_median": 198.17446167772772,
+    "f0_p10": 134.09975924533074,
+    "f0_p90": 266.94645810581665,
+    "peak_db": -0.05637790262699127,
+    "duration": 7.36,
+    "speech_rms_db": -16.933788299560547
+  }
+]

@@ -1,0 +1,198 @@
+{
+  "old_C": {
+    "count": 24,
+    "pairwise_min": 0.537919357118536,
+    "pairwise_p10": 0.6564433992741852,
+    "pairwise_mean": 0.7619224277466187,
+    "reference_scores": {
+      "original": [
+        0.8611526615760376,
+        0.8033911466663526,
+        0.7864772933731035,
+        0.8674378166559097,
+        0.7454057452612213,
+        0.8827555483624365,
+        0.8788469870446444,
+        0.8730668501860219,
+        0.7716388593355381,
+        0.8024293634556535,
+        0.8192133386278695,
+        0.8193808029321401,
+        0.8632478932396321,
+        0.6910798515095556,
+        0.857148341898293,
+        0.8661878614425317,
+        0.7756455369526742,
+        0.809112203648977,
+        0.7007630191545959,
+        0.8091249601495625,
+        0.8109911828248103,
+        0.7611130115351807,
+        0.8606313049882132,
+        0.9017860637158867
+      ],
+      "formal": [
+        0.7294711500352842,
+        0.7274457612512457,
+        0.7632926442885877,
+        0.8549070017557647,
+        0.7543306058517474,
+        0.7907487492517795,
+        0.8238696781373784,
+        0.7309667694859624,
+        0.7262626603300293,
+        0.8365227341229406,
+        0.8043394239718538,
+        0.8009098554775558,
+        0.7811397336912389,
+        0.7002015033058904,
+        0.8007287444309599,
+        0.8230556123364503,
+        0.7629147577302692,
+        0.7834957677418343,
+        0.7455592538665602,
+        0.7956460475214906,
+        1.0000000217719942,
+        0.7280583465979932,
+        0.8615704510613111,
+        0.7700161630820486
+      ],
+      "calm": [
+        0.8035461935807268,
+        0.64015594050873,
+        0.7143328168676528,
+        0.8621349079517682,
+        0.7958260034570664,
+        0.801087941600045,
+        0.7719754689292134,
+        0.7879141854566101,
+        0.8210923903723453,
+        0.8755464207014869,
+        0.8167935940048368,
+        0.9999999895238894,
+        0.8643803579465852,
+        0.6293977538380019,
+        0.8800954190639072,
+        0.7895749831574259,
+        0.778723661671594,
+        0.785857071923402,
+        0.7345160483806052,
+        0.8344462172287032,
+        0.8009098554775558,
+        0.8306568818909639,
+        0.837690766174249,
+        0.8381561815608192
+      ]
+    },
+    "files": [
+      "dub\\out\\r0_vox_959950_style\\takes\\g01-02_t3_0806.wav",
+      "dub\\out\\r0_vox_959950_style\\takes\\g03_t3_0156.wav",
+      "dub\\out\\r0_vox_959950_style\\takes\\g04_t1_e81a.wav",
+      "dub\\out\\r0_vox_959950_style\\takes\\g05-06_t3_e38a.wav",
+      "dub\\out\\r0_vox_959950_style\\takes\\g07_t2_040c.wav",
+      "dub\\out\\r0_vox_959950_style\\takes\\g08_t2_907b.wav",
+      "dub\\out\\r0_vox_959950_style\\takes\\g09_t1_de55.wav",
+      "dub\\out\\r0_vox_959950_style\\takes\\g10_t3_38f9.wav",
+      "dub\\out\\r0_vox_959950_style\\takes\\g11_t2_141e.wav",
+      "dub\\out\\r0_vox_959950_style\\takes\\g12_t3_fcf2.wav",
+      "dub\\out\\r0_vox_959950_style\\takes\\g13_t3_5c93.wav",
+      "dub\\out\\r0_vox_959950_style\\takes\\g14_t2_a6b0.wav",
+      "dub\\out\\r0_vox_959950_style\\takes\\g15_t2_3caa.wav",
+      "dub\\out\\r0_vox_959950_style\\takes\\g16_t1_c4d6.wav",
+      "dub\\out\\r0_vox_959950_style\\takes\\g17_t1_465e.wav",
+      "dub\\out\\r0_vox_959950_style\\takes\\g18_t1_0a1a.wav",
+      "dub\\out\\r0_vox_959950_style\\takes\\g19_t2_7a5e.wav",
+      "dub\\out\\r0_vox_959950_style\\takes\\g20_t2_c992.wav",
+      "dub\\out\\r0_vox_959950_style\\takes\\g21_t3_00fc.wav",
+      "dub\\out\\r0_vox_959950_style\\takes\\g22_t2_3bf2.wav",
+      "dub\\out\\r0_vox_959950_style\\takes\\g23a_t3_c866.wav",
+      "dub\\out\\r0_vox_959950_style\\takes\\g23b_t2_91e3.wav",
+      "dub\\out\\r0_vox_959950_style\\takes\\g24_t1_77c8.wav",
+      "dub\\out\\r0_vox_959950_style\\takes\\g26-27_t4_1ceb.wav"
+    ]
+  },
+  "original": {
+    "count": 3,
+    "pairwise_min": 0.918640817263793,
+    "pairwise_p10": 0.9220154510132412,
+    "pairwise_mean": 0.9316870628280592,
+    "reference_scores": {
+      "original": [
+        0.9105827752312277,
+        0.9099683281340902,
+        0.9349966302944203
+      ],
+      "formal": [
+        0.7877959029160766,
+        0.7994913624937019,
+        0.8151970044189923
+      ],
+      "calm": [
+        0.8223858110012231,
+        0.8619314652518228,
+        0.8382484728158841
+      ]
+    },
+    "files": [
+      "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\pilot\\original_g07_s41_9b3de4a0.wav",
+      "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\pilot\\original_g16_s41_1cfccd0e.wav",
+      "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\pilot\\original_g20_s41_6aa00020.wav"
+    ]
+  },
+  "formal": {
+    "count": 3,
+    "pairwise_min": 0.9362860806430302,
+    "pairwise_p10": 0.9363833178394227,
+    "pairwise_mean": 0.9452495444921905,
+    "reference_scores": {
+      "original": [
+        0.724662726791186,
+        0.7031179277498428,
+        0.7244197116251646
+      ],
+      "formal": [
+        0.9334843717485586,
+        0.9336118878814084,
+        0.9288753684416274
+      ],
+      "calm": [
+        0.7398063802445556,
+        0.7461858615399461,
+        0.7276323816982625
+      ]
+    },
+    "files": [
+      "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\pilot\\formal_g07_s41_dca1b881.wav",
+      "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\pilot\\formal_g16_s41_049911ac.wav",
+      "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\pilot\\formal_g20_s41_596855ec.wav"
+    ]
+  },
+  "calm": {
+    "count": 3,
+    "pairwise_min": 0.9225768083512529,
+    "pairwise_p10": 0.9246549517659749,
+    "pairwise_mean": 0.93322486881486,
+    "reference_scores": {
+      "original": [
+        0.7783996063966823,
+        0.7407241982361079,
+        0.7413440278361414
+      ],
+      "formal": [
+        0.761492080737401,
+        0.7382282753740019,
+        0.7510838928636155
+      ],
+      "calm": [
+        0.9317852142071208,
+        0.9211459314876296,
+        0.9349529189816965
+      ]
+    },
+    "files": [
+      "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\pilot\\calm_g07_s41_5b0b88d0.wav",
+      "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\pilot\\calm_g16_s41_751dbdee.wav",
+      "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\pilot\\calm_g20_s41_9c761bd9.wav"
+    ]
+  }
+}
