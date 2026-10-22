@@ -1,0 +1,188 @@
+{
+  "output": "dub\\out\\c3-expression-2026-10-22",
+  "user_feedback": "C2情感不丰富、人机感重；平衡音色一致和自然表达",
+  "profiles": [
+    {
+      "id": "warm",
+      "reference": "dub\\out\\c-consistent-2026-10-22\\reference\\calm.wav",
+      "reference_text": "先要一步提示，接着自己试算。相关研究中，直接给答案的那组，撤掉AI后表现下降。提示组未见明显下降。",
+      "source": "dub\\out\\r0_vox_959950_style\\takes\\g14_t2_a6b0.wav",
+      "sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 20
+      },
+      "base_control": "自然沉稳，像面对面介绍自己的作品。"
+    },
+    {
+      "id": "engaged",
+      "reference": "dub\\out\\c-consistent-2026-10-22\\reference\\original.wav",
+      "reference_text": "嗨，我是晓晓。嗯，今天也没什么特别的事，就是想来跟你说说话。其实下雨天也挺好的，只是偶尔……会有点想念某个人吧。",
+      "source": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\reports\\2026-10-22-calibration-r0\\r0_vox_959950.wav",
+      "sha256": "60f1dcd17f0dfc9fe1002c21dc0975d1e71d57349e14c9aba7f9b17545db2f7c",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 20
+      },
+      "base_control": "成熟自然的女声，像面对面讲解自己的作品，有交流感，语句连贯，重点明确。"
+    },
+    {
+      "id": "lively",
+      "reference": "dub\\out\\c-consistent-2026-10-22\\reference\\calm.wav",
+      "reference_text": "先要一步提示，接着自己试算。相关研究中，直接给答案的那组，撤掉AI后表现下降。提示组未见明显下降。",
+      "source": "dub\\out\\r0_vox_959950_style\\takes\\g14_t2_a6b0.wav",
+      "sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 20
+      },
+      "base_control": "明亮沉稳的女声，带自然笑意，像面对面分享自己的作品，语句有轻重和节奏，情绪有自然起伏。"
+    }
+  ],
+  "intents": {
+    "01-02": "想起一个熟悉的小瞬间，带一点理解的笑意，第二句轻轻转折。",
+    "03": "像在回想自己的经历，念头冒出来时轻一点，散去时轻轻落下。",
+    "04": "真诚地分享一个简单办法，睡前略停，先写下来轻轻强调。",
+    "05-06": "带轻微笑意介绍自己的作品，开头自然引出，列举连贯，最后一句有邀请感。",
+    "07": "前一句自然回顾，后一句是关心对方的真实提问，问句有轻微起伏。",
+    "08": "完成待办时轻快一点，说到留下念头时放松，前后有自然转折。",
+    "09": "像面对面解释一个方便之处，记录清楚，最后一句轻松落下。",
+    "10": "像和观众一起操作，先看和再把稍作强调，节奏连贯。",
+    "11": "清楚自然地演示两个动作，前后连着说，结尾带一点邀请感。",
+    "12": "分组比较略紧凑，找到新联系时有一点发现感，最后一句笃定收住。",
+    "13": "第一句带一点思索，第二句自然转为有办法的口吻。",
+    "14": "认真而自然地解释依据，突出自己试算和两组结果的区别，句尾有轻重变化。",
+    "15": "清楚地解释实现，计算核验略强调，第二句接着说明。",
+    "16": "耐心地陪人找出问题，定位出错步骤略强调，收进错题本自然收住。",
+    "17": "带一点亲近的笑意介绍小狸，追问和反馈层次清楚。",
+    "18": "自然地引导下一步操作，校对原文稍强调，后半句连贯。",
+    "19": "温和鼓励对方独立尝试，独立做一道稍强调，结尾轻松笃定。",
+    "20": "真诚体谅，语气温暖舒展，像认真听对方说话，最后一句轻轻鼓励。",
+    "21": "认真克制地说明必要提醒，现实中的求助清楚强调，句尾落稳。",
+    "22": "带一点实现目标后的笃定，前句逐渐展开，后句自然收束。",
+    "23a": "像开发者自信地向评委解释实际实现，语意连贯，技术名词清楚。",
+    "23b": "接着解释实现，各个步骤有层次，关键动作稍强调，语气自然笃定。",
+    "24": "自信地讲清楚系统如何工作，列举连贯，最后一句稳稳收住。",
+    "26-27": "真诚舒展地说出作品的含义，两句各有重心，最后的名字温暖而笃定。"
+  },
+  "source_hashes": {
+    "common.py": "5d45aed2854fe4224a0b0659312051240509c9a07bac6f70fe683606ddef262e",
+    "dub.py": "34e20dcfbb8749105cabd7272c67155ff0a68bc2f9b5392c2ccb17466eb629ac",
+    "measure.py": "ddfad8c55df26063a83bcf8f7242e75d07414a46645f535183cf3dd130dec824",
+    "specs.py": "2f9e47024a1b2455607fe21d0e4a665dd4bbfd5266cd687596682fb8bf259cc8",
+    "step1_audition.py": "0a3718cc9275eb5bef6b81d6ae02ffb4ec0424b75007b0eed962adbff09b07fd",
+    "step2_refine.py": "e0ec0831053df10633115e238e183dace2716392b7f0cd2b2a60c950ef0154ac",
+    "step3_clone_test.py": "b956a0eacb2f17dd84e998faf5b794ffc845ea7d9c9d6ae9b5563abc6337a942",
+    "step4_finalize.py": "5c707160832184768e749214c6f9090722b54d42db83b3f534d64ea4925ab7d8",
+    "dub\\xiaonian_v10.json": "d8da845a59679b12305cac3226277b8d6b3c5bed93c6f49e034b1ed31cc81c9b",
+    "voices\\v1\\哓v哓_v1_声音档案.json": "2f489f0f5c516b7609026190d901cde9b204cca2577c4eb8e77ffb12812652a8",
+    "voices\\v1\\哓v哓_v1_定妆音.txt": "f2340ce5cddd9fd302fac9cadd38d38e97e3bfd850e28a7c5df60117a2201d86",
+    "voices\\v1\\哓v哓_v1_定妆音.wav": "612b3162df5925162377ec9ca2501911a53c5b73e96265538d53be68ee3b9024"
+  },
+  "model": "VoxCPM2",
+  "mode": "expressive_reference_then_clone",
+  "selected_profile": "warm",
+  "sources": [
+    "https://github.com/OpenBMB/VoxCPM/blob/main/app.py",
+    "https://github.com/OpenBMB/VoxCPM/blob/main/src/voxcpm/core.py"
+  ],
+  "rules": [
+    "原稿与所有原脚本保持不变",
+    "同一模型串行生成",
+    "不以狭窄音高范围筛掉正常情感变化",
+    "说话人相似度仅检查身份漂移，不能证明自然度",
+    "保留原始ASR和所有候选，不伪造试听评分"
+  ],
+  "failed_probe": {
+    "folder": "pilot",
+    "reason": "Combined continuation mode vocalizes control words; two saved takes rejected, generation stopped during third. Official app modes mutually exclusive.",
+    "original_claim_corrected": true
+  },
+  "expression_bank": {
+    "warm": {
+      "path": "dub\\out\\c3-expression-2026-10-22\\lively-refs\\lively_g05-06_s43_4212f8f6.wav",
+      "sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+      "text": "这是晓念，从随手记下一句话开始。要做的事、没想完的问题，AI整理成卡，原话也一起留着。记下之后，再接着想。",
+      "source_group": "05-06",
+      "seed": 43
+    },
+    "question": {
+      "path": "dub\\out\\c3-expression-2026-10-22\\expressive-refs\\warm_g07_s41_2168d94f.wav",
+      "sha256": "97e4ca7562022696303861769b98903ff8fccb37b1563d008c22bc5f59131d50",
+      "text": "过几天，带着原话回来看，那件想报竞赛的事，现在怎么想？",
+      "source_group": "07"
+    },
+    "formal": {
+      "path": "dub\\out\\c-consistent-2026-10-22\\reference\\calm.wav",
+      "sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+      "text": "先要一步提示，接着自己试算。相关研究中，直接给答案的那组，撤掉AI后表现下降。提示组未见明显下降。",
+      "source_group": "C_original_14"
+    },
+    "soft": {
+      "path": "dub\\out\\c3-expression-2026-10-22\\lively-refs\\lively_g20_s43_996b1ac7.wav",
+      "sha256": "2a21e2e79429ad79c84942fb538386a30dbe3c3012cc95da444991a80910cf98",
+      "text": "累的时候，也可以只是聊聊。今天发生了什么，哪句话放不下，先把感受说出来。",
+      "source_group": "20",
+      "seed": 43
+    }
+  },
+  "group_bank": {
+    "01-02": "soft",
+    "03": "soft",
+    "04": "soft",
+    "05-06": "warm",
+    "07": "question",
+    "08": "warm",
+    "09": "warm",
+    "10": "warm",
+    "11": "warm",
+    "12": "warm",
+    "13": "warm",
+    "14": "formal",
+    "15": "formal",
+    "16": "warm",
+    "17": "warm",
+    "18": "warm",
+    "19": "warm",
+    "20": "soft",
+    "21": "formal",
+    "22": "soft",
+    "23a": "formal",
+    "23b": "formal",
+    "24": "formal",
+    "26-27": "soft"
+  },
+  "bank_selection": {
+    "rejected": [
+      "20",
+      "23a"
+    ],
+    "reason": "Reference-only emotion control caused identity drift: CAM cosine 0.436 / 0.758. Kept warm 05-06 cosine 0.909 and question 07 cosine 0.877; formal uses original fixed calm anchor. New full synthesis uses one identity reference and these three prompt audios, without control words.",
+    "human_listening_approved": false
+  },
+  "assembly": "whole-group pauses preserved, original group windows, max1.05 speed, no source script changes",
+  "user_pilot_feedback": "再多一些交流感和情绪起伏",
+  "first_full_batch_interrupted_for_feedback": true,
+  "previous_expression_bank": {
+    "warm": {
+      "path": "dub\\out\\c3-expression-2026-10-22\\expressive-refs\\warm_g05-06_s41_c7979bd5.wav",
+      "sha256": "b98a04e3c6bd9410a6b2fb04bb26ea36cc928d27afb6f898262eb87748b71f63",
+      "text": "这是晓念，从随手记下一句话开始。要做的事、没想完的问题，AI整理成卡，原话也一起留着。记下之后，再接着想。",
+      "source_group": "05-06"
+    },
+    "question": {
+      "path": "dub\\out\\c3-expression-2026-10-22\\expressive-refs\\warm_g07_s41_2168d94f.wav",
+      "sha256": "97e4ca7562022696303861769b98903ff8fccb37b1563d008c22bc5f59131d50",
+      "text": "过几天，带着原话回来看，那件想报竞赛的事，现在怎么想？",
+      "source_group": "07"
+    },
+    "formal": {
+      "path": "dub\\out\\c-consistent-2026-10-22\\reference\\calm.wav",
+      "sha256": "ef969bd099a2ba795f24516a69f93c4f9b5df1055a3dd6ce796d54c74f05c569",
+      "text": "先要一步提示，接着自己试算。相关研究中，直接给答案的那组，撤掉AI后表现下降。提示组未见明显下降。",
+      "source_group": "C_original_14"
+    }
+  },
+  "bank_after_feedback": "Selected stronger conversational references after user asked for more emotion; 05-06/20 seed43 retain normalized transcript and identity cosine >=0.85. No pitch-nearness ranking.",
+  "stage": "full_generation_after_user_feedback"
+}
