@@ -1,6 +1,6 @@
 {
   "created": "2026-10-22T14:00:21.749148+08:00",
-  "stage": "full_generation",
+  "stage": "machine_passed_user_listening_pending",
   "user_feedback": "C版一致性差；沉稳、正式作品介绍、音色一致、语调相近",
   "output": "dub\\out\\c-consistent-2026-10-22",
   "profiles": [
@@ -102,7 +102,126 @@
     {
       "url": "https://github.com/QwenLM/Qwen3-TTS",
       "scope": "备选Base克隆功能；当前试验VoxCPM2已呈现改善，未安装或运行Qwen Base"
+    },
+    {
+      "url": "https://github.com/FunAudioLLM/SenseVoice",
+      "scope": "SenseVoiceSmall独立中文ASR复查关键读音及分歧短句；未提供预期文本或热词提示"
     }
   ],
-  "orchestration_issue": "首条生成后，单次编排辅助程序缺少gen_label导致日志打印退出；音频与manifest已落盘。补齐辅助程序元数据后续跑8条；未修改common.py或任何原脚本。"
+  "orchestration_issue": "首条生成后，单次编排辅助程序缺少gen_label导致日志打印退出；音频与manifest已落盘。补齐辅助程序元数据后续跑8条；未修改common.py或任何原脚本。",
+  "initial_full_takes": 24,
+  "repair_round_1": {
+    "groups": [
+      "01-02",
+      "22"
+    ],
+    "seeds": [
+      43,
+      47
+    ],
+    "reasons": {
+      "01-02": "Median F0 is -2.52 semitones from fixed anchor, outside +/-2 gate",
+      "22": "Cannot reliably split into two subtitle cues with unchanged splitter"
+    }
+  },
+  "homophone_normalization": [
+    [
+      "小念",
+      "晓念"
+    ],
+    [
+      "小是让",
+      "晓是让"
+    ],
+    [
+      "要做的是",
+      "要做的事"
+    ],
+    [
+      "原画",
+      "原话"
+    ],
+    [
+      "代办",
+      "待办"
+    ],
+    [
+      "小黎",
+      "小狸"
+    ],
+    [
+      "小离",
+      "小狸"
+    ],
+    [
+      "他会",
+      "它会"
+    ],
+    [
+      "明瞭",
+      "明了"
+    ],
+    [
+      "sqlight",
+      "sqlite"
+    ],
+    [
+      "原化",
+      "原话"
+    ],
+    [
+      "在反馈",
+      "再反馈"
+    ],
+    [
+      "先际状态",
+      "先记状态"
+    ],
+    [
+      "算是另外",
+      "算式另外"
+    ]
+  ],
+  "homophone_scope": "Only listed identical-sound spelling variants; raw ASR transcripts remain in reports. This does not validate ambiguous polyphone pronunciation.",
+  "rejected_take_sha256": {
+    "ce98e68148653af4c43085d8e7fcc1b956e26c283f1f32a31fce76111630e63c": "Final cue 10 ASR reads 包 rather than 报. Whole-group ASR was correct, but strict cue gate requires regeneration.",
+    "099cf8a6795b63e9a27c834f8fcb082fc8fc18ada64a374e7b265e5a9773f8cd": "Final cue 10 Paraformer still reads 包; existing seed43 agrees on 报 in both Paraformer and independent SenseVoice, select that take instead.",
+    "298853f6189ce537f8f9a2d0d62ddcaf2b8df54f70a4245ef911f1704f8e55ad": "Independent SenseVoice on final cue48 reads 场任务 rather than 长任务; regenerate this group to remove cross-recognizer uncertainty."
+  },
+  "repair_round_2": {
+    "groups": [
+      "07"
+    ],
+    "seeds": [
+      43,
+      47
+    ],
+    "reason": "final cue 10 ASR tone/spelling uncertainty: 报/包"
+  },
+  "repair_round_3": {
+    "groups": [
+      "23b"
+    ],
+    "seeds": [
+      43,
+      47
+    ],
+    "reason": "Independent ASR found tone ambiguity 长/场 in final cue48"
+  },
+  "secondary_asr": "iic/SenseVoiceSmall, final key cues 14, no hotwords or expected text supplied",
+  "completed_at": "2026-10-22T14:30:30+08:00",
+  "generated_success": 38,
+  "generation_failures": 0,
+  "selected_groups": 24,
+  "seed_exceptions": {
+    "01-02": 43,
+    "07": 43,
+    "22": 43,
+    "23b": 43
+  },
+  "delivery_file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\delivery\\C2_沉稳一致_完整旁白.wav",
+  "waveform_sha256": "413d11f21c8137e99aa95586daf317a77d75a25296372a7f43f83995989d8186",
+  "original_scripts_changed": false,
+  "backend_changes": false,
+  "video_created": false
 }

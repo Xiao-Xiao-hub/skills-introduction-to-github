@@ -1,0 +1,465 @@
+{
+  "machine_checks_passed": true,
+  "checks": {
+    "content_and_timing": true,
+    "speaker_reference": true,
+    "speaker_pairwise_p10": true,
+    "speaker_pairwise_min": true,
+    "pitch_to_anchor": true,
+    "pitch_distribution": true,
+    "adjacent_pitch": true,
+    "hnr": true,
+    "rate": true,
+    "preserved_intonation": true,
+    "current_waveform_hash": true,
+    "independent_key_cue_asr": true,
+    "source_unchanged": true
+  },
+  "old_C_final": {
+    "group_count": 24,
+    "mean_f0_min": 196.0,
+    "mean_f0_max": 318.0,
+    "mean_f0_average": 241.83333333333334,
+    "mean_f0_sd": 32.40327486878791,
+    "mean_f0_cv": 0.13399010972620776,
+    "mean_f0_p90_p10_semitones": 5.971013417375943,
+    "mean_f0_adjacent_max_semitones": 6.695945437450646,
+    "median_f0_anchor_max_abs_semitones": 6.546329270498125,
+    "speaker_reference_min": 0.6285326281642984,
+    "speaker_reference_mean": 0.8017349960922928,
+    "speaker_pairwise_min": 0.5484757019728592,
+    "speaker_pairwise_p10": 0.6560086916293295,
+    "speaker_pairwise_mean": 0.7604071391963184,
+    "hnr_min": 7.6,
+    "rate_min": 4.0,
+    "rate_max": 7.0,
+    "intonation_range_min": 6.9,
+    "group_values": [
+      {
+        "group": "01-02",
+        "mean_f0": 233,
+        "f0_median": 209.24044456290784,
+        "hnr": 13.1,
+        "rate": 4.0,
+        "range_st": 11.8
+      },
+      {
+        "group": "03",
+        "mean_f0": 246,
+        "f0_median": 247.32283040776372,
+        "hnr": 14.4,
+        "rate": 4.8,
+        "range_st": 7.4
+      },
+      {
+        "group": "04",
+        "mean_f0": 232,
+        "f0_median": 218.2902402611009,
+        "hnr": 7.6,
+        "rate": 4.5,
+        "range_st": 8.0
+      },
+      {
+        "group": "05-06",
+        "mean_f0": 242,
+        "f0_median": 228.91539408559504,
+        "hnr": 11.0,
+        "rate": 5.6,
+        "range_st": 12.7
+      },
+      {
+        "group": "07",
+        "mean_f0": 271,
+        "f0_median": 255.9947724943341,
+        "hnr": 12.3,
+        "rate": 7.0,
+        "range_st": 13.3
+      },
+      {
+        "group": "08",
+        "mean_f0": 219,
+        "f0_median": 213.3712292104104,
+        "hnr": 16.5,
+        "rate": 4.4,
+        "range_st": 7.6
+      },
+      {
+        "group": "09",
+        "mean_f0": 201,
+        "f0_median": 195.53704491132248,
+        "hnr": 12.9,
+        "rate": 5.1,
+        "range_st": 6.9
+      },
+      {
+        "group": "10",
+        "mean_f0": 233,
+        "f0_median": 217.87788053163453,
+        "hnr": 11.4,
+        "rate": 4.3,
+        "range_st": 8.9
+      },
+      {
+        "group": "11",
+        "mean_f0": 238,
+        "f0_median": 239.1067839727407,
+        "hnr": 13.3,
+        "rate": 5.4,
+        "range_st": 11.4
+      },
+      {
+        "group": "12",
+        "mean_f0": 209,
+        "f0_median": 206.7694587439669,
+        "hnr": 13.8,
+        "rate": 6.5,
+        "range_st": 10.8
+      },
+      {
+        "group": "13",
+        "mean_f0": 281,
+        "f0_median": 264.39060059257275,
+        "hnr": 15.0,
+        "rate": 5.9,
+        "range_st": 11.8
+      },
+      {
+        "group": "14",
+        "mean_f0": 215,
+        "f0_median": 211.56673177424437,
+        "hnr": 12.7,
+        "rate": 5.0,
+        "range_st": 11.1
+      },
+      {
+        "group": "15",
+        "mean_f0": 227,
+        "f0_median": 221.81764848379362,
+        "hnr": 12.6,
+        "rate": 5.2,
+        "range_st": 8.5
+      },
+      {
+        "group": "16",
+        "mean_f0": 318,
+        "f0_median": 307.81715118665113,
+        "hnr": 9.8,
+        "rate": 6.9,
+        "range_st": 9.8
+      },
+      {
+        "group": "17",
+        "mean_f0": 216,
+        "f0_median": 217.36714569634842,
+        "hnr": 15.1,
+        "rate": 5.1,
+        "range_st": 10.6
+      },
+      {
+        "group": "18",
+        "mean_f0": 239,
+        "f0_median": 232.27977782843257,
+        "hnr": 11.8,
+        "rate": 4.8,
+        "range_st": 10.4
+      },
+      {
+        "group": "19",
+        "mean_f0": 310,
+        "f0_median": 293.3769730539875,
+        "hnr": 13.0,
+        "rate": 5.5,
+        "range_st": 10.6
+      },
+      {
+        "group": "20",
+        "mean_f0": 305,
+        "f0_median": 305.88107040035976,
+        "hnr": 12.7,
+        "rate": 6.9,
+        "range_st": 13.5
+      },
+      {
+        "group": "21",
+        "mean_f0": 222,
+        "f0_median": 215.40596166840334,
+        "hnr": 9.8,
+        "rate": 6.0,
+        "range_st": 7.1
+      },
+      {
+        "group": "22",
+        "mean_f0": 217,
+        "f0_median": 197.36132371315136,
+        "hnr": 14.0,
+        "rate": 4.8,
+        "range_st": 11.6
+      },
+      {
+        "group": "23a",
+        "mean_f0": 246,
+        "f0_median": 248.9558279213606,
+        "hnr": 11.3,
+        "rate": 5.3,
+        "range_st": 8.7
+      },
+      {
+        "group": "23b",
+        "mean_f0": 238,
+        "f0_median": 218.18811321493382,
+        "hnr": 12.4,
+        "rate": 5.2,
+        "range_st": 13.9
+      },
+      {
+        "group": "24",
+        "mean_f0": 250,
+        "f0_median": 240.3173319969951,
+        "hnr": 11.5,
+        "rate": 5.8,
+        "range_st": 10.0
+      },
+      {
+        "group": "26-27",
+        "mean_f0": 196,
+        "f0_median": 185.34603868249437,
+        "hnr": 13.6,
+        "rate": 4.6,
+        "range_st": 8.4
+      }
+    ]
+  },
+  "new_C_final": {
+    "group_count": 24,
+    "mean_f0_min": 194.0,
+    "mean_f0_max": 233.0,
+    "mean_f0_average": 210.95833333333334,
+    "mean_f0_sd": 9.619767697587898,
+    "mean_f0_cv": 0.04560032090501867,
+    "mean_f0_p90_p10_semitones": 1.9010224086199088,
+    "mean_f0_adjacent_max_semitones": 2.3011296321934367,
+    "median_f0_anchor_max_abs_semitones": 1.7920003641211224,
+    "speaker_reference_min": 0.8890293359228074,
+    "speaker_reference_mean": 0.9279961312394999,
+    "speaker_pairwise_min": 0.849589621180798,
+    "speaker_pairwise_p10": 0.8955996468511241,
+    "speaker_pairwise_mean": 0.9247421922750853,
+    "hnr_min": 10.9,
+    "rate_min": 4.7,
+    "rate_max": 6.0,
+    "intonation_range_min": 8.4,
+    "group_values": [
+      {
+        "group": "01-02",
+        "mean_f0": 209,
+        "f0_median": 191.49297227971832,
+        "hnr": 13.1,
+        "rate": 6.0,
+        "range_st": 9.2
+      },
+      {
+        "group": "03",
+        "mean_f0": 212,
+        "f0_median": 197.6348484311585,
+        "hnr": 14.4,
+        "rate": 5.3,
+        "range_st": 10.9
+      },
+      {
+        "group": "04",
+        "mean_f0": 199,
+        "f0_median": 195.33678563607867,
+        "hnr": 13.1,
+        "rate": 5.1,
+        "range_st": 9.0
+      },
+      {
+        "group": "05-06",
+        "mean_f0": 194,
+        "f0_median": 190.1598692180923,
+        "hnr": 10.9,
+        "rate": 5.4,
+        "range_st": 9.5
+      },
+      {
+        "group": "07",
+        "mean_f0": 202,
+        "f0_median": 191.27406019911535,
+        "hnr": 13.1,
+        "rate": 5.7,
+        "range_st": 11.1
+      },
+      {
+        "group": "08",
+        "mean_f0": 210,
+        "f0_median": 212.88920154984288,
+        "hnr": 14.3,
+        "rate": 5.4,
+        "range_st": 11.1
+      },
+      {
+        "group": "09",
+        "mean_f0": 204,
+        "f0_median": 195.79374853494645,
+        "hnr": 13.3,
+        "rate": 5.2,
+        "range_st": 8.4
+      },
+      {
+        "group": "10",
+        "mean_f0": 233,
+        "f0_median": 228.51759365065502,
+        "hnr": 12.4,
+        "rate": 5.4,
+        "range_st": 12.3
+      },
+      {
+        "group": "11",
+        "mean_f0": 224,
+        "f0_median": 204.6176373383533,
+        "hnr": 12.6,
+        "rate": 5.4,
+        "range_st": 10.4
+      },
+      {
+        "group": "12",
+        "mean_f0": 206,
+        "f0_median": 200.05061094366368,
+        "hnr": 14.1,
+        "rate": 5.6,
+        "range_st": 11.7
+      },
+      {
+        "group": "13",
+        "mean_f0": 221,
+        "f0_median": 198.83562091119015,
+        "hnr": 13.5,
+        "rate": 5.6,
+        "range_st": 9.4
+      },
+      {
+        "group": "14",
+        "mean_f0": 215,
+        "f0_median": 213.37559052878856,
+        "hnr": 13.6,
+        "rate": 5.1,
+        "range_st": 9.9
+      },
+      {
+        "group": "15",
+        "mean_f0": 211,
+        "f0_median": 198.5684352046988,
+        "hnr": 12.1,
+        "rate": 4.9,
+        "range_st": 9.2
+      },
+      {
+        "group": "16",
+        "mean_f0": 220,
+        "f0_median": 210.34446503391064,
+        "hnr": 13.0,
+        "rate": 5.0,
+        "range_st": 10.2
+      },
+      {
+        "group": "17",
+        "mean_f0": 212,
+        "f0_median": 206.2836936194842,
+        "hnr": 13.9,
+        "rate": 5.5,
+        "range_st": 11.5
+      },
+      {
+        "group": "18",
+        "mean_f0": 206,
+        "f0_median": 206.2573934704802,
+        "hnr": 15.1,
+        "rate": 5.0,
+        "range_st": 10.2
+      },
+      {
+        "group": "19",
+        "mean_f0": 229,
+        "f0_median": 212.2241362802874,
+        "hnr": 12.4,
+        "rate": 5.6,
+        "range_st": 8.4
+      },
+      {
+        "group": "20",
+        "mean_f0": 209,
+        "f0_median": 197.7961089562358,
+        "hnr": 11.8,
+        "rate": 5.8,
+        "range_st": 11.9
+      },
+      {
+        "group": "21",
+        "mean_f0": 208,
+        "f0_median": 205.1467755345552,
+        "hnr": 12.3,
+        "rate": 5.0,
+        "range_st": 10.9
+      },
+      {
+        "group": "22",
+        "mean_f0": 203,
+        "f0_median": 196.0907170585187,
+        "hnr": 14.1,
+        "rate": 5.3,
+        "range_st": 10.6
+      },
+      {
+        "group": "23a",
+        "mean_f0": 216,
+        "f0_median": 215.4624655231935,
+        "hnr": 14.3,
+        "rate": 4.7,
+        "range_st": 11.2
+      },
+      {
+        "group": "23b",
+        "mean_f0": 205,
+        "f0_median": 198.91096250994565,
+        "hnr": 13.2,
+        "rate": 5.0,
+        "range_st": 10.4
+      },
+      {
+        "group": "24",
+        "mean_f0": 219,
+        "f0_median": 207.29824266391552,
+        "hnr": 13.5,
+        "rate": 5.5,
+        "range_st": 9.6
+      },
+      {
+        "group": "26-27",
+        "mean_f0": 196,
+        "f0_median": 194.76954205410325,
+        "hnr": 13.1,
+        "rate": 4.7,
+        "range_st": 10.3
+      }
+    ]
+  },
+  "waveform_sha256": "413d11f21c8137e99aa95586daf317a77d75a25296372a7f43f83995989d8186",
+  "criteria_source": "Predeclared task-specific engineering thresholds in plan.json; not validated perceptual quality scores.",
+  "human_listening_passed": false,
+  "human_listening_status": "User listening required; no human reviewer claimed.",
+  "content_timing_report": "final-waveform-verification.json",
+  "source_hash_checks": {
+    "common.py": true,
+    "dub.py": true,
+    "measure.py": true,
+    "specs.py": true,
+    "step1_audition.py": true,
+    "step2_refine.py": true,
+    "step3_clone_test.py": true,
+    "step4_finalize.py": true,
+    "dub\\xiaonian_v10.json": true,
+    "voices\\v1\\哓v哓_v1_声音档案.json": true,
+    "voices\\v1\\哓v哓_v1_定妆音.txt": true,
+    "voices\\v1\\哓v哓_v1_定妆音.wav": true
+  }
+}

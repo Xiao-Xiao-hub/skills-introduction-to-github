@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "kind": "asr",
+  "funasr": "1.4.16",
+  "torch": "2.11.0+cu128",
+  "fs": 16000,
+  "pitch_floor": 100,
+  "pitch_ceiling": 500,
+  "source_sha256": {
+    ".cache\\modelscope\\models\\iic--speech_seaco_paraformer_large_asr_nat-zh-cn-16k-common-vocab8404-pytorch\\snapshots\\master\\config.yaml": "6602efa95e4c7248e1d1030f7ff454a3c9af0f57c335ed87f35260cd7faec35d",
+    ".cache\\modelscope\\models\\iic--speech_seaco_paraformer_large_asr_nat-zh-cn-16k-common-vocab8404-pytorch\\snapshots\\master\\model.pt": "3d491689244ec5dfbf9170ef3827c358aa10f1f20e42a7c59e15e688647946d1"
+  }
+}

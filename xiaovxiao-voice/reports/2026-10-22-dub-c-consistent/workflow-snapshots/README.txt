@@ -1,0 +1,1 @@
+本目录为本轮外部编排/验收辅助程序快照，未修改工具包原脚本。程序ROOT按deployment目录定位。复现时应放回工具包deployment/，从工具包根用xvx-vox运行；运行数据路径见plan.json。已通过的成品以delivery.json的SHA256为准，不要重新自动选条覆盖后冒称同一成品。

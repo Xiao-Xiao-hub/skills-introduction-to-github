@@ -1,0 +1,12 @@
+{
+  "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\delivery\\C2_沉稳一致_完整旁白.wav",
+  "bytes": 25632044,
+  "sha256": "413d11f21c8137e99aa95586daf317a77d75a25296372a7f43f83995989d8186",
+  "duration": 178,
+  "sample_rate": 48000,
+  "subtype": "PCM_24",
+  "channels": 1,
+  "machine_checks_passed": true,
+  "human_listening_passed": false,
+  "report_audio": "人声轨_48k24bit.wav"
+}

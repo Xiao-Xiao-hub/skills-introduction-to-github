@@ -1,0 +1,370 @@
+{
+  "scope": "Generated candidate cue 10 plus key terms and spelling-variant cues; no hotword prompt provided.",
+  "sensevoice_model_sha256": {
+    "models\\SenseVoiceSmall\\model.pt": "833ca2dcfdf8ec91bd4f31cfac36d6124e0c459074d5e909aec9cabe6204a3ea",
+    "models\\SenseVoiceSmall\\config.yaml": "f71e239ba36705564b5bf2d2ffd07eece07b8e3f2bbf6d2c99d8df856339ac19"
+  },
+  "rows": [
+    {
+      "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\cross-asr\\calm_g07_s41_5b0b88d0_cue2.wav",
+      "source_file": "calm_g07_s41_5b0b88d0.wav",
+      "group": "07",
+      "cue_in_group": 2,
+      "seed": 41,
+      "expected": "那件想报竞赛的事，现在怎么想？",
+      "paraformer": {
+        "raw_text": "那 件 想 包 竞 赛 的 事 现 在 怎 么 想",
+        "text": "那 件 想 包 竞 赛 的 事 现 在 怎 么 想"
+      },
+      "sensevoice": {
+        "raw_text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>那件想报竞赛的事，现在怎么想？",
+        "text": "那件想报竞赛的事，现在怎么想？"
+      }
+    },
+    {
+      "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\cross-asr\\calm_g23b_s41_568e184e_cue1.wav",
+      "source_file": "calm_g23b_s41_568e184e.wav",
+      "group": "23b",
+      "cue_in_group": 1,
+      "seed": 41,
+      "expected": "接着聊，会带上选定卡片的相关上下文。",
+      "paraformer": {
+        "raw_text": "接 着 聊 会 带 上 选 定 卡 片 的 相 关 上 下 文",
+        "text": "接 着 聊 会 带 上 选 定 卡 片 的 相 关 上 下 文"
+      },
+      "sensevoice": {
+        "raw_text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>接着聊会带上选定卡片的相关上下文。",
+        "text": "接着聊会带上选定卡片的相关上下文。"
+      }
+    },
+    {
+      "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\cross-asr\\calm_g23b_s41_568e184e_cue2.wav",
+      "source_file": "calm_g23b_s41_568e184e.wav",
+      "group": "23b",
+      "cue_in_group": 2,
+      "seed": 41,
+      "expected": "原话、生成内容和版本分开保存。",
+      "paraformer": {
+        "raw_text": "原 化 生 成 内 容 和 版 本 分 开 保 存",
+        "text": "原 化 生 成 内 容 和 版 本 分 开 保 存"
+      },
+      "sensevoice": {
+        "raw_text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>原画生成内容和版本分开保存。",
+        "text": "原画生成内容和版本分开保存。"
+      }
+    },
+    {
+      "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\cross-asr\\calm_g23b_s41_568e184e_cue3.wav",
+      "source_file": "calm_g23b_s41_568e184e.wav",
+      "group": "23b",
+      "cue_in_group": 3,
+      "seed": 41,
+      "expected": "长任务先记状态，再执行；支持的算式另外核验。",
+      "paraformer": {
+        "raw_text": "长 任 务 先 际 状 态 再 执 行 支 持 的 算 式 另 外 核 验",
+        "text": "长 任 务 先 际 状 态 再 执 行 支 持 的 算 式 另 外 核 验"
+      },
+      "sensevoice": {
+        "raw_text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>场任务先记状态再执行，支持的算是另外核验。",
+        "text": "场任务先记状态再执行，支持的算是另外核验。"
+      }
+    },
+    {
+      "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\cross-asr\\calm_g07_s43_b242dec3_cue2.wav",
+      "source_file": "calm_g07_s43_b242dec3.wav",
+      "group": "07",
+      "cue_in_group": 2,
+      "seed": 43,
+      "expected": "那件想报竞赛的事，现在怎么想？",
+      "paraformer": {
+        "raw_text": "那 件 想 报 竞 赛 的 事 现 在 怎 么 想",
+        "text": "那 件 想 报 竞 赛 的 事 现 在 怎 么 想"
+      },
+      "sensevoice": {
+        "raw_text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>那件想报竞赛的事，现在怎么想？",
+        "text": "那件想报竞赛的事，现在怎么想？"
+      }
+    },
+    {
+      "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\cross-asr\\calm_g07_s47_690e73c0_cue2.wav",
+      "source_file": "calm_g07_s47_690e73c0.wav",
+      "group": "07",
+      "cue_in_group": 2,
+      "seed": 47,
+      "expected": "那件想报竞赛的事，现在怎么想？",
+      "paraformer": {
+        "raw_text": "那 件 想 包 竞 赛 的 事 现 在 怎 么 想",
+        "text": "那 件 想 包 竞 赛 的 事 现 在 怎 么 想"
+      },
+      "sensevoice": {
+        "raw_text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>那件想报竞赛的事，现在怎么想？",
+        "text": "那件想报竞赛的事，现在怎么想？"
+      }
+    },
+    {
+      "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\cross-asr\\calm_g23b_s43_63b4d06d_cue1.wav",
+      "source_file": "calm_g23b_s43_63b4d06d.wav",
+      "group": "23b",
+      "cue_in_group": 1,
+      "seed": 43,
+      "expected": "接着聊，会带上选定卡片的相关上下文。",
+      "paraformer": {
+        "raw_text": "接 着 聊 会 带 上 选 定 卡 片 的 相 关 上 下 文",
+        "text": "接 着 聊 会 带 上 选 定 卡 片 的 相 关 上 下 文"
+      },
+      "sensevoice": {
+        "raw_text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>接着聊会带上选定卡片的相关上下文。",
+        "text": "接着聊会带上选定卡片的相关上下文。"
+      }
+    },
+    {
+      "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\cross-asr\\calm_g23b_s43_63b4d06d_cue2.wav",
+      "source_file": "calm_g23b_s43_63b4d06d.wav",
+      "group": "23b",
+      "cue_in_group": 2,
+      "seed": 43,
+      "expected": "原话、生成内容和版本分开保存。",
+      "paraformer": {
+        "raw_text": "原 化 生 成 内 容 和 版 本 分 开 保 存",
+        "text": "原 化 生 成 内 容 和 版 本 分 开 保 存"
+      },
+      "sensevoice": {
+        "raw_text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>原画生成内容和版本分开保存。",
+        "text": "原画生成内容和版本分开保存。"
+      }
+    },
+    {
+      "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\cross-asr\\calm_g23b_s43_63b4d06d_cue3.wav",
+      "source_file": "calm_g23b_s43_63b4d06d.wav",
+      "group": "23b",
+      "cue_in_group": 3,
+      "seed": 43,
+      "expected": "长任务先记状态，再执行；支持的算式另外核验。",
+      "paraformer": {
+        "raw_text": "长 任 务 先 记 状 态 再 执 行 支 持 的 算 式 另 外 核 验",
+        "text": "长 任 务 先 记 状 态 再 执 行 支 持 的 算 式 另 外 核 验"
+      },
+      "sensevoice": {
+        "raw_text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>长任务先记状态再执行，支持的算是另外核验。",
+        "text": "长任务先记状态再执行，支持的算是另外核验。"
+      }
+    },
+    {
+      "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\cross-asr\\calm_g23b_s47_e1344fab_cue1.wav",
+      "source_file": "calm_g23b_s47_e1344fab.wav",
+      "group": "23b",
+      "cue_in_group": 1,
+      "seed": 47,
+      "expected": "接着聊，会带上选定卡片的相关上下文。",
+      "paraformer": {
+        "raw_text": "接 着 聊 会 带 上 选 定 卡 片 的 相 关 上 下 文",
+        "text": "接 着 聊 会 带 上 选 定 卡 片 的 相 关 上 下 文"
+      },
+      "sensevoice": {
+        "raw_text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>接着聊会带上选定卡片的相关上下文。",
+        "text": "接着聊会带上选定卡片的相关上下文。"
+      }
+    },
+    {
+      "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\cross-asr\\calm_g23b_s47_e1344fab_cue2.wav",
+      "source_file": "calm_g23b_s47_e1344fab.wav",
+      "group": "23b",
+      "cue_in_group": 2,
+      "seed": 47,
+      "expected": "原话、生成内容和版本分开保存。",
+      "paraformer": {
+        "raw_text": "原 化 生 成 内 容 和 版 本 分 开 保 存",
+        "text": "原 化 生 成 内 容 和 版 本 分 开 保 存"
+      },
+      "sensevoice": {
+        "raw_text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>原画生成内容和版本分开保存。",
+        "text": "原画生成内容和版本分开保存。"
+      }
+    },
+    {
+      "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\cross-asr\\calm_g23b_s47_e1344fab_cue3.wav",
+      "source_file": "calm_g23b_s47_e1344fab.wav",
+      "group": "23b",
+      "cue_in_group": 3,
+      "seed": 47,
+      "expected": "长任务先记状态，再执行；支持的算式另外核验。",
+      "paraformer": {
+        "raw_text": "长 任 务 先 记 状 态 再 执 行 支 持 的 算 式 另 外 核 验",
+        "text": "长 任 务 先 记 状 态 再 执 行 支 持 的 算 式 另 外 核 验"
+      },
+      "sensevoice": {
+        "raw_text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>长任务先记状态再执行，支持的算是另外核验。",
+        "text": "长任务先记状态再执行，支持的算是另外核验。"
+      }
+    },
+    {
+      "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\audit-cues\\cue_05_g05-06.wav",
+      "cue": 5,
+      "expected": "这是晓念，从随手记下一句话开始。",
+      "paraformer": {
+        "raw_text": "这 是 小 念 从 随 手 记 下 一 句 话 开 始",
+        "text": "这 是 小 念 从 随 手 记 下 一 句 话 开 始"
+      },
+      "sensevoice": {
+        "raw_text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>这是小念，从随手记下一句话开始。",
+        "text": "这是小念，从随手记下一句话开始。"
+      }
+    },
+    {
+      "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\audit-cues\\cue_07_g05-06.wav",
+      "cue": 7,
+      "expected": "AI整理成卡，原话也一起留着。",
+      "paraformer": {
+        "raw_text": "ai 整 理 成 卡 原 话 也 一 起 留 着",
+        "text": "ai 整 理 成 卡 原 话 也 一 起 留 着"
+      },
+      "sensevoice": {
+        "raw_text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>AI整理成卡，原话也一起留着。",
+        "text": "AI整理成卡，原话也一起留着。"
+      }
+    },
+    {
+      "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\audit-cues\\cue_11_g08.wav",
+      "cue": 11,
+      "expected": "做完的待办勾掉，",
+      "paraformer": {
+        "raw_text": "做 完 的 代 办 勾 掉",
+        "text": "做 完 的 代 办 勾 掉"
+      },
+      "sensevoice": {
+        "raw_text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>做完的代办勾掉。",
+        "text": "做完的代办勾掉。"
+      }
+    },
+    {
+      "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\audit-cues\\cue_31_g17.wav",
+      "cue": 31,
+      "expected": "再把解题思路讲给小狸听。",
+      "paraformer": {
+        "raw_text": "再 把 解 题 思 路 讲 给 小 黎 听",
+        "text": "再 把 解 题 思 路 讲 给 小 黎 听"
+      },
+      "sensevoice": {
+        "raw_text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>再把解题思路讲给小黎听。",
+        "text": "再把解题思路讲给小黎听。"
+      }
+    },
+    {
+      "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\audit-cues\\cue_32_g17.wav",
+      "cue": 32,
+      "expected": "它会追问，再反馈哪些说清、哪些漏了。",
+      "paraformer": {
+        "raw_text": "他 会 追 问 在 反 馈 哪 些 说 清 哪 些 漏 了",
+        "text": "他 会 追 问 在 反 馈 哪 些 说 清 哪 些 漏 了"
+      },
+      "sensevoice": {
+        "raw_text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>他会追问，在反馈哪些说清，哪些漏了。",
+        "text": "他会追问，在反馈哪些说清，哪些漏了。"
+      }
+    },
+    {
+      "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\audit-cues\\cue_34_g18.wav",
+      "cue": 34,
+      "expected": "校对原文，再把相关段落整理成卡。",
+      "paraformer": {
+        "raw_text": "校 对 原 文 再 把 相 关 段 落 整 理 成 卡",
+        "text": "校 对 原 文 再 把 相 关 段 落 整 理 成 卡"
+      },
+      "sensevoice": {
+        "raw_text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>校对原文再把相关段落整理成卡。",
+        "text": "校对原文再把相关段落整理成卡。"
+      }
+    },
+    {
+      "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\audit-cues\\cue_43_g23a.wav",
+      "cue": 43,
+      "expected": "刚才这些操作，由原生小程序发起。",
+      "paraformer": {
+        "raw_text": "刚 才 这 些 操 作 由 原 生 小 程 序 发 起",
+        "text": "刚 才 这 些 操 作 由 原 生 小 程 序 发 起"
+      },
+      "sensevoice": {
+        "raw_text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>刚才这些操作由原生小程序发起。",
+        "text": "刚才这些操作由原生小程序发起。"
+      }
+    },
+    {
+      "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\audit-cues\\cue_44_g23a.wav",
+      "cue": 44,
+      "expected": "后端通过接口处理请求，S Q light保存记录。",
+      "paraformer": {
+        "raw_text": "后 端 通 过 接 口 处 理 请 求 sqlight 保 存 记 录",
+        "text": "后 端 通 过 接 口 处 理 请 求 sqlight 保 存 记 录"
+      },
+      "sensevoice": {
+        "raw_text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>后端通过接口处理，请求SQ light保存记录。",
+        "text": "后端通过接口处理，请求SQ light保存记录。"
+      }
+    },
+    {
+      "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\audit-cues\\cue_47_g23b.wav",
+      "cue": 47,
+      "expected": "原话、生成内容和版本分开保存。",
+      "paraformer": {
+        "raw_text": "原 化 生 成 内 容 和 版 本 分 开 保 存",
+        "text": "原 化 生 成 内 容 和 版 本 分 开 保 存"
+      },
+      "sensevoice": {
+        "raw_text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>原画生成内容和版本分开保存。",
+        "text": "原画生成内容和版本分开保存。"
+      }
+    },
+    {
+      "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\audit-cues\\cue_48_g23b.wav",
+      "cue": 48,
+      "expected": "长任务先记状态，再执行；支持的算式另外核验。",
+      "paraformer": {
+        "raw_text": "长 任 务 先 际 状 态 再 执 行 支 持 的 算 式 另 外 核 验",
+        "text": "长 任 务 先 际 状 态 再 执 行 支 持 的 算 式 另 外 核 验"
+      },
+      "sensevoice": {
+        "raw_text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>场任务先记状态再执行，支持的算是另外核验。",
+        "text": "场任务先记状态再执行，支持的算是另外核验。"
+      }
+    },
+    {
+      "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\audit-cues\\cue_53_g26-27.wav",
+      "cue": 53,
+      "expected": "念，是转瞬的念头。",
+      "paraformer": {
+        "raw_text": "念 是 转 瞬 的 念 头",
+        "text": "念 是 转 瞬 的 念 头"
+      },
+      "sensevoice": {
+        "raw_text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>念是转瞬的念头。",
+        "text": "念是转瞬的念头。"
+      }
+    },
+    {
+      "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\audit-cues\\cue_54_g26-27.wav",
+      "cue": 54,
+      "expected": "晓，是让所想渐渐明瞭。",
+      "paraformer": {
+        "raw_text": "小 是 让 所 想 渐 渐 明 了",
+        "text": "小 是 让 所 想 渐 渐 明 了"
+      },
+      "sensevoice": {
+        "raw_text": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>小是让所想渐渐明了。",
+        "text": "小是让所想渐渐明了。"
+      }
+    },
+    {
+      "file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c-consistent-2026-10-22\\audit-cues\\cue_55_g26-27.wav",
+      "cue": 55,
+      "expected": "晓念。",
+      "paraformer": {
+        "raw_text": "小 念",
+        "text": "小 念"
+      },
+      "sensevoice": {
+        "raw_text": "<|zh|><|HAPPY|><|Speech|><|withitn|>小念。",
+        "text": "小念。"
+      }
+    }
+  ]
+}

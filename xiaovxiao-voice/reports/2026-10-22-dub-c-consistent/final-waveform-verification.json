@@ -1,0 +1,4630 @@
+{
+  "waveform_sha256": "413d11f21c8137e99aa95586daf317a77d75a25296372a7f43f83995989d8186",
+  "duration": 178.0,
+  "sample_rate": 48000,
+  "channels": 1,
+  "subtype": "PCM_24",
+  "cue_count": 55,
+  "group_count": 24,
+  "peak_dbfs": -1.0121999979019165,
+  "source_unchanged": true,
+  "source_hashes": {
+    "common.py": {
+      "expected": "5d45aed2854fe4224a0b0659312051240509c9a07bac6f70fe683606ddef262e",
+      "current": "5d45aed2854fe4224a0b0659312051240509c9a07bac6f70fe683606ddef262e"
+    },
+    "dub.py": {
+      "expected": "34e20dcfbb8749105cabd7272c67155ff0a68bc2f9b5392c2ccb17466eb629ac",
+      "current": "34e20dcfbb8749105cabd7272c67155ff0a68bc2f9b5392c2ccb17466eb629ac"
+    },
+    "measure.py": {
+      "expected": "ddfad8c55df26063a83bcf8f7242e75d07414a46645f535183cf3dd130dec824",
+      "current": "ddfad8c55df26063a83bcf8f7242e75d07414a46645f535183cf3dd130dec824"
+    },
+    "specs.py": {
+      "expected": "2f9e47024a1b2455607fe21d0e4a665dd4bbfd5266cd687596682fb8bf259cc8",
+      "current": "2f9e47024a1b2455607fe21d0e4a665dd4bbfd5266cd687596682fb8bf259cc8"
+    },
+    "step1_audition.py": {
+      "expected": "0a3718cc9275eb5bef6b81d6ae02ffb4ec0424b75007b0eed962adbff09b07fd",
+      "current": "0a3718cc9275eb5bef6b81d6ae02ffb4ec0424b75007b0eed962adbff09b07fd"
+    },
+    "step2_refine.py": {
+      "expected": "e0ec0831053df10633115e238e183dace2716392b7f0cd2b2a60c950ef0154ac",
+      "current": "e0ec0831053df10633115e238e183dace2716392b7f0cd2b2a60c950ef0154ac"
+    },
+    "step3_clone_test.py": {
+      "expected": "b956a0eacb2f17dd84e998faf5b794ffc845ea7d9c9d6ae9b5563abc6337a942",
+      "current": "b956a0eacb2f17dd84e998faf5b794ffc845ea7d9c9d6ae9b5563abc6337a942"
+    },
+    "step4_finalize.py": {
+      "expected": "5c707160832184768e749214c6f9090722b54d42db83b3f534d64ea4925ab7d8",
+      "current": "5c707160832184768e749214c6f9090722b54d42db83b3f534d64ea4925ab7d8"
+    },
+    "dub\\xiaonian_v10.json": {
+      "expected": "d8da845a59679b12305cac3226277b8d6b3c5bed93c6f49e034b1ed31cc81c9b",
+      "current": "d8da845a59679b12305cac3226277b8d6b3c5bed93c6f49e034b1ed31cc81c9b"
+    },
+    "voices\\v1\\哓v哓_v1_声音档案.json": {
+      "expected": "2f489f0f5c516b7609026190d901cde9b204cca2577c4eb8e77ffb12812652a8",
+      "current": "2f489f0f5c516b7609026190d901cde9b204cca2577c4eb8e77ffb12812652a8"
+    },
+    "voices\\v1\\哓v哓_v1_定妆音.txt": {
+      "expected": "f2340ce5cddd9fd302fac9cadd38d38e97e3bfd850e28a7c5df60117a2201d86",
+      "current": "f2340ce5cddd9fd302fac9cadd38d38e97e3bfd850e28a7c5df60117a2201d86"
+    },
+    "voices\\v1\\哓v哓_v1_定妆音.wav": {
+      "expected": "612b3162df5925162377ec9ca2501911a53c5b73e96265538d53be68ee3b9024",
+      "current": "612b3162df5925162377ec9ca2501911a53c5b73e96265538d53be68ee3b9024"
+    }
+  },
+  "checks_failed": [],
+  "cues": [
+    {
+      "id": "cue_01_g01-02",
+      "file": "cue_01_g01-02.wav",
+      "group": "01-02",
+      "index": 1,
+      "text": "躺下了。",
+      "original_text": "躺下了。",
+      "sr": 48000,
+      "duration": 0.72,
+      "profile": "final",
+      "placed_start": 0.35,
+      "placed_end": 0.99,
+      "extracted_start": 0.31,
+      "extracted_end": 1.03,
+      "window": [
+        0.35,
+        1.55
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "躺 下 了",
+        "timestamp": [
+          [
+            110,
+            250
+          ],
+          [
+            250,
+            470
+          ],
+          [
+            470,
+            625
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_02_g01-02",
+      "file": "cue_02_g01-02.wav",
+      "group": "01-02",
+      "index": 2,
+      "text": "脑子却停不下来。",
+      "original_text": "脑子却停不下来。",
+      "sr": 48000,
+      "duration": 1.36,
+      "profile": "final",
+      "placed_start": 2.15,
+      "placed_end": 3.43,
+      "extracted_start": 2.11,
+      "extracted_end": 3.47,
+      "window": [
+        2.15,
+        4.15
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "脑 子 却 停 不 下 来",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            430
+          ],
+          [
+            430,
+            610
+          ],
+          [
+            610,
+            710
+          ],
+          [
+            710,
+            830
+          ],
+          [
+            830,
+            990
+          ],
+          [
+            990,
+            1225
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_03_g03",
+      "file": "cue_03_g03.wav",
+      "group": "03",
+      "index": 3,
+      "text": "一天里，许多念头冒出来，又慢慢散去。",
+      "original_text": "一天里，许多念头冒出来，又慢慢散去。",
+      "sr": 48000,
+      "duration": 3.32,
+      "profile": "final",
+      "placed_start": 4.65,
+      "placed_end": 7.89,
+      "extracted_start": 4.61,
+      "extracted_end": 7.93,
+      "window": [
+        4.65,
+        8.75
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "一 天 里 许 多 念 头 冒 出 来 又 慢 慢 散 去",
+        "timestamp": [
+          [
+            90,
+            210
+          ],
+          [
+            210,
+            450
+          ],
+          [
+            450,
+            690
+          ],
+          [
+            790,
+            970
+          ],
+          [
+            970,
+            1150
+          ],
+          [
+            1150,
+            1330
+          ],
+          [
+            1330,
+            1530
+          ],
+          [
+            1530,
+            1670
+          ],
+          [
+            1670,
+            1850
+          ],
+          [
+            1850,
+            2090
+          ],
+          [
+            2210,
+            2430
+          ],
+          [
+            2430,
+            2550
+          ],
+          [
+            2550,
+            2710
+          ],
+          [
+            2710,
+            2950
+          ],
+          [
+            2970,
+            3175
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_04_g04",
+      "file": "cue_04_g04.wav",
+      "group": "04",
+      "index": 4,
+      "text": "睡前，把明天要做的事，先写下来。",
+      "original_text": "睡前，把明天要做的事，先写下来。",
+      "sr": 48000,
+      "duration": 3.0,
+      "profile": "final",
+      "placed_start": 9.2,
+      "placed_end": 12.12,
+      "extracted_start": 9.16,
+      "extracted_end": 12.159999999999998,
+      "window": [
+        9.2,
+        13.7
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "睡 前 把 明 天 要 做 的 事 先 写 下 来",
+        "timestamp": [
+          [
+            130,
+            330
+          ],
+          [
+            330,
+            570
+          ],
+          [
+            830,
+            1010
+          ],
+          [
+            1010,
+            1150
+          ],
+          [
+            1150,
+            1350
+          ],
+          [
+            1350,
+            1510
+          ],
+          [
+            1510,
+            1670
+          ],
+          [
+            1670,
+            1750
+          ],
+          [
+            1750,
+            1990
+          ],
+          [
+            2150,
+            2330
+          ],
+          [
+            2330,
+            2490
+          ],
+          [
+            2490,
+            2670
+          ],
+          [
+            2670,
+            2875
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_05_g05-06",
+      "file": "cue_05_g05-06.wav",
+      "group": "05-06",
+      "index": 5,
+      "text": "这是晓念，从随手记下一句话开始。",
+      "original_text": "这是晓念，从随手记下一句话开始。",
+      "sr": 48000,
+      "duration": 2.94,
+      "profile": "final",
+      "placed_start": 14.18,
+      "placed_end": 17.04,
+      "extracted_start": 14.14,
+      "extracted_end": 17.08,
+      "window": [
+        14.18,
+        17.6
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "这 是 小 念 从 随 手 记 下 一 句 话 开 始",
+        "timestamp": [
+          [
+            110,
+            210
+          ],
+          [
+            210,
+            390
+          ],
+          [
+            390,
+            570
+          ],
+          [
+            570,
+            810
+          ],
+          [
+            1010,
+            1230
+          ],
+          [
+            1230,
+            1390
+          ],
+          [
+            1390,
+            1630
+          ],
+          [
+            1630,
+            1730
+          ],
+          [
+            1730,
+            1930
+          ],
+          [
+            1930,
+            2030
+          ],
+          [
+            2030,
+            2190
+          ],
+          [
+            2190,
+            2390
+          ],
+          [
+            2390,
+            2550
+          ],
+          [
+            2550,
+            2785
+          ]
+        ]
+      },
+      "raw_cer": 0.07142857142857142,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_06_g05-06",
+      "file": "cue_06_g05-06.wav",
+      "group": "05-06",
+      "index": 6,
+      "text": "要做的事、没想完的问题，",
+      "original_text": "要做的事、没想完的问题，",
+      "sr": 48000,
+      "duration": 2.27,
+      "profile": "final",
+      "placed_start": 17.68,
+      "placed_end": 19.87,
+      "extracted_start": 17.64,
+      "extracted_end": 19.91,
+      "window": [
+        17.68,
+        20.12
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "要 做 的 是 没 想 完 的 问 题",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            450
+          ],
+          [
+            450,
+            550
+          ],
+          [
+            550,
+            790
+          ],
+          [
+            1050,
+            1210
+          ],
+          [
+            1210,
+            1430
+          ],
+          [
+            1430,
+            1610
+          ],
+          [
+            1610,
+            1690
+          ],
+          [
+            1690,
+            1830
+          ],
+          [
+            1830,
+            2095
+          ]
+        ]
+      },
+      "raw_cer": 0.1,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_07_g05-06",
+      "file": "cue_07_g05-06.wav",
+      "group": "05-06",
+      "index": 7,
+      "text": "AI整理成卡，原话也一起留着。",
+      "original_text": "AI整理成卡，原话也一起留着。",
+      "sr": 48000,
+      "duration": 2.69,
+      "profile": "final",
+      "placed_start": 20.2,
+      "placed_end": 22.81,
+      "extracted_start": 20.16,
+      "extracted_end": 22.849999999999998,
+      "window": [
+        20.2,
+        23.38
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "ai 整 理 成 卡 原 话 也 一 起 留 着",
+        "timestamp": [
+          [
+            110,
+            370
+          ],
+          [
+            370,
+            490
+          ],
+          [
+            490,
+            670
+          ],
+          [
+            670,
+            850
+          ],
+          [
+            850,
+            1090
+          ],
+          [
+            1370,
+            1550
+          ],
+          [
+            1550,
+            1730
+          ],
+          [
+            1730,
+            1910
+          ],
+          [
+            1910,
+            2010
+          ],
+          [
+            2010,
+            2210
+          ],
+          [
+            2210,
+            2370
+          ],
+          [
+            2370,
+            2575
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_08_g05-06",
+      "file": "cue_08_g05-06.wav",
+      "group": "05-06",
+      "index": 8,
+      "text": "记下之后，再接着想。",
+      "original_text": "记下之后，再接着想。",
+      "sr": 48000,
+      "duration": 1.76,
+      "profile": "final",
+      "placed_start": 23.68,
+      "placed_end": 25.36,
+      "extracted_start": 23.64,
+      "extracted_end": 25.4,
+      "window": [
+        23.68,
+        25.88
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "记 下 之 后 再 接 着 想",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            430
+          ],
+          [
+            430,
+            550
+          ],
+          [
+            550,
+            790
+          ],
+          [
+            930,
+            1150
+          ],
+          [
+            1150,
+            1290
+          ],
+          [
+            1290,
+            1410
+          ],
+          [
+            1410,
+            1615
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_09_g07",
+      "file": "cue_09_g07.wav",
+      "group": "07",
+      "index": 9,
+      "text": "过几天，带着原话回来看，",
+      "original_text": "过几天，带着原话回来看，",
+      "sr": 48000,
+      "duration": 2.26,
+      "profile": "final",
+      "placed_start": 26.18,
+      "placed_end": 28.36,
+      "extracted_start": 26.14,
+      "extracted_end": 28.4,
+      "window": [
+        26.18,
+        28.41
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "过 几 天 带 着 原 话 回 来 看",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            390
+          ],
+          [
+            390,
+            630
+          ],
+          [
+            910,
+            1090
+          ],
+          [
+            1090,
+            1210
+          ],
+          [
+            1210,
+            1370
+          ],
+          [
+            1370,
+            1610
+          ],
+          [
+            1630,
+            1770
+          ],
+          [
+            1770,
+            1890
+          ],
+          [
+            1890,
+            2125
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_10_g07",
+      "file": "cue_10_g07.wav",
+      "group": "07",
+      "index": 10,
+      "text": "那件想报竞赛的事，现在怎么想？",
+      "original_text": "那件想报竞赛的事，现在怎么想？",
+      "sr": 48000,
+      "duration": 2.75,
+      "profile": "final",
+      "placed_start": 28.49,
+      "placed_end": 31.16,
+      "extracted_start": 28.45,
+      "extracted_end": 31.2,
+      "window": [
+        28.49,
+        31.38
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "那 件 想 报 竞 赛 的 事 现 在 怎 么 想",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            510
+          ],
+          [
+            530,
+            670
+          ],
+          [
+            670,
+            870
+          ],
+          [
+            870,
+            1030
+          ],
+          [
+            1030,
+            1210
+          ],
+          [
+            1210,
+            1310
+          ],
+          [
+            1310,
+            1550
+          ],
+          [
+            1810,
+            1970
+          ],
+          [
+            1970,
+            2150
+          ],
+          [
+            2150,
+            2310
+          ],
+          [
+            2310,
+            2390
+          ],
+          [
+            2390,
+            2615
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_11_g08",
+      "file": "cue_11_g08.wav",
+      "group": "08",
+      "index": 11,
+      "text": "做完的待办勾掉，",
+      "original_text": "做完的待办勾掉，",
+      "sr": 48000,
+      "duration": 1.43,
+      "profile": "final",
+      "placed_start": 31.68,
+      "placed_end": 33.03,
+      "extracted_start": 31.64,
+      "extracted_end": 33.07,
+      "window": [
+        31.68,
+        33.58
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "做 完 的 代 办 勾 掉",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            370
+          ],
+          [
+            370,
+            510
+          ],
+          [
+            510,
+            650
+          ],
+          [
+            650,
+            890
+          ],
+          [
+            910,
+            1050
+          ],
+          [
+            1050,
+            1285
+          ]
+        ]
+      },
+      "raw_cer": 0.14285714285714285,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_12_g08",
+      "file": "cue_12_g08.wav",
+      "group": "08",
+      "index": 12,
+      "text": "没想完的念头，留着继续。",
+      "original_text": "没想完的念头，留着继续。",
+      "sr": 48000,
+      "duration": 2.12,
+      "profile": "final",
+      "placed_start": 33.66,
+      "placed_end": 35.7,
+      "extracted_start": 33.62,
+      "extracted_end": 35.74,
+      "window": [
+        33.66,
+        36.38
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "没 想 完 的 念 头 留 着 继 续",
+        "timestamp": [
+          [
+            110,
+            290
+          ],
+          [
+            290,
+            450
+          ],
+          [
+            450,
+            610
+          ],
+          [
+            610,
+            710
+          ],
+          [
+            710,
+            890
+          ],
+          [
+            890,
+            1130
+          ],
+          [
+            1250,
+            1430
+          ],
+          [
+            1430,
+            1610
+          ],
+          [
+            1610,
+            1770
+          ],
+          [
+            1770,
+            1975
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_13_g09",
+      "file": "cue_13_g09.wav",
+      "group": "09",
+      "index": 13,
+      "text": "记录都在卡片墙上，",
+      "original_text": "记录都在卡片墙上，",
+      "sr": 48000,
+      "duration": 1.69,
+      "profile": "final",
+      "placed_start": 36.68,
+      "placed_end": 38.29,
+      "extracted_start": 36.64,
+      "extracted_end": 38.33,
+      "window": [
+        36.68,
+        38.73
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "记 录 都 在 卡 片 墙 上",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            490
+          ],
+          [
+            490,
+            610
+          ],
+          [
+            610,
+            790
+          ],
+          [
+            790,
+            950
+          ],
+          [
+            950,
+            1110
+          ],
+          [
+            1110,
+            1350
+          ],
+          [
+            1350,
+            1555
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_14_g09",
+      "file": "cue_14_g09.wav",
+      "group": "09",
+      "index": 14,
+      "text": "想找回来时，不必从头翻。",
+      "original_text": "想找回来时，不必从头翻。",
+      "sr": 48000,
+      "duration": 2.21,
+      "profile": "final",
+      "placed_start": 38.81,
+      "placed_end": 40.94,
+      "extracted_start": 38.77,
+      "extracted_end": 40.98,
+      "window": [
+        38.81,
+        41.38
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "想 找 回 来 时 不 必 从 头 翻",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            510
+          ],
+          [
+            510,
+            610
+          ],
+          [
+            610,
+            790
+          ],
+          [
+            790,
+            1030
+          ],
+          [
+            1150,
+            1310
+          ],
+          [
+            1310,
+            1510
+          ],
+          [
+            1510,
+            1650
+          ],
+          [
+            1650,
+            1830
+          ],
+          [
+            1830,
+            2065
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_15_g10",
+      "file": "cue_15_g10.wav",
+      "group": "10",
+      "index": 15,
+      "text": "点“接着聊”，先看最担心的时间安排，",
+      "original_text": "点“接着聊”，先看最担心的时间安排，",
+      "sr": 48000,
+      "duration": 3.24,
+      "profile": "final",
+      "placed_start": 41.68,
+      "placed_end": 44.84,
+      "extracted_start": 41.64,
+      "extracted_end": 44.88,
+      "window": [
+        41.68,
+        46.12
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "点 接 着 聊 先 看 最 担 心 的 时 间 安 排",
+        "timestamp": [
+          [
+            110,
+            350
+          ],
+          [
+            370,
+            570
+          ],
+          [
+            570,
+            690
+          ],
+          [
+            690,
+            930
+          ],
+          [
+            1190,
+            1390
+          ],
+          [
+            1390,
+            1630
+          ],
+          [
+            1650,
+            1810
+          ],
+          [
+            1810,
+            1970
+          ],
+          [
+            1970,
+            2210
+          ],
+          [
+            2210,
+            2350
+          ],
+          [
+            2350,
+            2490
+          ],
+          [
+            2490,
+            2630
+          ],
+          [
+            2630,
+            2790
+          ],
+          [
+            2790,
+            3055
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_16_g10",
+      "file": "cue_16_g10.wav",
+      "group": "10",
+      "index": 16,
+      "text": "再把顾虑一步步说清楚。",
+      "original_text": "再把顾虑一步步说清楚。",
+      "sr": 48000,
+      "duration": 2.15,
+      "profile": "final",
+      "placed_start": 46.2,
+      "placed_end": 48.27,
+      "extracted_start": 46.160000000000004,
+      "extracted_end": 48.31,
+      "window": [
+        46.2,
+        49.38
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "再 把 顾 虑 一 步 步 说 清 楚",
+        "timestamp": [
+          [
+            270,
+            390
+          ],
+          [
+            390,
+            590
+          ],
+          [
+            590,
+            790
+          ],
+          [
+            790,
+            990
+          ],
+          [
+            990,
+            1130
+          ],
+          [
+            1130,
+            1310
+          ],
+          [
+            1310,
+            1430
+          ],
+          [
+            1430,
+            1610
+          ],
+          [
+            1610,
+            1770
+          ],
+          [
+            1770,
+            2005
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_17_g11",
+      "file": "cue_17_g11.wav",
+      "group": "11",
+      "index": 17,
+      "text": "聊出的新想法，先存成卡。",
+      "original_text": "聊出的新想法，先存成卡。",
+      "sr": 48000,
+      "duration": 2.39,
+      "profile": "final",
+      "placed_start": 49.68,
+      "placed_end": 51.99,
+      "extracted_start": 49.64,
+      "extracted_end": 52.03,
+      "window": [
+        49.68,
+        52.01
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "聊 出 的 新 想 法 先 存 成 卡",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            450
+          ],
+          [
+            450,
+            550
+          ],
+          [
+            550,
+            750
+          ],
+          [
+            750,
+            950
+          ],
+          [
+            950,
+            1190
+          ],
+          [
+            1410,
+            1630
+          ],
+          [
+            1630,
+            1830
+          ],
+          [
+            1830,
+            2010
+          ],
+          [
+            2010,
+            2245
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_18_g11",
+      "file": "cue_18_g11.wav",
+      "group": "11",
+      "index": 18,
+      "text": "再选几张相关的卡，一起看看。",
+      "original_text": "再选几张相关的卡，一起看看。",
+      "sr": 48000,
+      "duration": 2.64,
+      "profile": "final",
+      "placed_start": 52.09,
+      "placed_end": 54.65,
+      "extracted_start": 52.050000000000004,
+      "extracted_end": 54.69,
+      "window": [
+        52.09,
+        54.88
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "再 选 几 张 相 关 的 卡 一 起 看 看",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            470
+          ],
+          [
+            470,
+            670
+          ],
+          [
+            670,
+            910
+          ],
+          [
+            930,
+            1090
+          ],
+          [
+            1090,
+            1250
+          ],
+          [
+            1250,
+            1370
+          ],
+          [
+            1370,
+            1610
+          ],
+          [
+            1790,
+            1950
+          ],
+          [
+            1950,
+            2110
+          ],
+          [
+            2110,
+            2310
+          ],
+          [
+            2310,
+            2515
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_19_g12",
+      "file": "cue_19_g12.wav",
+      "group": "12",
+      "index": 19,
+      "text": "放进头脑风暴，分组、比较，",
+      "original_text": "放进头脑风暴，分组、比较，",
+      "sr": 48000,
+      "duration": 2.61,
+      "profile": "final",
+      "placed_start": 55.18,
+      "placed_end": 57.71,
+      "extracted_start": 55.14,
+      "extracted_end": 57.75,
+      "window": [
+        55.18,
+        57.77
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "放 进 头 脑 风 暴 分 组 比 较",
+        "timestamp": [
+          [
+            110,
+            330
+          ],
+          [
+            330,
+            530
+          ],
+          [
+            530,
+            670
+          ],
+          [
+            670,
+            870
+          ],
+          [
+            870,
+            1010
+          ],
+          [
+            1010,
+            1250
+          ],
+          [
+            1470,
+            1670
+          ],
+          [
+            1670,
+            1910
+          ],
+          [
+            2030,
+            2250
+          ],
+          [
+            2250,
+            2485
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_20_g12",
+      "file": "cue_20_g12.wav",
+      "group": "12",
+      "index": 20,
+      "text": "找出这些念头之间的新联系。",
+      "original_text": "找出这些念头之间的新联系。",
+      "sr": 48000,
+      "duration": 2.28,
+      "profile": "final",
+      "placed_start": 57.85,
+      "placed_end": 60.05,
+      "extracted_start": 57.81,
+      "extracted_end": 60.089999999999996,
+      "window": [
+        57.85,
+        60.95
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "找 出 这 些 念 头 之 间 的 新 联 系",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            470
+          ],
+          [
+            470,
+            610
+          ],
+          [
+            610,
+            730
+          ],
+          [
+            730,
+            910
+          ],
+          [
+            910,
+            1090
+          ],
+          [
+            1090,
+            1250
+          ],
+          [
+            1250,
+            1370
+          ],
+          [
+            1370,
+            1490
+          ],
+          [
+            1490,
+            1670
+          ],
+          [
+            1670,
+            1890
+          ],
+          [
+            1890,
+            2125
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_21_g12",
+      "file": "cue_21_g12.wav",
+      "group": "12",
+      "index": 21,
+      "text": "最后，把自己的结论写下来。",
+      "original_text": "最后，把自己的结论写下来。",
+      "sr": 48000,
+      "duration": 2.28,
+      "profile": "final",
+      "placed_start": 61.03,
+      "placed_end": 63.23,
+      "extracted_start": 60.99,
+      "extracted_end": 63.269999999999996,
+      "window": [
+        61.03,
+        63.88
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "最 后 把 自 己 的 结 论 写 下 来",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            510
+          ],
+          [
+            730,
+            930
+          ],
+          [
+            930,
+            1090
+          ],
+          [
+            1090,
+            1210
+          ],
+          [
+            1210,
+            1330
+          ],
+          [
+            1330,
+            1490
+          ],
+          [
+            1490,
+            1690
+          ],
+          [
+            1690,
+            1830
+          ],
+          [
+            1830,
+            1950
+          ],
+          [
+            1950,
+            2155
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_22_g13",
+      "file": "cue_22_g13.wav",
+      "group": "13",
+      "index": 22,
+      "text": "一道极限题，卡在第一步。",
+      "original_text": "一道极限题，卡在第一步。",
+      "sr": 48000,
+      "duration": 2.24,
+      "profile": "final",
+      "placed_start": 64.18,
+      "placed_end": 66.34,
+      "extracted_start": 64.14,
+      "extracted_end": 66.38000000000001,
+      "window": [
+        64.18,
+        66.47
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "一 道 极 限 题 卡 在 第 一 步",
+        "timestamp": [
+          [
+            110,
+            210
+          ],
+          [
+            210,
+            410
+          ],
+          [
+            410,
+            550
+          ],
+          [
+            550,
+            790
+          ],
+          [
+            790,
+            1030
+          ],
+          [
+            1290,
+            1490
+          ],
+          [
+            1490,
+            1670
+          ],
+          [
+            1670,
+            1770
+          ],
+          [
+            1770,
+            1890
+          ],
+          [
+            1890,
+            2095
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_23_g13",
+      "file": "cue_23_g13.wav",
+      "group": "13",
+      "index": 23,
+      "text": "拍下来，先核对题目。",
+      "original_text": "拍下来，先核对题目。",
+      "sr": 48000,
+      "duration": 1.91,
+      "profile": "final",
+      "placed_start": 66.55,
+      "placed_end": 68.38,
+      "extracted_start": 66.50999999999999,
+      "extracted_end": 68.42,
+      "window": [
+        66.55,
+        68.38
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "拍 下 来 先 核 对 题 目",
+        "timestamp": [
+          [
+            110,
+            210
+          ],
+          [
+            210,
+            370
+          ],
+          [
+            370,
+            610
+          ],
+          [
+            830,
+            1070
+          ],
+          [
+            1090,
+            1250
+          ],
+          [
+            1250,
+            1430
+          ],
+          [
+            1430,
+            1590
+          ],
+          [
+            1590,
+            1795
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_24_g14",
+      "file": "cue_24_g14.wav",
+      "group": "14",
+      "index": 24,
+      "text": "先要一步提示，接着自己试算。",
+      "original_text": "先要一步提示，接着自己试算。",
+      "sr": 48000,
+      "duration": 2.63,
+      "profile": "final",
+      "placed_start": 68.68,
+      "placed_end": 71.23,
+      "extracted_start": 68.64,
+      "extracted_end": 71.27000000000001,
+      "window": [
+        68.68,
+        71.76
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "先 要 一 步 提 示 接 着 自 己 试 算",
+        "timestamp": [
+          [
+            130,
+            270
+          ],
+          [
+            270,
+            450
+          ],
+          [
+            450,
+            550
+          ],
+          [
+            550,
+            730
+          ],
+          [
+            730,
+            970
+          ],
+          [
+            970,
+            1210
+          ],
+          [
+            1410,
+            1610
+          ],
+          [
+            1610,
+            1790
+          ],
+          [
+            1790,
+            1890
+          ],
+          [
+            1890,
+            2090
+          ],
+          [
+            2090,
+            2250
+          ],
+          [
+            2250,
+            2485
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_25_g14",
+      "file": "cue_25_g14.wav",
+      "group": "14",
+      "index": 25,
+      "text": "相关研究中，直接给答案的那组，",
+      "original_text": "相关研究中，直接给答案的那组，",
+      "sr": 48000,
+      "duration": 2.93,
+      "profile": "final",
+      "placed_start": 71.84,
+      "placed_end": 74.69,
+      "extracted_start": 71.8,
+      "extracted_end": 74.73,
+      "window": [
+        71.84,
+        74.67
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "相 关 研 究 中 直 接 给 答 案 的 那 组",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            470
+          ],
+          [
+            470,
+            610
+          ],
+          [
+            610,
+            790
+          ],
+          [
+            790,
+            1030
+          ],
+          [
+            1250,
+            1450
+          ],
+          [
+            1450,
+            1670
+          ],
+          [
+            1670,
+            1850
+          ],
+          [
+            1850,
+            1970
+          ],
+          [
+            1970,
+            2130
+          ],
+          [
+            2130,
+            2270
+          ],
+          [
+            2270,
+            2430
+          ],
+          [
+            2430,
+            2725
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_26_g14",
+      "file": "cue_26_g14.wav",
+      "group": "14",
+      "index": 26,
+      "text": "撤掉AI后表现下降。提示组未见明显下降。",
+      "original_text": "撤掉AI后表现下降。提示组未见明显下降。",
+      "sr": 48000,
+      "duration": 4.14,
+      "profile": "final",
+      "placed_start": 74.75,
+      "placed_end": 78.81,
+      "extracted_start": 74.71,
+      "extracted_end": 78.85000000000001,
+      "window": [
+        74.75,
+        79.38
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "撤 掉 ai 后 表 现 下 降 提 示 组 未 见 明 显 下 降",
+        "timestamp": [
+          [
+            110,
+            330
+          ],
+          [
+            330,
+            530
+          ],
+          [
+            530,
+            810
+          ],
+          [
+            810,
+            1050
+          ],
+          [
+            1150,
+            1330
+          ],
+          [
+            1330,
+            1550
+          ],
+          [
+            1550,
+            1750
+          ],
+          [
+            1750,
+            1990
+          ],
+          [
+            2190,
+            2390
+          ],
+          [
+            2390,
+            2570
+          ],
+          [
+            2570,
+            2810
+          ],
+          [
+            2890,
+            3050
+          ],
+          [
+            3050,
+            3250
+          ],
+          [
+            3250,
+            3390
+          ],
+          [
+            3390,
+            3630
+          ],
+          [
+            3650,
+            3810
+          ],
+          [
+            3810,
+            4014
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_27_g15",
+      "file": "cue_27_g15.wav",
+      "group": "15",
+      "index": 27,
+      "text": "展开完整解析，还能查看计算核验。",
+      "original_text": "展开完整解析，还能查看计算核验。",
+      "sr": 48000,
+      "duration": 3.11,
+      "profile": "final",
+      "placed_start": 79.68,
+      "placed_end": 82.71,
+      "extracted_start": 79.64,
+      "extracted_end": 82.75,
+      "window": [
+        79.68,
+        82.71
+      ],
+      "speed": 1.023,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "展 开 完 整 解 析 还 能 查 看 计 算 核 验",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            510
+          ],
+          [
+            530,
+            690
+          ],
+          [
+            690,
+            870
+          ],
+          [
+            870,
+            1030
+          ],
+          [
+            1030,
+            1270
+          ],
+          [
+            1510,
+            1670
+          ],
+          [
+            1670,
+            1830
+          ],
+          [
+            1830,
+            2030
+          ],
+          [
+            2030,
+            2270
+          ],
+          [
+            2290,
+            2430
+          ],
+          [
+            2430,
+            2630
+          ],
+          [
+            2630,
+            2790
+          ],
+          [
+            2790,
+            2995
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_28_g15",
+      "file": "cue_28_g15.wav",
+      "group": "15",
+      "index": 28,
+      "text": "支持的算式，由程序重新计算。",
+      "original_text": "支持的算式，由程序重新计算。",
+      "sr": 48000,
+      "duration": 2.64,
+      "profile": "final",
+      "placed_start": 82.79,
+      "placed_end": 85.35,
+      "extracted_start": 82.75,
+      "extracted_end": 85.39,
+      "window": [
+        82.79,
+        85.38
+      ],
+      "speed": 1.023,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "支 持 的 算 式 由 程 序 重 新 计 算",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            390
+          ],
+          [
+            390,
+            510
+          ],
+          [
+            510,
+            730
+          ],
+          [
+            730,
+            970
+          ],
+          [
+            1090,
+            1270
+          ],
+          [
+            1270,
+            1490
+          ],
+          [
+            1490,
+            1730
+          ],
+          [
+            1810,
+            1950
+          ],
+          [
+            1950,
+            2150
+          ],
+          [
+            2150,
+            2310
+          ],
+          [
+            2310,
+            2515
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_29_g16",
+      "file": "cue_29_g16.wav",
+      "group": "16",
+      "index": 29,
+      "text": "算完，把草稿拿来批改，",
+      "original_text": "算完，把草稿拿来批改，",
+      "sr": 48000,
+      "duration": 2.2,
+      "profile": "final",
+      "placed_start": 85.68,
+      "placed_end": 87.8,
+      "extracted_start": 85.64,
+      "extracted_end": 87.84,
+      "window": [
+        85.68,
+        88.09
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "算 完 把 草 稿 拿 来 批 改",
+        "timestamp": [
+          [
+            130,
+            330
+          ],
+          [
+            330,
+            570
+          ],
+          [
+            770,
+            990
+          ],
+          [
+            990,
+            1150
+          ],
+          [
+            1150,
+            1390
+          ],
+          [
+            1390,
+            1490
+          ],
+          [
+            1490,
+            1670
+          ],
+          [
+            1670,
+            1830
+          ],
+          [
+            1830,
+            2065
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_30_g16",
+      "file": "cue_30_g16.wav",
+      "group": "16",
+      "index": 30,
+      "text": "定位出错步骤，再收进错题本。",
+      "original_text": "定位出错步骤，再收进错题本。",
+      "sr": 48000,
+      "duration": 2.68,
+      "profile": "final",
+      "placed_start": 88.17,
+      "placed_end": 90.77,
+      "extracted_start": 88.13,
+      "extracted_end": 90.81,
+      "window": [
+        88.17,
+        91.38
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "定 位 出 错 步 骤 再 收 进 错 题 本",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            490
+          ],
+          [
+            490,
+            610
+          ],
+          [
+            610,
+            850
+          ],
+          [
+            870,
+            1090
+          ],
+          [
+            1090,
+            1330
+          ],
+          [
+            1390,
+            1570
+          ],
+          [
+            1570,
+            1790
+          ],
+          [
+            1790,
+            1990
+          ],
+          [
+            1990,
+            2130
+          ],
+          [
+            2130,
+            2370
+          ],
+          [
+            2370,
+            2575
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_31_g17",
+      "file": "cue_31_g17.wav",
+      "group": "17",
+      "index": 31,
+      "text": "再把解题思路讲给小狸听。",
+      "original_text": "再把解题思路讲给小狸听。",
+      "sr": 48000,
+      "duration": 2.27,
+      "profile": "final",
+      "placed_start": 91.68,
+      "placed_end": 93.87,
+      "extracted_start": 91.64,
+      "extracted_end": 93.91000000000001,
+      "window": [
+        91.68,
+        94.48
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "再 把 解 题 思 路 讲 给 小 黎 听",
+        "timestamp": [
+          [
+            110,
+            210
+          ],
+          [
+            210,
+            410
+          ],
+          [
+            410,
+            550
+          ],
+          [
+            550,
+            770
+          ],
+          [
+            770,
+            910
+          ],
+          [
+            910,
+            1150
+          ],
+          [
+            1210,
+            1370
+          ],
+          [
+            1370,
+            1550
+          ],
+          [
+            1550,
+            1710
+          ],
+          [
+            1710,
+            1890
+          ],
+          [
+            1890,
+            2125
+          ]
+        ]
+      },
+      "raw_cer": 0.09090909090909091,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_32_g17",
+      "file": "cue_32_g17.wav",
+      "group": "17",
+      "index": 32,
+      "text": "它会追问，再反馈哪些说清、哪些漏了。",
+      "original_text": "它会追问，再反馈哪些说清、哪些漏了。",
+      "sr": 48000,
+      "duration": 3.43,
+      "profile": "final",
+      "placed_start": 94.56,
+      "placed_end": 97.91,
+      "extracted_start": 94.52,
+      "extracted_end": 97.95,
+      "window": [
+        94.56,
+        98.38
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "他 会 追 问 在 反 馈 哪 些 说 清 哪 些 漏 了",
+        "timestamp": [
+          [
+            110,
+            210
+          ],
+          [
+            210,
+            410
+          ],
+          [
+            410,
+            570
+          ],
+          [
+            570,
+            810
+          ],
+          [
+            1030,
+            1230
+          ],
+          [
+            1230,
+            1390
+          ],
+          [
+            1390,
+            1570
+          ],
+          [
+            1570,
+            1730
+          ],
+          [
+            1730,
+            1930
+          ],
+          [
+            1930,
+            2090
+          ],
+          [
+            2090,
+            2330
+          ],
+          [
+            2550,
+            2730
+          ],
+          [
+            2730,
+            2930
+          ],
+          [
+            2930,
+            3150
+          ],
+          [
+            3150,
+            3325
+          ]
+        ]
+      },
+      "raw_cer": 0.13333333333333333,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_33_g18",
+      "file": "cue_33_g18.wav",
+      "group": "18",
+      "index": 33,
+      "text": "需要补充，就导入讲义。",
+      "original_text": "需要补充，就导入讲义。",
+      "sr": 48000,
+      "duration": 2.15,
+      "profile": "final",
+      "placed_start": 98.68,
+      "placed_end": 100.75,
+      "extracted_start": 98.64,
+      "extracted_end": 100.79,
+      "window": [
+        98.68,
+        100.88
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "需 要 补 充 就 导 入 讲 义",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            450
+          ],
+          [
+            450,
+            610
+          ],
+          [
+            610,
+            850
+          ],
+          [
+            1030,
+            1270
+          ],
+          [
+            1270,
+            1430
+          ],
+          [
+            1430,
+            1610
+          ],
+          [
+            1610,
+            1770
+          ],
+          [
+            1770,
+            2005
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_34_g18",
+      "file": "cue_34_g18.wav",
+      "group": "18",
+      "index": 34,
+      "text": "校对原文，再把相关段落整理成卡。",
+      "original_text": "校对原文，再把相关段落整理成卡。",
+      "sr": 48000,
+      "duration": 3.37,
+      "profile": "final",
+      "placed_start": 100.96,
+      "placed_end": 104.25,
+      "extracted_start": 100.91999999999999,
+      "extracted_end": 104.29,
+      "window": [
+        100.96,
+        104.38
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "校 对 原 文 再 把 相 关 段 落 整 理 成 卡",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            470
+          ],
+          [
+            470,
+            630
+          ],
+          [
+            630,
+            870
+          ],
+          [
+            1150,
+            1270
+          ],
+          [
+            1270,
+            1510
+          ],
+          [
+            1530,
+            1670
+          ],
+          [
+            1670,
+            1870
+          ],
+          [
+            1870,
+            2090
+          ],
+          [
+            2090,
+            2330
+          ],
+          [
+            2370,
+            2490
+          ],
+          [
+            2490,
+            2670
+          ],
+          [
+            2670,
+            2910
+          ],
+          [
+            2910,
+            3175
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_35_g19",
+      "file": "cue_35_g19.wav",
+      "group": "19",
+      "index": 35,
+      "text": "最后，去知识地图独立做一道。",
+      "original_text": "最后，去知识地图独立做一道。",
+      "sr": 48000,
+      "duration": 2.66,
+      "profile": "final",
+      "placed_start": 104.68,
+      "placed_end": 107.26,
+      "extracted_start": 104.64,
+      "extracted_end": 107.30000000000001,
+      "window": [
+        104.68,
+        107.74
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "最 后 去 知 识 地 图 独 立 做 一 道",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            510
+          ],
+          [
+            770,
+            990
+          ],
+          [
+            990,
+            1150
+          ],
+          [
+            1150,
+            1290
+          ],
+          [
+            1290,
+            1430
+          ],
+          [
+            1430,
+            1670
+          ],
+          [
+            1770,
+            1910
+          ],
+          [
+            1910,
+            2070
+          ],
+          [
+            2070,
+            2210
+          ],
+          [
+            2210,
+            2370
+          ],
+          [
+            2370,
+            2545
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_36_g19",
+      "file": "cue_36_g19.wav",
+      "group": "19",
+      "index": 36,
+      "text": "先判断会不会，再作答看结果。",
+      "original_text": "先判断会不会，再作答看结果。",
+      "sr": 48000,
+      "duration": 2.63,
+      "profile": "final",
+      "placed_start": 107.82,
+      "placed_end": 110.37,
+      "extracted_start": 107.77999999999999,
+      "extracted_end": 110.41000000000001,
+      "window": [
+        107.82,
+        110.88
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "先 判 断 会 不 会 再 作 答 看 结 果",
+        "timestamp": [
+          [
+            130,
+            350
+          ],
+          [
+            350,
+            510
+          ],
+          [
+            510,
+            690
+          ],
+          [
+            690,
+            850
+          ],
+          [
+            850,
+            970
+          ],
+          [
+            970,
+            1210
+          ],
+          [
+            1410,
+            1550
+          ],
+          [
+            1550,
+            1730
+          ],
+          [
+            1730,
+            1890
+          ],
+          [
+            1890,
+            2090
+          ],
+          [
+            2090,
+            2310
+          ],
+          [
+            2310,
+            2515
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_37_g20",
+      "file": "cue_37_g20.wav",
+      "group": "20",
+      "index": 37,
+      "text": "累的时候，也可以只是聊聊。",
+      "original_text": "累的时候，也可以只是聊聊。",
+      "sr": 48000,
+      "duration": 2.12,
+      "profile": "final",
+      "placed_start": 111.18,
+      "placed_end": 113.22,
+      "extracted_start": 111.14,
+      "extracted_end": 113.26,
+      "window": [
+        111.18,
+        114.03
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "累 的 时 候 也 可 以 只 是 聊 聊",
+        "timestamp": [
+          [
+            110,
+            330
+          ],
+          [
+            330,
+            450
+          ],
+          [
+            450,
+            610
+          ],
+          [
+            610,
+            850
+          ],
+          [
+            870,
+            1050
+          ],
+          [
+            1050,
+            1190
+          ],
+          [
+            1190,
+            1330
+          ],
+          [
+            1330,
+            1490
+          ],
+          [
+            1490,
+            1630
+          ],
+          [
+            1630,
+            1830
+          ],
+          [
+            1830,
+            2005
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_38_g20",
+      "file": "cue_38_g20.wav",
+      "group": "20",
+      "index": 38,
+      "text": "今天发生了什么，哪句话放不下，",
+      "original_text": "今天发生了什么，哪句话放不下，",
+      "sr": 48000,
+      "duration": 2.77,
+      "profile": "final",
+      "placed_start": 114.11,
+      "placed_end": 116.8,
+      "extracted_start": 114.07,
+      "extracted_end": 116.84,
+      "window": [
+        114.11,
+        117.48
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "今 天 发 生 了 什 么 哪 句 话 放 不 下",
+        "timestamp": [
+          [
+            110,
+            210
+          ],
+          [
+            210,
+            450
+          ],
+          [
+            470,
+            610
+          ],
+          [
+            610,
+            730
+          ],
+          [
+            730,
+            910
+          ],
+          [
+            910,
+            1090
+          ],
+          [
+            1090,
+            1330
+          ],
+          [
+            1490,
+            1670
+          ],
+          [
+            1670,
+            1850
+          ],
+          [
+            1850,
+            2090
+          ],
+          [
+            2090,
+            2250
+          ],
+          [
+            2250,
+            2430
+          ],
+          [
+            2430,
+            2635
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_39_g20",
+      "file": "cue_39_g20.wav",
+      "group": "20",
+      "index": 39,
+      "text": "先把感受说出来。",
+      "original_text": "先把感受说出来。",
+      "sr": 48000,
+      "duration": 1.44,
+      "profile": "final",
+      "placed_start": 117.56,
+      "placed_end": 118.92,
+      "extracted_start": 117.52,
+      "extracted_end": 118.96000000000001,
+      "window": [
+        117.56,
+        119.38
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "先 把 感 受 说 出 来",
+        "timestamp": [
+          [
+            130,
+            270
+          ],
+          [
+            270,
+            450
+          ],
+          [
+            450,
+            610
+          ],
+          [
+            610,
+            850
+          ],
+          [
+            850,
+            1010
+          ],
+          [
+            1010,
+            1170
+          ],
+          [
+            1170,
+            1345
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_40_g21",
+      "file": "cue_40_g21.wav",
+      "group": "21",
+      "index": 40,
+      "text": "涉及安全风险，先提示现实中的求助。",
+      "original_text": "涉及安全风险，先提示现实中的求助。",
+      "sr": 48000,
+      "duration": 3.47,
+      "profile": "final",
+      "placed_start": 119.68,
+      "placed_end": 123.07,
+      "extracted_start": 119.64,
+      "extracted_end": 123.11,
+      "window": [
+        119.68,
+        122.88
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "涉 及 安 全 风 险 先 提 示 现 实 中 的 求 助",
+        "timestamp": [
+          [
+            130,
+            330
+          ],
+          [
+            330,
+            470
+          ],
+          [
+            470,
+            630
+          ],
+          [
+            630,
+            810
+          ],
+          [
+            810,
+            1030
+          ],
+          [
+            1030,
+            1270
+          ],
+          [
+            1510,
+            1750
+          ],
+          [
+            1770,
+            1970
+          ],
+          [
+            1970,
+            2210
+          ],
+          [
+            2310,
+            2510
+          ],
+          [
+            2510,
+            2690
+          ],
+          [
+            2690,
+            2850
+          ],
+          [
+            2850,
+            2990
+          ],
+          [
+            2990,
+            3150
+          ],
+          [
+            3150,
+            3355
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_41_g22",
+      "file": "cue_41_g22.wav",
+      "group": "22",
+      "index": 41,
+      "text": "从记下一句，到自己想清楚，",
+      "original_text": "从记下一句，到自己想清楚，",
+      "sr": 48000,
+      "duration": 2.57,
+      "profile": "final",
+      "placed_start": 123.18,
+      "placed_end": 125.67,
+      "extracted_start": 123.14,
+      "extracted_end": 125.71000000000001,
+      "window": [
+        123.18,
+        125.99
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "从 记 下 一 句 到 自 己 想 清 楚",
+        "timestamp": [
+          [
+            110,
+            350
+          ],
+          [
+            350,
+            510
+          ],
+          [
+            510,
+            690
+          ],
+          [
+            690,
+            790
+          ],
+          [
+            790,
+            1030
+          ],
+          [
+            1250,
+            1450
+          ],
+          [
+            1450,
+            1610
+          ],
+          [
+            1610,
+            1750
+          ],
+          [
+            1750,
+            1970
+          ],
+          [
+            1970,
+            2190
+          ],
+          [
+            2190,
+            2425
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_42_g22",
+      "file": "cue_42_g22.wav",
+      "group": "22",
+      "index": 42,
+      "text": "学习和回顾，都留在记录里。",
+      "original_text": "学习和回顾，都留在记录里。",
+      "sr": 48000,
+      "duration": 2.55,
+      "profile": "final",
+      "placed_start": 126.07,
+      "placed_end": 128.54,
+      "extracted_start": 126.02999999999999,
+      "extracted_end": 128.57999999999998,
+      "window": [
+        126.07,
+        128.88
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "学 习 和 回 顾 都 留 在 记 录 里",
+        "timestamp": [
+          [
+            110,
+            330
+          ],
+          [
+            330,
+            570
+          ],
+          [
+            570,
+            750
+          ],
+          [
+            750,
+            970
+          ],
+          [
+            970,
+            1210
+          ],
+          [
+            1350,
+            1570
+          ],
+          [
+            1570,
+            1730
+          ],
+          [
+            1730,
+            1930
+          ],
+          [
+            1930,
+            2070
+          ],
+          [
+            2070,
+            2250
+          ],
+          [
+            2250,
+            2455
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_43_g23a",
+      "file": "cue_43_g23a.wav",
+      "group": "23a",
+      "index": 43,
+      "text": "刚才这些操作，由原生小程序发起。",
+      "original_text": "刚才这些操作，由原生小程序发起。",
+      "sr": 48000,
+      "duration": 3.07,
+      "profile": "final",
+      "placed_start": 129.18,
+      "placed_end": 132.17,
+      "extracted_start": 129.14000000000001,
+      "extracted_end": 132.20999999999998,
+      "window": [
+        129.18,
+        132.54
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "刚 才 这 些 操 作 由 原 生 小 程 序 发 起",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            450
+          ],
+          [
+            450,
+            570
+          ],
+          [
+            570,
+            690
+          ],
+          [
+            690,
+            910
+          ],
+          [
+            910,
+            1150
+          ],
+          [
+            1290,
+            1530
+          ],
+          [
+            1530,
+            1670
+          ],
+          [
+            1670,
+            1910
+          ],
+          [
+            1930,
+            2090
+          ],
+          [
+            2090,
+            2310
+          ],
+          [
+            2310,
+            2510
+          ],
+          [
+            2510,
+            2670
+          ],
+          [
+            2670,
+            2905
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_44_g23a",
+      "file": "cue_44_g23a.wav",
+      "group": "23a",
+      "index": 44,
+      "text": "后端通过接口处理请求，S Q light保存记录。",
+      "original_text": "后端通过接口处理请求，SQLite保存记录。",
+      "sr": 48000,
+      "duration": 4.03,
+      "profile": "final",
+      "placed_start": 132.62,
+      "placed_end": 136.57,
+      "extracted_start": 132.58,
+      "extracted_end": 136.60999999999999,
+      "window": [
+        132.62,
+        137.43
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "后 端 通 过 接 口 处 理 请 求 sqlight 保 存 记 录",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            510
+          ],
+          [
+            530,
+            690
+          ],
+          [
+            690,
+            830
+          ],
+          [
+            830,
+            970
+          ],
+          [
+            970,
+            1210
+          ],
+          [
+            1230,
+            1390
+          ],
+          [
+            1390,
+            1570
+          ],
+          [
+            1570,
+            1730
+          ],
+          [
+            1730,
+            1970
+          ],
+          [
+            2330,
+            3050
+          ],
+          [
+            3210,
+            3330
+          ],
+          [
+            3330,
+            3550
+          ],
+          [
+            3550,
+            3690
+          ],
+          [
+            3690,
+            3895
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_45_g23a",
+      "file": "cue_45_g23a.wav",
+      "group": "23a",
+      "index": 45,
+      "text": "卡片、对话、导入和学习，各有业务模块。",
+      "original_text": "卡片、对话、导入和学习，各有业务模块。",
+      "sr": 48000,
+      "duration": 3.46,
+      "profile": "final",
+      "placed_start": 137.51,
+      "placed_end": 140.89,
+      "extracted_start": 137.47,
+      "extracted_end": 140.92999999999998,
+      "window": [
+        137.51,
+        141.11
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "卡 片 对 话 导 入 和 学 习 各 有 业 务 模 块",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            510
+          ],
+          [
+            650,
+            870
+          ],
+          [
+            870,
+            1110
+          ],
+          [
+            1210,
+            1390
+          ],
+          [
+            1390,
+            1570
+          ],
+          [
+            1570,
+            1770
+          ],
+          [
+            1770,
+            1970
+          ],
+          [
+            1970,
+            2210
+          ],
+          [
+            2310,
+            2450
+          ],
+          [
+            2450,
+            2630
+          ],
+          [
+            2630,
+            2730
+          ],
+          [
+            2730,
+            2930
+          ],
+          [
+            2930,
+            3090
+          ],
+          [
+            3090,
+            3325
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_46_g23b",
+      "file": "cue_46_g23b.wav",
+      "group": "23b",
+      "index": 46,
+      "text": "接着聊，会带上选定卡片的相关上下文。",
+      "original_text": "接着聊，会带上选定卡片的相关上下文。",
+      "sr": 48000,
+      "duration": 3.64,
+      "profile": "final",
+      "placed_start": 141.19,
+      "placed_end": 144.75,
+      "extracted_start": 141.15,
+      "extracted_end": 144.79,
+      "window": [
+        141.19,
+        145.03
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "接 着 聊 会 带 上 选 定 卡 片 的 相 关 上 下 文",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            390
+          ],
+          [
+            390,
+            630
+          ],
+          [
+            930,
+            1150
+          ],
+          [
+            1150,
+            1330
+          ],
+          [
+            1330,
+            1570
+          ],
+          [
+            1590,
+            1810
+          ],
+          [
+            1810,
+            2010
+          ],
+          [
+            2010,
+            2210
+          ],
+          [
+            2210,
+            2390
+          ],
+          [
+            2390,
+            2530
+          ],
+          [
+            2530,
+            2670
+          ],
+          [
+            2670,
+            2870
+          ],
+          [
+            2870,
+            3030
+          ],
+          [
+            3030,
+            3210
+          ],
+          [
+            3210,
+            3475
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_47_g23b",
+      "file": "cue_47_g23b.wav",
+      "group": "23b",
+      "index": 47,
+      "text": "原话、生成内容和版本分开保存。",
+      "original_text": "原话、生成内容和版本分开保存。",
+      "sr": 48000,
+      "duration": 3.04,
+      "profile": "final",
+      "placed_start": 145.11,
+      "placed_end": 148.07,
+      "extracted_start": 145.07000000000002,
+      "extracted_end": 148.10999999999999,
+      "window": [
+        145.11,
+        148.24
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "原 化 生 成 内 容 和 版 本 分 开 保 存",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            510
+          ],
+          [
+            730,
+            910
+          ],
+          [
+            910,
+            1110
+          ],
+          [
+            1110,
+            1270
+          ],
+          [
+            1270,
+            1450
+          ],
+          [
+            1450,
+            1630
+          ],
+          [
+            1630,
+            1790
+          ],
+          [
+            1790,
+            2030
+          ],
+          [
+            2070,
+            2190
+          ],
+          [
+            2190,
+            2390
+          ],
+          [
+            2390,
+            2550
+          ],
+          [
+            2550,
+            2845
+          ]
+        ]
+      },
+      "raw_cer": 0.07692307692307693,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_48_g23b",
+      "file": "cue_48_g23b.wav",
+      "group": "23b",
+      "index": 48,
+      "text": "长任务先记状态，再执行；支持的算式另外核验。",
+      "original_text": "长任务先记状态，再执行；支持的算式另外核验。",
+      "sr": 48000,
+      "duration": 4.5,
+      "profile": "final",
+      "placed_start": 148.32,
+      "placed_end": 152.74,
+      "extracted_start": 148.28,
+      "extracted_end": 152.78,
+      "window": [
+        148.32,
+        152.88
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "长 任 务 先 记 状 态 再 执 行 支 持 的 算 式 另 外 核 验",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            450
+          ],
+          [
+            450,
+            690
+          ],
+          [
+            690,
+            870
+          ],
+          [
+            870,
+            1070
+          ],
+          [
+            1070,
+            1210
+          ],
+          [
+            1210,
+            1450
+          ],
+          [
+            1610,
+            1830
+          ],
+          [
+            1830,
+            1990
+          ],
+          [
+            1990,
+            2230
+          ],
+          [
+            2650,
+            2810
+          ],
+          [
+            2810,
+            2990
+          ],
+          [
+            2990,
+            3110
+          ],
+          [
+            3110,
+            3290
+          ],
+          [
+            3290,
+            3530
+          ],
+          [
+            3630,
+            3810
+          ],
+          [
+            3810,
+            3950
+          ],
+          [
+            3950,
+            4170
+          ],
+          [
+            4170,
+            4375
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_49_g24",
+      "file": "cue_49_g24.wav",
+      "group": "24",
+      "index": 49,
+      "text": "导入时离开，回来还能继续处理。",
+      "original_text": "导入时离开，回来还能继续处理。",
+      "sr": 48000,
+      "duration": 2.81,
+      "profile": "final",
+      "placed_start": 153.18,
+      "placed_end": 155.91,
+      "extracted_start": 153.14000000000001,
+      "extracted_end": 155.95,
+      "window": [
+        153.18,
+        156.6
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "导 入 时 离 开 回 来 还 能 继 续 处 理",
+        "timestamp": [
+          [
+            110,
+            270
+          ],
+          [
+            270,
+            450
+          ],
+          [
+            450,
+            650
+          ],
+          [
+            650,
+            790
+          ],
+          [
+            790,
+            1030
+          ],
+          [
+            1310,
+            1510
+          ],
+          [
+            1510,
+            1690
+          ],
+          [
+            1690,
+            1790
+          ],
+          [
+            1790,
+            1990
+          ],
+          [
+            1990,
+            2130
+          ],
+          [
+            2130,
+            2330
+          ],
+          [
+            2330,
+            2490
+          ],
+          [
+            2490,
+            2695
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_50_g24",
+      "file": "cue_50_g24.wav",
+      "group": "24",
+      "index": 50,
+      "text": "外部调用集中在后端，异常时尝试备用接口。",
+      "original_text": "外部调用集中在后端，异常时尝试备用接口。",
+      "sr": 48000,
+      "duration": 3.81,
+      "profile": "final",
+      "placed_start": 156.68,
+      "placed_end": 160.41,
+      "extracted_start": 156.64000000000001,
+      "extracted_end": 160.45,
+      "window": [
+        156.68,
+        161.41
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "外 部 调 用 集 中 在 后 端 异 常 时 尝 试 备 用 接 口",
+        "timestamp": [
+          [
+            110,
+            210
+          ],
+          [
+            210,
+            410
+          ],
+          [
+            410,
+            570
+          ],
+          [
+            570,
+            810
+          ],
+          [
+            850,
+            970
+          ],
+          [
+            970,
+            1090
+          ],
+          [
+            1090,
+            1290
+          ],
+          [
+            1290,
+            1510
+          ],
+          [
+            1510,
+            1750
+          ],
+          [
+            1930,
+            2090
+          ],
+          [
+            2090,
+            2330
+          ],
+          [
+            2330,
+            2550
+          ],
+          [
+            2550,
+            2750
+          ],
+          [
+            2750,
+            2930
+          ],
+          [
+            2930,
+            3090
+          ],
+          [
+            3090,
+            3290
+          ],
+          [
+            3290,
+            3450
+          ],
+          [
+            3450,
+            3685
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_51_g24",
+      "file": "cue_51_g24.wav",
+      "group": "24",
+      "index": 51,
+      "text": "管理台查看任务、运行状态和反馈，",
+      "original_text": "管理台查看任务、运行状态和反馈，",
+      "sr": 48000,
+      "duration": 3.11,
+      "profile": "final",
+      "placed_start": 161.49,
+      "placed_end": 164.52,
+      "extracted_start": 161.45000000000002,
+      "extracted_end": 164.56,
+      "window": [
+        161.49,
+        165.17
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "管 理 台 查 看 任 务 运 行 状 态 和 反 馈",
+        "timestamp": [
+          [
+            110,
+            210
+          ],
+          [
+            210,
+            390
+          ],
+          [
+            390,
+            590
+          ],
+          [
+            590,
+            730
+          ],
+          [
+            730,
+            930
+          ],
+          [
+            930,
+            1150
+          ],
+          [
+            1150,
+            1390
+          ],
+          [
+            1550,
+            1730
+          ],
+          [
+            1730,
+            1950
+          ],
+          [
+            1950,
+            2150
+          ],
+          [
+            2150,
+            2310
+          ],
+          [
+            2310,
+            2510
+          ],
+          [
+            2510,
+            2730
+          ],
+          [
+            2730,
+            2965
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_52_g24",
+      "file": "cue_52_g24.wav",
+      "group": "24",
+      "index": 52,
+      "text": "并保留用量与操作记录。",
+      "original_text": "并保留用量与操作记录。",
+      "sr": 48000,
+      "duration": 1.94,
+      "profile": "final",
+      "placed_start": 165.25,
+      "placed_end": 167.11,
+      "extracted_start": 165.21,
+      "extracted_end": 167.15,
+      "window": [
+        165.25,
+        167.88
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "并 保 留 用 量 与 操 作 记 录",
+        "timestamp": [
+          [
+            90,
+            290
+          ],
+          [
+            290,
+            450
+          ],
+          [
+            450,
+            630
+          ],
+          [
+            630,
+            790
+          ],
+          [
+            790,
+            950
+          ],
+          [
+            950,
+            1150
+          ],
+          [
+            1150,
+            1310
+          ],
+          [
+            1310,
+            1490
+          ],
+          [
+            1490,
+            1650
+          ],
+          [
+            1650,
+            1825
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_53_g26-27",
+      "file": "cue_53_g26-27.wav",
+      "group": "26-27",
+      "index": 53,
+      "text": "念，是转瞬的念头。",
+      "original_text": "念，是转瞬的念头。",
+      "sr": 48000,
+      "duration": 1.81,
+      "profile": "final",
+      "placed_start": 169.75,
+      "placed_end": 171.48,
+      "extracted_start": 169.71,
+      "extracted_end": 171.51999999999998,
+      "window": [
+        169.75,
+        171.85
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "念 是 转 瞬 的 念 头",
+        "timestamp": [
+          [
+            110,
+            350
+          ],
+          [
+            510,
+            750
+          ],
+          [
+            770,
+            970
+          ],
+          [
+            970,
+            1130
+          ],
+          [
+            1130,
+            1270
+          ],
+          [
+            1270,
+            1470
+          ],
+          [
+            1470,
+            1675
+          ]
+        ]
+      },
+      "raw_cer": 0.0,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_54_g26-27",
+      "file": "cue_54_g26-27.wav",
+      "group": "26-27",
+      "index": 54,
+      "text": "晓，是让所想渐渐明瞭。",
+      "original_text": "晓，是让所想渐渐明了。",
+      "sr": 48000,
+      "duration": 2.5,
+      "profile": "final",
+      "placed_start": 172.12,
+      "placed_end": 174.54,
+      "extracted_start": 172.08,
+      "extracted_end": 174.57999999999998,
+      "window": [
+        172.12,
+        174.35
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "小 是 让 所 想 渐 渐 明 了",
+        "timestamp": [
+          [
+            110,
+            350
+          ],
+          [
+            610,
+            790
+          ],
+          [
+            790,
+            990
+          ],
+          [
+            990,
+            1210
+          ],
+          [
+            1210,
+            1450
+          ],
+          [
+            1530,
+            1730
+          ],
+          [
+            1730,
+            1930
+          ],
+          [
+            1930,
+            2130
+          ],
+          [
+            2130,
+            2365
+          ]
+        ]
+      },
+      "raw_cer": 0.2222222222222222,
+      "transcript_equal_after_spelling_normalization": true
+    },
+    {
+      "id": "cue_55_g26-27",
+      "file": "cue_55_g26-27.wav",
+      "group": "26-27",
+      "index": 55,
+      "text": "晓念。",
+      "original_text": "晓念。",
+      "sr": 48000,
+      "duration": 0.67,
+      "profile": "final",
+      "placed_start": 175.35,
+      "placed_end": 175.94,
+      "extracted_start": 175.31,
+      "extracted_end": 175.98,
+      "window": [
+        175.35,
+        176.25
+      ],
+      "speed": 1.0,
+      "checks": {
+        "same_text": true,
+        "split_ok": true,
+        "start_delay": true,
+        "end_limit": true,
+        "gap": true,
+        "speed": true,
+        "non_silent": true,
+        "peak_within_limit": true
+      },
+      "asr": {
+        "text": "小 念",
+        "timestamp": [
+          [
+            110,
+            290
+          ],
+          [
+            290,
+            505
+          ]
+        ]
+      },
+      "raw_cer": 0.5,
+      "transcript_equal_after_spelling_normalization": true
+    }
+  ],
+  "content_timing_checks_passed": true,
+  "final_acceptance": "Pending separate final consistency gate",
+  "human_listening_status": "Not performed by a human reviewer; user final listening remains required."
+}
