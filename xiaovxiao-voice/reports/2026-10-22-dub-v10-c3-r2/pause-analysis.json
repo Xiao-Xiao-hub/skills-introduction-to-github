@@ -1,0 +1,231 @@
+{
+  "analysis": "C3 video pause diagnosis, read-only waveform and existing-ASR timing comparison",
+  "date": "2026-10-22",
+  "scope": {
+    "body_cues": 52,
+    "body_internal_boundaries_compared": 29,
+    "excluded": [
+      "group 26-27 closing: the final video uses newly generated closing audio and a separately replaced brand tag, so its source timestamps are not comparable to the approved C3 audit-group waveform",
+      "human naturalness judgement: no listening claim is made"
+    ]
+  },
+  "inputs": {
+    "alignment": "dub/out/c3-video-2026-10-22/aligned/alignment.json",
+    "alignment_waveform_sha256": "bf042d3b2f36736b030eabbdd23711637e457cc919781d50654cacec3a0829ed",
+    "approved_group_verification": "reports/2026-10-22-dub-c3-expression/final-verification.json",
+    "approved_c3_sha256": "a0db0f1e86000b320f0d64d869c1e72122c89dacea3ba4bf3558ef530a4785b5",
+    "approved_group_audio_directory": "dub/out/c3-expression-2026-10-22/audit-groups",
+    "final_cue_verification": "dub/out/c3-video-2026-10-22/aligned/cue-verification.json"
+  },
+  "method": {
+    "original_gap": "next original_asr_speech_span start minus previous original_asr_speech_span end in the approved group waveform",
+    "alignment_mapped_gap": "the same original ASR speech edges after each extracted cue is independently placed at its subtitle start and adjusted by its recorded speed",
+    "final_reasr_gap": "next final cue start plus its first_word_delay minus the previous final cue last_word_absolute, from ASR run on the actual edited waveform",
+    "exact_zero_gap": "next cue placement start minus previous rendered cue end; the master waveform is exactly zero in this interval",
+    "cut_edge_check": "10 ms and 30 ms RMS around each source cut, plus removed-middle energy, calculated directly from audit-groups PCM audio with scipy.io.wavfile",
+    "caveat": "ASR word-edge timing can shift by roughly a few frames after editing, so alignment_mapped_gap is the deterministic same-boundary comparison; final_reasr_gap is the independent final-waveform check"
+  },
+  "overall": {
+    "original_gap_seconds": {
+      "mean": 0.338621,
+      "median": 0.32,
+      "sum": 9.82
+    },
+    "alignment_mapped_gap_seconds": {
+      "mean": 0.746827,
+      "median": 0.677979,
+      "sum": 21.657979,
+      "net_added_sum": 11.837979,
+      "boundaries_added_over_0_4_seconds": 18,
+      "boundaries_added_over_0_6_seconds": 8
+    },
+    "final_reasr_gap_seconds": {
+      "mean": 0.922655,
+      "median": 0.861,
+      "sum": 26.757,
+      "net_added_sum": 16.937,
+      "boundaries_added_over_0_4_seconds": 20,
+      "boundaries_added_over_0_6_seconds": 17
+    },
+    "exact_zero_between_rendered_cues_seconds": {
+      "mean": 0.693471,
+      "median": 0.653,
+      "sum": 20.110667,
+      "maximum": 1.731875
+    },
+    "finding": "The dominant mechanical-pause cause is independent placement of every cue at the subtitle start. It approximately doubles the approved groups' mean internal speech gap by the deterministic same-boundary measure. This is not caused by tempo processing: body cue speeds are 1.0; only a closing cue records 1.036433."
+  },
+  "most_obvious_boundaries_ranked_by_final_reasr_added_gap": [
+    {
+      "pair": "15->16",
+      "group": "10",
+      "previous": "点“接着聊”，先看最担心的时间安排，",
+      "next": "再把顾虑一步步说清楚。",
+      "original_gap_s": 0.26,
+      "alignment_mapped_gap_s": 1.765,
+      "alignment_added_s": 1.505,
+      "final_reasr_gap_s": 1.98,
+      "final_reasr_added_s": 1.72,
+      "exact_zero_gap_s": 1.731875
+    },
+    {
+      "pair": "38->39",
+      "group": "20",
+      "previous": "今天发生了什么，哪句话放不下，",
+      "next": "先把感受说出来。",
+      "original_gap_s": 0.1,
+      "alignment_mapped_gap_s": 1.092,
+      "alignment_added_s": 0.992,
+      "final_reasr_gap_s": 1.257,
+      "final_reasr_added_s": 1.157,
+      "exact_zero_gap_s": 1.062
+    },
+    {
+      "pair": "37->38",
+      "group": "20",
+      "previous": "累的时候，也可以只是聊聊。",
+      "next": "今天发生了什么，哪句话放不下，",
+      "original_gap_s": 0.26,
+      "alignment_mapped_gap_s": 1.173,
+      "alignment_added_s": 0.913,
+      "final_reasr_gap_s": 1.338,
+      "final_reasr_added_s": 1.078,
+      "exact_zero_gap_s": 1.143
+    },
+    {
+      "pair": "20->21",
+      "group": "12",
+      "previous": "找出这些念头之间的新联系。",
+      "next": "最后，把自己的结论写下来。",
+      "original_gap_s": 0.32,
+      "alignment_mapped_gap_s": 1.185,
+      "alignment_added_s": 0.865,
+      "final_reasr_gap_s": 1.37,
+      "final_reasr_added_s": 1.05,
+      "exact_zero_gap_s": 1.150875
+    },
+    {
+      "pair": "31->32",
+      "group": "17",
+      "previous": "再把解题思路讲给小狸听。",
+      "next": "它会追问，再反馈哪些说清、哪些漏了。",
+      "original_gap_s": 0.4,
+      "alignment_mapped_gap_s": 1.061,
+      "alignment_added_s": 0.661,
+      "final_reasr_gap_s": 1.256,
+      "final_reasr_added_s": 0.856,
+      "exact_zero_gap_s": 0.997
+    },
+    {
+      "pair": "50->51",
+      "group": "24",
+      "previous": "外部调用集中在后端，异常时尝试备用接口。",
+      "next": "管理台查看任务、运行状态和反馈，",
+      "original_gap_s": 0.46,
+      "alignment_mapped_gap_s": 1.132,
+      "alignment_added_s": 0.672,
+      "final_reasr_gap_s": 1.287,
+      "final_reasr_added_s": 0.827,
+      "exact_zero_gap_s": 1.057958
+    },
+    {
+      "pair": "11->12",
+      "group": "08",
+      "previous": "做完的待办勾掉，",
+      "next": "没想完的念头，留着继续。",
+      "original_gap_s": 0.0,
+      "alignment_mapped_gap_s": 0.678,
+      "alignment_added_s": 0.678,
+      "final_reasr_gap_s": 0.787,
+      "final_reasr_added_s": 0.787,
+      "exact_zero_gap_s": 0.677979,
+      "cut_risk": "confirmed high-energy split: source 10 ms RMS is -20.6 dBFS before and -20.9 dBFS after the cut; the source ASR has no gap"
+    },
+    {
+      "pair": "24->25",
+      "group": "14",
+      "previous": "先要一步提示，接着自己试算。",
+      "next": "相关研究中，直接给答案的那组，",
+      "original_gap_s": 0.34,
+      "alignment_mapped_gap_s": 0.945,
+      "alignment_added_s": 0.605,
+      "final_reasr_gap_s": 1.12,
+      "final_reasr_added_s": 0.78,
+      "exact_zero_gap_s": 0.915
+    },
+    {
+      "pair": "35->36",
+      "group": "19",
+      "previous": "最后，去知识地图独立做一道。",
+      "next": "先判断会不会，再作答看结果。",
+      "original_gap_s": 0.22,
+      "alignment_mapped_gap_s": 0.8,
+      "alignment_added_s": 0.58,
+      "final_reasr_gap_s": 0.995,
+      "final_reasr_added_s": 0.775,
+      "exact_zero_gap_s": 0.77
+    },
+    {
+      "pair": "51->52",
+      "group": "24",
+      "previous": "管理台查看任务、运行状态和反馈，",
+      "next": "并保留用量与操作记录。",
+      "original_gap_s": 0.26,
+      "alignment_mapped_gap_s": 0.821,
+      "alignment_added_s": 0.561,
+      "final_reasr_gap_s": 0.996,
+      "final_reasr_added_s": 0.736,
+      "exact_zero_gap_s": 0.731083,
+      "cut_risk": "possible tail truncation: even after the nominal 60 ms post-roll, the last 10 ms before the source cut is -39.5 dBFS RMS and the first 10 ms after it is -54.4 dBFS"
+    }
+  ],
+  "tail_and_breath_findings": [
+    {
+      "severity": "high",
+      "pair": "11->12",
+      "finding": "This boundary is cut through continuous, high-energy source speech, then a 2 ms fade-to-zero is applied on both pieces and 0.678 s of exact zero is inserted. This can directly create a chopped, synthetic cadence."
+    },
+    {
+      "severity": "medium",
+      "pair": "51->52",
+      "finding": "The cut reaches the nominal 60 ms post-roll while source energy is still measurable. A sentence release, consonant tail, or low breath may be shortened; waveform energy alone cannot label which."
+    },
+    {
+      "severity": "medium-low",
+      "pair": "47->48",
+      "finding": "The last 10 ms before the source cut is about -45.3 dBFS RMS and the following 10 ms is about -54.3 dBFS. This may shorten a quiet decay, but it is much weaker than the confirmed group 08 split."
+    },
+    {
+      "severity": "low_for_removed_breaths",
+      "finding": "For the ranked pause hotspots, the middle source regions removed between cue clips contain no 10 ms frames above -45 dBFS. The main defect is therefore added subtitle-schedule silence, not deletion of clearly audible breaths from those middle gaps. Very quiet breaths below this threshold cannot be ruled out without listening."
+    }
+  ],
+  "recommended_recovery": [
+    {
+      "priority": 1,
+      "action": "Restore each approved multi-sentence audit-group waveform as one continuous unit. Fit one group offset, and only if necessary one whole-group tempo factor, against the subtitle cue starts. Keep the subtitle stream unchanged; do not restart every audio sentence at the subtitle start."
+    },
+    {
+      "priority": 2,
+      "action": "For remaining timing error, schedule sentence pieces within their existing subtitle windows using the original ASR inter-sentence gaps as the primary constraint. Delay earlier speech inside its visible subtitle window before adding silence ahead of the next sentence. Solve this per group because independent pairwise shifts conflict in three- and four-cue groups."
+    },
+    {
+      "priority": 3,
+      "action": "Treat group 08 as indivisible around cue 11->12. Do not fade to zero at the current shared boundary. Anchor the continuous transition near the second subtitle appearance; a continuous phrase is more important here than exact cue-audio onset equality."
+    },
+    {
+      "priority": 4,
+      "action": "If a split is unavoidable, allow it only inside a measured low-energy interval, preserve at least 40-80 ms of natural edge material when available, and use a longer equal-power crossfade or shared room-tone bed instead of two independent 2 ms fade-to-zero edges. Recheck 51->52 and 47->48 by listening."
+    },
+    {
+      "priority": 5,
+      "action": "Run a targeted post-render check on the 10 ranked boundaries: compare original and final speech gaps, assert no new exact-zero gap over roughly 0.4 s unless the approved source gap was already comparable, and listen only to short A/B windows around those boundaries."
+    }
+  ],
+  "verification_limits": [
+    "No GPU model was run and no synthesis was performed.",
+    "The final primary cue ASR report has two text mismatches at cues 10 and 54; its waveform hash matches alignment.json. Secondary verification passes those reported text cases. These mismatches do not affect the ranked body timing evidence.",
+    "Energy and ASR timing establish silence insertion and hard cuts, but cannot determine whether every remaining pause feels natural in the music mix. Short human A/B listening remains required.",
+    "No original script, specs, source audio, or production output was modified."
+  ]
+}
