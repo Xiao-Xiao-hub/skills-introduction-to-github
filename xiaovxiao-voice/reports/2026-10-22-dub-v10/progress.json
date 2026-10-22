@@ -1,30 +1,34 @@
 {
-  "updated_at": "2026-10-22T11:14:02+08:00",
+  "updated_at": "2026-10-22T11:18:28+08:00",
   "stage": "profile_A_running",
   "takes_total": 216,
   "reused_takes": 12,
-  "completed_takes": 12,
+  "completed_takes": 43,
   "profiles": {
     "A": {
       "ref": "r0b_vox_49a14f",
-      "takes_completed": 4,
+      "takes_completed": 35,
       "takes_planned": 72,
-      "status": "running"
+      "status": "running",
+      "extra_takes": 0
     },
     "B": {
       "ref": "r0b_moss_611767",
       "takes_completed": 4,
       "takes_planned": 72,
-      "status": "ready"
+      "status": "queued",
+      "extra_takes": 0
     },
     "C": {
       "ref": "r0_vox_959950",
       "takes_completed": 4,
       "takes_planned": 72,
-      "status": "ready"
+      "status": "queued",
+      "extra_takes": 0
     }
   },
   "full_audio_completed": 0,
   "video_mux_started": false,
-  "final_voice_selected": null
+  "final_voice_selected": null,
+  "extra_takes": 0
 }
