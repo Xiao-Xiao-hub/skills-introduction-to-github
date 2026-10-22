@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-22T11:46:55+08:00",
+  "updated_at": "2026-10-22T11:51:38+08:00",
   "stage": "profile_C_running",
   "takes_total": 216,
   "reused_takes": 12,
-  "completed_takes": 152,
+  "completed_takes": 187,
   "profiles": {
     "A": {
       "ref": "r0b_vox_49a14f",
@@ -21,7 +21,7 @@
     },
     "C": {
       "ref": "r0_vox_959950",
-      "takes_completed": 8,
+      "takes_completed": 43,
       "takes_planned": 72,
       "status": "running",
       "extra_takes": 0
