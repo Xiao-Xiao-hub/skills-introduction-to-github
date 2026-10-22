@@ -1,0 +1,42 @@
+{
+  "user_selection": "C3 body approved; newly regenerate final 3 closing sentences with richer warmth and emotional progression.",
+  "stage": "closing_generation_and_sentence_alignment",
+  "date": "2026-10-22",
+  "source_video": "D:\\XiaoNian-Video\\review\\2026-10-21-v10\\晓念_V10_完整片_无旁白.mp4",
+  "source_video_sha256": "5e201129a909b74db069355cd734b0c1356a30ba3c46ec7948bc4bf0187d7fca",
+  "source_video_bytes": 89795477,
+  "video_policy": "Copy original H.264 stream; no video re-encoding; preserve burned-in subtitles.",
+  "voice_body_sha256": "a0db0f1e86000b320f0d64d869c1e72122c89dacea3ba4bf3558ef530a4785b5",
+  "targets": {
+    "duration": 178,
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "cues": 55,
+    "max_sentence_tempo": 1.1,
+    "all_cues_inside_original_subtitle_or_animation_windows": true,
+    "asr_no_dropped_words": true,
+    "mix_lufs": -16,
+    "mix_true_peak_ceiling_dbtp": -1.5
+  },
+  "source_subtitles": "48 SRT cues plus 4 opening and 3 closing in-picture text cues. Original script rounds SRT to centiseconds; production uses actual SRT millisecond times.",
+  "source_wording_differences": [
+    {
+      "srt_index": 21,
+      "voice": "相关研究中，直接给答案的那组，",
+      "original_subtitle": "相关研究中，直接给答案组"
+    },
+    {
+      "srt_index": 45,
+      "voice": "导入时离开，回来还能继续处理。",
+      "original_subtitle": "导入离开后，回来可以继续处理。"
+    }
+  ],
+  "protected_files": "No original toolkit script/specs/backend/script JSON edits. Existing C3 files preserved.",
+  "video_not_uploaded_to_github": true,
+  "sources": [
+    "https://ffmpeg.org/ffmpeg-filters.html#loudnorm",
+    "https://ffmpeg.org/ffmpeg-filters.html#atempo",
+    "https://github.com/modelscope/FunASR/blob/main/docs/python_api.md"
+  ]
+}
