@@ -1,0 +1,420 @@
+{
+  "video": "D:\\XiaoNian-Video\\review\\2026-10-22-v10-c3-r3\\晓念_V10_C3_音色衔接修订_无片尾旁白.mp4",
+  "video_bytes": 89246591,
+  "video_sha256": "30edba67eb58f575712beadadf59c84654a9a0342f5594422e762ca14d1ab9ff",
+  "voice_sha256": "b9c1584debf058ae1eb9d9dd89cc0a9d0e17c8166cd3893560719504fdd6c0dc",
+  "selected": {
+    "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-r3-2026-10-22\\g23b_s137.wav",
+    "sha256": "5ada4be1810a89dedd3725814fbcc382baf530cfa7f1ebceebcca75680b182d9",
+    "seed": 137,
+    "duration": 11.52,
+    "reference": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g23a.wav",
+    "reference_sha256": "74476e9d564c133a213de51795b3cef1321c4d90f34d57e9f18724834c79cd7a",
+    "prompt_text": "刚才这些操作，由原生小程序发起。后端通过接口处理请求，S Q light保存记录。卡片、对话、导入和学习，各有业务模块。",
+    "text": "接着聊，会带上选定卡片的相关上下文。原话、生成内容和版本分开保存。长任务先记状态，再执行；支持的算式另外核验。",
+    "asr": {
+      "key": "rand_key_2yW4Acq9GFz6Y",
+      "text": "接 着 聊 会 带 上 选 定 卡 片 的 相 关 上 下 文 原 画 生 成 内 容 和 版 本 分 开 保 存 长 任 务 先 记 状 态 再 执 行 支 持 的 算 是 另 外 核 验",
+      "timestamp": [
+        [
+          290,
+          530
+        ],
+        [
+          530,
+          630
+        ],
+        [
+          630,
+          870
+        ],
+        [
+          990,
+          1190
+        ],
+        [
+          1190,
+          1350
+        ],
+        [
+          1350,
+          1550
+        ],
+        [
+          1550,
+          1770
+        ],
+        [
+          1770,
+          1970
+        ],
+        [
+          1970,
+          2130
+        ],
+        [
+          2130,
+          2310
+        ],
+        [
+          2310,
+          2450
+        ],
+        [
+          2450,
+          2610
+        ],
+        [
+          2610,
+          2790
+        ],
+        [
+          2790,
+          2950
+        ],
+        [
+          2950,
+          3130
+        ],
+        [
+          3130,
+          3370
+        ],
+        [
+          3970,
+          4210
+        ],
+        [
+          4270,
+          4510
+        ],
+        [
+          4610,
+          4810
+        ],
+        [
+          4810,
+          5050
+        ],
+        [
+          5070,
+          5170
+        ],
+        [
+          5170,
+          5410
+        ],
+        [
+          5410,
+          5550
+        ],
+        [
+          5550,
+          5710
+        ],
+        [
+          5710,
+          5950
+        ],
+        [
+          5950,
+          6110
+        ],
+        [
+          6110,
+          6310
+        ],
+        [
+          6310,
+          6470
+        ],
+        [
+          6470,
+          6710
+        ],
+        [
+          7150,
+          7390
+        ],
+        [
+          7430,
+          7610
+        ],
+        [
+          7610,
+          7830
+        ],
+        [
+          7830,
+          7970
+        ],
+        [
+          7970,
+          8189
+        ],
+        [
+          8189,
+          8330
+        ],
+        [
+          8330,
+          8570
+        ],
+        [
+          8650,
+          8810
+        ],
+        [
+          8810,
+          8970
+        ],
+        [
+          8970,
+          9210
+        ],
+        [
+          9450,
+          9630
+        ],
+        [
+          9630,
+          9810
+        ],
+        [
+          9810,
+          9930
+        ],
+        [
+          9930,
+          10110
+        ],
+        [
+          10110,
+          10350
+        ],
+        [
+          10430,
+          10530
+        ],
+        [
+          10530,
+          10730
+        ],
+        [
+          10730,
+          10950
+        ],
+        [
+          10950,
+          11275
+        ]
+      ]
+    },
+    "match": true,
+    "neighbor_cosines": {
+      "23a": 0.894751787185669,
+      "24": 0.8792873024940491
+    }
+  },
+  "fit": {
+    "rate": 1.0,
+    "offset": 141.166,
+    "score": 0.05319999999999823,
+    "tolerance": 0,
+    "spans": [
+      [
+        0.29,
+        3.37
+      ],
+      [
+        3.97,
+        6.71
+      ],
+      [
+        7.15,
+        11.275
+      ]
+    ]
+  },
+  "replacement_gain_db": -1.9916858673095703,
+  "repaired_cues": [
+    {
+      "group": "23b",
+      "text": "接着聊，会带上选定卡片的相关上下文。",
+      "start": 141.456,
+      "end": 144.536,
+      "window": [
+        141.19,
+        145.033
+      ]
+    },
+    {
+      "group": "23b",
+      "text": "原话、生成内容和版本分开保存。",
+      "start": 145.136,
+      "end": 147.876,
+      "window": [
+        145.113,
+        148.236
+      ]
+    },
+    {
+      "group": "23b",
+      "text": "长任务先记状态，再执行；支持的算式另外核验。",
+      "start": 148.316,
+      "end": 152.441,
+      "window": [
+        148.316,
+        152.88
+      ]
+    }
+  ],
+  "unchanged_other_voice_samples": true,
+  "closing_voice_zero_from": 169.5,
+  "original_background": true,
+  "music_duck_db": 0,
+  "sfx_duck_db": 0,
+  "voice_gain_db": 9.311930156160418,
+  "loudness": {
+    "input_i": "-16.23",
+    "input_tp": "-1.97",
+    "input_lra": "3.80",
+    "input_thresh": "-26.30",
+    "output_i": "-16.42",
+    "output_tp": "-2.00",
+    "output_lra": "3.70",
+    "output_thresh": "-26.46",
+    "normalization_type": "dynamic",
+    "target_offset": "0.42"
+  },
+  "validation": {
+    "checks": {
+      "1080p": true,
+      "60fps": true,
+      "10680_frames": true,
+      "178_seconds": true,
+      "aac_stereo_48k": true,
+      "aac_bitrate_near_256k": true,
+      "video_stream_hash_matches": true
+    },
+    "duration_seconds": 178.0,
+    "video": {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "mime_codec_string": "avc1.64002a",
+      "width": 1920,
+      "height": 1080,
+      "coded_width": 1920,
+      "coded_height": 1080,
+      "has_b_frames": 2,
+      "sample_aspect_ratio": "1:1",
+      "display_aspect_ratio": "16:9",
+      "pix_fmt": "yuv420p",
+      "level": 42,
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "60/1",
+      "avg_frame_rate": "60/1",
+      "time_base": "1/15360",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 2734080,
+      "duration": "178.000000",
+      "bit_rate": "3744848",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "10680",
+      "extradata_size": 51,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "encoder": "Lavc62.28.101 libx264"
+      }
+    },
+    "audio": {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_long_name": "AAC (Advanced Audio Coding)",
+      "profile": "LC",
+      "codec_type": "audio",
+      "codec_tag_string": "mp4a",
+      "codec_tag": "0x6134706d",
+      "mime_codec_string": "mp4a.40.2",
+      "sample_fmt": "fltp",
+      "sample_rate": "48000",
+      "channels": 2,
+      "channel_layout": "stereo",
+      "bits_per_sample": 0,
+      "initial_padding": 0,
+      "id": "0x2",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/48000",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 8544000,
+      "duration": "178.000000",
+      "bit_rate": "253585",
+      "nb_frames": "8345",
+      "extradata_size": 5,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "SoundHandler"
+      }
+    }
+  },
+  "human_listening": false
+}
