@@ -1,0 +1,35 @@
+{
+  "waveform_sha256": "bf042d3b2f36736b030eabbdd23711637e457cc919781d50654cacec3a0829ed",
+  "rows": [
+    {
+      "index": 10,
+      "expected": "那件想报竞赛的事，现在怎么想？",
+      "raw": "<|zh|><|HAPPY|><|Speech|><|withitn|>那件想报竞赛的事，现在怎么想？",
+      "plain": "那件想报竞赛的事，现在怎么想？",
+      "match": true
+    },
+    {
+      "index": 53,
+      "expected": "念，是转瞬的念头。",
+      "raw": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>念是转瞬的念头。",
+      "plain": "念是转瞬的念头。",
+      "match": true
+    },
+    {
+      "index": 54,
+      "expected": "晓，是让所想渐渐明瞭。",
+      "raw": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>小是让所想渐渐明了。",
+      "plain": "小是让所想渐渐明了。",
+      "match": true
+    },
+    {
+      "index": 55,
+      "expected": "晓念。",
+      "raw": "<|zh|><|HAPPY|><|Speech|><|withitn|>小念。",
+      "plain": "小念。",
+      "match": true
+    }
+  ],
+  "passed": true,
+  "human_listening": false
+}

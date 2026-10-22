@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\closing\\brand-tag\\c3_brand_tag_promptref_s97.wav",
+  "sha256": "b64e49d78b8460d1d6a1eba7f5f1c197d273314e5012617e445293629d57503b",
+  "seed": 97,
+  "seed_used": 97,
+  "mode": "prompt+reference_no_control",
+  "reference": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\lively-refs\\lively_g05-06_s43_4212f8f6.wav",
+  "reference_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+  "prompt_text": "这是晓念，从随手记下一句话开始。要做的事、没想完的问题，AI整理成卡，原话也一起留着。记下之后，再接着想。",
+  "original_text": "晓念。",
+  "synthesis_input": "小念。",
+  "duration": 1.12,
+  "sample_rate": 48000,
+  "paraformer": {
+    "text": "小 念",
+    "timestamp": [
+      [
+        510,
+        750
+      ],
+      [
+        770,
+        1010
+      ]
+    ],
+    "strict_match": true
+  },
+  "cue_fit": {
+    "window": [
+      175.35,
+      176.25
+    ],
+    "window_seconds": 0.9,
+    "raw_speech_seconds": 0.5,
+    "needed_tempo": 0.5555555555555556,
+    "passes_max_1_10": true
+  },
+  "sensevoice": {
+    "raw": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>小念。",
+    "plain": "小念。",
+    "timestamp": null,
+    "strict_match": true
+  },
+  "accepted": true,
+  "reason": "Passed both ASRs against original normalized text and the 0.9-second cue fit."
+}

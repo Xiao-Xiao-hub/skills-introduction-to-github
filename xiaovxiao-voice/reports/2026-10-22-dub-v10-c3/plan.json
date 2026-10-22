@@ -1,6 +1,6 @@
 {
   "user_selection": "C3 body approved; newly regenerate final 3 closing sentences with richer warmth and emotional progression.",
-  "stage": "closing_generation_and_sentence_alignment",
+  "stage": "delivered_technical_checks_complete_user_listening_pending",
   "date": "2026-10-22",
   "source_video": "D:\\XiaoNian-Video\\review\\2026-10-21-v10\\晓念_V10_完整片_无旁白.mp4",
   "source_video_sha256": "5e201129a909b74db069355cd734b0c1356a30ba3c46ec7948bc4bf0187d7fca",
@@ -38,5 +38,14 @@
     "https://ffmpeg.org/ffmpeg-filters.html#loudnorm",
     "https://ffmpeg.org/ffmpeg-filters.html#atempo",
     "https://github.com/modelscope/FunASR/blob/main/docs/python_api.md"
-  ]
+  ],
+  "deliverables": {
+    "video": "D:\\XiaoNian-Video\\review\\2026-10-22-v10-c3\\晓念_V10_C3配音_完整片.mp4",
+    "video_bytes": 89189428,
+    "video_sha256": "34e3dfea0f55f5a561e6f37c9206b4d8a6c944e50ca630856b918d7b0a9c819d",
+    "voice": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\人声轨_48k24bit.wav",
+    "voice_sha256": "bf042d3b2f36736b030eabbdd23711637e457cc919781d50654cacec3a0829ed",
+    "voice_bytes": 25632044
+  },
+  "acceptance_note": "The primary recognizer is not unanimous. Its actual disagreements are retained and independently cross-checked; no 想→晓 or 明亮→明了 normalization was introduced."
 }

@@ -1,0 +1,943 @@
+{
+  "status": "passed",
+  "created_at": "2026-10-22T17:50:27.036739+08:00",
+  "sources": {
+    "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\人声轨_48k24bit.wav": {
+      "sha256": "bf042d3b2f36736b030eabbdd23711637e457cc919781d50654cacec3a0829ed",
+      "bytes": 25632044
+    },
+    "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\alignment.json": {
+      "sha256": "0a8da77c4fc5142436c237eb20e76537614e1225118768207ff9570ffe330d76",
+      "bytes": 69704
+    },
+    "D:\\XiaoNian-Video\\review\\2026-10-21-v10\\晓念_V10_完整片_无旁白.mp4": {
+      "sha256": "5e201129a909b74db069355cd734b0c1356a30ba3c46ec7948bc4bf0187d7fca",
+      "bytes": 89795477
+    },
+    "D:\\XiaoNian-Video\\review\\2026-10-21-v10\\audio\\music.wav": {
+      "sha256": "f8fd2e736fb3cd2f3e902fb59765271028446f8366604387c6932ac1b37c868c",
+      "bytes": 51264044
+    },
+    "D:\\XiaoNian-Video\\review\\2026-10-21-v10\\audio\\sfx.wav": {
+      "sha256": "6458b269e428f9a79781e8bb428adf9c0a6626847d799c292a6887673c446576",
+      "bytes": 51264044
+    }
+  },
+  "source_video_packet_sha256": "a51cd77146eb2a4e2ef808961ea9015bf4453f2b3d9a7c8eb24c41132744f82f",
+  "outputs": {
+    "mix_wav": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\mix.wav",
+    "final_mp4": "D:\\XiaoNian-Video\\review\\2026-10-22-v10-c3\\晓念_V10_C3配音_完整片.mp4"
+  },
+  "parameters": {
+    "sample_rate": 48000,
+    "voice_gain_db": 5.46752,
+    "voice_over_ducked_combined_bed_target_db": 10.0,
+    "music_duck_db": 8.0,
+    "sfx_duck_db": 2.5,
+    "closing_extra_bed_duck_db": 6.0,
+    "lookahead_seconds": 0.2,
+    "hold_seconds": 0.35,
+    "ramp_seconds": 0.25,
+    "envelope_rate_hz": 100,
+    "envelope_smoother": "scipy.signal.fftconvolve Hann(5)",
+    "normalization": "ffmpeg loudnorm two-pass I=-16 TP=-2.0 LRA=11; final AAC ceiling -1.5 dBTP",
+    "narration_processing": "one whole-track gain; no gate or pitch edit"
+  },
+  "active_speech_rms_dbfs": {
+    "voice_before_gain": -20.845,
+    "voice_after_gain": -15.377,
+    "ducked_music_plus_sfx": -25.377,
+    "voice_minus_bed": 10.0
+  },
+  "per_cue": [
+    {
+      "index": 1,
+      "group": "01-02",
+      "text": "躺下了。",
+      "window": [
+        0.35,
+        1.55
+      ],
+      "start": 0.35,
+      "end": 1.02,
+      "voice_rms_dbfs": -13.228,
+      "ducked_bed_rms_dbfs": -29.717
+    },
+    {
+      "index": 2,
+      "group": "01-02",
+      "text": "脑子却停不下来。",
+      "window": [
+        2.15,
+        4.15
+      ],
+      "start": 2.15,
+      "end": 3.535,
+      "voice_rms_dbfs": -14.515,
+      "ducked_bed_rms_dbfs": -25.352
+    },
+    {
+      "index": 3,
+      "group": "03",
+      "text": "一天里，许多念头冒出来，又慢慢散去。",
+      "window": [
+        4.65,
+        8.75
+      ],
+      "start": 4.65,
+      "end": 7.505000000000001,
+      "voice_rms_dbfs": -16.922,
+      "ducked_bed_rms_dbfs": -26.431
+    },
+    {
+      "index": 4,
+      "group": "04",
+      "text": "睡前，把明天要做的事，先写下来。",
+      "window": [
+        9.2,
+        13.7
+      ],
+      "start": 9.2,
+      "end": 11.815,
+      "voice_rms_dbfs": -16.417,
+      "ducked_bed_rms_dbfs": -27.758
+    },
+    {
+      "index": 5,
+      "group": "05-06",
+      "text": "这是晓念，从随手记下一句话开始。",
+      "window": [
+        14.18,
+        17.601
+      ],
+      "start": 14.18,
+      "end": 17.009999999999998,
+      "voice_rms_dbfs": -15.135,
+      "ducked_bed_rms_dbfs": -28.867
+    },
+    {
+      "index": 6,
+      "group": "05-06",
+      "text": "要做的事、没想完的问题，",
+      "window": [
+        17.681,
+        20.124
+      ],
+      "start": 17.681,
+      "end": 19.551000000000002,
+      "voice_rms_dbfs": -14.727,
+      "ducked_bed_rms_dbfs": -23.573
+    },
+    {
+      "index": 7,
+      "group": "05-06",
+      "text": "AI整理成卡，原话也一起留着。",
+      "window": [
+        20.204,
+        23.38
+      ],
+      "start": 20.204,
+      "end": 23.054000000000002,
+      "voice_rms_dbfs": -13.209,
+      "ducked_bed_rms_dbfs": -24.264
+    },
+    {
+      "index": 8,
+      "group": "05-06",
+      "text": "记下之后，再接着想。",
+      "window": [
+        23.68,
+        25.88
+      ],
+      "start": 23.68,
+      "end": 25.315,
+      "voice_rms_dbfs": -14.519,
+      "ducked_bed_rms_dbfs": -25.067
+    },
+    {
+      "index": 9,
+      "group": "07",
+      "text": "过几天，带着原话回来看，",
+      "window": [
+        26.18,
+        28.406
+      ],
+      "start": 26.18,
+      "end": 28.281645833333332,
+      "voice_rms_dbfs": -13.383,
+      "ducked_bed_rms_dbfs": -23.756
+    },
+    {
+      "index": 10,
+      "group": "07",
+      "text": "那件想报竞赛的事，现在怎么想？",
+      "window": [
+        28.486,
+        31.38
+      ],
+      "start": 28.486,
+      "end": 30.871000000000002,
+      "voice_rms_dbfs": -14.805,
+      "ducked_bed_rms_dbfs": -24.129
+    },
+    {
+      "index": 11,
+      "group": "08",
+      "text": "做完的待办勾掉，",
+      "window": [
+        31.68,
+        33.582
+      ],
+      "start": 31.68,
+      "end": 32.98402083333333,
+      "voice_rms_dbfs": -11.024,
+      "ducked_bed_rms_dbfs": -25.251
+    },
+    {
+      "index": 12,
+      "group": "08",
+      "text": "没想完的念头，留着继续。",
+      "window": [
+        33.662,
+        36.38
+      ],
+      "start": 33.662,
+      "end": 35.50297916666666,
+      "voice_rms_dbfs": -17.64,
+      "ducked_bed_rms_dbfs": -23.99
+    },
+    {
+      "index": 13,
+      "group": "09",
+      "text": "记录都在卡片墙上，",
+      "window": [
+        36.68,
+        38.733
+      ],
+      "start": 36.68,
+      "end": 38.17,
+      "voice_rms_dbfs": -14.484,
+      "ducked_bed_rms_dbfs": -22.855
+    },
+    {
+      "index": 14,
+      "group": "09",
+      "text": "想找回来时，不必从头翻。",
+      "window": [
+        38.813,
+        41.38
+      ],
+      "start": 38.813,
+      "end": 40.768,
+      "voice_rms_dbfs": -15.637,
+      "ducked_bed_rms_dbfs": -26.065
+    },
+    {
+      "index": 15,
+      "group": "10",
+      "text": "点“接着聊”，先看最担心的时间安排，",
+      "window": [
+        41.68,
+        46.125
+      ],
+      "start": 41.68,
+      "end": 44.473124999999996,
+      "voice_rms_dbfs": -15.31,
+      "ducked_bed_rms_dbfs": -24.13
+    },
+    {
+      "index": 16,
+      "group": "10",
+      "text": "再把顾虑一步步说清楚。",
+      "window": [
+        46.205,
+        49.38
+      ],
+      "start": 46.205,
+      "end": 48.17,
+      "voice_rms_dbfs": -15.247,
+      "ducked_bed_rms_dbfs": -23.961
+    },
+    {
+      "index": 17,
+      "group": "11",
+      "text": "聊出的新想法，先存成卡。",
+      "window": [
+        49.68,
+        52.007
+      ],
+      "start": 49.68,
+      "end": 51.765854166666664,
+      "voice_rms_dbfs": -14.101,
+      "ducked_bed_rms_dbfs": -24.823
+    },
+    {
+      "index": 18,
+      "group": "11",
+      "text": "再选几张相关的卡，一起看看。",
+      "window": [
+        52.087,
+        54.88
+      ],
+      "start": 52.087,
+      "end": 54.592000000000006,
+      "voice_rms_dbfs": -15.578,
+      "ducked_bed_rms_dbfs": -25.679
+    },
+    {
+      "index": 19,
+      "group": "12",
+      "text": "放进头脑风暴，分组、比较，",
+      "window": [
+        55.18,
+        57.768
+      ],
+      "start": 55.18,
+      "end": 57.596125,
+      "voice_rms_dbfs": -13.987,
+      "ducked_bed_rms_dbfs": -24.851
+    },
+    {
+      "index": 20,
+      "group": "12",
+      "text": "找出这些念头之间的新联系。",
+      "window": [
+        57.848,
+        60.953
+      ],
+      "start": 57.848,
+      "end": 59.88185416666666,
+      "voice_rms_dbfs": -17.032,
+      "ducked_bed_rms_dbfs": -24.465
+    },
+    {
+      "index": 21,
+      "group": "12",
+      "text": "最后，把自己的结论写下来。",
+      "window": [
+        61.033,
+        63.88
+      ],
+      "start": 61.033,
+      "end": 63.058,
+      "voice_rms_dbfs": -14.663,
+      "ducked_bed_rms_dbfs": -23.51
+    },
+    {
+      "index": 22,
+      "group": "13",
+      "text": "一道极限题，卡在第一步。",
+      "window": [
+        64.18,
+        66.469
+      ],
+      "start": 64.18,
+      "end": 66.13000000000001,
+      "voice_rms_dbfs": -15.675,
+      "ducked_bed_rms_dbfs": -26.06
+    },
+    {
+      "index": 23,
+      "group": "13",
+      "text": "拍下来，先核对题目。",
+      "window": [
+        66.549,
+        68.38
+      ],
+      "start": 66.549,
+      "end": 68.274,
+      "voice_rms_dbfs": -13.812,
+      "ducked_bed_rms_dbfs": -24.841
+    },
+    {
+      "index": 24,
+      "group": "14",
+      "text": "先要一步提示，接着自己试算。",
+      "window": [
+        68.68,
+        71.765
+      ],
+      "start": 68.68,
+      "end": 70.93008333333334,
+      "voice_rms_dbfs": -15.308,
+      "ducked_bed_rms_dbfs": -23.975
+    },
+    {
+      "index": 25,
+      "group": "14",
+      "text": "相关研究中，直接给答案的那组，",
+      "window": [
+        71.845,
+        74.673
+      ],
+      "start": 71.845,
+      "end": 74.255,
+      "voice_rms_dbfs": -14.284,
+      "ducked_bed_rms_dbfs": -25.266
+    },
+    {
+      "index": 26,
+      "group": "14",
+      "text": "撤掉AI后表现下降。提示组未见明显下降。",
+      "window": [
+        74.753,
+        79.38
+      ],
+      "start": 74.753,
+      "end": 78.778,
+      "voice_rms_dbfs": -14.019,
+      "ducked_bed_rms_dbfs": -24.554
+    },
+    {
+      "index": 27,
+      "group": "15",
+      "text": "展开完整解析，还能查看计算核验。",
+      "window": [
+        79.68,
+        82.706
+      ],
+      "start": 79.68,
+      "end": 82.56710416666667,
+      "voice_rms_dbfs": -15.303,
+      "ducked_bed_rms_dbfs": -24.482
+    },
+    {
+      "index": 28,
+      "group": "15",
+      "text": "支持的算式，由程序重新计算。",
+      "window": [
+        82.786,
+        85.38
+      ],
+      "start": 82.786,
+      "end": 85.311,
+      "voice_rms_dbfs": -15.931,
+      "ducked_bed_rms_dbfs": -24.884
+    },
+    {
+      "index": 29,
+      "group": "16",
+      "text": "算完，把草稿拿来批改，",
+      "window": [
+        85.68,
+        88.089
+      ],
+      "start": 85.68,
+      "end": 87.57079166666668,
+      "voice_rms_dbfs": -13.066,
+      "ducked_bed_rms_dbfs": -23.902
+    },
+    {
+      "index": 30,
+      "group": "16",
+      "text": "定位出错步骤，再收进错题本。",
+      "window": [
+        88.169,
+        91.38
+      ],
+      "start": 88.169,
+      "end": 90.554,
+      "voice_rms_dbfs": -16.292,
+      "ducked_bed_rms_dbfs": -27.972
+    },
+    {
+      "index": 31,
+      "group": "17",
+      "text": "再把解题思路讲给小狸听。",
+      "window": [
+        91.68,
+        94.481
+      ],
+      "start": 91.68,
+      "end": 93.56427083333334,
+      "voice_rms_dbfs": -14.661,
+      "ducked_bed_rms_dbfs": -28.971
+    },
+    {
+      "index": 32,
+      "group": "17",
+      "text": "它会追问，再反馈哪些说清、哪些漏了。",
+      "window": [
+        94.561,
+        98.38
+      ],
+      "start": 94.561,
+      "end": 97.596,
+      "voice_rms_dbfs": -14.229,
+      "ducked_bed_rms_dbfs": -26.345
+    },
+    {
+      "index": 33,
+      "group": "18",
+      "text": "需要补充，就导入讲义。",
+      "window": [
+        98.68,
+        100.879
+      ],
+      "start": 98.68,
+      "end": 100.54150000000001,
+      "voice_rms_dbfs": -15.132,
+      "ducked_bed_rms_dbfs": -26.016
+    },
+    {
+      "index": 34,
+      "group": "18",
+      "text": "校对原文，再把相关段落整理成卡。",
+      "window": [
+        100.959,
+        104.38
+      ],
+      "start": 100.959,
+      "end": 103.904,
+      "voice_rms_dbfs": -13.307,
+      "ducked_bed_rms_dbfs": -25.762
+    },
+    {
+      "index": 35,
+      "group": "19",
+      "text": "最后，去知识地图独立做一道。",
+      "window": [
+        104.68,
+        107.74
+      ],
+      "start": 104.68,
+      "end": 107.05000000000001,
+      "voice_rms_dbfs": -15.528,
+      "ducked_bed_rms_dbfs": -25.822
+    },
+    {
+      "index": 36,
+      "group": "19",
+      "text": "先判断会不会，再作答看结果。",
+      "window": [
+        107.82,
+        110.88
+      ],
+      "start": 107.82,
+      "end": 110.46499999999999,
+      "voice_rms_dbfs": -13.628,
+      "ducked_bed_rms_dbfs": -25.432
+    },
+    {
+      "index": 37,
+      "group": "20",
+      "text": "累的时候，也可以只是聊聊。",
+      "window": [
+        111.18,
+        114.033
+      ],
+      "start": 111.18,
+      "end": 112.97000000000001,
+      "voice_rms_dbfs": -14.66,
+      "ducked_bed_rms_dbfs": -25.897
+    },
+    {
+      "index": 38,
+      "group": "20",
+      "text": "今天发生了什么，哪句话放不下，",
+      "window": [
+        114.113,
+        117.485
+      ],
+      "start": 114.113,
+      "end": 116.503,
+      "voice_rms_dbfs": -15.902,
+      "ducked_bed_rms_dbfs": -26.868
+    },
+    {
+      "index": 39,
+      "group": "20",
+      "text": "先把感受说出来。",
+      "window": [
+        117.565,
+        119.38
+      ],
+      "start": 117.565,
+      "end": 118.97,
+      "voice_rms_dbfs": -15.903,
+      "ducked_bed_rms_dbfs": -27.767
+    },
+    {
+      "index": 40,
+      "group": "21",
+      "text": "涉及安全风险，先提示现实中的求助。",
+      "window": [
+        119.68,
+        122.88
+      ],
+      "start": 119.68,
+      "end": 122.69500000000001,
+      "voice_rms_dbfs": -16.798,
+      "ducked_bed_rms_dbfs": -26.266
+    },
+    {
+      "index": 41,
+      "group": "22",
+      "text": "从记下一句，到自己想清楚，",
+      "window": [
+        123.18,
+        125.99
+      ],
+      "start": 123.18,
+      "end": 125.62620833333334,
+      "voice_rms_dbfs": -17.625,
+      "ducked_bed_rms_dbfs": -25.556
+    },
+    {
+      "index": 42,
+      "group": "22",
+      "text": "学习和回顾，都留在记录里。",
+      "window": [
+        126.07,
+        128.88
+      ],
+      "start": 126.07,
+      "end": 128.415,
+      "voice_rms_dbfs": -17.185,
+      "ducked_bed_rms_dbfs": -25.158
+    },
+    {
+      "index": 43,
+      "group": "23a",
+      "text": "刚才这些操作，由原生小程序发起。",
+      "window": [
+        129.18,
+        132.543
+      ],
+      "start": 129.18,
+      "end": 132.1539791666667,
+      "voice_rms_dbfs": -17.271,
+      "ducked_bed_rms_dbfs": -23.675
+    },
+    {
+      "index": 44,
+      "group": "23a",
+      "text": "后端通过接口处理请求，SQLite保存记录。",
+      "window": [
+        132.623,
+        137.427
+      ],
+      "start": 132.623,
+      "end": 136.63299999999998,
+      "voice_rms_dbfs": -17.418,
+      "ducked_bed_rms_dbfs": -25.703
+    },
+    {
+      "index": 45,
+      "group": "23a",
+      "text": "卡片、对话、导入和学习，各有业务模块。",
+      "window": [
+        137.507,
+        141.11
+      ],
+      "start": 137.507,
+      "end": 140.952,
+      "voice_rms_dbfs": -16.893,
+      "ducked_bed_rms_dbfs": -25.827
+    },
+    {
+      "index": 46,
+      "group": "23b",
+      "text": "接着聊，会带上选定卡片的相关上下文。",
+      "window": [
+        141.19,
+        145.033
+      ],
+      "start": 141.19,
+      "end": 144.63872916666668,
+      "voice_rms_dbfs": -16.676,
+      "ducked_bed_rms_dbfs": -28.337
+    },
+    {
+      "index": 47,
+      "group": "23b",
+      "text": "原话、生成内容和版本分开保存。",
+      "window": [
+        145.113,
+        148.236
+      ],
+      "start": 145.113,
+      "end": 148.063,
+      "voice_rms_dbfs": -16.7,
+      "ducked_bed_rms_dbfs": -26.853
+    },
+    {
+      "index": 48,
+      "group": "23b",
+      "text": "长任务先记状态，再执行；支持的算式另外核验。",
+      "window": [
+        148.316,
+        152.88
+      ],
+      "start": 148.316,
+      "end": 152.791,
+      "voice_rms_dbfs": -17.837,
+      "ducked_bed_rms_dbfs": -26.282
+    },
+    {
+      "index": 49,
+      "group": "24",
+      "text": "导入时离开，回来还能继续处理。",
+      "window": [
+        153.18,
+        156.598
+      ],
+      "start": 153.18,
+      "end": 155.97,
+      "voice_rms_dbfs": -17.028,
+      "ducked_bed_rms_dbfs": -23.975
+    },
+    {
+      "index": 50,
+      "group": "24",
+      "text": "外部调用集中在后端，异常时尝试备用接口。",
+      "window": [
+        156.678,
+        161.41
+      ],
+      "start": 156.678,
+      "end": 160.43204166666666,
+      "voice_rms_dbfs": -16.857,
+      "ducked_bed_rms_dbfs": -25.232
+    },
+    {
+      "index": 51,
+      "group": "24",
+      "text": "管理台查看任务、运行状态和反馈，",
+      "window": [
+        161.49,
+        165.171
+      ],
+      "start": 161.49,
+      "end": 164.52,
+      "voice_rms_dbfs": -17.489,
+      "ducked_bed_rms_dbfs": -24.206
+    },
+    {
+      "index": 52,
+      "group": "24",
+      "text": "并保留用量与操作记录。",
+      "window": [
+        165.251,
+        167.88
+      ],
+      "start": 165.251,
+      "end": 167.266,
+      "voice_rms_dbfs": -17.178,
+      "ducked_bed_rms_dbfs": -24.987
+    },
+    {
+      "index": 53,
+      "group": "26-27",
+      "text": "念，是转瞬的念头。",
+      "window": [
+        169.75,
+        171.85
+      ],
+      "start": 169.75,
+      "end": 171.58,
+      "voice_rms_dbfs": -17.306,
+      "ducked_bed_rms_dbfs": -30.177
+    },
+    {
+      "index": 54,
+      "group": "26-27",
+      "text": "晓，是让所想渐渐明了。",
+      "window": [
+        172.12,
+        174.35
+      ],
+      "start": 172.12,
+      "end": 174.34822916666667,
+      "voice_rms_dbfs": -15.315,
+      "ducked_bed_rms_dbfs": -28.928
+    },
+    {
+      "index": 55,
+      "group": "26-27",
+      "text": "晓念。",
+      "window": [
+        175.35,
+        176.25
+      ],
+      "start": 175.35,
+      "end": 175.98,
+      "voice_rms_dbfs": -16.148,
+      "ducked_bed_rms_dbfs": -30.045
+    }
+  ],
+  "loudness": {
+    "wav": {
+      "first_pass": {
+        "input_i": "-12.77",
+        "input_tp": "3.14",
+        "input_lra": "4.10",
+        "input_thresh": "-23.22",
+        "output_i": "-16.46",
+        "output_tp": "-2.00",
+        "output_lra": "3.80",
+        "output_thresh": "-26.88",
+        "normalization_type": "dynamic",
+        "target_offset": "0.46"
+      },
+      "normalized_wav": {
+        "input_i": "-16.16",
+        "input_tp": "-1.99",
+        "input_lra": "3.90",
+        "input_thresh": "-26.58",
+        "output_i": "-16.40",
+        "output_tp": "-2.00",
+        "output_lra": "3.80",
+        "output_thresh": "-26.82",
+        "normalization_type": "dynamic",
+        "target_offset": "0.40"
+      }
+    },
+    "final_aac_measured": {
+      "input_i": "-16.17",
+      "input_tp": "-1.92",
+      "input_lra": "3.90",
+      "input_thresh": "-26.58",
+      "output_i": "-16.40",
+      "output_tp": "-2.00",
+      "output_lra": "3.80",
+      "output_thresh": "-26.82",
+      "normalization_type": "dynamic",
+      "target_offset": "0.40"
+    },
+    "final_aac_tolerance_checks": {
+      "integrated_lufs_within_0_5": true,
+      "true_peak_not_over_minus_1_5_dbtp": true
+    }
+  },
+  "validation": {
+    "checks": {
+      "1080p": true,
+      "60fps": true,
+      "10680_frames": true,
+      "178_seconds": true,
+      "aac_stereo_48k": true,
+      "aac_bitrate_near_256k": true,
+      "video_stream_hash_matches": true
+    },
+    "duration_seconds": 178.0,
+    "video": {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "mime_codec_string": "avc1.64002a",
+      "width": 1920,
+      "height": 1080,
+      "coded_width": 1920,
+      "coded_height": 1080,
+      "has_b_frames": 2,
+      "sample_aspect_ratio": "1:1",
+      "display_aspect_ratio": "16:9",
+      "pix_fmt": "yuv420p",
+      "level": 42,
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "60/1",
+      "avg_frame_rate": "60/1",
+      "time_base": "1/15360",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 2734080,
+      "duration": "178.000000",
+      "bit_rate": "3744848",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "10680",
+      "extradata_size": 51,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "encoder": "Lavc62.28.101 libx264"
+      }
+    },
+    "audio": {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_long_name": "AAC (Advanced Audio Coding)",
+      "profile": "LC",
+      "codec_type": "audio",
+      "codec_tag_string": "mp4a",
+      "codec_tag": "0x6134706d",
+      "mime_codec_string": "mp4a.40.2",
+      "sample_fmt": "fltp",
+      "sample_rate": "48000",
+      "channels": 2,
+      "channel_layout": "stereo",
+      "bits_per_sample": 0,
+      "initial_padding": 0,
+      "id": "0x2",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/48000",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 8544000,
+      "duration": "178.000000",
+      "bit_rate": "251016",
+      "nb_frames": "8345",
+      "extradata_size": 5,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "SoundHandler"
+      }
+    }
+  },
+  "original_stems_unchanged": true
+}

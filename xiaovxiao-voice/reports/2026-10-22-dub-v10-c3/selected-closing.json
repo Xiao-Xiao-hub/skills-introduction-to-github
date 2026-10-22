@@ -1,0 +1,273 @@
+{
+  "id": "closing_b2_clear_warm_s73",
+  "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\closing\\closing_b2_clear_warm_s73.wav",
+  "sha256": "65c5d3b45ba1865b6e1602d294b66018ddd6c9c89ce4189e2dd6fdaeabd843fa",
+  "style_id": "clear_warm",
+  "control": "真诚温暖、简洁连贯地分享自己的作品，清楚说出晓念；前两句递进，最后温柔笃定收住。句内连贯不拖字，不过度拉长停顿。",
+  "seed": 73,
+  "seed_used": 73,
+  "mode": "reference_only_plus_control",
+  "reference": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\lively-refs\\lively_g05-06_s43_4212f8f6.wav",
+  "reference_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+  "reference_text": "这是晓念，从随手记下一句话开始。要做的事、没想完的问题，AI整理成卡，原话也一起留着。记下之后，再接着想。",
+  "gen": {
+    "cfg": 2.0,
+    "steps": 20
+  },
+  "duration": 5.44,
+  "sample_rate": 48000,
+  "batch": 2,
+  "paraformer": {
+    "text": "念 是 转 瞬 的 念 头 想 是 让 所 想 渐 渐 明 了 小 念",
+    "timestamp": [
+      [
+        70,
+        310
+      ],
+      [
+        530,
+        770
+      ],
+      [
+        850,
+        1050
+      ],
+      [
+        1050,
+        1290
+      ],
+      [
+        1290,
+        1370
+      ],
+      [
+        1370,
+        1570
+      ],
+      [
+        1570,
+        1810
+      ],
+      [
+        2190,
+        2430
+      ],
+      [
+        2730,
+        2930
+      ],
+      [
+        2930,
+        3150
+      ],
+      [
+        3150,
+        3350
+      ],
+      [
+        3350,
+        3590
+      ],
+      [
+        3690,
+        3830
+      ],
+      [
+        3830,
+        4030
+      ],
+      [
+        4030,
+        4170
+      ],
+      [
+        4170,
+        4410
+      ],
+      [
+        4650,
+        4890
+      ],
+      [
+        4950,
+        5245
+      ]
+    ],
+    "strict_match": false
+  },
+  "cue_fit": {
+    "timestamp_count": 18,
+    "recognized_han_count": 18,
+    "cues": [
+      {
+        "window": [
+          169.75,
+          171.85
+        ],
+        "window_seconds": 2.1,
+        "expected_characters": 7,
+        "raw_speech_seconds": 1.74,
+        "needed_tempo": 0.8286,
+        "passes_max_1_10": true
+      },
+      {
+        "window": [
+          172.12,
+          174.35
+        ],
+        "window_seconds": 2.23,
+        "expected_characters": 9,
+        "raw_speech_seconds": 2.22,
+        "needed_tempo": 0.9955,
+        "passes_max_1_10": true
+      },
+      {
+        "window": [
+          175.35,
+          176.25
+        ],
+        "window_seconds": 0.9,
+        "expected_characters": 2,
+        "raw_speech_seconds": 0.595,
+        "needed_tempo": 0.6611,
+        "passes_max_1_10": true
+      }
+    ],
+    "all_pass": true
+  },
+  "sensevoice": {
+    "raw": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>念是转瞬的念头，小是让所想渐渐明了。小念。",
+    "plain": "念是转瞬的念头，小是让所想渐渐明了。小念。",
+    "timestamp": null,
+    "strict_match": true
+  },
+  "camplusplus": {
+    "warm_cosine": 0.8690504431724548,
+    "soft_cosine": 0.8568220138549805,
+    "c3_other_groups": {
+      "05-06": 0.8702578023544499,
+      "07": 0.8662477386785936,
+      "20": 0.8385751761110444,
+      "24": 0.8772279165879967
+    },
+    "old_c2_closing_cosine": 0.8949116700158032
+  },
+  "acoustic": {
+    "candidate": {
+      "f0_p10": 129.2578242265798,
+      "f0_p90": 236.93926453061272,
+      "f0_spread_hz": 107.68144030403292
+    },
+    "old_closing": {
+      "f0_p10": 139.22538534994766,
+      "f0_p90": 251.94279619878589,
+      "f0_spread_hz": 112.71741084883823
+    },
+    "note": "descriptive only; does not establish naturalness"
+  },
+  "passed": true,
+  "status": "selected_for_delivery_with_disclosed_asr_disagreement",
+  "reason": "SenseVoice full-text normalized match; primary ASR differs at one character. Timing mapping uses position only. Final rendered individual cues must pass strict independent ASR; no transcript mismatch is normalized away.",
+  "acceptance_scope": "Actual aligned and encoded final cues cross-checked. This is not unanimous ASR or human emotion/naturalness approval.",
+  "actual_aligned_wave_sha256": "bf042d3b2f36736b030eabbdd23711637e457cc919781d50654cacec3a0829ed",
+  "primary_disagreements": [
+    {
+      "index": 10,
+      "expected": "那件想报竞赛的事，现在怎么想？",
+      "primary": "那 健 想 包 竞 赛 的 事 现 在 怎 么 想",
+      "secondary": "那件想报竞赛的事，现在怎么想？",
+      "decision": "Secondary matches expected on the actual aligned waveform. Primary disagreement remains recorded; no new normalization rule added."
+    },
+    {
+      "index": 54,
+      "expected": "晓，是让所想渐渐明瞭。",
+      "primary": "小 是 让 所 想 渐 渐 明 亮",
+      "secondary": "小是让所想渐渐明了。",
+      "decision": "Secondary matches expected on the actual aligned waveform. Primary disagreement remains recorded; no new normalization rule added."
+    }
+  ],
+  "final_brand_replacement": {
+    "previous_row": {
+      "index": 55,
+      "group": "26-27",
+      "text": "晓念。",
+      "synth": "晓念。",
+      "shot": "27",
+      "window": [
+        175.35,
+        176.25
+      ],
+      "start": 175.35,
+      "end": 176.035,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\closing\\closing_b2_clear_warm_s73.wav",
+      "source_sha256": "65c5d3b45ba1865b6e1602d294b66018ddd6c9c89ce4189e2dd6fdaeabd843fa",
+      "source_span": [
+        4.62,
+        5.305
+      ],
+      "original_asr_speech_span": [
+        4.65,
+        5.245
+      ],
+      "closing_gain_db": -2.1472066068447226,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_55_g26-27.wav",
+      "cue_sha256": "71a66330bdd4dab74accdc9fdcffd44bf8bea1c02d808774db137640953839cf",
+      "new_closing": true,
+      "source_asr_mapping_disagreement": {
+        "raw_primary": "念 是 转 瞬 的 念 头 想 是 让 所 想 渐 渐 明 了 小 念",
+        "secondary": "念是转瞬的念头，小是让所想渐渐明了。小念。",
+        "character_index": 7,
+        "policy": "Position-only timestamp mapping; final isolated cue ASR must independently pass."
+      }
+    },
+    "candidate_evidence": {
+      "passed": true,
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\closing\\brand-tag\\c3_brand_tag_promptref_s97.wav",
+      "sha256": "b64e49d78b8460d1d6a1eba7f5f1c197d273314e5012617e445293629d57503b",
+      "seed": 97,
+      "seed_used": 97,
+      "mode": "prompt+reference_no_control",
+      "reference": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\lively-refs\\lively_g05-06_s43_4212f8f6.wav",
+      "reference_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+      "prompt_text": "这是晓念，从随手记下一句话开始。要做的事、没想完的问题，AI整理成卡，原话也一起留着。记下之后，再接着想。",
+      "original_text": "晓念。",
+      "synthesis_input": "小念。",
+      "duration": 1.12,
+      "sample_rate": 48000,
+      "paraformer": {
+        "text": "小 念",
+        "timestamp": [
+          [
+            510,
+            750
+          ],
+          [
+            770,
+            1010
+          ]
+        ],
+        "strict_match": true
+      },
+      "cue_fit": {
+        "window": [
+          175.35,
+          176.25
+        ],
+        "window_seconds": 0.9,
+        "raw_speech_seconds": 0.5,
+        "needed_tempo": 0.5555555555555556,
+        "passes_max_1_10": true
+      },
+      "sensevoice": {
+        "raw": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>小念。",
+        "plain": "小念。",
+        "timestamp": null,
+        "strict_match": true
+      },
+      "accepted": true,
+      "reason": "Passed both ASRs against original normalized text and the 0.9-second cue fit."
+    },
+    "reason": "Make the short spoken brand unambiguous in the encoded final mix; other 54 cues unchanged."
+  }
+}

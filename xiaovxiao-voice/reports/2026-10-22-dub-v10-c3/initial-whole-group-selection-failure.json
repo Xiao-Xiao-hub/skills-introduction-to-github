@@ -1,0 +1,6 @@
+{
+  "passed": false,
+  "source_delivery_sha256": "a0db0f1e86000b320f0d64d869c1e72122c89dacea3ba4bf3558ef530a4785b5",
+  "reason": "No newly generated candidate passed strict raw Paraformer and SenseVoice pronunciation gates, cue-fit gate, and CAM++ identity drift gates.",
+  "candidates_json": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\closing\\candidates.json"
+}

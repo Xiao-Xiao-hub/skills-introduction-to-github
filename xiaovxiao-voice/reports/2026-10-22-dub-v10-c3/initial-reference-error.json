@@ -1,0 +1,10 @@
+{
+  "status": "not eligible; original waveforms unavailable",
+  "paths": [
+    "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\closing\\closing_b1_conversational_s61.wav",
+    "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\closing\\closing_b1_conversational_s67.wav",
+    "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\closing\\closing_b1_sincere_s61.wav",
+    "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\closing\\closing_b1_sincere_s67.wav"
+  ],
+  "reason": "Stopped before analysis: the initial helper mistakenly used profiles.warm C2 calm reference, not approved C3 expression_bank.warm. Its three generated waveforms were subsequently overwritten by the corrected batch because of a filename collision before their hashes were recorded. These current paths identify the collision only and must not be treated as preserved initial evidence. This provenance error is disclosed rather than hidden."
+}

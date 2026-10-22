@@ -1,0 +1,1689 @@
+{
+  "source_delivery_sha256": "a0db0f1e86000b320f0d64d869c1e72122c89dacea3ba4bf3558ef530a4785b5",
+  "text": "念，是转瞬的念头。晓，是让所想渐渐明瞭。晓念。",
+  "cues": [
+    [
+      169.75,
+      171.85
+    ],
+    [
+      172.12,
+      174.35
+    ],
+    [
+      175.35,
+      176.25
+    ]
+  ],
+  "candidates": [
+    {
+      "id": "closing_b1_sincere_s61",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\closing\\closing_b1_sincere_s61.wav",
+      "sha256": "a428f6339d4c51cb28c381666344edeab8f789b719580ec0675d606fd124bf8a",
+      "style_id": "sincere",
+      "control": "真诚、温暖、带希望，像在和观众分享自己的作品；前两句逐步递进，最后晓念温柔笃定收住，不喊不煽情。 句内连贯不拖字，不过度拉长停顿。",
+      "seed": 61,
+      "seed_used": 61,
+      "mode": "reference_only_plus_control",
+      "reference": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\lively-refs\\lively_g05-06_s43_4212f8f6.wav",
+      "reference_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+      "reference_text": "这是晓念，从随手记下一句话开始。要做的事、没想完的问题，AI整理成卡，原话也一起留着。记下之后，再接着想。",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 20
+      },
+      "duration": 6.4,
+      "sample_rate": 48000,
+      "batch": 1,
+      "paraformer": {
+        "text": "念 是 转 瞬 的 念 头 想 是 让 所 想 渐 渐 明 了 小 念",
+        "timestamp": [
+          [
+            90,
+            330
+          ],
+          [
+            670,
+            910
+          ],
+          [
+            970,
+            1210
+          ],
+          [
+            1230,
+            1470
+          ],
+          [
+            1470,
+            1590
+          ],
+          [
+            1590,
+            1810
+          ],
+          [
+            1810,
+            2050
+          ],
+          [
+            2470,
+            2710
+          ],
+          [
+            3050,
+            3230
+          ],
+          [
+            3230,
+            3450
+          ],
+          [
+            3450,
+            3690
+          ],
+          [
+            3710,
+            3950
+          ],
+          [
+            4070,
+            4310
+          ],
+          [
+            4310,
+            4530
+          ],
+          [
+            4530,
+            4710
+          ],
+          [
+            4710,
+            4950
+          ],
+          [
+            5330,
+            5570
+          ],
+          [
+            5670,
+            6085
+          ]
+        ],
+        "strict_match": false
+      },
+      "cue_fit": {
+        "timestamp_count": 18,
+        "recognized_han_count": 18,
+        "cues": [
+          {
+            "window": [
+              169.75,
+              171.85
+            ],
+            "window_seconds": 2.1,
+            "expected_characters": 7,
+            "raw_speech_seconds": 1.96,
+            "needed_tempo": 0.9333,
+            "passes_max_1_10": true
+          },
+          {
+            "window": [
+              172.12,
+              174.35
+            ],
+            "window_seconds": 2.23,
+            "expected_characters": 9,
+            "raw_speech_seconds": 2.48,
+            "needed_tempo": 1.1121,
+            "passes_max_1_10": false
+          },
+          {
+            "window": [
+              175.35,
+              176.25
+            ],
+            "window_seconds": 0.9,
+            "expected_characters": 2,
+            "raw_speech_seconds": 0.755,
+            "needed_tempo": 0.8389,
+            "passes_max_1_10": true
+          }
+        ],
+        "all_pass": false
+      },
+      "camplusplus": {
+        "warm_cosine": 0.8799464702606201,
+        "soft_cosine": 0.8443050384521484,
+        "c3_other_groups": {
+          "05-06": 0.8651839354239198,
+          "07": 0.8672044240979958,
+          "20": 0.816347786208212,
+          "24": 0.8607192176069831
+        },
+        "old_c2_closing_cosine": 0.8834038740180081
+      },
+      "acoustic": {
+        "candidate": {
+          "f0_p10": 135.40869480040604,
+          "f0_p90": 291.90367370763323,
+          "f0_spread_hz": 156.4949789072272
+        },
+        "old_closing": {
+          "f0_p10": 139.22538534994766,
+          "f0_p90": 251.94279619878589,
+          "f0_spread_hz": 112.71741084883823
+        },
+        "note": "descriptive only; does not establish naturalness"
+      }
+    },
+    {
+      "id": "closing_b1_sincere_s67",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\closing\\closing_b1_sincere_s67.wav",
+      "sha256": "9fda90efebf1c8a183e20ef0de70a28f98f04b6b238312236ebc5e90d6a2fe0f",
+      "style_id": "sincere",
+      "control": "真诚、温暖、带希望，像在和观众分享自己的作品；前两句逐步递进，最后晓念温柔笃定收住，不喊不煽情。 句内连贯不拖字，不过度拉长停顿。",
+      "seed": 67,
+      "seed_used": 67,
+      "mode": "reference_only_plus_control",
+      "reference": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\lively-refs\\lively_g05-06_s43_4212f8f6.wav",
+      "reference_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+      "reference_text": "这是晓念，从随手记下一句话开始。要做的事、没想完的问题，AI整理成卡，原话也一起留着。记下之后，再接着想。",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 20
+      },
+      "duration": 6.24,
+      "sample_rate": 48000,
+      "batch": 1,
+      "paraformer": {
+        "text": "念 是 转 瞬 的 念 头 想 是 让 所 想 渐 渐 明 了 小 念",
+        "timestamp": [
+          [
+            50,
+            290
+          ],
+          [
+            530,
+            770
+          ],
+          [
+            850,
+            1090
+          ],
+          [
+            1110,
+            1350
+          ],
+          [
+            1350,
+            1450
+          ],
+          [
+            1450,
+            1690
+          ],
+          [
+            1690,
+            1930
+          ],
+          [
+            2190,
+            2430
+          ],
+          [
+            2730,
+            2930
+          ],
+          [
+            2930,
+            3150
+          ],
+          [
+            3150,
+            3390
+          ],
+          [
+            3410,
+            3650
+          ],
+          [
+            3830,
+            4070
+          ],
+          [
+            4070,
+            4310
+          ],
+          [
+            4350,
+            4590
+          ],
+          [
+            4590,
+            4830
+          ],
+          [
+            5170,
+            5410
+          ],
+          [
+            5550,
+            5935
+          ]
+        ],
+        "strict_match": false
+      },
+      "cue_fit": {
+        "timestamp_count": 18,
+        "recognized_han_count": 18,
+        "cues": [
+          {
+            "window": [
+              169.75,
+              171.85
+            ],
+            "window_seconds": 2.1,
+            "expected_characters": 7,
+            "raw_speech_seconds": 1.88,
+            "needed_tempo": 0.8952,
+            "passes_max_1_10": true
+          },
+          {
+            "window": [
+              172.12,
+              174.35
+            ],
+            "window_seconds": 2.23,
+            "expected_characters": 9,
+            "raw_speech_seconds": 2.64,
+            "needed_tempo": 1.1839,
+            "passes_max_1_10": false
+          },
+          {
+            "window": [
+              175.35,
+              176.25
+            ],
+            "window_seconds": 0.9,
+            "expected_characters": 2,
+            "raw_speech_seconds": 0.765,
+            "needed_tempo": 0.85,
+            "passes_max_1_10": true
+          }
+        ],
+        "all_pass": false
+      },
+      "camplusplus": {
+        "warm_cosine": 0.8845208883285522,
+        "soft_cosine": 0.8369804620742798,
+        "c3_other_groups": {
+          "05-06": 0.8906941661964332,
+          "07": 0.8737940940776793,
+          "20": 0.8144180545807475,
+          "24": 0.8762366667048587
+        },
+        "old_c2_closing_cosine": 0.8772750748002263
+      },
+      "acoustic": {
+        "candidate": {
+          "f0_p10": 142.5386079004458,
+          "f0_p90": 257.0539468784839,
+          "f0_spread_hz": 114.51533897803807
+        },
+        "old_closing": {
+          "f0_p10": 139.22538534994766,
+          "f0_p90": 251.94279619878589,
+          "f0_spread_hz": 112.71741084883823
+        },
+        "note": "descriptive only; does not establish naturalness"
+      }
+    },
+    {
+      "id": "closing_b1_conversational_s61",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\closing\\closing_b1_conversational_s61.wav",
+      "sha256": "abed42f0ea9b4b7ecf8cc1dbfa1eef2cbad9bd5bbac22ae07f436f505ec915f6",
+      "style_id": "conversational",
+      "control": "自然亲近、真诚温暖，有交流感和轻微情绪起伏；前两句逐步递进，最后晓念温柔笃定收住，不喊不煽情。 句内连贯不拖字，不过度拉长停顿。",
+      "seed": 61,
+      "seed_used": 61,
+      "mode": "reference_only_plus_control",
+      "reference": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\lively-refs\\lively_g05-06_s43_4212f8f6.wav",
+      "reference_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+      "reference_text": "这是晓念，从随手记下一句话开始。要做的事、没想完的问题，AI整理成卡，原话也一起留着。记下之后，再接着想。",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 20
+      },
+      "duration": 5.76,
+      "sample_rate": 48000,
+      "batch": 1,
+      "paraformer": {
+        "text": "念 是 转 瞬 的 念 头 想 是 让 所 想 渐 渐 明 了 小 念",
+        "timestamp": [
+          [
+            90,
+            330
+          ],
+          [
+            670,
+            910
+          ],
+          [
+            970,
+            1210
+          ],
+          [
+            1230,
+            1410
+          ],
+          [
+            1410,
+            1530
+          ],
+          [
+            1530,
+            1750
+          ],
+          [
+            1750,
+            1990
+          ],
+          [
+            2450,
+            2690
+          ],
+          [
+            3030,
+            3250
+          ],
+          [
+            3250,
+            3450
+          ],
+          [
+            3450,
+            3650
+          ],
+          [
+            3650,
+            3890
+          ],
+          [
+            3990,
+            4130
+          ],
+          [
+            4130,
+            4370
+          ],
+          [
+            4390,
+            4530
+          ],
+          [
+            4530,
+            4770
+          ],
+          [
+            5010,
+            5250
+          ],
+          [
+            5250,
+            5545
+          ]
+        ],
+        "strict_match": false
+      },
+      "cue_fit": {
+        "timestamp_count": 18,
+        "recognized_han_count": 18,
+        "cues": [
+          {
+            "window": [
+              169.75,
+              171.85
+            ],
+            "window_seconds": 2.1,
+            "expected_characters": 7,
+            "raw_speech_seconds": 1.9,
+            "needed_tempo": 0.9048,
+            "passes_max_1_10": true
+          },
+          {
+            "window": [
+              172.12,
+              174.35
+            ],
+            "window_seconds": 2.23,
+            "expected_characters": 9,
+            "raw_speech_seconds": 2.32,
+            "needed_tempo": 1.0404,
+            "passes_max_1_10": true
+          },
+          {
+            "window": [
+              175.35,
+              176.25
+            ],
+            "window_seconds": 0.9,
+            "expected_characters": 2,
+            "raw_speech_seconds": 0.535,
+            "needed_tempo": 0.5944,
+            "passes_max_1_10": true
+          }
+        ],
+        "all_pass": true
+      },
+      "sensevoice": {
+        "raw": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>念是转瞬的念头，小是让所想渐渐明了。想念。",
+        "plain": "念是转瞬的念头，小是让所想渐渐明了。想念。",
+        "timestamp": null,
+        "strict_match": false
+      },
+      "camplusplus": {
+        "warm_cosine": 0.8859399557113647,
+        "soft_cosine": 0.8490545749664307,
+        "c3_other_groups": {
+          "05-06": 0.8655957495525228,
+          "07": 0.8689884967947652,
+          "20": 0.8135250282059263,
+          "24": 0.8557062759626278
+        },
+        "old_c2_closing_cosine": 0.8693510719928105
+      },
+      "acoustic": {
+        "candidate": {
+          "f0_p10": 143.5524616209918,
+          "f0_p90": 307.1148119002371,
+          "f0_spread_hz": 163.5623502792453
+        },
+        "old_closing": {
+          "f0_p10": 139.22538534994766,
+          "f0_p90": 251.94279619878589,
+          "f0_spread_hz": 112.71741084883823
+        },
+        "note": "descriptive only; does not establish naturalness"
+      }
+    },
+    {
+      "id": "closing_b1_conversational_s67",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\closing\\closing_b1_conversational_s67.wav",
+      "sha256": "2e08c102d8777742cc537195201b55056e9d7fd5e458632149cfb6ad1bbb51f0",
+      "style_id": "conversational",
+      "control": "自然亲近、真诚温暖，有交流感和轻微情绪起伏；前两句逐步递进，最后晓念温柔笃定收住，不喊不煽情。 句内连贯不拖字，不过度拉长停顿。",
+      "seed": 67,
+      "seed_used": 67,
+      "mode": "reference_only_plus_control",
+      "reference": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\lively-refs\\lively_g05-06_s43_4212f8f6.wav",
+      "reference_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+      "reference_text": "这是晓念，从随手记下一句话开始。要做的事、没想完的问题，AI整理成卡，原话也一起留着。记下之后，再接着想。",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 20
+      },
+      "duration": 6.08,
+      "sample_rate": 48000,
+      "batch": 1,
+      "paraformer": {
+        "text": "念 是 转 瞬 的 念 头 小 是 让 所 想 渐 渐 明 了 小 念",
+        "timestamp": [
+          [
+            50,
+            290
+          ],
+          [
+            570,
+            810
+          ],
+          [
+            850,
+            1090
+          ],
+          [
+            1110,
+            1350
+          ],
+          [
+            1350,
+            1450
+          ],
+          [
+            1450,
+            1690
+          ],
+          [
+            1690,
+            1930
+          ],
+          [
+            2190,
+            2430
+          ],
+          [
+            2730,
+            2930
+          ],
+          [
+            2930,
+            3150
+          ],
+          [
+            3150,
+            3390
+          ],
+          [
+            3410,
+            3650
+          ],
+          [
+            3830,
+            4070
+          ],
+          [
+            4070,
+            4310
+          ],
+          [
+            4350,
+            4590
+          ],
+          [
+            4590,
+            4830
+          ],
+          [
+            5170,
+            5410
+          ],
+          [
+            5490,
+            5815
+          ]
+        ],
+        "strict_match": true
+      },
+      "cue_fit": {
+        "timestamp_count": 18,
+        "recognized_han_count": 18,
+        "cues": [
+          {
+            "window": [
+              169.75,
+              171.85
+            ],
+            "window_seconds": 2.1,
+            "expected_characters": 7,
+            "raw_speech_seconds": 1.88,
+            "needed_tempo": 0.8952,
+            "passes_max_1_10": true
+          },
+          {
+            "window": [
+              172.12,
+              174.35
+            ],
+            "window_seconds": 2.23,
+            "expected_characters": 9,
+            "raw_speech_seconds": 2.64,
+            "needed_tempo": 1.1839,
+            "passes_max_1_10": false
+          },
+          {
+            "window": [
+              175.35,
+              176.25
+            ],
+            "window_seconds": 0.9,
+            "expected_characters": 2,
+            "raw_speech_seconds": 0.645,
+            "needed_tempo": 0.7167,
+            "passes_max_1_10": true
+          }
+        ],
+        "all_pass": false
+      },
+      "sensevoice": {
+        "raw": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>念是转瞬的念头，小是让所想渐渐明了。想念。",
+        "plain": "念是转瞬的念头，小是让所想渐渐明了。想念。",
+        "timestamp": null,
+        "strict_match": false
+      },
+      "camplusplus": {
+        "warm_cosine": 0.8926084637641907,
+        "soft_cosine": 0.8416560292243958,
+        "c3_other_groups": {
+          "05-06": 0.8954564468983481,
+          "07": 0.8803585080561689,
+          "20": 0.8191363651035031,
+          "24": 0.8743664784892866
+        },
+        "old_c2_closing_cosine": 0.8800854861431697
+      },
+      "acoustic": {
+        "candidate": {
+          "f0_p10": 136.793642595672,
+          "f0_p90": 259.7432362891377,
+          "f0_spread_hz": 122.94959369346572
+        },
+        "old_closing": {
+          "f0_p10": 139.22538534994766,
+          "f0_p90": 251.94279619878589,
+          "f0_spread_hz": 112.71741084883823
+        },
+        "note": "descriptive only; does not establish naturalness"
+      }
+    },
+    {
+      "id": "closing_b2_clear_warm_s71",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\closing\\closing_b2_clear_warm_s71.wav",
+      "sha256": "26727b558e2e5f34fab76f6523c2a5df26dc259b5d66425b6c104088d9dcba52",
+      "style_id": "clear_warm",
+      "control": "真诚温暖、简洁连贯地分享自己的作品，清楚说出晓念；前两句递进，最后温柔笃定收住。句内连贯不拖字，不过度拉长停顿。",
+      "seed": 71,
+      "seed_used": 71,
+      "mode": "reference_only_plus_control",
+      "reference": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\lively-refs\\lively_g05-06_s43_4212f8f6.wav",
+      "reference_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+      "reference_text": "这是晓念，从随手记下一句话开始。要做的事、没想完的问题，AI整理成卡，原话也一起留着。记下之后，再接着想。",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 20
+      },
+      "duration": 6.24,
+      "sample_rate": 48000,
+      "batch": 2,
+      "paraformer": {
+        "text": "念 是 转 瞬 的 念 头 想 是 让 所 想 渐 渐 明 亮 小 念",
+        "timestamp": [
+          [
+            50,
+            290
+          ],
+          [
+            470,
+            710
+          ],
+          [
+            730,
+            930
+          ],
+          [
+            930,
+            1110
+          ],
+          [
+            1110,
+            1190
+          ],
+          [
+            1190,
+            1390
+          ],
+          [
+            1390,
+            1630
+          ],
+          [
+            2590,
+            2830
+          ],
+          [
+            3130,
+            3310
+          ],
+          [
+            3310,
+            3490
+          ],
+          [
+            3490,
+            3710
+          ],
+          [
+            3710,
+            3950
+          ],
+          [
+            3990,
+            4130
+          ],
+          [
+            4130,
+            4330
+          ],
+          [
+            4330,
+            4470
+          ],
+          [
+            4470,
+            4710
+          ],
+          [
+            5410,
+            5650
+          ],
+          [
+            5730,
+            6025
+          ]
+        ],
+        "strict_match": false
+      },
+      "cue_fit": {
+        "timestamp_count": 18,
+        "recognized_han_count": 18,
+        "cues": [
+          {
+            "window": [
+              169.75,
+              171.85
+            ],
+            "window_seconds": 2.1,
+            "expected_characters": 7,
+            "raw_speech_seconds": 1.58,
+            "needed_tempo": 0.7524,
+            "passes_max_1_10": true
+          },
+          {
+            "window": [
+              172.12,
+              174.35
+            ],
+            "window_seconds": 2.23,
+            "expected_characters": 9,
+            "raw_speech_seconds": 2.12,
+            "needed_tempo": 0.9507,
+            "passes_max_1_10": true
+          },
+          {
+            "window": [
+              175.35,
+              176.25
+            ],
+            "window_seconds": 0.9,
+            "expected_characters": 2,
+            "raw_speech_seconds": 0.615,
+            "needed_tempo": 0.6833,
+            "passes_max_1_10": true
+          }
+        ],
+        "all_pass": true
+      },
+      "camplusplus": {
+        "warm_cosine": 0.8793680667877197,
+        "soft_cosine": 0.8618756532669067,
+        "c3_other_groups": {
+          "05-06": 0.8751304233094173,
+          "07": 0.8715219161994318,
+          "20": 0.8340683125011776,
+          "24": 0.8617224587693977
+        },
+        "old_c2_closing_cosine": 0.870595792132665
+      },
+      "acoustic": {
+        "candidate": {
+          "f0_p10": 143.53288898154253,
+          "f0_p90": 232.15390174131542,
+          "f0_spread_hz": 88.6210127597729
+        },
+        "old_closing": {
+          "f0_p10": 139.22538534994766,
+          "f0_p90": 251.94279619878589,
+          "f0_spread_hz": 112.71741084883823
+        },
+        "note": "descriptive only; does not establish naturalness"
+      }
+    },
+    {
+      "id": "closing_b2_clear_warm_s73",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\closing\\closing_b2_clear_warm_s73.wav",
+      "sha256": "65c5d3b45ba1865b6e1602d294b66018ddd6c9c89ce4189e2dd6fdaeabd843fa",
+      "style_id": "clear_warm",
+      "control": "真诚温暖、简洁连贯地分享自己的作品，清楚说出晓念；前两句递进，最后温柔笃定收住。句内连贯不拖字，不过度拉长停顿。",
+      "seed": 73,
+      "seed_used": 73,
+      "mode": "reference_only_plus_control",
+      "reference": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\lively-refs\\lively_g05-06_s43_4212f8f6.wav",
+      "reference_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+      "reference_text": "这是晓念，从随手记下一句话开始。要做的事、没想完的问题，AI整理成卡，原话也一起留着。记下之后，再接着想。",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 20
+      },
+      "duration": 5.44,
+      "sample_rate": 48000,
+      "batch": 2,
+      "paraformer": {
+        "text": "念 是 转 瞬 的 念 头 想 是 让 所 想 渐 渐 明 了 小 念",
+        "timestamp": [
+          [
+            70,
+            310
+          ],
+          [
+            530,
+            770
+          ],
+          [
+            850,
+            1050
+          ],
+          [
+            1050,
+            1290
+          ],
+          [
+            1290,
+            1370
+          ],
+          [
+            1370,
+            1570
+          ],
+          [
+            1570,
+            1810
+          ],
+          [
+            2190,
+            2430
+          ],
+          [
+            2730,
+            2930
+          ],
+          [
+            2930,
+            3150
+          ],
+          [
+            3150,
+            3350
+          ],
+          [
+            3350,
+            3590
+          ],
+          [
+            3690,
+            3830
+          ],
+          [
+            3830,
+            4030
+          ],
+          [
+            4030,
+            4170
+          ],
+          [
+            4170,
+            4410
+          ],
+          [
+            4650,
+            4890
+          ],
+          [
+            4950,
+            5245
+          ]
+        ],
+        "strict_match": false
+      },
+      "cue_fit": {
+        "timestamp_count": 18,
+        "recognized_han_count": 18,
+        "cues": [
+          {
+            "window": [
+              169.75,
+              171.85
+            ],
+            "window_seconds": 2.1,
+            "expected_characters": 7,
+            "raw_speech_seconds": 1.74,
+            "needed_tempo": 0.8286,
+            "passes_max_1_10": true
+          },
+          {
+            "window": [
+              172.12,
+              174.35
+            ],
+            "window_seconds": 2.23,
+            "expected_characters": 9,
+            "raw_speech_seconds": 2.22,
+            "needed_tempo": 0.9955,
+            "passes_max_1_10": true
+          },
+          {
+            "window": [
+              175.35,
+              176.25
+            ],
+            "window_seconds": 0.9,
+            "expected_characters": 2,
+            "raw_speech_seconds": 0.595,
+            "needed_tempo": 0.6611,
+            "passes_max_1_10": true
+          }
+        ],
+        "all_pass": true
+      },
+      "sensevoice": {
+        "raw": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>念是转瞬的念头，小是让所想渐渐明了。小念。",
+        "plain": "念是转瞬的念头，小是让所想渐渐明了。小念。",
+        "timestamp": null,
+        "strict_match": true
+      },
+      "camplusplus": {
+        "warm_cosine": 0.8690504431724548,
+        "soft_cosine": 0.8568220138549805,
+        "c3_other_groups": {
+          "05-06": 0.8702578023544499,
+          "07": 0.8662477386785936,
+          "20": 0.8385751761110444,
+          "24": 0.8772279165879967
+        },
+        "old_c2_closing_cosine": 0.8949116700158032
+      },
+      "acoustic": {
+        "candidate": {
+          "f0_p10": 129.2578242265798,
+          "f0_p90": 236.93926453061272,
+          "f0_spread_hz": 107.68144030403292
+        },
+        "old_closing": {
+          "f0_p10": 139.22538534994766,
+          "f0_p90": 251.94279619878589,
+          "f0_spread_hz": 112.71741084883823
+        },
+        "note": "descriptive only; does not establish naturalness"
+      }
+    },
+    {
+      "id": "closing_b2_soft_hopeful_s71",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\closing\\closing_b2_soft_hopeful_s71.wav",
+      "sha256": "fdd8e74553434ad746bd4b8165cafbcdd07e91af39c9f0020809fa55115112d3",
+      "style_id": "soft_hopeful",
+      "control": "温柔真诚、有希望，和观众面对面交流；晓字和晓念清楚自然，最后轻轻收住。句内连贯不拖字，不过度拉长停顿。",
+      "seed": 71,
+      "seed_used": 71,
+      "mode": "reference_only_plus_control",
+      "reference": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\lively-refs\\lively_g05-06_s43_4212f8f6.wav",
+      "reference_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+      "reference_text": "这是晓念，从随手记下一句话开始。要做的事、没想完的问题，AI整理成卡，原话也一起留着。记下之后，再接着想。",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 20
+      },
+      "duration": 7.04,
+      "sample_rate": 48000,
+      "batch": 2,
+      "paraformer": {
+        "text": "念 是 转 瞬 的 念 头 想 是 让 所 想 渐 渐 明 亮 小 念",
+        "timestamp": [
+          [
+            50,
+            290
+          ],
+          [
+            590,
+            830
+          ],
+          [
+            910,
+            1110
+          ],
+          [
+            1110,
+            1290
+          ],
+          [
+            1290,
+            1370
+          ],
+          [
+            1370,
+            1570
+          ],
+          [
+            1570,
+            1810
+          ],
+          [
+            2590,
+            2830
+          ],
+          [
+            3490,
+            3730
+          ],
+          [
+            3730,
+            3970
+          ],
+          [
+            3990,
+            4190
+          ],
+          [
+            4190,
+            4430
+          ],
+          [
+            4630,
+            4850
+          ],
+          [
+            4850,
+            5050
+          ],
+          [
+            5050,
+            5250
+          ],
+          [
+            5250,
+            5490
+          ],
+          [
+            6090,
+            6330
+          ],
+          [
+            6390,
+            6745
+          ]
+        ],
+        "strict_match": false
+      },
+      "cue_fit": {
+        "timestamp_count": 18,
+        "recognized_han_count": 18,
+        "cues": [
+          {
+            "window": [
+              169.75,
+              171.85
+            ],
+            "window_seconds": 2.1,
+            "expected_characters": 7,
+            "raw_speech_seconds": 1.76,
+            "needed_tempo": 0.8381,
+            "passes_max_1_10": true
+          },
+          {
+            "window": [
+              172.12,
+              174.35
+            ],
+            "window_seconds": 2.23,
+            "expected_characters": 9,
+            "raw_speech_seconds": 2.9,
+            "needed_tempo": 1.3004,
+            "passes_max_1_10": false
+          },
+          {
+            "window": [
+              175.35,
+              176.25
+            ],
+            "window_seconds": 0.9,
+            "expected_characters": 2,
+            "raw_speech_seconds": 0.655,
+            "needed_tempo": 0.7278,
+            "passes_max_1_10": true
+          }
+        ],
+        "all_pass": false
+      },
+      "camplusplus": {
+        "warm_cosine": 0.8697157502174377,
+        "soft_cosine": 0.8399752974510193,
+        "c3_other_groups": {
+          "05-06": 0.8626575582826098,
+          "07": 0.8650131030720027,
+          "20": 0.8029851384557485,
+          "24": 0.8622801116374293
+        },
+        "old_c2_closing_cosine": 0.889061220554084
+      },
+      "acoustic": {
+        "candidate": {
+          "f0_p10": 136.36921767415055,
+          "f0_p90": 275.6791734514812,
+          "f0_spread_hz": 139.30995577733063
+        },
+        "old_closing": {
+          "f0_p10": 139.22538534994766,
+          "f0_p90": 251.94279619878589,
+          "f0_spread_hz": 112.71741084883823
+        },
+        "note": "descriptive only; does not establish naturalness"
+      }
+    },
+    {
+      "id": "closing_b2_soft_hopeful_s73",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\closing\\closing_b2_soft_hopeful_s73.wav",
+      "sha256": "282b87cffd1eb7268c79824f09b9fd67f1d347d3548f5b41db5bad869a0cdd07",
+      "style_id": "soft_hopeful",
+      "control": "温柔真诚、有希望，和观众面对面交流；晓字和晓念清楚自然，最后轻轻收住。句内连贯不拖字，不过度拉长停顿。",
+      "seed": 73,
+      "seed_used": 73,
+      "mode": "reference_only_plus_control",
+      "reference": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\lively-refs\\lively_g05-06_s43_4212f8f6.wav",
+      "reference_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+      "reference_text": "这是晓念，从随手记下一句话开始。要做的事、没想完的问题，AI整理成卡，原话也一起留着。记下之后，再接着想。",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 20
+      },
+      "duration": 5.92,
+      "sample_rate": 48000,
+      "batch": 2,
+      "paraformer": {
+        "text": "念 是 转 瞬 的 念 头 想 是 让 所 想 渐 渐 明 妙 小 念",
+        "timestamp": [
+          [
+            70,
+            310
+          ],
+          [
+            530,
+            770
+          ],
+          [
+            850,
+            1050
+          ],
+          [
+            1050,
+            1290
+          ],
+          [
+            1290,
+            1410
+          ],
+          [
+            1410,
+            1570
+          ],
+          [
+            1570,
+            1810
+          ],
+          [
+            2190,
+            2430
+          ],
+          [
+            2730,
+            2930
+          ],
+          [
+            2930,
+            3170
+          ],
+          [
+            3210,
+            3410
+          ],
+          [
+            3410,
+            3650
+          ],
+          [
+            3770,
+            3950
+          ],
+          [
+            3950,
+            4190
+          ],
+          [
+            4210,
+            4350
+          ],
+          [
+            4350,
+            4590
+          ],
+          [
+            5010,
+            5250
+          ],
+          [
+            5310,
+            5665
+          ]
+        ],
+        "strict_match": false
+      },
+      "cue_fit": {
+        "timestamp_count": 18,
+        "recognized_han_count": 18,
+        "cues": [
+          {
+            "window": [
+              169.75,
+              171.85
+            ],
+            "window_seconds": 2.1,
+            "expected_characters": 7,
+            "raw_speech_seconds": 1.74,
+            "needed_tempo": 0.8286,
+            "passes_max_1_10": true
+          },
+          {
+            "window": [
+              172.12,
+              174.35
+            ],
+            "window_seconds": 2.23,
+            "expected_characters": 9,
+            "raw_speech_seconds": 2.4,
+            "needed_tempo": 1.0762,
+            "passes_max_1_10": true
+          },
+          {
+            "window": [
+              175.35,
+              176.25
+            ],
+            "window_seconds": 0.9,
+            "expected_characters": 2,
+            "raw_speech_seconds": 0.655,
+            "needed_tempo": 0.7278,
+            "passes_max_1_10": true
+          }
+        ],
+        "all_pass": true
+      },
+      "sensevoice": {
+        "raw": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>念是转瞬的念头，小是让所想渐渐明妙。小念。",
+        "plain": "念是转瞬的念头，小是让所想渐渐明妙。小念。",
+        "timestamp": null,
+        "strict_match": false
+      },
+      "camplusplus": {
+        "warm_cosine": 0.8781565427780151,
+        "soft_cosine": 0.8553107380867004,
+        "c3_other_groups": {
+          "05-06": 0.8692577381817814,
+          "07": 0.8622013341598451,
+          "20": 0.8327746514917638,
+          "24": 0.8637589720531724
+        },
+        "old_c2_closing_cosine": 0.8873588598038412
+      },
+      "acoustic": {
+        "candidate": {
+          "f0_p10": 136.38513335652118,
+          "f0_p90": 235.4315051823985,
+          "f0_spread_hz": 99.04637182587732
+        },
+        "old_closing": {
+          "f0_p10": 139.22538534994766,
+          "f0_p90": 251.94279619878589,
+          "f0_spread_hz": 112.71741084883823
+        },
+        "note": "descriptive only; does not establish naturalness"
+      }
+    },
+    {
+      "id": "closing_b3_pronunciation_s79",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\closing\\closing_b3_pronunciation_s79.wav",
+      "sha256": "7c929acb275c600047063b5433a6d9980b671ddbb9c6604a3defc842a4aede2f",
+      "style_id": "pronunciation",
+      "control": "自然亲近、真诚温暖，有交流感和轻微情绪起伏；前两句逐步递进，最后晓念温柔笃定收住，不喊不煽情。 句内连贯不拖字，不过度拉长停顿。",
+      "seed": 79,
+      "seed_used": 79,
+      "mode": "reference_only_plus_control",
+      "reference": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\lively-refs\\lively_g05-06_s43_4212f8f6.wav",
+      "reference_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+      "reference_text": "这是晓念，从随手记下一句话开始。要做的事、没想完的问题，AI整理成卡，原话也一起留着。记下之后，再接着想。",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 20
+      },
+      "original_text": "念，是转瞬的念头。晓，是让所想渐渐明瞭。晓念。",
+      "synthesis_input": "念，是转瞬的念头。小，是让所想渐渐明瞭。小念。",
+      "duration": 5.44,
+      "sample_rate": 48000,
+      "batch": 3,
+      "alias_reason": "Only synthesis input replaces 晓 with same-pronunciation 小 to guide the rare character; original script and expected ASR remain 晓. 想 is never normalized to 晓.",
+      "paraformer": {
+        "text": "念 是 转 瞬 的 念 头 想 是 让 所 想 渐 渐 明 亮 小 念",
+        "timestamp": [
+          [
+            70,
+            310
+          ],
+          [
+            650,
+            890
+          ],
+          [
+            950,
+            1110
+          ],
+          [
+            1110,
+            1290
+          ],
+          [
+            1290,
+            1410
+          ],
+          [
+            1410,
+            1570
+          ],
+          [
+            1570,
+            1810
+          ],
+          [
+            2230,
+            2470
+          ],
+          [
+            2770,
+            2930
+          ],
+          [
+            2930,
+            3150
+          ],
+          [
+            3150,
+            3350
+          ],
+          [
+            3350,
+            3590
+          ],
+          [
+            3650,
+            3830
+          ],
+          [
+            3830,
+            4030
+          ],
+          [
+            4030,
+            4170
+          ],
+          [
+            4170,
+            4410
+          ],
+          [
+            4670,
+            4910
+          ],
+          [
+            4950,
+            5245
+          ]
+        ],
+        "strict_match": false
+      },
+      "cue_fit": {
+        "timestamp_count": 18,
+        "recognized_han_count": 18,
+        "cues": [
+          {
+            "window": [
+              169.75,
+              171.85
+            ],
+            "window_seconds": 2.1,
+            "expected_characters": 7,
+            "raw_speech_seconds": 1.74,
+            "needed_tempo": 0.8286,
+            "passes_max_1_10": true
+          },
+          {
+            "window": [
+              172.12,
+              174.35
+            ],
+            "window_seconds": 2.23,
+            "expected_characters": 9,
+            "raw_speech_seconds": 2.18,
+            "needed_tempo": 0.9776,
+            "passes_max_1_10": true
+          },
+          {
+            "window": [
+              175.35,
+              176.25
+            ],
+            "window_seconds": 0.9,
+            "expected_characters": 2,
+            "raw_speech_seconds": 0.575,
+            "needed_tempo": 0.6389,
+            "passes_max_1_10": true
+          }
+        ],
+        "all_pass": true
+      },
+      "sensevoice": {
+        "raw": "<|zh|><|HAPPY|><|Speech|><|withitn|>念是转瞬的念头，想是让所想渐渐明亮。想念。",
+        "plain": "念是转瞬的念头，想是让所想渐渐明亮。想念。",
+        "timestamp": null,
+        "strict_match": false
+      },
+      "camplusplus": {
+        "warm_cosine": 0.8874101042747498,
+        "soft_cosine": 0.8200191259384155,
+        "c3_other_groups": {
+          "05-06": 0.8800047398414693,
+          "07": 0.8617021271069403,
+          "20": 0.7879819681542906,
+          "24": 0.8365206278029189
+        },
+        "old_c2_closing_cosine": 0.8191842361718651
+      },
+      "acoustic": {
+        "candidate": {
+          "f0_p10": 162.770855840796,
+          "f0_p90": 278.8382830493896,
+          "f0_spread_hz": 116.06742720859359
+        },
+        "old_closing": {
+          "f0_p10": 139.22538534994766,
+          "f0_p90": 251.94279619878589,
+          "f0_spread_hz": 112.71741084883823
+        },
+        "note": "descriptive only; does not establish naturalness"
+      }
+    },
+    {
+      "id": "closing_b3_pronunciation_s83",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\closing\\closing_b3_pronunciation_s83.wav",
+      "sha256": "ca5f047d5162a18739b5fe10aa72157ab5d297dfbf86090867146a0bfacb92cb",
+      "style_id": "pronunciation",
+      "control": "自然亲近、真诚温暖，有交流感和轻微情绪起伏；前两句逐步递进，最后晓念温柔笃定收住，不喊不煽情。 句内连贯不拖字，不过度拉长停顿。",
+      "seed": 83,
+      "seed_used": 83,
+      "mode": "reference_only_plus_control",
+      "reference": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\lively-refs\\lively_g05-06_s43_4212f8f6.wav",
+      "reference_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+      "reference_text": "这是晓念，从随手记下一句话开始。要做的事、没想完的问题，AI整理成卡，原话也一起留着。记下之后，再接着想。",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 20
+      },
+      "original_text": "念，是转瞬的念头。晓，是让所想渐渐明瞭。晓念。",
+      "synthesis_input": "念，是转瞬的念头。小，是让所想渐渐明瞭。小念。",
+      "duration": 6.56,
+      "sample_rate": 48000,
+      "batch": 3,
+      "alias_reason": "Only synthesis input replaces 晓 with same-pronunciation 小 to guide the rare character; original script and expected ASR remain 晓. 想 is never normalized to 晓.",
+      "paraformer": {
+        "text": "念 是 转 瞬 的 念 头 想 是 让 所 想 渐 渐 明 亮 小 念",
+        "timestamp": [
+          [
+            70,
+            310
+          ],
+          [
+            770,
+            1010
+          ],
+          [
+            1090,
+            1290
+          ],
+          [
+            1290,
+            1470
+          ],
+          [
+            1470,
+            1590
+          ],
+          [
+            1590,
+            1810
+          ],
+          [
+            1810,
+            2050
+          ],
+          [
+            2590,
+            2830
+          ],
+          [
+            3250,
+            3490
+          ],
+          [
+            3490,
+            3670
+          ],
+          [
+            3670,
+            3890
+          ],
+          [
+            3890,
+            4130
+          ],
+          [
+            4290,
+            4430
+          ],
+          [
+            4430,
+            4650
+          ],
+          [
+            4650,
+            4830
+          ],
+          [
+            4830,
+            5070
+          ],
+          [
+            5610,
+            5850
+          ],
+          [
+            5970,
+            6295
+          ]
+        ],
+        "strict_match": false
+      },
+      "cue_fit": {
+        "timestamp_count": 18,
+        "recognized_han_count": 18,
+        "cues": [
+          {
+            "window": [
+              169.75,
+              171.85
+            ],
+            "window_seconds": 2.1,
+            "expected_characters": 7,
+            "raw_speech_seconds": 1.98,
+            "needed_tempo": 0.9429,
+            "passes_max_1_10": true
+          },
+          {
+            "window": [
+              172.12,
+              174.35
+            ],
+            "window_seconds": 2.23,
+            "expected_characters": 9,
+            "raw_speech_seconds": 2.48,
+            "needed_tempo": 1.1121,
+            "passes_max_1_10": false
+          },
+          {
+            "window": [
+              175.35,
+              176.25
+            ],
+            "window_seconds": 0.9,
+            "expected_characters": 2,
+            "raw_speech_seconds": 0.685,
+            "needed_tempo": 0.7611,
+            "passes_max_1_10": true
+          }
+        ],
+        "all_pass": false
+      },
+      "sensevoice": {
+        "raw": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>念是转瞬的念头，想是让所想渐渐明了。小念。",
+        "plain": "念是转瞬的念头，想是让所想渐渐明了。小念。",
+        "timestamp": null,
+        "strict_match": false
+      },
+      "camplusplus": {
+        "warm_cosine": 0.8644547462463379,
+        "soft_cosine": 0.8194789290428162,
+        "c3_other_groups": {
+          "05-06": 0.8597112157879012,
+          "07": 0.8494905404100175,
+          "20": 0.7826215843362517,
+          "24": 0.8455630405930121
+        },
+        "old_c2_closing_cosine": 0.8739836363514042
+      },
+      "acoustic": {
+        "candidate": {
+          "f0_p10": 143.68102736980285,
+          "f0_p90": 289.13461653551167,
+          "f0_spread_hz": 145.45358916570882
+        },
+        "old_closing": {
+          "f0_p10": 139.22538534994766,
+          "f0_p90": 251.94279619878589,
+          "f0_spread_hz": 112.71741084883823
+        },
+        "note": "descriptive only; does not establish naturalness"
+      }
+    }
+  ],
+  "pronunciation_alias_batch": {
+    "alias": "念，是转瞬的念头。小，是让所想渐渐明瞭。小念。",
+    "original": "念，是转瞬的念头。晓，是让所想渐渐明瞭。晓念。",
+    "normalization_equal": true,
+    "expected_asr": "original normalized text",
+    "count": 2
+  }
+}

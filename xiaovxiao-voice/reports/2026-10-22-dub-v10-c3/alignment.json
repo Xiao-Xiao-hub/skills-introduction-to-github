@@ -1,0 +1,2051 @@
+{
+  "approved_c3_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\delivery\\C3_交流起伏_完整旁白.wav",
+  "approved_c3_sha256": "a0db0f1e86000b320f0d64d869c1e72122c89dacea3ba4bf3558ef530a4785b5",
+  "original_video": "D:\\XiaoNian-Video\\review\\2026-10-21-v10\\晓念_V10_完整片_无旁白.mp4",
+  "original_source_hashes": {
+    "common.py": "5d45aed2854fe4224a0b0659312051240509c9a07bac6f70fe683606ddef262e",
+    "dub.py": "34e20dcfbb8749105cabd7272c67155ff0a68bc2f9b5392c2ccb17466eb629ac",
+    "measure.py": "ddfad8c55df26063a83bcf8f7242e75d07414a46645f535183cf3dd130dec824",
+    "specs.py": "2f9e47024a1b2455607fe21d0e4a665dd4bbfd5266cd687596682fb8bf259cc8",
+    "step1_audition.py": "0a3718cc9275eb5bef6b81d6ae02ffb4ec0424b75007b0eed962adbff09b07fd",
+    "step2_refine.py": "e0ec0831053df10633115e238e183dace2716392b7f0cd2b2a60c950ef0154ac",
+    "step3_clone_test.py": "b956a0eacb2f17dd84e998faf5b794ffc845ea7d9c9d6ae9b5563abc6337a942",
+    "step4_finalize.py": "5c707160832184768e749214c6f9090722b54d42db83b3f534d64ea4925ab7d8",
+    "dub\\xiaonian_v10.json": "d8da845a59679b12305cac3226277b8d6b3c5bed93c6f49e034b1ed31cc81c9b",
+    "voices\\v1\\哓v哓_v1_声音档案.json": "2f489f0f5c516b7609026190d901cde9b204cca2577c4eb8e77ffb12812652a8",
+    "voices\\v1\\哓v哓_v1_定妆音.txt": "f2340ce5cddd9fd302fac9cadd38d38e97e3bfd850e28a7c5df60117a2201d86",
+    "voices\\v1\\哓v哓_v1_定妆音.wav": "612b3162df5925162377ec9ca2501911a53c5b73e96265538d53be68ee3b9024"
+  },
+  "source_srt_sha256": "823f465c9ad7ed7eb322c9ff734027fd6d5f110992eac276bef34cac97f1ebb1",
+  "duration": 178,
+  "sample_rate": 48000,
+  "cue_count": 55,
+  "rows": [
+    {
+      "index": 1,
+      "group": "01-02",
+      "text": "躺下了。",
+      "synth": "躺下了。",
+      "shot": "01",
+      "window": [
+        0.35,
+        1.55
+      ],
+      "start": 0.35,
+      "end": 1.02,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g01-02.wav",
+      "source_sha256": "6e1f09e4394699ae13c5e7b8a6904210c1705e0ad683a48edd138c42e4faaa24",
+      "source_span": [
+        0.08,
+        0.75
+      ],
+      "original_asr_speech_span": [
+        0.11,
+        0.75
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_01_g01-02.wav",
+      "cue_sha256": "03f29d4eb15f9317c424ce93a287850396a4608c414038619d11da56c19a843f",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 2,
+      "group": "01-02",
+      "text": "脑子却停不下来。",
+      "synth": "脑子却停不下来。",
+      "shot": "02",
+      "window": [
+        2.15,
+        4.15
+      ],
+      "start": 2.15,
+      "end": 3.535,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g01-02.wav",
+      "source_sha256": "6e1f09e4394699ae13c5e7b8a6904210c1705e0ad683a48edd138c42e4faaa24",
+      "source_span": [
+        1.46,
+        2.845
+      ],
+      "original_asr_speech_span": [
+        1.49,
+        2.785
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_02_g01-02.wav",
+      "cue_sha256": "90280a8613bbfe1977685bc65a12054bb32d1082731a6cdfef91ba04bbaa53f6",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 3,
+      "group": "03",
+      "text": "一天里，许多念头冒出来，又慢慢散去。",
+      "synth": "一天里，许多念头冒出来，又慢慢散去。",
+      "shot": "03",
+      "window": [
+        4.65,
+        8.75
+      ],
+      "start": 4.65,
+      "end": 7.505000000000001,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g03.wav",
+      "source_sha256": "1b174b0c8adf6df10673df178164a219eef1b026aa30f73a0e4b4ccc0496980c",
+      "source_span": [
+        0.2,
+        3.055
+      ],
+      "original_asr_speech_span": [
+        0.23,
+        2.995
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_03_g03.wav",
+      "cue_sha256": "f62ce7ec1921f3ec539401839603ca9ce9bbd2ebcb493251f5ad1ab19b2c5c07",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 4,
+      "group": "04",
+      "text": "睡前，把明天要做的事，先写下来。",
+      "synth": "睡前，把明天要做的事，先写下来。",
+      "shot": "04",
+      "window": [
+        9.2,
+        13.7
+      ],
+      "start": 9.2,
+      "end": 11.815,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g04.wav",
+      "source_sha256": "d973c62d7a4e28c1ab946ac2d75e225aa0e849269938f04c0d49013f1be8236e",
+      "source_span": [
+        0.26,
+        2.875
+      ],
+      "original_asr_speech_span": [
+        0.29,
+        2.815
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_04_g04.wav",
+      "cue_sha256": "809b164cb75ca9e6144891b904e1bee05f497b9699e58873db1de18627cf023e",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 5,
+      "group": "05-06",
+      "text": "这是晓念，从随手记下一句话开始。",
+      "synth": "这是晓念，从随手记下一句话开始。",
+      "shot": "05",
+      "window": [
+        14.18,
+        17.601
+      ],
+      "start": 14.18,
+      "end": 17.009999999999998,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g05-06.wav",
+      "source_sha256": "e757b744acfe6e7807d2aa12f7dc67a899f89aaf6611702abd6015e7ffb5e511",
+      "source_span": [
+        0.24000000000000002,
+        3.07
+      ],
+      "original_asr_speech_span": [
+        0.27,
+        3.01
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_05_g05-06.wav",
+      "cue_sha256": "a4d3650bd869d45b9fbfde7deee869881aa75b867dae1fec14114c32508e808e",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 6,
+      "group": "05-06",
+      "text": "要做的事、没想完的问题，",
+      "synth": "要做的事、没想完的问题，",
+      "shot": "05",
+      "window": [
+        17.681,
+        20.124
+      ],
+      "start": 17.681,
+      "end": 19.551000000000002,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g05-06.wav",
+      "source_sha256": "e757b744acfe6e7807d2aa12f7dc67a899f89aaf6611702abd6015e7ffb5e511",
+      "source_span": [
+        3.3400000000000003,
+        5.21
+      ],
+      "original_asr_speech_span": [
+        3.37,
+        5.15
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_06_g05-06.wav",
+      "cue_sha256": "9dae517235048450fb5a85e5599a613422d5e0a7c5c209ebae6fdb6c8c8cff4a",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 7,
+      "group": "05-06",
+      "text": "AI整理成卡，原话也一起留着。",
+      "synth": "AI整理成卡，原话也一起留着。",
+      "shot": "05",
+      "window": [
+        20.204,
+        23.38
+      ],
+      "start": 20.204,
+      "end": 23.054000000000002,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g05-06.wav",
+      "source_sha256": "e757b744acfe6e7807d2aa12f7dc67a899f89aaf6611702abd6015e7ffb5e511",
+      "source_span": [
+        5.3999999999999995,
+        8.25
+      ],
+      "original_asr_speech_span": [
+        5.43,
+        8.25
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_07_g05-06.wav",
+      "cue_sha256": "73f78dcfdfe2b8e0db28f2a9009619ce02cf226ff938e84ad11d67dcb29c34cf",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 8,
+      "group": "05-06",
+      "text": "记下之后，再接着想。",
+      "synth": "记下之后，再接着想。",
+      "shot": "06",
+      "window": [
+        23.68,
+        25.88
+      ],
+      "start": 23.68,
+      "end": 25.315,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g05-06.wav",
+      "source_sha256": "e757b744acfe6e7807d2aa12f7dc67a899f89aaf6611702abd6015e7ffb5e511",
+      "source_span": [
+        8.38,
+        10.015
+      ],
+      "original_asr_speech_span": [
+        8.41,
+        9.955
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_08_g05-06.wav",
+      "cue_sha256": "172e284bdb1db9e739623ca8f54a81c6670aca0f90e2ae6b634bf8ca919ca10c",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 9,
+      "group": "07",
+      "text": "过几天，带着原话回来看，",
+      "synth": "过几天，带着原话回来看，",
+      "shot": "07",
+      "window": [
+        26.18,
+        28.406
+      ],
+      "start": 26.18,
+      "end": 28.281645833333332,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g07.wav",
+      "source_sha256": "0b1dae5799871f1777b775b97e88ed56ac6db5e8715b640a7b26c3f37b0638a7",
+      "source_span": [
+        0.30000000000000004,
+        2.4016458333333333
+      ],
+      "original_asr_speech_span": [
+        0.33,
+        2.35
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_09_g07.wav",
+      "cue_sha256": "322b2c0d017b48a9376b0fa53adfc5d876afa0ad00efb5fe43e54178bf9767dc",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 10,
+      "group": "07",
+      "text": "那件想报竞赛的事，现在怎么想？",
+      "synth": "那件想报竞赛的事，现在怎么想？",
+      "shot": "07",
+      "window": [
+        28.486,
+        31.38
+      ],
+      "start": 28.486,
+      "end": 30.871000000000002,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g07.wav",
+      "source_sha256": "0b1dae5799871f1777b775b97e88ed56ac6db5e8715b640a7b26c3f37b0638a7",
+      "source_span": [
+        2.56,
+        4.944999999999999
+      ],
+      "original_asr_speech_span": [
+        2.59,
+        4.885
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_10_g07.wav",
+      "cue_sha256": "6b41782f13b09147ba77fc5a22e7fb96fbd344218ff5f5fb9dd5a5fd3a9011c6",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 11,
+      "group": "08",
+      "text": "做完的待办勾掉，",
+      "synth": "做完的待办勾掉，",
+      "shot": "08",
+      "window": [
+        31.68,
+        33.582
+      ],
+      "start": 31.68,
+      "end": 32.98402083333333,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g08.wav",
+      "source_sha256": "6a51f4dd8a12d610c6e518a3c7757f70203c656fb44feff3595347a6176f60da",
+      "source_span": [
+        0.24000000000000002,
+        1.5440208333333334
+      ],
+      "original_asr_speech_span": [
+        0.27,
+        1.53
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_11_g08.wav",
+      "cue_sha256": "73768cf5b6cfca150a848b6ae9aba443dab1c7ab22fcc331991886c0b0261f44",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 12,
+      "group": "08",
+      "text": "没想完的念头，留着继续。",
+      "synth": "没想完的念头，留着继续。",
+      "shot": "08",
+      "window": [
+        33.662,
+        36.38
+      ],
+      "start": 33.662,
+      "end": 35.50297916666666,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g08.wav",
+      "source_sha256": "6a51f4dd8a12d610c6e518a3c7757f70203c656fb44feff3595347a6176f60da",
+      "source_span": [
+        1.5440208333333334,
+        3.3850000000000002
+      ],
+      "original_asr_speech_span": [
+        1.53,
+        3.325
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_12_g08.wav",
+      "cue_sha256": "1b996ed372622460619911cef206c0ebb89a78d5c2e29c6458c4f120042164f0",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 13,
+      "group": "09",
+      "text": "记录都在卡片墙上，",
+      "synth": "记录都在卡片墙上，",
+      "shot": "09",
+      "window": [
+        36.68,
+        38.733
+      ],
+      "start": 36.68,
+      "end": 38.17,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g09.wav",
+      "source_sha256": "48b84ac7ef94f31223f26134634f7d36e873c2937439e2600eb617bd9d3247e1",
+      "source_span": [
+        0.26,
+        1.75
+      ],
+      "original_asr_speech_span": [
+        0.29,
+        1.75
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_13_g09.wav",
+      "cue_sha256": "45f7f0a8b239549e54454f007e20b4de40099aae2537a72351aee61ab3cbbaec",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 14,
+      "group": "09",
+      "text": "想找回来时，不必从头翻。",
+      "synth": "想找回来时，不必从头翻。",
+      "shot": "09",
+      "window": [
+        38.813,
+        41.38
+      ],
+      "start": 38.813,
+      "end": 40.768,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g09.wav",
+      "source_sha256": "48b84ac7ef94f31223f26134634f7d36e873c2937439e2600eb617bd9d3247e1",
+      "source_span": [
+        1.94,
+        3.895
+      ],
+      "original_asr_speech_span": [
+        1.97,
+        3.835
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_14_g09.wav",
+      "cue_sha256": "ecdf4313e1f6f6ff9f457117f2c49d0a1025e992b7b869d9123716dad089cde2",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 15,
+      "group": "10",
+      "text": "点“接着聊”，先看最担心的时间安排，",
+      "synth": "点“接着聊”，先看最担心的时间安排，",
+      "shot": "10",
+      "window": [
+        41.68,
+        46.125
+      ],
+      "start": 41.68,
+      "end": 44.473124999999996,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g10.wav",
+      "source_sha256": "4a18740d92afa4d40e4136d78efad9a38e95eb490ef2134ac4302bbdc4a08ee5",
+      "source_span": [
+        0.31999999999999995,
+        3.113125
+      ],
+      "original_asr_speech_span": [
+        0.35,
+        3.11
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_15_g10.wav",
+      "cue_sha256": "79118343dcc5aab5b93d6cb97bb98935d0817c5260f8a7b95b564f748451b32e",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 16,
+      "group": "10",
+      "text": "再把顾虑一步步说清楚。",
+      "synth": "再把顾虑一步步说清楚。",
+      "shot": "10",
+      "window": [
+        46.205,
+        49.38
+      ],
+      "start": 46.205,
+      "end": 48.17,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g10.wav",
+      "source_sha256": "4a18740d92afa4d40e4136d78efad9a38e95eb490ef2134ac4302bbdc4a08ee5",
+      "source_span": [
+        3.3400000000000003,
+        5.305
+      ],
+      "original_asr_speech_span": [
+        3.37,
+        5.245
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_16_g10.wav",
+      "cue_sha256": "32eb8ece18026a6774a511da213b9ca3787c738d59c2b5e13dbf2bfee449d6f0",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 17,
+      "group": "11",
+      "text": "聊出的新想法，先存成卡。",
+      "synth": "聊出的新想法，先存成卡。",
+      "shot": "11",
+      "window": [
+        49.68,
+        52.007
+      ],
+      "start": 49.68,
+      "end": 51.765854166666664,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g11.wav",
+      "source_sha256": "a13fcd32ee958d6ab53df62f0fbd72afa59a07940df81a7f3ec1b5f64686cf41",
+      "source_span": [
+        0.1,
+        2.1858541666666667
+      ],
+      "original_asr_speech_span": [
+        0.13,
+        2.17
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_17_g11.wav",
+      "cue_sha256": "8db229e83828836e5e40a30e2bbcb109ad80e5152363e668b52c2d96fca03807",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 18,
+      "group": "11",
+      "text": "再选几张相关的卡，一起看看。",
+      "synth": "再选几张相关的卡，一起看看。",
+      "shot": "11",
+      "window": [
+        52.087,
+        54.88
+      ],
+      "start": 52.087,
+      "end": 54.592000000000006,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g11.wav",
+      "source_sha256": "a13fcd32ee958d6ab53df62f0fbd72afa59a07940df81a7f3ec1b5f64686cf41",
+      "source_span": [
+        2.56,
+        5.0649999999999995
+      ],
+      "original_asr_speech_span": [
+        2.59,
+        5.005
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_18_g11.wav",
+      "cue_sha256": "8e58f96250d38a5195162c5a9db94fd2aa8dc899865795374efa1c26f1d34065",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 19,
+      "group": "12",
+      "text": "放进头脑风暴，分组、比较，",
+      "synth": "放进头脑风暴，分组、比较，",
+      "shot": "12",
+      "window": [
+        55.18,
+        57.768
+      ],
+      "start": 55.18,
+      "end": 57.596125,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g12.wav",
+      "source_sha256": "9b07877e13ecb7015589ead7febd6a1e3c1d1ad2fc9f3af9b12b1cf36608428d",
+      "source_span": [
+        0.28,
+        2.696125
+      ],
+      "original_asr_speech_span": [
+        0.31,
+        2.65
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_19_g12.wav",
+      "cue_sha256": "b8331b6e42e0c35a9af094802b46cb68cdf26dfb4dc4fa8f2d85d7bbfbe509c9",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 20,
+      "group": "12",
+      "text": "找出这些念头之间的新联系。",
+      "synth": "找出这些念头之间的新联系。",
+      "shot": "12",
+      "window": [
+        57.848,
+        60.953
+      ],
+      "start": 57.848,
+      "end": 59.88185416666666,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g12.wav",
+      "source_sha256": "9b07877e13ecb7015589ead7febd6a1e3c1d1ad2fc9f3af9b12b1cf36608428d",
+      "source_span": [
+        2.8800000000000003,
+        4.913854166666667
+      ],
+      "original_asr_speech_span": [
+        2.91,
+        4.91
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_20_g12.wav",
+      "cue_sha256": "7fc081133de84858c65c0558e208c31c0bd1e7133a08f5cb149e6969eec37ad1",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 21,
+      "group": "12",
+      "text": "最后，把自己的结论写下来。",
+      "synth": "最后，把自己的结论写下来。",
+      "shot": "12",
+      "window": [
+        61.033,
+        63.88
+      ],
+      "start": 61.033,
+      "end": 63.058,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g12.wav",
+      "source_sha256": "9b07877e13ecb7015589ead7febd6a1e3c1d1ad2fc9f3af9b12b1cf36608428d",
+      "source_span": [
+        5.2,
+        7.225
+      ],
+      "original_asr_speech_span": [
+        5.23,
+        7.165
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_21_g12.wav",
+      "cue_sha256": "6ca1681bf838c0690ae9788e9492a4633b38acbe1a4bc989f3c17557504a56fd",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 22,
+      "group": "13",
+      "text": "一道极限题，卡在第一步。",
+      "synth": "一道极限题，卡在第一步。",
+      "shot": "13",
+      "window": [
+        64.18,
+        66.469
+      ],
+      "start": 64.18,
+      "end": 66.13000000000001,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g13.wav",
+      "source_sha256": "ac780a2664d0128e89cc6ef394f7d3db610c86d7d934be0a49074a3e046ec884",
+      "source_span": [
+        0.08,
+        2.03
+      ],
+      "original_asr_speech_span": [
+        0.11,
+        2.03
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_22_g13.wav",
+      "cue_sha256": "46e9bbad0d73e63845f32ea86f826f3d1f522d4563fe78323c03099b99e91217",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 23,
+      "group": "13",
+      "text": "拍下来，先核对题目。",
+      "synth": "拍下来，先核对题目。",
+      "shot": "13",
+      "window": [
+        66.549,
+        68.38
+      ],
+      "start": 66.549,
+      "end": 68.274,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g13.wav",
+      "source_sha256": "ac780a2664d0128e89cc6ef394f7d3db610c86d7d934be0a49074a3e046ec884",
+      "source_span": [
+        2.5,
+        4.225
+      ],
+      "original_asr_speech_span": [
+        2.53,
+        4.165
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_23_g13.wav",
+      "cue_sha256": "c0eeebf787d0615722c2490ddd65226620b451f9d8c2f18bf23f522aa0b3aebb",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 24,
+      "group": "14",
+      "text": "先要一步提示，接着自己试算。",
+      "synth": "先要一步提示，接着自己试算。",
+      "shot": "14",
+      "window": [
+        68.68,
+        71.765
+      ],
+      "start": 68.68,
+      "end": 70.93008333333334,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g14.wav",
+      "source_sha256": "16e52c082f40ad3f0578053556b97df537598eee2d2d255cc62cb757f411323d",
+      "source_span": [
+        0.24000000000000002,
+        2.490083333333333
+      ],
+      "original_asr_speech_span": [
+        0.27,
+        2.49
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_24_g14.wav",
+      "cue_sha256": "5c43bec68d065237471804ded720f2e5be9a3a9c3877601f3131d3de89b93323",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 25,
+      "group": "14",
+      "text": "相关研究中，直接给答案的那组，",
+      "synth": "相关研究中，直接给答案的那组，",
+      "shot": "14",
+      "window": [
+        71.845,
+        74.673
+      ],
+      "start": 71.845,
+      "end": 74.255,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g14.wav",
+      "source_sha256": "16e52c082f40ad3f0578053556b97df537598eee2d2d255cc62cb757f411323d",
+      "source_span": [
+        2.8000000000000003,
+        5.21
+      ],
+      "original_asr_speech_span": [
+        2.83,
+        5.21
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_25_g14.wav",
+      "cue_sha256": "3742dbcfa89c24e63a9cd30f3e21379c7c5a20f6d8e06a912a297667e9110c0e",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 26,
+      "group": "14",
+      "text": "撤掉AI后表现下降。提示组未见明显下降。",
+      "synth": "撤掉AI后表现下降。提示组未见明显下降。",
+      "shot": "14",
+      "window": [
+        74.753,
+        79.38
+      ],
+      "start": 74.753,
+      "end": 78.778,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g14.wav",
+      "source_sha256": "16e52c082f40ad3f0578053556b97df537598eee2d2d255cc62cb757f411323d",
+      "source_span": [
+        5.239999999999999,
+        9.265
+      ],
+      "original_asr_speech_span": [
+        5.27,
+        9.205
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_26_g14.wav",
+      "cue_sha256": "c8eb94395bab218ff0e2aea46accadf6afe661ea49b08887974fec75be387883",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 27,
+      "group": "15",
+      "text": "展开完整解析，还能查看计算核验。",
+      "synth": "展开完整解析，还能查看计算核验。",
+      "shot": "15",
+      "window": [
+        79.68,
+        82.706
+      ],
+      "start": 79.68,
+      "end": 82.56710416666667,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g15.wav",
+      "source_sha256": "4dbd3bf4c27e71a29c6e16895e8694dc05c1eabcf73e569d62900c67b20b7852",
+      "source_span": [
+        0.1,
+        2.9871041666666667
+      ],
+      "original_asr_speech_span": [
+        0.13,
+        2.95
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_27_g15.wav",
+      "cue_sha256": "4d09212df075e8ffaf1e852d402fb1c04dc400662bd872b4f01f0bdef6cbc519",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 28,
+      "group": "15",
+      "text": "支持的算式，由程序重新计算。",
+      "synth": "支持的算式，由程序重新计算。",
+      "shot": "15",
+      "window": [
+        82.786,
+        85.38
+      ],
+      "start": 82.786,
+      "end": 85.311,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g15.wav",
+      "source_sha256": "4dbd3bf4c27e71a29c6e16895e8694dc05c1eabcf73e569d62900c67b20b7852",
+      "source_span": [
+        3.3200000000000003,
+        5.845
+      ],
+      "original_asr_speech_span": [
+        3.35,
+        5.785
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_28_g15.wav",
+      "cue_sha256": "19e81a7dde67c0decb69644e192fb519ed6510efe9d6af90e1efd42480d9d181",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 29,
+      "group": "16",
+      "text": "算完，把草稿拿来批改，",
+      "synth": "算完，把草稿拿来批改，",
+      "shot": "16",
+      "window": [
+        85.68,
+        88.089
+      ],
+      "start": 85.68,
+      "end": 87.57079166666668,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g16.wav",
+      "source_sha256": "f102c2420348b83471c5dfe68023163b3ba5c26db594c5eef27f45ef79f28515",
+      "source_span": [
+        0.26,
+        2.1507916666666667
+      ],
+      "original_asr_speech_span": [
+        0.29,
+        2.11
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_29_g16.wav",
+      "cue_sha256": "9619183c15fa862ae887f1c86be963e65a3dc2cdcf90f866fb84badeba503e66",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 30,
+      "group": "16",
+      "text": "定位出错步骤，再收进错题本。",
+      "synth": "定位出错步骤，再收进错题本。",
+      "shot": "16",
+      "window": [
+        88.169,
+        91.38
+      ],
+      "start": 88.169,
+      "end": 90.554,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g16.wav",
+      "source_sha256": "f102c2420348b83471c5dfe68023163b3ba5c26db594c5eef27f45ef79f28515",
+      "source_span": [
+        2.3200000000000003,
+        4.704999999999999
+      ],
+      "original_asr_speech_span": [
+        2.35,
+        4.645
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_30_g16.wav",
+      "cue_sha256": "d69e75184c781e74abaced0e68c47c92657e5f0960991d051007e6032235fa65",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 31,
+      "group": "17",
+      "text": "再把解题思路讲给小狸听。",
+      "synth": "再把解题思路讲给小狸听。",
+      "shot": "17",
+      "window": [
+        91.68,
+        94.481
+      ],
+      "start": 91.68,
+      "end": 93.56427083333334,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g17.wav",
+      "source_sha256": "183873c262ecb3969b403dc0723503b711455f83bb4a4b9176d55ecff1d3d498",
+      "source_span": [
+        0.26,
+        2.144270833333333
+      ],
+      "original_asr_speech_span": [
+        0.29,
+        2.11
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_31_g17.wav",
+      "cue_sha256": "b50ecd183f998ca35eb5e801ba8c87691127b1b4f531ecd85275ea188c072c71",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 32,
+      "group": "17",
+      "text": "它会追问，再反馈哪些说清、哪些漏了。",
+      "synth": "它会追问，再反馈哪些说清、哪些漏了。",
+      "shot": "17",
+      "window": [
+        94.561,
+        98.38
+      ],
+      "start": 94.561,
+      "end": 97.596,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g17.wav",
+      "source_sha256": "183873c262ecb3969b403dc0723503b711455f83bb4a4b9176d55ecff1d3d498",
+      "source_span": [
+        2.48,
+        5.515
+      ],
+      "original_asr_speech_span": [
+        2.51,
+        5.455
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_32_g17.wav",
+      "cue_sha256": "d21bd440faa9644bae706cb6089c13be7e3b943d2deb1464bc34af94c60d2d1f",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 33,
+      "group": "18",
+      "text": "需要补充，就导入讲义。",
+      "synth": "需要补充，就导入讲义。",
+      "shot": "18",
+      "window": [
+        98.68,
+        100.879
+      ],
+      "start": 98.68,
+      "end": 100.54150000000001,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g18.wav",
+      "source_sha256": "d64fd8495b94970ba84deba546a0ed926aa0420c633ed290d3bcc710f7cddfe0",
+      "source_span": [
+        0.24000000000000002,
+        2.1015
+      ],
+      "original_asr_speech_span": [
+        0.27,
+        2.05
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_33_g18.wav",
+      "cue_sha256": "69c7ebc4b51556396aa1bcabf8d4bb6766a1f502d0fa21c09b556037b677a2b0",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 34,
+      "group": "18",
+      "text": "校对原文，再把相关段落整理成卡。",
+      "synth": "校对原文，再把相关段落整理成卡。",
+      "shot": "18",
+      "window": [
+        100.959,
+        104.38
+      ],
+      "start": 100.959,
+      "end": 103.904,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g18.wav",
+      "source_sha256": "d64fd8495b94970ba84deba546a0ed926aa0420c633ed290d3bcc710f7cddfe0",
+      "source_span": [
+        2.72,
+        5.665
+      ],
+      "original_asr_speech_span": [
+        2.75,
+        5.605
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_34_g18.wav",
+      "cue_sha256": "3b022d8dc330775996de39e408b357846b46383077b9c45ce63e889fca5d6b8f",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 35,
+      "group": "19",
+      "text": "最后，去知识地图独立做一道。",
+      "synth": "最后，去知识地图独立做一道。",
+      "shot": "19",
+      "window": [
+        104.68,
+        107.74
+      ],
+      "start": 104.68,
+      "end": 107.05000000000001,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g19.wav",
+      "source_sha256": "f5846362e2f477ec779c43d097026b197ba8d8039b69974f844cb4e59aeceae3",
+      "source_span": [
+        0.28,
+        2.65
+      ],
+      "original_asr_speech_span": [
+        0.31,
+        2.65
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_35_g19.wav",
+      "cue_sha256": "961f49e2bc861310e6a4e3da05456a9eefd40c9d246b0a4c143c8a96bb90f1f9",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 36,
+      "group": "19",
+      "text": "先判断会不会，再作答看结果。",
+      "synth": "先判断会不会，再作答看结果。",
+      "shot": "19",
+      "window": [
+        107.82,
+        110.88
+      ],
+      "start": 107.82,
+      "end": 110.46499999999999,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g19.wav",
+      "source_sha256": "f5846362e2f477ec779c43d097026b197ba8d8039b69974f844cb4e59aeceae3",
+      "source_span": [
+        2.8400000000000003,
+        5.484999999999999
+      ],
+      "original_asr_speech_span": [
+        2.87,
+        5.425
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_36_g19.wav",
+      "cue_sha256": "8e9ffc45b8cc471e8574dfc7155d6fa7195aabdf27d719a6340b480aa8aa7ac6",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 37,
+      "group": "20",
+      "text": "累的时候，也可以只是聊聊。",
+      "synth": "累的时候，也可以只是聊聊。",
+      "shot": "20",
+      "window": [
+        111.18,
+        114.033
+      ],
+      "start": 111.18,
+      "end": 112.97000000000001,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g20.wav",
+      "source_sha256": "e6e319ff71cf8a175f0120813e6485ccedd5c24de9786246dea6e65bc979d349",
+      "source_span": [
+        0.2,
+        1.99
+      ],
+      "original_asr_speech_span": [
+        0.23,
+        1.99
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_37_g20.wav",
+      "cue_sha256": "14e925734930a2f86004a686e69b1b2a57ab59a597e0faf524e591db4f515f92",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 38,
+      "group": "20",
+      "text": "今天发生了什么，哪句话放不下，",
+      "synth": "今天发生了什么，哪句话放不下，",
+      "shot": "20",
+      "window": [
+        114.113,
+        117.485
+      ],
+      "start": 114.113,
+      "end": 116.503,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g20.wav",
+      "source_sha256": "e6e319ff71cf8a175f0120813e6485ccedd5c24de9786246dea6e65bc979d349",
+      "source_span": [
+        2.22,
+        4.61
+      ],
+      "original_asr_speech_span": [
+        2.25,
+        4.61
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_38_g20.wav",
+      "cue_sha256": "351a7268e138765a2c2c5d9c57503a64d4496025dc20f7f52dea94f1ee45e8b2",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 39,
+      "group": "20",
+      "text": "先把感受说出来。",
+      "synth": "先把感受说出来。",
+      "shot": "20",
+      "window": [
+        117.565,
+        119.38
+      ],
+      "start": 117.565,
+      "end": 118.97,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g20.wav",
+      "source_sha256": "e6e319ff71cf8a175f0120813e6485ccedd5c24de9786246dea6e65bc979d349",
+      "source_span": [
+        4.68,
+        6.085
+      ],
+      "original_asr_speech_span": [
+        4.71,
+        6.025
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_39_g20.wav",
+      "cue_sha256": "06eaddafac99d047987361bee65b4bdb21041504a1969e004337b662173921ae",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 40,
+      "group": "21",
+      "text": "涉及安全风险，先提示现实中的求助。",
+      "synth": "涉及安全风险，先提示现实中的求助。",
+      "shot": "21",
+      "window": [
+        119.68,
+        122.88
+      ],
+      "start": 119.68,
+      "end": 122.69500000000001,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g21.wav",
+      "source_sha256": "abaaa4d809f639626b8ffed95094cc768803a7f9d92bafd5e515b55ebe096ac2",
+      "source_span": [
+        0.22,
+        3.235
+      ],
+      "original_asr_speech_span": [
+        0.25,
+        3.175
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_40_g21.wav",
+      "cue_sha256": "3d6c054027c38143fcfebf85d3011653999646dc08f1cc8339dd369ff26cf597",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 41,
+      "group": "22",
+      "text": "从记下一句，到自己想清楚，",
+      "synth": "从记下一句，到自己想清楚，",
+      "shot": "22",
+      "window": [
+        123.18,
+        125.99
+      ],
+      "start": 123.18,
+      "end": 125.62620833333334,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g22.wav",
+      "source_sha256": "2e800c8b9ec327325f1401693d30664f4fc130229152e3ace9ba6c280dc56e17",
+      "source_span": [
+        0.24000000000000002,
+        2.6862083333333335
+      ],
+      "original_asr_speech_span": [
+        0.27,
+        2.65
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_41_g22.wav",
+      "cue_sha256": "8dfe60eb19a86a36a594be9e311aeb4b137b972dac3a4f1050dbb66e41320590",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 42,
+      "group": "22",
+      "text": "学习和回顾，都留在记录里。",
+      "synth": "学习和回顾，都留在记录里。",
+      "shot": "22",
+      "window": [
+        126.07,
+        128.88
+      ],
+      "start": 126.07,
+      "end": 128.415,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g22.wav",
+      "source_sha256": "2e800c8b9ec327325f1401693d30664f4fc130229152e3ace9ba6c280dc56e17",
+      "source_span": [
+        2.7800000000000002,
+        5.125
+      ],
+      "original_asr_speech_span": [
+        2.81,
+        5.065
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_42_g22.wav",
+      "cue_sha256": "2773dd8682a6c557a4cf5af328676de5edc70743cd9bc3026f0560f64714b4a7",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 43,
+      "group": "23a",
+      "text": "刚才这些操作，由原生小程序发起。",
+      "synth": "刚才这些操作，由原生小程序发起。",
+      "shot": "23",
+      "window": [
+        129.18,
+        132.543
+      ],
+      "start": 129.18,
+      "end": 132.1539791666667,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g23a.wav",
+      "source_sha256": "74476e9d564c133a213de51795b3cef1321c4d90f34d57e9f18724834c79cd7a",
+      "source_span": [
+        0.31999999999999995,
+        3.2939791666666665
+      ],
+      "original_asr_speech_span": [
+        0.35,
+        3.25
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_43_g23a.wav",
+      "cue_sha256": "550f6f694159276f401f9582d15e15bad820d662e0c49ded718b65141f9593c3",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 44,
+      "group": "23a",
+      "text": "后端通过接口处理请求，SQLite保存记录。",
+      "synth": "后端通过接口处理请求，S Q light保存记录。",
+      "shot": "23",
+      "window": [
+        132.623,
+        137.427
+      ],
+      "start": 132.623,
+      "end": 136.63299999999998,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g23a.wav",
+      "source_sha256": "74476e9d564c133a213de51795b3cef1321c4d90f34d57e9f18724834c79cd7a",
+      "source_span": [
+        3.7800000000000002,
+        7.79
+      ],
+      "original_asr_speech_span": [
+        3.81,
+        7.79
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_44_g23a.wav",
+      "cue_sha256": "493e92ba0b57115bfa40ef6896705d82f6d5096f6090aa42c8b64049717c0474",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 45,
+      "group": "23a",
+      "text": "卡片、对话、导入和学习，各有业务模块。",
+      "synth": "卡片、对话、导入和学习，各有业务模块。",
+      "shot": "23",
+      "window": [
+        137.507,
+        141.11
+      ],
+      "start": 137.507,
+      "end": 140.952,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g23a.wav",
+      "source_sha256": "74476e9d564c133a213de51795b3cef1321c4d90f34d57e9f18724834c79cd7a",
+      "source_span": [
+        8.22,
+        11.665000000000001
+      ],
+      "original_asr_speech_span": [
+        8.25,
+        11.605
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_45_g23a.wav",
+      "cue_sha256": "e5cf68c30b77f6de2b51dee6eb0b554064a020d40e72b6735fab82c4466eb793",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 46,
+      "group": "23b",
+      "text": "接着聊，会带上选定卡片的相关上下文。",
+      "synth": "接着聊，会带上选定卡片的相关上下文。",
+      "shot": "23",
+      "window": [
+        141.19,
+        145.033
+      ],
+      "start": 141.19,
+      "end": 144.63872916666668,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g23b.wav",
+      "source_sha256": "1f95648096c2ca48169f26702b75b647904b4bfad63020c14688b04e36b0a081",
+      "source_span": [
+        0.1,
+        3.5487291666666665
+      ],
+      "original_asr_speech_span": [
+        0.13,
+        3.49
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_46_g23b.wav",
+      "cue_sha256": "ea21d883119a9864f217758fb61af067c2976ecc1b70a90d134376383a5b5ad4",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 47,
+      "group": "23b",
+      "text": "原话、生成内容和版本分开保存。",
+      "synth": "原话、生成内容和版本分开保存。",
+      "shot": "23",
+      "window": [
+        145.113,
+        148.236
+      ],
+      "start": 145.113,
+      "end": 148.063,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g23b.wav",
+      "source_sha256": "1f95648096c2ca48169f26702b75b647904b4bfad63020c14688b04e36b0a081",
+      "source_span": [
+        3.8800000000000003,
+        6.829999999999999
+      ],
+      "original_asr_speech_span": [
+        3.91,
+        6.77
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_47_g23b.wav",
+      "cue_sha256": "fe2304fc999109b11e40357c49d29a25df966d9056059a3e010151a08547f3ea",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 48,
+      "group": "23b",
+      "text": "长任务先记状态，再执行；支持的算式另外核验。",
+      "synth": "长任务先记状态，再执行；支持的算式另外核验。",
+      "shot": "23",
+      "window": [
+        148.316,
+        152.88
+      ],
+      "start": 148.316,
+      "end": 152.791,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g23b.wav",
+      "source_sha256": "1f95648096c2ca48169f26702b75b647904b4bfad63020c14688b04e36b0a081",
+      "source_span": [
+        7.279999999999999,
+        11.755
+      ],
+      "original_asr_speech_span": [
+        7.31,
+        11.695
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_48_g23b.wav",
+      "cue_sha256": "3f11fdcfaeb649bfe1be61ee655b8671cb8b1784e0e2c820c5c831e0d9ed9e6a",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 49,
+      "group": "24",
+      "text": "导入时离开，回来还能继续处理。",
+      "synth": "导入时离开，回来还能继续处理。",
+      "shot": "24",
+      "window": [
+        153.18,
+        156.598
+      ],
+      "start": 153.18,
+      "end": 155.97,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g24.wav",
+      "source_sha256": "46238bc2affe417119c7889a78e9cf2d7dca6c464852c781506e6f5e116f2ac3",
+      "source_span": [
+        0.30000000000000004,
+        3.09
+      ],
+      "original_asr_speech_span": [
+        0.33,
+        3.09
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_49_g24.wav",
+      "cue_sha256": "f320e38bed3809b3e61e84e8d64fa9daa7bbcbf5570680aef1ffaa25fe6b4f36",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 50,
+      "group": "24",
+      "text": "外部调用集中在后端，异常时尝试备用接口。",
+      "synth": "外部调用集中在后端，异常时尝试备用接口。",
+      "shot": "24",
+      "window": [
+        156.678,
+        161.41
+      ],
+      "start": 156.678,
+      "end": 160.43204166666666,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g24.wav",
+      "source_sha256": "46238bc2affe417119c7889a78e9cf2d7dca6c464852c781506e6f5e116f2ac3",
+      "source_span": [
+        3.54,
+        7.294041666666667
+      ],
+      "original_asr_speech_span": [
+        3.57,
+        7.25
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_50_g24.wav",
+      "cue_sha256": "b43328eaca4c1c352872e1ac3881f1e3fd27c4729924134dc990d75034921d24",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 51,
+      "group": "24",
+      "text": "管理台查看任务、运行状态和反馈，",
+      "synth": "管理台查看任务、运行状态和反馈，",
+      "shot": "24",
+      "window": [
+        161.49,
+        165.171
+      ],
+      "start": 161.49,
+      "end": 164.52,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g24.wav",
+      "source_sha256": "46238bc2affe417119c7889a78e9cf2d7dca6c464852c781506e6f5e116f2ac3",
+      "source_span": [
+        7.68,
+        10.71
+      ],
+      "original_asr_speech_span": [
+        7.71,
+        10.65
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_51_g24.wav",
+      "cue_sha256": "d2b923a4a9ecc3c314f1a8b666116fde771e7fd37cbf009cec65bfe0203b4bb2",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 52,
+      "group": "24",
+      "text": "并保留用量与操作记录。",
+      "synth": "并保留用量与操作记录。",
+      "shot": "24",
+      "window": [
+        165.251,
+        167.88
+      ],
+      "start": 165.251,
+      "end": 167.266,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\audit-groups\\c3_g24.wav",
+      "source_sha256": "46238bc2affe417119c7889a78e9cf2d7dca6c464852c781506e6f5e116f2ac3",
+      "source_span": [
+        10.88,
+        12.895000000000001
+      ],
+      "original_asr_speech_span": [
+        10.91,
+        12.835
+      ],
+      "closing_gain_db": 0.0,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_52_g24.wav",
+      "cue_sha256": "e01c488a4652fbb1ce60159abd72441200c1e1bb8671548c9c36d36608d850d5",
+      "new_closing": false,
+      "source_asr_mapping_disagreement": null
+    },
+    {
+      "index": 53,
+      "group": "26-27",
+      "text": "念，是转瞬的念头。",
+      "synth": "念，是转瞬的念头。",
+      "shot": "26",
+      "window": [
+        169.75,
+        171.85
+      ],
+      "start": 169.75,
+      "end": 171.58,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\closing\\closing_b2_clear_warm_s73.wav",
+      "source_sha256": "65c5d3b45ba1865b6e1602d294b66018ddd6c9c89ce4189e2dd6fdaeabd843fa",
+      "source_span": [
+        0.04000000000000001,
+        1.87
+      ],
+      "original_asr_speech_span": [
+        0.07,
+        1.81
+      ],
+      "closing_gain_db": -2.1472066068447226,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_53_g26-27.wav",
+      "cue_sha256": "03e1d504db148d8125782af8c90f1a30cae5778cb82180b78d5253a112d251a6",
+      "new_closing": true,
+      "source_asr_mapping_disagreement": {
+        "raw_primary": "念 是 转 瞬 的 念 头 想 是 让 所 想 渐 渐 明 了 小 念",
+        "secondary": "念是转瞬的念头，小是让所想渐渐明了。小念。",
+        "character_index": 7,
+        "policy": "Position-only timestamp mapping; final isolated cue ASR must independently pass."
+      }
+    },
+    {
+      "index": 54,
+      "group": "26-27",
+      "text": "晓，是让所想渐渐明了。",
+      "synth": "晓，是让所想渐渐明瞭。",
+      "shot": "26",
+      "window": [
+        172.12,
+        174.35
+      ],
+      "start": 172.12,
+      "end": 174.34822916666667,
+      "speed": 1.0364325842696676,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\closing\\closing_b2_clear_warm_s73.wav",
+      "source_sha256": "65c5d3b45ba1865b6e1602d294b66018ddd6c9c89ce4189e2dd6fdaeabd843fa",
+      "source_span": [
+        2.16,
+        4.4660625
+      ],
+      "original_asr_speech_span": [
+        2.19,
+        4.41
+      ],
+      "closing_gain_db": -2.1472066068447226,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_54_g26-27.wav",
+      "cue_sha256": "8befc3db8d7dabaf303e814adf719ad2838ed599d38b121171a7c6905918750a",
+      "new_closing": true,
+      "source_asr_mapping_disagreement": {
+        "raw_primary": "念 是 转 瞬 的 念 头 想 是 让 所 想 渐 渐 明 了 小 念",
+        "secondary": "念是转瞬的念头，小是让所想渐渐明了。小念。",
+        "character_index": 7,
+        "policy": "Position-only timestamp mapping; final isolated cue ASR must independently pass."
+      }
+    },
+    {
+      "index": 55,
+      "group": "26-27",
+      "text": "晓念。",
+      "synth": "晓念。",
+      "shot": "27",
+      "window": [
+        175.35,
+        176.25
+      ],
+      "start": 175.35,
+      "end": 175.98,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\closing\\brand-tag\\c3_brand_tag_promptref_s97.wav",
+      "source_sha256": "b64e49d78b8460d1d6a1eba7f5f1c197d273314e5012617e445293629d57503b",
+      "source_span": [
+        0.46,
+        1.09
+      ],
+      "original_asr_speech_span": [
+        0.51,
+        1.01
+      ],
+      "closing_gain_db": -4.563886039465006,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_55_g26-27.wav",
+      "cue_sha256": "e7de5d12972dcdf4076962bc960c79b9c5630e4d4ddc6bb999f427b9b350dba1",
+      "new_closing": true,
+      "source_asr_mapping_disagreement": null,
+      "brand_replacement": true,
+      "brand_candidate_evidence": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\closing\\brand-tag\\selected-brand.json"
+    }
+  ],
+  "boundaries": [
+    {
+      "group": "01-02",
+      "after_line": 1,
+      "asr_gap": [
+        0.75,
+        1.49
+      ],
+      "cut": 0.75,
+      "short_gap": false
+    },
+    {
+      "group": "05-06",
+      "after_line": 1,
+      "asr_gap": [
+        3.01,
+        3.37
+      ],
+      "cut": 3.0764583333333335,
+      "short_gap": false
+    },
+    {
+      "group": "05-06",
+      "after_line": 2,
+      "asr_gap": [
+        5.15,
+        5.43
+      ],
+      "cut": 5.2452708333333335,
+      "short_gap": false
+    },
+    {
+      "group": "05-06",
+      "after_line": 3,
+      "asr_gap": [
+        8.25,
+        8.41
+      ],
+      "cut": 8.25,
+      "short_gap": false
+    },
+    {
+      "group": "07",
+      "after_line": 1,
+      "asr_gap": [
+        2.35,
+        2.59
+      ],
+      "cut": 2.4016458333333333,
+      "short_gap": false
+    },
+    {
+      "group": "08",
+      "after_line": 1,
+      "asr_gap": [
+        1.53,
+        1.53
+      ],
+      "cut": 1.5440208333333334,
+      "short_gap": true
+    },
+    {
+      "group": "09",
+      "after_line": 1,
+      "asr_gap": [
+        1.75,
+        1.97
+      ],
+      "cut": 1.75,
+      "short_gap": false
+    },
+    {
+      "group": "10",
+      "after_line": 1,
+      "asr_gap": [
+        3.11,
+        3.37
+      ],
+      "cut": 3.113125,
+      "short_gap": false
+    },
+    {
+      "group": "11",
+      "after_line": 1,
+      "asr_gap": [
+        2.17,
+        2.59
+      ],
+      "cut": 2.1858541666666667,
+      "short_gap": false
+    },
+    {
+      "group": "12",
+      "after_line": 1,
+      "asr_gap": [
+        2.65,
+        2.91
+      ],
+      "cut": 2.696125,
+      "short_gap": false
+    },
+    {
+      "group": "12",
+      "after_line": 2,
+      "asr_gap": [
+        4.91,
+        5.23
+      ],
+      "cut": 4.913854166666667,
+      "short_gap": false
+    },
+    {
+      "group": "13",
+      "after_line": 1,
+      "asr_gap": [
+        2.03,
+        2.53
+      ],
+      "cut": 2.03,
+      "short_gap": false
+    },
+    {
+      "group": "14",
+      "after_line": 1,
+      "asr_gap": [
+        2.49,
+        2.83
+      ],
+      "cut": 2.490083333333333,
+      "short_gap": false
+    },
+    {
+      "group": "14",
+      "after_line": 2,
+      "asr_gap": [
+        5.21,
+        5.27
+      ],
+      "cut": 5.21,
+      "short_gap": true
+    },
+    {
+      "group": "15",
+      "after_line": 1,
+      "asr_gap": [
+        2.95,
+        3.35
+      ],
+      "cut": 2.9871041666666667,
+      "short_gap": false
+    },
+    {
+      "group": "16",
+      "after_line": 1,
+      "asr_gap": [
+        2.11,
+        2.35
+      ],
+      "cut": 2.1507916666666667,
+      "short_gap": false
+    },
+    {
+      "group": "17",
+      "after_line": 1,
+      "asr_gap": [
+        2.11,
+        2.51
+      ],
+      "cut": 2.144270833333333,
+      "short_gap": false
+    },
+    {
+      "group": "18",
+      "after_line": 1,
+      "asr_gap": [
+        2.05,
+        2.75
+      ],
+      "cut": 2.1015,
+      "short_gap": false
+    },
+    {
+      "group": "19",
+      "after_line": 1,
+      "asr_gap": [
+        2.65,
+        2.87
+      ],
+      "cut": 2.65,
+      "short_gap": false
+    },
+    {
+      "group": "20",
+      "after_line": 1,
+      "asr_gap": [
+        1.99,
+        2.25
+      ],
+      "cut": 1.99,
+      "short_gap": false
+    },
+    {
+      "group": "20",
+      "after_line": 2,
+      "asr_gap": [
+        4.61,
+        4.71
+      ],
+      "cut": 4.61,
+      "short_gap": true
+    },
+    {
+      "group": "22",
+      "after_line": 1,
+      "asr_gap": [
+        2.65,
+        2.81
+      ],
+      "cut": 2.6862083333333335,
+      "short_gap": false
+    },
+    {
+      "group": "23a",
+      "after_line": 1,
+      "asr_gap": [
+        3.25,
+        3.81
+      ],
+      "cut": 3.2939791666666665,
+      "short_gap": false
+    },
+    {
+      "group": "23a",
+      "after_line": 2,
+      "asr_gap": [
+        7.79,
+        8.25
+      ],
+      "cut": 7.79,
+      "short_gap": false
+    },
+    {
+      "group": "23b",
+      "after_line": 1,
+      "asr_gap": [
+        3.49,
+        3.91
+      ],
+      "cut": 3.5487291666666665,
+      "short_gap": false
+    },
+    {
+      "group": "23b",
+      "after_line": 2,
+      "asr_gap": [
+        6.77,
+        7.31
+      ],
+      "cut": 6.8574375,
+      "short_gap": false
+    },
+    {
+      "group": "24",
+      "after_line": 1,
+      "asr_gap": [
+        3.09,
+        3.57
+      ],
+      "cut": 3.09,
+      "short_gap": false
+    },
+    {
+      "group": "24",
+      "after_line": 2,
+      "asr_gap": [
+        7.25,
+        7.71
+      ],
+      "cut": 7.294041666666667,
+      "short_gap": false
+    },
+    {
+      "group": "24",
+      "after_line": 3,
+      "asr_gap": [
+        10.65,
+        10.91
+      ],
+      "cut": 10.744916666666667,
+      "short_gap": false
+    },
+    {
+      "group": "26-27",
+      "after_line": 1,
+      "asr_gap": [
+        1.81,
+        2.19
+      ],
+      "cut": 2.143,
+      "short_gap": false
+    },
+    {
+      "group": "26-27",
+      "after_line": 2,
+      "asr_gap": [
+        4.41,
+        4.65
+      ],
+      "cut": 4.4660625,
+      "short_gap": false
+    }
+  ],
+  "failures": [],
+  "subtitle_wording_differences": [
+    {
+      "srt_index": 21,
+      "voice": "相关研究中，直接给答案的那组，",
+      "subtitle": "相关研究中，直接给答案组",
+      "start": 71.845,
+      "end": 74.673
+    },
+    {
+      "srt_index": 45,
+      "voice": "导入时离开，回来还能继续处理。",
+      "subtitle": "导入离开后，回来可以继续处理。",
+      "start": 153.18,
+      "end": 156.598
+    }
+  ],
+  "subtitle_policy": "Original video pixels and original subtitle words are preserved; voice uses unchanged approved script.",
+  "new_closing": true,
+  "synthetic_voice_generation_for_body": false,
+  "waveform_sha256": "bf042d3b2f36736b030eabbdd23711637e457cc919781d50654cacec3a0829ed",
+  "peak_dbfs": -2.2232741188137126,
+  "max_speed": 1.0364325842696676,
+  "brand_replacement": {
+    "previous_row": {
+      "index": 55,
+      "group": "26-27",
+      "text": "晓念。",
+      "synth": "晓念。",
+      "shot": "27",
+      "window": [
+        175.35,
+        176.25
+      ],
+      "start": 175.35,
+      "end": 176.035,
+      "speed": 1.0,
+      "source_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\closing\\closing_b2_clear_warm_s73.wav",
+      "source_sha256": "65c5d3b45ba1865b6e1602d294b66018ddd6c9c89ce4189e2dd6fdaeabd843fa",
+      "source_span": [
+        4.62,
+        5.305
+      ],
+      "original_asr_speech_span": [
+        4.65,
+        5.245
+      ],
+      "closing_gain_db": -2.1472066068447226,
+      "cue_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\aligned\\cues\\cue_55_g26-27.wav",
+      "cue_sha256": "71a66330bdd4dab74accdc9fdcffd44bf8bea1c02d808774db137640953839cf",
+      "new_closing": true,
+      "source_asr_mapping_disagreement": {
+        "raw_primary": "念 是 转 瞬 的 念 头 想 是 让 所 想 渐 渐 明 了 小 念",
+        "secondary": "念是转瞬的念头，小是让所想渐渐明了。小念。",
+        "character_index": 7,
+        "policy": "Position-only timestamp mapping; final isolated cue ASR must independently pass."
+      }
+    },
+    "candidate_evidence": {
+      "passed": true,
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-2026-10-22\\closing\\brand-tag\\c3_brand_tag_promptref_s97.wav",
+      "sha256": "b64e49d78b8460d1d6a1eba7f5f1c197d273314e5012617e445293629d57503b",
+      "seed": 97,
+      "seed_used": 97,
+      "mode": "prompt+reference_no_control",
+      "reference": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\lively-refs\\lively_g05-06_s43_4212f8f6.wav",
+      "reference_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+      "prompt_text": "这是晓念，从随手记下一句话开始。要做的事、没想完的问题，AI整理成卡，原话也一起留着。记下之后，再接着想。",
+      "original_text": "晓念。",
+      "synthesis_input": "小念。",
+      "duration": 1.12,
+      "sample_rate": 48000,
+      "paraformer": {
+        "text": "小 念",
+        "timestamp": [
+          [
+            510,
+            750
+          ],
+          [
+            770,
+            1010
+          ]
+        ],
+        "strict_match": true
+      },
+      "cue_fit": {
+        "window": [
+          175.35,
+          176.25
+        ],
+        "window_seconds": 0.9,
+        "raw_speech_seconds": 0.5,
+        "needed_tempo": 0.5555555555555556,
+        "passes_max_1_10": true
+      },
+      "sensevoice": {
+        "raw": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>小念。",
+        "plain": "小念。",
+        "timestamp": null,
+        "strict_match": true
+      },
+      "accepted": true,
+      "reason": "Passed both ASRs against original normalized text and the 0.9-second cue fit."
+    },
+    "reason": "Make the short spoken brand unambiguous in the encoded final mix; other 54 cues unchanged."
+  }
+}

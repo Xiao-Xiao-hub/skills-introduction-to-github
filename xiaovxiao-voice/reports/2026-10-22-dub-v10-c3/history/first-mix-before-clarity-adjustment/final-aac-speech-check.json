@@ -1,0 +1,67 @@
+{
+  "video": "D:\\XiaoNian-Video\\review\\2026-10-22-v10-c3\\晓念_V10_C3配音_完整片.mp4",
+  "video_sha256": "5729c854dd29e51835ba9eb8421921d58e454704e6837d8528a31786e32417fb",
+  "indices": [
+    10,
+    12,
+    43,
+    51,
+    53,
+    54,
+    55
+  ],
+  "selection": "All revised closing cues, primary-ASR ambiguous body cue 10, and three lowest voice-to-bed RMS cues.",
+  "rows": [
+    {
+      "index": 10,
+      "expected": "那件想报竞赛的事，现在怎么想？",
+      "raw": "<|zh|><|HAPPY|><|BGM|><|withitn|>那件想报竞赛的事，现在怎么想？",
+      "plain": "那件想报竞赛的事，现在怎么想？",
+      "match": true
+    },
+    {
+      "index": 12,
+      "expected": "没想完的念头，留着继续。",
+      "raw": "<|zh|><|NEUTRAL|><|BGM|><|withitn|>没想完的念头，留着继续。",
+      "plain": "没想完的念头，留着继续。",
+      "match": true
+    },
+    {
+      "index": 43,
+      "expected": "刚才这些操作，由原生小程序发起。",
+      "raw": "<|zh|><|NEUTRAL|><|BGM|><|withitn|>刚才这些操作由原生小程序发起。",
+      "plain": "刚才这些操作由原生小程序发起。",
+      "match": true
+    },
+    {
+      "index": 51,
+      "expected": "管理台查看任务、运行状态和反馈，",
+      "raw": "<|zh|><|NEUTRAL|><|BGM|><|withitn|>管理台查看任务、运行状态和反馈。",
+      "plain": "管理台查看任务、运行状态和反馈。",
+      "match": true
+    },
+    {
+      "index": 53,
+      "expected": "念，是转瞬的念头。",
+      "raw": "<|zh|><|NEUTRAL|><|BGM|><|withitn|>念是转瞬的念头。",
+      "plain": "念是转瞬的念头。",
+      "match": true
+    },
+    {
+      "index": 54,
+      "expected": "晓，是让所想渐渐明瞭。",
+      "raw": "<|zh|><|NEUTRAL|><|BGM|><|withitn|>小是让所想渐渐明了。",
+      "plain": "小是让所想渐渐明了。",
+      "match": true
+    },
+    {
+      "index": 55,
+      "expected": "晓念。",
+      "raw": "<|zh|><|NEUTRAL|><|BGM|><|withitn|>想念。",
+      "plain": "想念。",
+      "match": false
+    }
+  ],
+  "passed": false,
+  "human_listening": false
+}
