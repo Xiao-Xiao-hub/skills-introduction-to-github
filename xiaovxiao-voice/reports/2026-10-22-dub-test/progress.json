@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-22T10:24:47+08:00",
+  "updated_at": "2026-10-22T10:29:42+08:00",
   "stage": "test_running",
   "planned": 16,
-  "completed": 0,
+  "completed": 10,
   "failed": 0,
   "by_ref": {
-    "r0b_vox_821713": 0,
-    "r0b_vox_49a14f": 0,
-    "r0b_moss_611767": 0,
+    "r0b_vox_821713": 4,
+    "r0b_vox_49a14f": 4,
+    "r0b_moss_611767": 2,
     "r0_vox_959950": 0
   },
   "formal_render_started": false
