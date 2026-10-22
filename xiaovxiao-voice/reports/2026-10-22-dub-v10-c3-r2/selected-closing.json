@@ -1,0 +1,174 @@
+{
+  "group": "26-27",
+  "source": {
+    "id": "r2_plaintext_s109",
+    "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-r2-2026-10-22\\closing\\r2_plaintext_s109.wav",
+    "sha256": "b09ef9d4ac1e37e7841ccf20331b29b8dbd2acbf56f5e6918efd431966ff626c",
+    "seed": 109,
+    "seed_used": 109,
+    "mode": "prompt+reference_no_control",
+    "reference": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-expression-2026-10-22\\lively-refs\\lively_g05-06_s43_4212f8f6.wav",
+    "reference_sha256": "2aa5cd789f034e8c2b55accee38f47dc6194398e87db37bc8e78870e42762d27",
+    "prompt_text": "这是晓念，从随手记下一句话开始。要做的事、没想完的问题，AI整理成卡，原话也一起留着。记下之后，再接着想。",
+    "original_text": "念，是转瞬的念头。晓，是让所想渐渐明瞭。晓念。",
+    "synthesis_input": "念，是转瞬的念头；小，是让所想渐渐明了。小念。",
+    "duration": 5.12,
+    "sample_rate": 48000,
+    "paraformer": {
+      "text": "念 是 转 瞬 的 念 头 小 是 让 所 想 渐 渐 明 了 小 念",
+      "timestamp": [
+        [
+          190,
+          390
+        ],
+        [
+          390,
+          590
+        ],
+        [
+          590,
+          750
+        ],
+        [
+          750,
+          930
+        ],
+        [
+          930,
+          1010
+        ],
+        [
+          1010,
+          1210
+        ],
+        [
+          1210,
+          1450
+        ],
+        [
+          1750,
+          1990
+        ],
+        [
+          2210,
+          2390
+        ],
+        [
+          2390,
+          2610
+        ],
+        [
+          2610,
+          2810
+        ],
+        [
+          2810,
+          3050
+        ],
+        [
+          3150,
+          3290
+        ],
+        [
+          3290,
+          3490
+        ],
+        [
+          3490,
+          3630
+        ],
+        [
+          3630,
+          3870
+        ],
+        [
+          4470,
+          4710
+        ],
+        [
+          4770,
+          4975
+        ]
+      ],
+      "strict_match": true
+    },
+    "group_pauses": {
+      "available": true,
+      "after_line1_seconds": 0.3,
+      "after_line2_seconds": 0.6,
+      "timestamp_count": 18
+    },
+    "sensevoice": {
+      "raw": "<|zh|><|HAPPY|><|Speech|><|withitn|>念是转瞬的念头，小是让所想渐渐明了。小念。",
+      "plain": "念是转瞬的念头，小是让所想渐渐明了。小念。",
+      "timestamp": null,
+      "strict_match": true
+    },
+    "dual_asr_match": true
+  },
+  "lines": [
+    {
+      "shot": "26",
+      "start": 169.75,
+      "end": 171.85,
+      "text": "念，是转瞬的念头。",
+      "synth": "念，是转瞬的念头。"
+    },
+    {
+      "shot": "26",
+      "start": 172.12,
+      "end": 174.35,
+      "text": "晓，是让所想渐渐明了。",
+      "synth": "晓，是让所想渐渐明瞭。"
+    },
+    {
+      "shot": "27",
+      "start": 175.35,
+      "end": 176.25,
+      "text": "晓念。",
+      "synth": "晓念。"
+    }
+  ],
+  "source_cue_spans": [
+    [
+      0.19,
+      1.45
+    ],
+    [
+      1.75,
+      3.87
+    ],
+    [
+      4.47,
+      4.975
+    ]
+  ],
+  "fit": {
+    "rate": 1.0,
+    "offset": 170.58,
+    "tolerance": 0,
+    "first_voice_delay": 1.02
+  },
+  "visual_windows": [
+    [
+      169.5,
+      172.12
+    ],
+    [
+      170.667,
+      174.5
+    ],
+    [
+      175.05,
+      177.55
+    ]
+  ],
+  "visual_note": "Untouched natural tempo: definitions finish while readable. Brand starts at first visible title around175.05; no inserted pause.",
+  "rendered_path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-r2-2026-10-22\\aligned\\groups\\r2_g26-27.wav",
+  "rendered_sha256": "403130a1de01fdf704ac55f63743a15cfa0675d1a3870fff87b7496ec1e77bc2",
+  "start": 170.58,
+  "end": 175.7,
+  "gain_db": -6.0969919236778125,
+  "internal_cuts": 0,
+  "inserted_internal_silence_seconds": 0
+}

@@ -1,0 +1,89 @@
+{
+  "video_sha256": "a133f866fe8e83feaa26922b91c340055e186220cf885877380060b61e416bc8",
+  "rows": [
+    {
+      "group": "05-06",
+      "expected": "这是晓念，从随手记下一句话开始。要做的事、没想完的问题，AI整理成卡，原话也一起留着。记下之后，再接着想。",
+      "sensevoice": {
+        "raw": "<|zh|><|NEUTRAL|><|BGM|><|withitn|>这是小念从随手记下一句话开始，要做的是没想完的问题。AI整理成卡，原话也一起留着，记下之后再接着想。",
+        "plain": "这是小念从随手记下一句话开始，要做的是没想完的问题。AI整理成卡，原话也一起留着，记下之后再接着想。",
+        "match": true
+      }
+    },
+    {
+      "group": "07",
+      "expected": "过几天，带着原话回来看，那件想报竞赛的事，现在怎么想？",
+      "sensevoice": {
+        "raw": "<|zh|><|NEUTRAL|><|BGM|><|withitn|>过几天带着原画回来看那件想报竞赛的事，现在怎么想？",
+        "plain": "过几天带着原画回来看那件想报竞赛的事，现在怎么想？",
+        "match": true
+      }
+    },
+    {
+      "group": "08",
+      "expected": "做完的待办勾掉，没想完的念头，留着继续。",
+      "sensevoice": {
+        "raw": "<|zh|><|NEUTRAL|><|BGM|><|withitn|>做完的代办勾掉没想完的念头，留着继续。",
+        "plain": "做完的代办勾掉没想完的念头，留着继续。",
+        "match": true
+      }
+    },
+    {
+      "group": "10",
+      "expected": "点“接着聊”，先看最担心的时间安排，再把顾虑一步步说清楚。",
+      "sensevoice": {
+        "raw": "<|zh|><|NEUTRAL|><|BGM|><|withitn|>点接着聊，先看最担心的时间安排，再把顾虑一步步说清楚。",
+        "plain": "点接着聊，先看最担心的时间安排，再把顾虑一步步说清楚。",
+        "match": true
+      }
+    },
+    {
+      "group": "20",
+      "expected": "累的时候，也可以只是聊聊。今天发生了什么，哪句话放不下，先把感受说出来。",
+      "sensevoice": {
+        "raw": "<|zh|><|NEUTRAL|><|BGM|><|withitn|>累的时候也可以只是聊聊今天发生了什么，哪句话放不下，先把感受说出来。",
+        "plain": "累的时候也可以只是聊聊今天发生了什么，哪句话放不下，先把感受说出来。",
+        "match": true
+      }
+    },
+    {
+      "group": "23b",
+      "expected": "接着聊，会带上选定卡片的相关上下文。原话、生成内容和版本分开保存。长任务先记状态，再执行；支持的算式另外核验。",
+      "sensevoice": {
+        "raw": "<|zh|><|NEUTRAL|><|BGM|><|withitn|>接着聊会带上选定卡片的相关上下文，原话、生成内容和版本分开保存，长任务先记状态再执行，支持的算是另外核验。",
+        "plain": "接着聊会带上选定卡片的相关上下文，原话、生成内容和版本分开保存，长任务先记状态再执行，支持的算是另外核验。",
+        "match": true
+      }
+    },
+    {
+      "group": "26-27",
+      "expected": "念，是转瞬的念头。晓，是让所想渐渐明瞭。晓念。",
+      "sensevoice": {
+        "raw": "<|zh|><|NEUTRAL|><|BGM|><|withitn|>念是转瞬的念头，小是让所想渐渐明了。想念。",
+        "plain": "念是转瞬的念头，小是让所想渐渐明了。想念。",
+        "match": false
+      },
+      "paraformer": {
+        "raw": "念 是 转 瞬 的 念 头 想 是 让 所 想 渐 渐 明 了 想 念",
+        "match": false
+      }
+    }
+  ],
+  "cross_checked_passed": false,
+  "background_comparison": [
+    {
+      "section": "body",
+      "old_side_rms_dbfs": -43.23212587790383,
+      "new_side_rms_dbfs": -38.986306361732964,
+      "increase_db": 4.245819516170869
+    },
+    {
+      "section": "closing",
+      "old_side_rms_dbfs": -47.24483361210757,
+      "new_side_rms_dbfs": -38.82416499576328,
+      "increase_db": 8.420668616344287
+    }
+  ],
+  "background_metric_scope": "Actual stereo side component of final mixed PCM; centered narration cancels. This measures a background component, not subjective music loudness.",
+  "human_listening": false
+}

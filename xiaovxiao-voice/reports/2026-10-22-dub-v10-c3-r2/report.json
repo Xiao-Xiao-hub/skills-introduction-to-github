@@ -1,0 +1,65 @@
+{
+  "status": "complete_review_cut_user_listening_pending",
+  "video": "D:\\XiaoNian-Video\\review\\2026-10-22-v10-c3-r2\\晓念_V10_C3_自然语流_音乐增强版.mp4",
+  "video_bytes": 89248664,
+  "video_sha256": "a133f866fe8e83feaa26922b91c340055e186220cf885877380060b61e416bc8",
+  "voice_sha256": "aeaeae85b0c0751e7fe06eee393fbbaa5471cc86c2abdce98a030cfce686bb41",
+  "duration": 178,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 60,
+  "old_mean_group_internal_pause": 0.922655,
+  "new_mean_group_internal_pause": 0.40413793103447976,
+  "comparable_boundaries": 29,
+  "internal_cuts": 0,
+  "inserted_internal_silence": 0,
+  "primary_group_matches": 22,
+  "clean_cross_checked_groups": 24,
+  "encoded_checked_groups": 7,
+  "encoded_matched_groups": 6,
+  "encoded_cross_checked_passed": false,
+  "encoded_unresolved_groups": [
+    "26-27"
+  ],
+  "max_body_asr_early_seconds": 0.1562500000000071,
+  "max_body_asr_late_seconds": 0.1287499999999966,
+  "actual_closing_asr": [
+    [
+      170.77,
+      172.03
+    ],
+    [
+      172.33,
+      174.45000000000002
+    ],
+    [
+      175.05,
+      175.555
+    ]
+  ],
+  "background_comparison": [
+    {
+      "section": "body",
+      "old_side_rms_dbfs": -43.23212587790383,
+      "new_side_rms_dbfs": -38.986306361732964,
+      "increase_db": 4.245819516170869
+    },
+    {
+      "section": "closing",
+      "old_side_rms_dbfs": -47.24483361210757,
+      "new_side_rms_dbfs": -38.82416499576328,
+      "increase_db": 8.420668616344287
+    }
+  ],
+  "voice_to_background_target_db": 4,
+  "music_duck_db": 0,
+  "sfx_duck_db": 0,
+  "closing_extra_duck_db": 0,
+  "final_lufs": -16.16,
+  "true_peak_dbtp": -1.62,
+  "picture_stream_unchanged": true,
+  "original_scripts_unchanged": true,
+  "human_listening": false
+}

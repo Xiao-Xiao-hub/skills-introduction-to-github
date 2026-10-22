@@ -1,0 +1,576 @@
+{
+  "status": "technical_checks_passed",
+  "video": "D:\\XiaoNian-Video\\review\\2026-10-22-v10-c3-r2\\晓念_V10_C3_自然语流_音乐增强版.mp4",
+  "video_sha256": "6c0608daf96ebb28efe0b61d38c4c73e864c58ac321542984777f1dd3094ddf9",
+  "video_bytes": 89248515,
+  "voice": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-r2-2026-10-22\\aligned\\人声轨_48k24bit.wav",
+  "voice_sha256": "15aeaa81956059d8c0025e1ce5c8d3bf6dae9c60191a6416d658f1da97b094d1",
+  "input_sha256": {
+    "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\c3-video-r2-2026-10-22\\aligned\\人声轨_48k24bit.wav": "15aeaa81956059d8c0025e1ce5c8d3bf6dae9c60191a6416d658f1da97b094d1",
+    "D:\\XiaoNian-Video\\review\\2026-10-21-v10\\晓念_V10_完整片_无旁白.mp4": "5e201129a909b74db069355cd734b0c1356a30ba3c46ec7948bc4bf0187d7fca",
+    "D:\\XiaoNian-Video\\review\\2026-10-21-v10\\audio\\music.wav": "f8fd2e736fb3cd2f3e902fb59765271028446f8366604387c6932ac1b37c868c",
+    "D:\\XiaoNian-Video\\review\\2026-10-21-v10\\audio\\sfx.wav": "6458b269e428f9a79781e8bb428adf9c0a6626847d799c292a6887673c446576"
+  },
+  "validation": {
+    "checks": {
+      "1080p": true,
+      "60fps": true,
+      "10680_frames": true,
+      "178_seconds": true,
+      "aac_stereo_48k": true,
+      "aac_bitrate_near_256k": true,
+      "video_stream_hash_matches": true
+    },
+    "duration_seconds": 178.0,
+    "video": {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "mime_codec_string": "avc1.64002a",
+      "width": 1920,
+      "height": 1080,
+      "coded_width": 1920,
+      "coded_height": 1080,
+      "has_b_frames": 2,
+      "sample_aspect_ratio": "1:1",
+      "display_aspect_ratio": "16:9",
+      "pix_fmt": "yuv420p",
+      "level": 42,
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "60/1",
+      "avg_frame_rate": "60/1",
+      "time_base": "1/15360",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 2734080,
+      "duration": "178.000000",
+      "bit_rate": "3744848",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "10680",
+      "extradata_size": 51,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "encoder": "Lavc62.28.101 libx264"
+      }
+    },
+    "audio": {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_long_name": "AAC (Advanced Audio Coding)",
+      "profile": "LC",
+      "codec_type": "audio",
+      "codec_tag_string": "mp4a",
+      "codec_tag": "0x6134706d",
+      "mime_codec_string": "mp4a.40.2",
+      "sample_fmt": "fltp",
+      "sample_rate": "48000",
+      "channels": 2,
+      "channel_layout": "stereo",
+      "bits_per_sample": 0,
+      "initial_padding": 0,
+      "id": "0x2",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/48000",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 8544000,
+      "duration": "178.000000",
+      "bit_rate": "253671",
+      "nb_frames": "8345",
+      "extradata_size": 5,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "SoundHandler"
+      }
+    }
+  },
+  "soundtrack_policy": "Original music and SFX unity gain before common output loudness normalization; no ducking; exact original timing.",
+  "voice_over_bed_db": 4,
+  "voice_gain_db": 9.315596591406532,
+  "closing_voice_presence_db": 2.5,
+  "music_duck_db": 0,
+  "sfx_duck_db": 0,
+  "closing_extra_duck_db": 0,
+  "loudness": {
+    "first_pass": {
+      "input_i": "-9.99",
+      "input_tp": "8.08",
+      "input_lra": "4.10",
+      "input_thresh": "-20.13",
+      "output_i": "-16.56",
+      "output_tp": "-2.00",
+      "output_lra": "3.70",
+      "output_thresh": "-26.63",
+      "normalization_type": "dynamic",
+      "target_offset": "0.56"
+    },
+    "normalized_wav": {
+      "input_i": "-16.16",
+      "input_tp": "-1.98",
+      "input_lra": "3.70",
+      "input_thresh": "-26.24",
+      "output_i": "-16.21",
+      "output_tp": "-2.00",
+      "output_lra": "3.40",
+      "output_thresh": "-26.26",
+      "normalization_type": "dynamic",
+      "target_offset": "0.21"
+    }
+  },
+  "final_aac_loudness": {
+    "input_i": "-16.17",
+    "input_tp": "-1.95",
+    "input_lra": "3.70",
+    "input_thresh": "-26.25",
+    "output_i": "-16.21",
+    "output_tp": "-2.00",
+    "output_lra": "3.40",
+    "output_thresh": "-26.26",
+    "normalization_type": "dynamic",
+    "target_offset": "0.21"
+  },
+  "per_cue": [
+    {
+      "index": 1,
+      "group": "01-02",
+      "text": "躺下了。",
+      "voice_rms": -10.228022219450448,
+      "bed_rms": -20.186501674187586
+    },
+    {
+      "index": 2,
+      "group": "01-02",
+      "text": "脑子却停不下来。",
+      "voice_rms": -12.712340241729734,
+      "bed_rms": -17.924428775142967
+    },
+    {
+      "index": 3,
+      "group": "03",
+      "text": "一天里，许多念头冒出来，又慢慢散去。",
+      "voice_rms": -14.98118090088697,
+      "bed_rms": -18.67450522524665
+    },
+    {
+      "index": 4,
+      "group": "04",
+      "text": "睡前，把明天要做的事，先写下来。",
+      "voice_rms": -14.28585861021897,
+      "bed_rms": -19.831218913007337
+    },
+    {
+      "index": 5,
+      "group": "05-06",
+      "text": "这是晓念，从随手记下一句话开始。",
+      "voice_rms": -13.060039794597273,
+      "bed_rms": -20.329979170223776
+    },
+    {
+      "index": 6,
+      "group": "05-06",
+      "text": "要做的事、没想完的问题，",
+      "voice_rms": -12.974463821995235,
+      "bed_rms": -15.434169101562334
+    },
+    {
+      "index": 7,
+      "group": "05-06",
+      "text": "AI整理成卡，原话也一起留着。",
+      "voice_rms": -11.147358445894227,
+      "bed_rms": -16.510169488013084
+    },
+    {
+      "index": 8,
+      "group": "05-06",
+      "text": "记下之后，再接着想。",
+      "voice_rms": -12.620806013703687,
+      "bed_rms": -17.083361807896228
+    },
+    {
+      "index": 9,
+      "group": "07",
+      "text": "过几天，带着原话回来看，",
+      "voice_rms": -10.521413635696241,
+      "bed_rms": -15.825510935645301
+    },
+    {
+      "index": 10,
+      "group": "07",
+      "text": "那件想报竞赛的事，现在怎么想？",
+      "voice_rms": -12.27808884290983,
+      "bed_rms": -16.33503212000077
+    },
+    {
+      "index": 11,
+      "group": "08",
+      "text": "做完的待办勾掉，",
+      "voice_rms": -8.661982702417252,
+      "bed_rms": -17.237038144709558
+    },
+    {
+      "index": 12,
+      "group": "08",
+      "text": "没想完的念头，留着继续。",
+      "voice_rms": -16.201026056568136,
+      "bed_rms": -15.966292741445065
+    },
+    {
+      "index": 13,
+      "group": "09",
+      "text": "记录都在卡片墙上，",
+      "voice_rms": -12.931953230233155,
+      "bed_rms": -15.151868756147035
+    },
+    {
+      "index": 14,
+      "group": "09",
+      "text": "想找回来时，不必从头翻。",
+      "voice_rms": -13.168072062142972,
+      "bed_rms": -18.0473766801217
+    },
+    {
+      "index": 15,
+      "group": "10",
+      "text": "点“接着聊”，先看最担心的时间安排，",
+      "voice_rms": -13.45601582925431,
+      "bed_rms": -15.294727621468539
+    },
+    {
+      "index": 16,
+      "group": "10",
+      "text": "再把顾虑一步步说清楚。",
+      "voice_rms": -13.203613274636457,
+      "bed_rms": -16.143434448461353
+    },
+    {
+      "index": 17,
+      "group": "11",
+      "text": "聊出的新想法，先存成卡。",
+      "voice_rms": -12.375733811138934,
+      "bed_rms": -16.865090794707992
+    },
+    {
+      "index": 18,
+      "group": "11",
+      "text": "再选几张相关的卡，一起看看。",
+      "voice_rms": -13.671938534733945,
+      "bed_rms": -17.681570891508656
+    },
+    {
+      "index": 19,
+      "group": "12",
+      "text": "放进头脑风暴，分组、比较，",
+      "voice_rms": -11.925536871511309,
+      "bed_rms": -16.76897261572082
+    },
+    {
+      "index": 20,
+      "group": "12",
+      "text": "找出这些念头之间的新联系。",
+      "voice_rms": -15.864859509146,
+      "bed_rms": -16.689609165175074
+    },
+    {
+      "index": 21,
+      "group": "12",
+      "text": "最后，把自己的结论写下来。",
+      "voice_rms": -12.982490911342099,
+      "bed_rms": -15.581991026300578
+    },
+    {
+      "index": 22,
+      "group": "13",
+      "text": "一道极限题，卡在第一步。",
+      "voice_rms": -14.159931404483771,
+      "bed_rms": -17.92808915309221
+    },
+    {
+      "index": 23,
+      "group": "13",
+      "text": "拍下来，先核对题目。",
+      "voice_rms": -10.983444912462952,
+      "bed_rms": -16.50994103378944
+    },
+    {
+      "index": 24,
+      "group": "14",
+      "text": "先要一步提示，接着自己试算。",
+      "voice_rms": -13.287689662133895,
+      "bed_rms": -15.912025379519424
+    },
+    {
+      "index": 25,
+      "group": "14",
+      "text": "相关研究中，直接给答案的那组，",
+      "voice_rms": -13.070990020691038,
+      "bed_rms": -17.256963871956373
+    },
+    {
+      "index": 26,
+      "group": "14",
+      "text": "撤掉AI后表现下降。提示组未见明显下降。",
+      "voice_rms": -12.36929356499848,
+      "bed_rms": -16.289330977931424
+    },
+    {
+      "index": 27,
+      "group": "15",
+      "text": "展开完整解析，还能查看计算核验。",
+      "voice_rms": -12.226478240064285,
+      "bed_rms": -16.455392320180607
+    },
+    {
+      "index": 28,
+      "group": "15",
+      "text": "支持的算式，由程序重新计算。",
+      "voice_rms": -12.7128933456756,
+      "bed_rms": -16.935895322990284
+    },
+    {
+      "index": 29,
+      "group": "16",
+      "text": "算完，把草稿拿来批改，",
+      "voice_rms": -11.375129267868882,
+      "bed_rms": -15.676309860108564
+    },
+    {
+      "index": 30,
+      "group": "16",
+      "text": "定位出错步骤，再收进错题本。",
+      "voice_rms": -14.015251289175728,
+      "bed_rms": -19.611819426998284
+    },
+    {
+      "index": 31,
+      "group": "17",
+      "text": "再把解题思路讲给小狸听。",
+      "voice_rms": -12.545876342258818,
+      "bed_rms": -19.38588353827049
+    },
+    {
+      "index": 32,
+      "group": "17",
+      "text": "它会追问，再反馈哪些说清、哪些漏了。",
+      "voice_rms": -12.417941853900736,
+      "bed_rms": -18.381794333364706
+    },
+    {
+      "index": 33,
+      "group": "18",
+      "text": "需要补充，就导入讲义。",
+      "voice_rms": -12.540618604998974,
+      "bed_rms": -17.968931202639418
+    },
+    {
+      "index": 34,
+      "group": "18",
+      "text": "校对原文，再把相关段落整理成卡。",
+      "voice_rms": -11.6304581091201,
+      "bed_rms": -17.705859065626036
+    },
+    {
+      "index": 35,
+      "group": "19",
+      "text": "最后，去知识地图独立做一道。",
+      "voice_rms": -13.929715020945878,
+      "bed_rms": -17.81933920792123
+    },
+    {
+      "index": 36,
+      "group": "19",
+      "text": "先判断会不会，再作答看结果。",
+      "voice_rms": -11.372553173328775,
+      "bed_rms": -17.507174459420682
+    },
+    {
+      "index": 37,
+      "group": "20",
+      "text": "累的时候，也可以只是聊聊。",
+      "voice_rms": -12.61383543846712,
+      "bed_rms": -17.829528572679166
+    },
+    {
+      "index": 38,
+      "group": "20",
+      "text": "今天发生了什么，哪句话放不下，",
+      "voice_rms": -13.81595611091199,
+      "bed_rms": -19.42214941809104
+    },
+    {
+      "index": 39,
+      "group": "20",
+      "text": "先把感受说出来。",
+      "voice_rms": -13.588657687577896,
+      "bed_rms": -19.75011974802808
+    },
+    {
+      "index": 40,
+      "group": "21",
+      "text": "涉及安全风险，先提示现实中的求助。",
+      "voice_rms": -15.017848788256563,
+      "bed_rms": -18.187299971916538
+    },
+    {
+      "index": 41,
+      "group": "22",
+      "text": "从记下一句，到自己想清楚，",
+      "voice_rms": -16.038158332329463,
+      "bed_rms": -17.707991653823054
+    },
+    {
+      "index": 42,
+      "group": "22",
+      "text": "学习和回顾，都留在记录里。",
+      "voice_rms": -15.770994100921412,
+      "bed_rms": -17.154719658014653
+    },
+    {
+      "index": 43,
+      "group": "23a",
+      "text": "刚才这些操作，由原生小程序发起。",
+      "voice_rms": -14.9150984945161,
+      "bed_rms": -15.778565738821644
+    },
+    {
+      "index": 44,
+      "group": "23a",
+      "text": "后端通过接口处理请求，SQLite保存记录。",
+      "voice_rms": -15.491702970804386,
+      "bed_rms": -17.681173831370096
+    },
+    {
+      "index": 45,
+      "group": "23a",
+      "text": "卡片、对话、导入和学习，各有业务模块。",
+      "voice_rms": -14.495129272805165,
+      "bed_rms": -17.941754901977724
+    },
+    {
+      "index": 46,
+      "group": "23b",
+      "text": "接着聊，会带上选定卡片的相关上下文。",
+      "voice_rms": -12.72522450212104,
+      "bed_rms": -20.469267198544078
+    },
+    {
+      "index": 47,
+      "group": "23b",
+      "text": "原话、生成内容和版本分开保存。",
+      "voice_rms": -12.7254534417727,
+      "bed_rms": -18.798946750960695
+    },
+    {
+      "index": 48,
+      "group": "23b",
+      "text": "长任务先记状态，再执行；支持的算式另外核验。",
+      "voice_rms": -13.902300985790191,
+      "bed_rms": -18.291685409162902
+    },
+    {
+      "index": 49,
+      "group": "24",
+      "text": "导入时离开，回来还能继续处理。",
+      "voice_rms": -15.274061663478403,
+      "bed_rms": -15.944708010529098
+    },
+    {
+      "index": 50,
+      "group": "24",
+      "text": "外部调用集中在后端，异常时尝试备用接口。",
+      "voice_rms": -14.755635560880851,
+      "bed_rms": -17.508760224584616
+    },
+    {
+      "index": 51,
+      "group": "24",
+      "text": "管理台查看任务、运行状态和反馈，",
+      "voice_rms": -15.472936828094689,
+      "bed_rms": -16.237396704362077
+    },
+    {
+      "index": 52,
+      "group": "24",
+      "text": "并保留用量与操作记录。",
+      "voice_rms": -15.035610634019033,
+      "bed_rms": -17.060052185475122
+    },
+    {
+      "index": 53,
+      "group": "26-27",
+      "text": "念，是转瞬的念头。",
+      "voice_rms": -10.842150024107672,
+      "bed_rms": -15.488135963940104
+    },
+    {
+      "index": 54,
+      "group": "26-27",
+      "text": "晓，是让所想渐渐明了。",
+      "voice_rms": -10.133727232051408,
+      "bed_rms": -15.011613996346618
+    },
+    {
+      "index": 55,
+      "group": "26-27",
+      "text": "晓念。",
+      "voice_rms": -10.719749459299816,
+      "bed_rms": -14.471489109453692
+    }
+  ],
+  "human_listening": false
+}

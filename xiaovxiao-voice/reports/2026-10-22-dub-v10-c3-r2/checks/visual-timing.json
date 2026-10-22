@@ -1,0 +1,21 @@
+{
+  "source_video": "D:/XiaoNian-Video/review/2026-10-21-v10/晓念_V10_完整片_无旁白.mp4",
+  "source_code": [
+    "D:/XiaoNian-Video/work-v10/film/src/v10/timeline.ts:24",
+    "D:/XiaoNian-Video/work-v10/film/src/v5/scenes.tsx:781",
+    "D:/XiaoNian-Video/work-v10/film/scripts/finish-v10.mjs:7"
+  ],
+  "definition_text_full_visible_until": 174.5,
+  "definition_text_fully_transparent_at": 174.859,
+  "brand_first_nonzero_frame_about": 175.05,
+  "brand_full_visible_at": 175.308,
+  "assistant_viewed_frames": [
+    174.4,
+    175.1
+  ],
+  "observations": [
+    "174.4: second definition is fully readable.",
+    "175.1: large 晓念 brand is visibly readable."
+  ],
+  "human_playback": false
+}
