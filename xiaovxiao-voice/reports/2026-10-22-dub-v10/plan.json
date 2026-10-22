@@ -147,5 +147,16 @@
   },
   "video_mux_started": false,
   "final_voice_selected": null,
-  "rating_priority_policy": "只有明确4分的两条复用片段优先；3分片段保留评分来源记录，按ASR和时长与新条共同筛选"
+  "rating_priority_policy": "只有明确4分的两条复用片段优先；3分片段保留评分来源记录，按ASR和时长与新条共同筛选",
+  "actual_generation": {
+    "new_takes_success": 210,
+    "new_takes_failed": 0,
+    "reused_takes": 12,
+    "takes_available": 222,
+    "extra_takes_by_profile": {
+      "A": 3,
+      "B": 0,
+      "C": 3
+    }
+  }
 }

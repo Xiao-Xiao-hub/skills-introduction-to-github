@@ -1,0 +1,134 @@
+{
+  "verified_at": "2026-10-22T12:00:14+08:00",
+  "full_tracks": 3,
+  "duration_each": 178,
+  "profiles": [
+    {
+      "key": "A",
+      "label": "自然交流",
+      "ref": "r0b_vox_49a14f",
+      "basis": "两条已评分试配均4分，优先参考",
+      "duration_seconds": 178,
+      "sample_rate": 48000,
+      "channels": 1,
+      "subtype": "PCM_24",
+      "bytes": 25632044,
+      "sha256": "1419c749ea20153dbad1f358a6a013cc815bec578391afffcd1d1f99587d0d36",
+      "local_file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\three-voices-2026-10-22\\A_自然交流_完整旁白.wav",
+      "report_file": "A_自然交流/人声轨_48k24bit.wav",
+      "takes_available": 75,
+      "placed_segments": 55,
+      "group_placement_fallbacks": [],
+      "warning_count": 5,
+      "first_start": 0.35,
+      "last_end": 176.12
+    },
+    {
+      "key": "B",
+      "label": "柔和亲近",
+      "ref": "r0b_moss_611767",
+      "basis": "一条已评分试配3分，作为不同音色的完整候选",
+      "duration_seconds": 178,
+      "sample_rate": 48000,
+      "channels": 1,
+      "subtype": "PCM_24",
+      "bytes": 25632044,
+      "sha256": "867db256a393d16d4ca58cf6f77004ce5e4a13e0c2e001b669a68b5b4c087454",
+      "local_file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\three-voices-2026-10-22\\B_柔和亲近_完整旁白.wav",
+      "report_file": "B_柔和亲近/人声轨_48k24bit.wav",
+      "takes_available": 72,
+      "placed_segments": 47,
+      "group_placement_fallbacks": [
+        "11",
+        "14",
+        "23b",
+        "24"
+      ],
+      "warning_count": 10,
+      "first_start": 0.35,
+      "last_end": 176.0
+    },
+    {
+      "key": "C",
+      "label": "沉稳讲述",
+      "ref": "r0_vox_959950",
+      "basis": "两条已评分试配均3分，作为较成熟声音的完整候选",
+      "duration_seconds": 178,
+      "sample_rate": 48000,
+      "channels": 1,
+      "subtype": "PCM_24",
+      "bytes": 25632044,
+      "sha256": "aca9ae212b33d74f8d1fa32578400e1ec8f8e85db016b76c339c8dce3891500a",
+      "local_file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\three-voices-2026-10-22\\C_沉稳讲述_完整旁白.wav",
+      "report_file": "C_沉稳讲述/人声轨_48k24bit.wav",
+      "takes_available": 75,
+      "placed_segments": 55,
+      "group_placement_fallbacks": [],
+      "warning_count": 3,
+      "first_start": 0.35,
+      "last_end": 175.91
+    }
+  ],
+  "takes_available": 222,
+  "reused_takes": 12,
+  "new_takes_success": 210,
+  "new_takes_failed": 0,
+  "selected_samples": 5,
+  "ratings_snapshot_entries": 5,
+  "live_ratings_unchanged_since_snapshot": true,
+  "source_files_unchanged": {
+    "common.py": {
+      "expected": "5d45aed2854fe4224a0b0659312051240509c9a07bac6f70fe683606ddef262e",
+      "actual": "5d45aed2854fe4224a0b0659312051240509c9a07bac6f70fe683606ddef262e"
+    },
+    "dub.py": {
+      "expected": "34e20dcfbb8749105cabd7272c67155ff0a68bc2f9b5392c2ccb17466eb629ac",
+      "actual": "34e20dcfbb8749105cabd7272c67155ff0a68bc2f9b5392c2ccb17466eb629ac"
+    },
+    "measure.py": {
+      "expected": "ddfad8c55df26063a83bcf8f7242e75d07414a46645f535183cf3dd130dec824",
+      "actual": "ddfad8c55df26063a83bcf8f7242e75d07414a46645f535183cf3dd130dec824"
+    },
+    "specs.py": {
+      "expected": "2f9e47024a1b2455607fe21d0e4a665dd4bbfd5266cd687596682fb8bf259cc8",
+      "actual": "2f9e47024a1b2455607fe21d0e4a665dd4bbfd5266cd687596682fb8bf259cc8"
+    },
+    "step1_audition.py": {
+      "expected": "0a3718cc9275eb5bef6b81d6ae02ffb4ec0424b75007b0eed962adbff09b07fd",
+      "actual": "0a3718cc9275eb5bef6b81d6ae02ffb4ec0424b75007b0eed962adbff09b07fd"
+    },
+    "step2_refine.py": {
+      "expected": "e0ec0831053df10633115e238e183dace2716392b7f0cd2b2a60c950ef0154ac",
+      "actual": "e0ec0831053df10633115e238e183dace2716392b7f0cd2b2a60c950ef0154ac"
+    },
+    "step3_clone_test.py": {
+      "expected": "b956a0eacb2f17dd84e998faf5b794ffc845ea7d9c9d6ae9b5563abc6337a942",
+      "actual": "b956a0eacb2f17dd84e998faf5b794ffc845ea7d9c9d6ae9b5563abc6337a942"
+    },
+    "step4_finalize.py": {
+      "expected": "5c707160832184768e749214c6f9090722b54d42db83b3f534d64ea4925ab7d8",
+      "actual": "5c707160832184768e749214c6f9090722b54d42db83b3f534d64ea4925ab7d8"
+    },
+    "dub/xiaonian_v10.json": {
+      "expected": "d8da845a59679b12305cac3226277b8d6b3c5bed93c6f49e034b1ed31cc81c9b",
+      "actual": "d8da845a59679b12305cac3226277b8d6b3c5bed93c6f49e034b1ed31cc81c9b"
+    },
+    "voices/v1/哓v哓_v1_声音档案.json": {
+      "expected": "2f489f0f5c516b7609026190d901cde9b204cca2577c4eb8e77ffb12812652a8",
+      "actual": "2f489f0f5c516b7609026190d901cde9b204cca2577c4eb8e77ffb12812652a8"
+    },
+    "voices/v1/哓v哓_v1_定妆音.txt": {
+      "expected": "f2340ce5cddd9fd302fac9cadd38d38e97e3bfd850e28a7c5df60117a2201d86",
+      "actual": "f2340ce5cddd9fd302fac9cadd38d38e97e3bfd850e28a7c5df60117a2201d86"
+    },
+    "voices/v1/哓v哓_v1_定妆音.wav": {
+      "expected": "612b3162df5925162377ec9ca2501911a53c5b73e96265538d53be68ee3b9024",
+      "actual": "612b3162df5925162377ec9ca2501911a53c5b73e96265538d53be68ee3b9024"
+    }
+  },
+  "backend_changes": [],
+  "video_created": false,
+  "final_voice_selected": null,
+  "local_delivery_dir": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\three-voices-2026-10-22",
+  "acceptance_scope": "三版完整音频文件与内容分组、未截尾、无重叠及归档完整性已核验；自然度与最终选音由用户完整试听决定。"
+}

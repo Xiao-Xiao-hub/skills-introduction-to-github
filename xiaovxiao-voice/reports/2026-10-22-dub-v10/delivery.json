@@ -1,0 +1,71 @@
+{
+  "created_at": "2026-10-22T12:00:14+08:00",
+  "local_folder": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\three-voices-2026-10-22",
+  "files": [
+    {
+      "key": "A",
+      "label": "自然交流",
+      "ref": "r0b_vox_49a14f",
+      "basis": "两条已评分试配均4分，优先参考",
+      "duration_seconds": 178,
+      "sample_rate": 48000,
+      "channels": 1,
+      "subtype": "PCM_24",
+      "bytes": 25632044,
+      "sha256": "1419c749ea20153dbad1f358a6a013cc815bec578391afffcd1d1f99587d0d36",
+      "local_file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\three-voices-2026-10-22\\A_自然交流_完整旁白.wav",
+      "report_file": "A_自然交流/人声轨_48k24bit.wav",
+      "takes_available": 75,
+      "placed_segments": 55,
+      "group_placement_fallbacks": [],
+      "warning_count": 5,
+      "first_start": 0.35,
+      "last_end": 176.12
+    },
+    {
+      "key": "B",
+      "label": "柔和亲近",
+      "ref": "r0b_moss_611767",
+      "basis": "一条已评分试配3分，作为不同音色的完整候选",
+      "duration_seconds": 178,
+      "sample_rate": 48000,
+      "channels": 1,
+      "subtype": "PCM_24",
+      "bytes": 25632044,
+      "sha256": "867db256a393d16d4ca58cf6f77004ce5e4a13e0c2e001b669a68b5b4c087454",
+      "local_file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\three-voices-2026-10-22\\B_柔和亲近_完整旁白.wav",
+      "report_file": "B_柔和亲近/人声轨_48k24bit.wav",
+      "takes_available": 72,
+      "placed_segments": 47,
+      "group_placement_fallbacks": [
+        "11",
+        "14",
+        "23b",
+        "24"
+      ],
+      "warning_count": 10,
+      "first_start": 0.35,
+      "last_end": 176.0
+    },
+    {
+      "key": "C",
+      "label": "沉稳讲述",
+      "ref": "r0_vox_959950",
+      "basis": "两条已评分试配均3分，作为较成熟声音的完整候选",
+      "duration_seconds": 178,
+      "sample_rate": 48000,
+      "channels": 1,
+      "subtype": "PCM_24",
+      "bytes": 25632044,
+      "sha256": "aca9ae212b33d74f8d1fa32578400e1ec8f8e85db016b76c339c8dce3891500a",
+      "local_file": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\three-voices-2026-10-22\\C_沉稳讲述_完整旁白.wav",
+      "report_file": "C_沉稳讲述/人声轨_48k24bit.wav",
+      "takes_available": 75,
+      "placed_segments": 55,
+      "group_placement_fallbacks": [],
+      "warning_count": 3,
+      "first_start": 0.35,
+      "last_end": 175.91
+    }
+  ]
+}
