@@ -1,0 +1,126 @@
+{
+  "started_at": "2026-10-22T11:14:02+08:00",
+  "base_commit": "44c77de4b0d69256edb5ae3987323953959ef966",
+  "profiles": [
+    {
+      "key": "A",
+      "label": "自然交流",
+      "ref": "r0b_vox_49a14f",
+      "basis": "两条已评分试配均4分，优先参考",
+      "takes_dir": "dub\\out\\r0b_vox_49a14f_style\\takes",
+      "final_dir": "dub\\out\\r0b_vox_49a14f_style\\final",
+      "planned_takes": 72,
+      "reused_takes": 4,
+      "new_takes": 68,
+      "mode": "style",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 10
+      },
+      "delivery_file": "A_自然交流_完整旁白.wav",
+      "command": ".\\.venvs\\xvx-vox\\Scripts\\python.exe dub.py render --model-path .\\models\\VoxCPM2 --ref r0b_vox_49a14f --mode style --takes 3"
+    },
+    {
+      "key": "B",
+      "label": "柔和亲近",
+      "ref": "r0b_moss_611767",
+      "basis": "一条已评分试配3分，作为不同音色的完整候选",
+      "takes_dir": "dub\\out\\r0b_moss_611767_style\\takes",
+      "final_dir": "dub\\out\\r0b_moss_611767_style\\final",
+      "planned_takes": 72,
+      "reused_takes": 4,
+      "new_takes": 68,
+      "mode": "style",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 10
+      },
+      "delivery_file": "B_柔和亲近_完整旁白.wav",
+      "command": ".\\.venvs\\xvx-vox\\Scripts\\python.exe dub.py render --model-path .\\models\\VoxCPM2 --ref r0b_moss_611767 --mode style --takes 3"
+    },
+    {
+      "key": "C",
+      "label": "沉稳讲述",
+      "ref": "r0_vox_959950",
+      "basis": "两条已评分试配均3分，作为较成熟声音的完整候选",
+      "takes_dir": "dub\\out\\r0_vox_959950_style\\takes",
+      "final_dir": "dub\\out\\r0_vox_959950_style\\final",
+      "planned_takes": 72,
+      "reused_takes": 4,
+      "new_takes": 68,
+      "mode": "style",
+      "gen": {
+        "cfg": 2.0,
+        "steps": 10
+      },
+      "delivery_file": "C_沉稳讲述_完整旁白.wav",
+      "command": ".\\.venvs\\xvx-vox\\Scripts\\python.exe dub.py render --model-path .\\models\\VoxCPM2 --ref r0_vox_959950 --mode style --takes 3"
+    }
+  ],
+  "duration": 178.0,
+  "groups": 24,
+  "script_lines": 55,
+  "takes_total": 216,
+  "reused": 12,
+  "new_takes": 204,
+  "ratings_snapshot": {
+    "entries": 5,
+    "sha256": "11da3de81b17aa41e3d4a3c22361d657095af722d8a6346985761939741feb17",
+    "file": "source-ratings.json"
+  },
+  "selected_files": [
+    {
+      "file": "r0b_vox_49a14f_style_07_3f46.wav",
+      "score": 4,
+      "ref": "r0b_vox_49a14f",
+      "group": "07"
+    },
+    {
+      "file": "r0b_vox_49a14f_style_23a_1576.wav",
+      "score": 4,
+      "ref": "r0b_vox_49a14f",
+      "group": "23a"
+    },
+    {
+      "file": "r0_vox_959950_style_05-06_a294.wav",
+      "score": 3,
+      "ref": "r0_vox_959950",
+      "group": "05-06"
+    },
+    {
+      "file": "r0_vox_959950_style_23a_10dc.wav",
+      "score": 3,
+      "ref": "r0_vox_959950",
+      "group": "23a"
+    },
+    {
+      "file": "r0b_moss_611767_style_05-06_8202.wav",
+      "score": 3,
+      "ref": "r0b_moss_611767",
+      "group": "05-06"
+    }
+  ],
+  "source_baseline": {
+    "common.py": "5d45aed2854fe4224a0b0659312051240509c9a07bac6f70fe683606ddef262e",
+    "dub.py": "34e20dcfbb8749105cabd7272c67155ff0a68bc2f9b5392c2ccb17466eb629ac",
+    "measure.py": "ddfad8c55df26063a83bcf8f7242e75d07414a46645f535183cf3dd130dec824",
+    "specs.py": "2f9e47024a1b2455607fe21d0e4a665dd4bbfd5266cd687596682fb8bf259cc8",
+    "step1_audition.py": "0a3718cc9275eb5bef6b81d6ae02ffb4ec0424b75007b0eed962adbff09b07fd",
+    "step2_refine.py": "e0ec0831053df10633115e238e183dace2716392b7f0cd2b2a60c950ef0154ac",
+    "step3_clone_test.py": "b956a0eacb2f17dd84e998faf5b794ffc845ea7d9c9d6ae9b5563abc6337a942",
+    "step4_finalize.py": "5c707160832184768e749214c6f9090722b54d42db83b3f534d64ea4925ab7d8",
+    "dub/xiaonian_v10.json": "d8da845a59679b12305cac3226277b8d6b3c5bed93c6f49e034b1ed31cc81c9b",
+    "voices/v1/哓v哓_v1_声音档案.json": "2f489f0f5c516b7609026190d901cde9b204cca2577c4eb8e77ffb12812652a8",
+    "voices/v1/哓v哓_v1_定妆音.txt": "f2340ce5cddd9fd302fac9cadd38d38e97e3bfd850e28a7c5df60117a2201d86",
+    "voices/v1/哓v哓_v1_定妆音.wav": "612b3162df5925162377ec9ca2501911a53c5b73e96265538d53be68ee3b9024"
+  },
+  "local_delivery_dir": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\three-voices-2026-10-22",
+  "asr": {
+    "available": true,
+    "sample": "r0b_vox_49a14f_style_07_3f46.wav",
+    "recognized": "过 几 天 带 着 原 画 回 来 看 那 件 想 报 禁 赛 的 事 现 在 怎 么 想",
+    "elapsed_seconds": 73.5
+  },
+  "video_mux_started": false,
+  "final_voice_selected": null
+}

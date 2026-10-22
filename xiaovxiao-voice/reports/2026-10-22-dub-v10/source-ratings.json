@@ -1,0 +1,38 @@
+{
+ "version": 1,
+ "folder": "test",
+ "orderSeed": 410723143,
+ "updated": "2026-10-22T02:49:34.001Z",
+ "ratings": {
+  "r0b_moss_611767_style_05-06_8202.wav": {
+   "score": 3,
+   "tags": [],
+   "note": "",
+   "t": 1792637307337
+  },
+  "r0b_vox_49a14f_style_23a_1576.wav": {
+   "score": 4,
+   "tags": [],
+   "note": "",
+   "t": 1792637302492
+  },
+  "r0_vox_959950_style_05-06_a294.wav": {
+   "score": 3,
+   "tags": [],
+   "note": "",
+   "t": 1792637321845
+  },
+  "r0b_vox_49a14f_style_07_3f46.wav": {
+   "score": 4,
+   "tags": [],
+   "note": "",
+   "t": 1792637359119
+  },
+  "r0_vox_959950_style_23a_10dc.wav": {
+   "score": 3,
+   "tags": [],
+   "note": "",
+   "t": 1792637373584
+  }
+ }
+}

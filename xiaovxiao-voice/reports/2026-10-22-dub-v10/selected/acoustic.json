@@ -1,0 +1,44 @@
+{
+  "r0b_vox_49a14f_style_07_3f46.wav": {
+    "f0": 285,
+    "range_st": 7.2,
+    "pause_pct": 17,
+    "rate": 5.6,
+    "hnr": 17.6,
+    "flags": [
+      "音高偏高"
+    ]
+  },
+  "r0b_vox_49a14f_style_23a_1576.wav": {
+    "f0": 263,
+    "range_st": 8.9,
+    "pause_pct": 24,
+    "rate": 4.6,
+    "hnr": 15.5,
+    "flags": []
+  },
+  "r0_vox_959950_style_05-06_a294.wav": {
+    "f0": 211,
+    "range_st": 10.5,
+    "pause_pct": 28,
+    "rate": 4.6,
+    "hnr": 12.1,
+    "flags": []
+  },
+  "r0_vox_959950_style_23a_10dc.wav": {
+    "f0": 248,
+    "range_st": 10.5,
+    "pause_pct": 24,
+    "rate": 4.8,
+    "hnr": 12.2,
+    "flags": []
+  },
+  "r0b_moss_611767_style_05-06_8202.wav": {
+    "f0": 233,
+    "range_st": 9.2,
+    "pause_pct": 16,
+    "rate": 5.0,
+    "hnr": 16.0,
+    "flags": []
+  }
+}
