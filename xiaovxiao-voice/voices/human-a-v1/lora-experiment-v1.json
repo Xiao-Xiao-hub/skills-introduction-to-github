@@ -1,0 +1,24 @@
+{
+  "id": "human-a-chat-lora-v1",
+  "status": "experimental_pending_human_listening",
+  "user_selected": false,
+  "weight_finetuning_started": true,
+  "completed_optimizer_steps": 24,
+  "model": "VoxCPM2",
+  "base_model": "models/VoxCPM2",
+  "upstream_commit": "cce58a5b59303c9bd63d12f23afe6a49a4a80c59",
+  "checkpoint": "local/qq-corpus-20261023/checkpoints-v1/step_0000024/lora_weights.safetensors",
+  "checkpoint_sha256": "c9d3c30dff43f522e2b761d966accbe398184eda56b7488e263493cff4df92c6",
+  "training_samples": 31,
+  "validation_samples": 7,
+  "test_samples": 5,
+  "human_verified_training_samples": 0,
+  "generation": {
+    "cfg": 2.0,
+    "steps": 20,
+    "seed": 201
+  },
+  "accepted_baseline_profile": "profile.json",
+  "report": "../../reports/2026-10-23-qq-voice-lora/README.md",
+  "note": "Real small-data LoRA experiment; no demonstrated material listening improvement; keep the selected A baseline."
+}

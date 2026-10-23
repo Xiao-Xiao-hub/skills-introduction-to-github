@@ -1,0 +1,18 @@
+{
+  "mode": "train",
+  "completed": true,
+  "steps": 24,
+  "training_samples": 31,
+  "elapsed_s": 150.89100000000326,
+  "peak_allocated_gib": 6.047731876373291,
+  "peak_reserved_gib": 7.41796875,
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "device": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "upstream": {
+    "url": "https://github.com/OpenBMB/VoxCPM",
+    "commit": "cce58a5b59303c9bd63d12f23afe6a49a4a80c59",
+    "archive_sha256": "8298ac486cf13c42d9cff610efa3779ab6be4a6a159910e3cce199d676d70aff"
+  },
+  "human_listening_accepted": false
+}

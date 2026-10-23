@@ -1,0 +1,110 @@
+[
+  {
+    "file": "01_正式参考_训练前.wav",
+    "duration_s": 30.59,
+    "sha256": "46070ed6fca9877d14927a95916d18b7a21a84ae6a0216c5808bc2f28ded887a",
+    "segments": [
+      {
+        "id": "base_formal",
+        "start_s": 0,
+        "end_s": 5.92,
+        "text": "这是晓念，想法可以先记下来，等有空的时候，再慢慢整理。"
+      },
+      {
+        "id": "base_gentle",
+        "start_s": 6.57,
+        "end_s": 12.010000000000002,
+        "text": "别着急，我们先把眼前这一步做好，剩下的，一起慢慢来。"
+      },
+      {
+        "id": "base_bright",
+        "start_s": 12.660000000000002,
+        "end_s": 18.1,
+        "text": "原来还可以这样！把零散的想法连起来，事情一下就清楚了。"
+      },
+      {
+        "id": "base_continuity",
+        "start_s": 18.75,
+        "end_s": 30.59,
+        "text": "作品介绍可以说得清楚，也可以保留一点真实的交流感。不必把每句话都念得一样整齐，关键的地方稍作停顿，让听的人跟得上，也愿意继续听下去。"
+      }
+    ],
+    "between_sample_silence_s": 0.65,
+    "within_sample_audio_unchanged": true
+  },
+  {
+    "file": "02_正式参考_微调后.wav",
+    "duration_s": 31.39,
+    "sha256": "19b19d1bb96f9b7645636f7a0331abd9b47cbc259ddb2f7988d100be1664176d",
+    "segments": [
+      {
+        "id": "epoch3_formal",
+        "start_s": 0,
+        "end_s": 5.92,
+        "text": "这是晓念，想法可以先记下来，等有空的时候，再慢慢整理。"
+      },
+      {
+        "id": "epoch3_gentle",
+        "start_s": 6.57,
+        "end_s": 12.17,
+        "text": "别着急，我们先把眼前这一步做好，剩下的，一起慢慢来。"
+      },
+      {
+        "id": "epoch3_bright",
+        "start_s": 12.82,
+        "end_s": 18.26,
+        "text": "原来还可以这样！把零散的想法连起来，事情一下就清楚了。"
+      },
+      {
+        "id": "epoch3_continuity",
+        "start_s": 18.91,
+        "end_s": 31.39,
+        "text": "作品介绍可以说得清楚，也可以保留一点真实的交流感。不必把每句话都念得一样整齐，关键的地方稍作停顿，让听的人跟得上，也愿意继续听下去。"
+      }
+    ],
+    "between_sample_silence_s": 0.65,
+    "within_sample_audio_unchanged": true
+  },
+  {
+    "file": "03_日常参考_训练前.wav",
+    "duration_s": 12.65,
+    "sha256": "26afcd3fae9d00acaa89d1ea598dba28ca71576e292bb6b5f2e928f065443d95",
+    "segments": [
+      {
+        "id": "chat_base_gentle",
+        "start_s": 0,
+        "end_s": 7.2,
+        "text": "别着急，我们先把眼前这一步做好，剩下的，一起慢慢来。"
+      },
+      {
+        "id": "chat_base_bright",
+        "start_s": 7.8500000000000005,
+        "end_s": 12.65,
+        "text": "原来还可以这样！把零散的想法连起来，事情一下就清楚了。"
+      }
+    ],
+    "between_sample_silence_s": 0.65,
+    "within_sample_audio_unchanged": true
+  },
+  {
+    "file": "04_日常参考_微调后.wav",
+    "duration_s": 12.81,
+    "sha256": "b96d567dc5eef19b610da35bea8bd3e5255d98ea1470c4b00201bc5d9317ceaf",
+    "segments": [
+      {
+        "id": "chat_lora_gentle",
+        "start_s": 0,
+        "end_s": 7.2,
+        "text": "别着急，我们先把眼前这一步做好，剩下的，一起慢慢来。"
+      },
+      {
+        "id": "chat_lora_bright",
+        "start_s": 7.8500000000000005,
+        "end_s": 12.81,
+        "text": "原来还可以这样！把零散的想法连起来，事情一下就清楚了。"
+      }
+    ],
+    "between_sample_silence_s": 0.65,
+    "within_sample_audio_unchanged": true
+  }
+]

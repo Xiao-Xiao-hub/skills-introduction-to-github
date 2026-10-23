@@ -1,0 +1,48 @@
+{
+  "splits": {
+    "train": {
+      "count": 31,
+      "minutes": 3.027833333333333
+    },
+    "val": {
+      "count": 7,
+      "minutes": 0.46666666666666673
+    },
+    "test": {
+      "count": 5,
+      "minutes": 0.46166666666666667
+    }
+  },
+  "cross_split": {
+    "train_val": {
+      "shared_sources": 0,
+      "shared_days": 0,
+      "max_normalized_text_similarity": 0.2857142857142857
+    },
+    "train_test": {
+      "shared_sources": 0,
+      "shared_days": 0,
+      "max_normalized_text_similarity": 0.2978723404255319
+    },
+    "val_test": {
+      "shared_sources": 0,
+      "shared_days": 0,
+      "max_normalized_text_similarity": 0.2790697674418605
+    }
+  },
+  "human_reviewed_count": 0,
+  "original_source_hashes_unchanged": 714,
+  "snapshot_audio_hashes_verified": 43,
+  "train_references_train_only": true,
+  "protected_files": {
+    "common.py": true,
+    "dub.py": true,
+    "measure.py": true,
+    "specs.py": true,
+    "step1_audition.py": true,
+    "step2_refine.py": true,
+    "step3_clone_test.py": true,
+    "step4_finalize.py": true,
+    "dub\\xiaonian_v10.json": true
+  }
+}

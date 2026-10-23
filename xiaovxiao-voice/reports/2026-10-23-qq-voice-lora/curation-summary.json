@@ -1,0 +1,46 @@
+{
+  "total_segments": 829,
+  "selected": 43,
+  "selected_minutes": 3.9561666666666673,
+  "splits": {
+    "train": {
+      "count": 31,
+      "minutes": 3.027833333333333
+    },
+    "val": {
+      "count": 7,
+      "minutes": 0.46666666666666673
+    },
+    "test": {
+      "count": 5,
+      "minutes": 0.46166666666666667
+    }
+  },
+  "exclusion_counts": {
+    "transcript_disagreement_or_missing": 584,
+    "predicted_quality_review": 756,
+    "duration_outside_first_training_range": 276,
+    "text_length": 97,
+    "speaker_review_required": 256,
+    "audio_quality_review": 68,
+    "non_speech_event_review": 9,
+    "speech_rate_outlier": 4,
+    "repetition_review": 2
+  },
+  "emotions": {
+    "HAPPY": 24,
+    "NEUTRAL": 12,
+    "SAD": 5,
+    "SURPRISED": 1
+  },
+  "human_reviewed_count": 0,
+  "train_status": "completed_experimental_candidate",
+  "speaker_cosines": {
+    "min_anchor": -0.1556745171546936,
+    "min_centroid": 0.41356227636029397
+  },
+  "speaker_outlier_threshold": 0.4,
+  "speaker_threshold_method": "max(0.4, median-2.5*1.4826*MAD); diagnostics only, no identity probability",
+  "quality_model": "DNSMOS predicted, not human MOS",
+  "human_listening_accepted": false
+}
