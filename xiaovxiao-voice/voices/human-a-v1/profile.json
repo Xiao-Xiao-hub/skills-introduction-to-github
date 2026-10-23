@@ -1,0 +1,41 @@
+{
+  "id": "human-a-v1",
+  "label": "真人参考 A",
+  "user_selected": true,
+  "selected_date": "2026-10-23",
+  "model": "VoxCPM2",
+  "model_path": "models/VoxCPM2",
+  "model_hashes": {
+    "config.json": "405f0dcd92f7feba6011ed4eac5c8d4f74cba9712f07fd5cfa3063bbdd95402c",
+    "model.safetensors": "f7f964cfa9da23653baec6e6f7750719977ad944ed9f95fe52fe3a620506891d",
+    "audiovae.pth": "94b5d51e107e0507d4acc976cfdadb64edd6fd06d1f751dadbf2fd1594274bf1"
+  },
+  "mode": "prompt_and_reference_clone",
+  "reference": "local/reference.wav",
+  "reference_sha256": "47ff1bed242179de285905eb657a363ffdd278444f294bb3505cd02e6dcc544c",
+  "reference_text": "要做的事，没想完的问题。AI整理成卡，原话也一起留着。记下之后，再接着想。",
+  "generation": {
+    "cfg": 2.0,
+    "steps": 20,
+    "seed": 201
+  },
+  "output_sample_rate": 48000,
+  "packages": {
+    "voxcpm": "2.0.3",
+    "torch": "2.11.0+cu128",
+    "torchaudio": "2.11.0+cu128",
+    "transformers": "5.20.2",
+    "soundfile": "0.14.0"
+  },
+  "approved_audition": "reports/2026-10-23-human-clone-audition/A_VoxCPM2_参考1-1.wav",
+  "approved_audition_sha256": "1d2c8ab5529784f69ae252831dd70edbffea2a6dff44f818d85a17031f0b8307",
+  "weight_finetuning_started": false,
+  "lora_checkpoint": null,
+  "future_video_policy": {
+    "wait_for_new_script_and_timeline": true,
+    "closing_narration": false,
+    "preserve_original_music_and_sfx": true,
+    "no_internal_phrase_slicing": true
+  },
+  "note": "User approved audition A; this freezes the exact accepted clone recipe, not new learned weights."
+}

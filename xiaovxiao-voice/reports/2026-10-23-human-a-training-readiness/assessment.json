@@ -1,0 +1,67 @@
+{
+  "status": "needs_more_clean_human_data_before_production_finetuning",
+  "training_started": false,
+  "training_steps": 0,
+  "lora_checkpoint": null,
+  "source_count": 2,
+  "decoded_total_seconds": 52.864,
+  "asr_word_span_sum_seconds": 35.400000000000006,
+  "candidate_clips": 9,
+  "candidate_total_seconds": 46.46,
+  "selected_reference_seconds": 8.47,
+  "reference_not_additional_training_data": true,
+  "draft_format_validation": {
+    "valid_samples": 9,
+    "errors": [],
+    "warnings": []
+  },
+  "ready_for_training": false,
+  "human_transcripts_verified": false,
+  "held_out_recordings_available": false,
+  "hardware": {
+    "vram_gb": 12,
+    "official_voxcpm2_lora_example_estimate_gb": 20,
+    "official_estimate_batch_size": 16,
+    "official_estimate_max_batch_tokens": 8192,
+    "lower_batch_feasibility": "not_tested; estimate is not a hard minimum",
+    "training_software_smoke_test": false
+  },
+  "source_metrics": [
+    {
+      "name": "1-1.m4a",
+      "source_sha256": "3ff9944c468395301ee2f46554f370122170236812494a0e3c7d18b544cf1007",
+      "decoded_duration": 41.87733333333333,
+      "asr_word_span_sum_seconds": 27.315,
+      "peak": 0.6119146347045898,
+      "clipped_samples": 0,
+      "rms_dbfs": -26.81095314025879,
+      "quiet_frame_p10_dbfs": -45.3963508605957,
+      "asr_primary": "躺 下 了 脑 子 却 停 不 下 来 一 天 里 许 多 事 情 冒 出 来 又 慢 慢 散 去 睡 前 把 想 做 的 事 情 写 下 来 这 是 想 念 从 随 手 记 下 一 句 话 开 始 要 做 的 事 没 想 完 的 问 题 AI 整 理 成 卡 原 话 也 一 起 留 着 记 下 之 后 再 接 着 想 过 几 天 带 着 原 话 回 来 看 看 那 件 想 报 竞 赛 的 事 现 在 又 怎 样 想 做 完 的 代 办 勾 掉 没 想 完 的 问 题 留 着 继 续 记 录 都 在 卡 片 墙 上 想 找 回 来 时 不 必 从 头 翻",
+      "asr_secondary": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>躺下了，脑子却停不下来。一天里，许多事情冒出来又慢慢散去，睡前把想做的事情写下来，这是想念，从随手记下一句话开始，要做的事没想完的问题。AI整理成卡，原话也一起留着，记下之后再接着想，过几天带着原话回来看看，那件想报记下的事，现在又尽量想，做完的代办勾掉，没想完的问题留着记续，记录都在卡片墙上，想找回来时不必从头翻。"
+    },
+    {
+      "name": "1-6.m4a",
+      "source_sha256": "a0684c9bad808b02fd775554b46a389c7b1c766441bff987f5ef57832d893460",
+      "decoded_duration": 10.986666666666666,
+      "asr_word_span_sum_seconds": 8.085,
+      "peak": 0.4141148328781128,
+      "clipped_samples": 0,
+      "rms_dbfs": -26.263347625732422,
+      "quiet_frame_p10_dbfs": -45.40839767456055,
+      "asr_primary": "外 部 调 用 集 中 在 后 端 异 常 时 尝 试 备 用 接 口 管 理 台 查 看 任 务 运 行 状 态 和 反 馈 并 保 留 用 料 以 操 作 记 录",
+      "asr_secondary": "<|zh|><|NEUTRAL|><|Speech|><|withitn|>外部调用集中在后端，异常时尝试备用接口管理台查看任务运行状态和反馈，并保留用料与操作记录。"
+    }
+  ],
+  "packages": {
+    "voxcpm": "2.0.3",
+    "torch": "2.11.0+cu128",
+    "torchaudio": "2.11.0+cu128",
+    "transformers": "5.20.2",
+    "soundfile": "0.14.0"
+  },
+  "sources": [
+    "https://github.com/OpenBMB/VoxCPM#-fine-tuning",
+    "https://voxcpm.readthedocs.io/en/latest/finetuning/finetune.html",
+    "https://voxcpm.readthedocs.io/en/latest/finetuning/faq.html"
+  ]
+}
