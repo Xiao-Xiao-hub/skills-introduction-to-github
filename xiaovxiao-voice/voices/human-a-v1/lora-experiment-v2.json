@@ -1,0 +1,28 @@
+{
+  "id": "human-a-chat-lora-v2",
+  "status": "not_production_ready_user_rejected_daily_prompt_audition",
+  "user_selected": false,
+  "model": "VoxCPM2",
+  "checkpoint": "local/qq-corpus-20261024-v2/checkpoints-v2/step_0000151/lora_weights.safetensors",
+  "checkpoint_sha256": "c9871e99377d07f15d24caefdb622e65c3886b0d9fc53ecd68a5ad87974738d4",
+  "selected_validation_step": 151,
+  "completed_optimizer_steps": 152,
+  "human_verified_training_samples": 0,
+  "splits": {
+    "train": {
+      "count": 76,
+      "minutes": 8.087691666666666
+    },
+    "val": {
+      "count": 8,
+      "minutes": 0.6803958333333334
+    },
+    "test": {
+      "count": 10,
+      "minutes": 0.9947291666666666
+    }
+  },
+  "accepted_baseline_profile": "profile.json",
+  "report": "../../reports/2026-10-24-qq-voice-v2/README.md",
+  "feedback": "Original two daily prompt previews rejected by user. Completed 16 reference/mode/model controls; new diagnostic previews pending listening. Not production ready."
+}

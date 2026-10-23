@@ -1,0 +1,737 @@
+{
+  "status": "diagnostic_candidates_not_accepted",
+  "rows": [
+    {
+      "id": "base_daily_raw_continuation",
+      "mode": "base",
+      "reference_kind": "daily_raw",
+      "method": "continuation",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "duration": 6.88,
+      "seconds": 32.84399999999732,
+      "sr": 48000,
+      "sha256": "812fbc94e3c7c06bb623b1187cacea17efad000b5006a976b42448bbd9234bb1",
+      "reference_sha256": "2a7b7bba5565161264db9040aa37d80bfa25ed9c59edcd64b3f9ce4347b7773f",
+      "checkpoint_sha256": null,
+      "seed": 201,
+      "cfg": 2.0,
+      "steps": 20,
+      "exact_asr_matches": 3,
+      "clipped_samples": 0,
+      "formal_reference_cosine": 0.23104989528656006,
+      "chat_centroid_cosine": 0.30447788718622115,
+      "f0_median_hz": 209.4834381513965,
+      "longest_internal_low_energy_gap_s": 1.08,
+      "spectrum": {
+        "duration_s": 6.88,
+        "centroid_hz": 347.1239469632271,
+        "band_2k_8k_fraction": 0.012240183539688587,
+        "band_4k_8k_fraction": 0.0017683476908132434,
+        "rolloff95_hz": 656.25,
+        "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+      },
+      "para": {
+        "match": true,
+        "cer": 0.0
+      },
+      "sense": {
+        "match": true,
+        "cer": 0.0
+      },
+      "qwen": {
+        "match": true,
+        "cer": 0.0
+      },
+      "human_accepted": false
+    },
+    {
+      "id": "base_daily_clean_isolated",
+      "mode": "base",
+      "reference_kind": "daily_clean",
+      "method": "isolated",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "duration": 5.28,
+      "seconds": 13.48399999999674,
+      "sr": 48000,
+      "sha256": "b184de585e884374d1400ce9e65f5dad0a24e0da72ac369f824bade592742f79",
+      "reference_sha256": "2ab65e64e59c6b8b6ab34fc8ca8e85fd226f44df549f2884a61495442180bcd3",
+      "checkpoint_sha256": null,
+      "seed": 201,
+      "cfg": 2.0,
+      "steps": 20,
+      "exact_asr_matches": 3,
+      "clipped_samples": 0,
+      "formal_reference_cosine": 0.19976723194122314,
+      "chat_centroid_cosine": 0.28519634159227425,
+      "f0_median_hz": 235.21757122373631,
+      "longest_internal_low_energy_gap_s": 0.26,
+      "spectrum": {
+        "duration_s": 5.28,
+        "centroid_hz": 445.2550892414829,
+        "band_2k_8k_fraction": 0.010305354371666908,
+        "band_4k_8k_fraction": 0.0012712622992694378,
+        "rolloff95_hz": 906.25,
+        "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+      },
+      "para": {
+        "match": true,
+        "cer": 0.0
+      },
+      "sense": {
+        "match": true,
+        "cer": 0.0
+      },
+      "qwen": {
+        "match": true,
+        "cer": 0.0
+      },
+      "human_accepted": false
+    },
+    {
+      "id": "base_new_raw_continuation",
+      "mode": "base",
+      "reference_kind": "new_raw",
+      "method": "continuation",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "duration": 4.48,
+      "seconds": 12.281000000002678,
+      "sr": 48000,
+      "sha256": "2dc1e5cc4a0ac09c049546abd47716b279dfe817595717a347f86798a1bc995a",
+      "reference_sha256": "2b0ead609a35637d508b2451167e80804fc93c8c994ebed9d608abc50d90708e",
+      "checkpoint_sha256": null,
+      "seed": 201,
+      "cfg": 2.0,
+      "steps": 20,
+      "exact_asr_matches": 2,
+      "clipped_samples": 0,
+      "formal_reference_cosine": 0.07821127772331238,
+      "chat_centroid_cosine": 0.4525387098440646,
+      "f0_median_hz": 219.72210295105955,
+      "longest_internal_low_energy_gap_s": 0.16,
+      "spectrum": {
+        "duration_s": 4.48,
+        "centroid_hz": 460.8097576500303,
+        "band_2k_8k_fraction": 0.022994201630353928,
+        "band_4k_8k_fraction": 0.013943756930530071,
+        "rolloff95_hz": 1093.75,
+        "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+      },
+      "para": {
+        "match": true,
+        "cer": 0.0
+      },
+      "sense": {
+        "match": false,
+        "cer": 0.038461538461538464
+      },
+      "qwen": {
+        "match": true,
+        "cer": 0.0
+      },
+      "human_accepted": false
+    },
+    {
+      "id": "base_formal_clean_continuation",
+      "mode": "base",
+      "reference_kind": "formal_clean",
+      "method": "continuation",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "duration": 6.56,
+      "seconds": 18.843999999997322,
+      "sr": 48000,
+      "sha256": "52c4262daad4c088224bee0e1cd586cb5f686506c7b4e89de8b71f8ae897a8e7",
+      "reference_sha256": "47ff1bed242179de285905eb657a363ffdd278444f294bb3505cd02e6dcc544c",
+      "checkpoint_sha256": null,
+      "seed": 201,
+      "cfg": 2.0,
+      "steps": 20,
+      "exact_asr_matches": 3,
+      "clipped_samples": 0,
+      "formal_reference_cosine": 0.7569617033004761,
+      "chat_centroid_cosine": 0.0826318200458082,
+      "f0_median_hz": 230.18945514601876,
+      "longest_internal_low_energy_gap_s": 0.4,
+      "spectrum": {
+        "duration_s": 6.56,
+        "centroid_hz": 449.7054491140592,
+        "band_2k_8k_fraction": 0.012703562155365944,
+        "band_4k_8k_fraction": 0.008897200226783752,
+        "rolloff95_hz": 1031.25,
+        "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+      },
+      "para": {
+        "match": true,
+        "cer": 0.0
+      },
+      "sense": {
+        "match": true,
+        "cer": 0.0
+      },
+      "qwen": {
+        "match": true,
+        "cer": 0.0
+      },
+      "human_accepted": false
+    },
+    {
+      "id": "base_formal_raw_isolated",
+      "mode": "base",
+      "reference_kind": "formal_raw",
+      "method": "isolated",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "duration": 6.24,
+      "seconds": 18.07800000000134,
+      "sr": 48000,
+      "sha256": "07542751f9f240ecc0d29d04095928624b2e599f00f6986654fa30491835ee89",
+      "reference_sha256": "fd266f406d87defb104e303e595d1ca9a0d56340c5583625a151b39409e1d89a",
+      "checkpoint_sha256": null,
+      "seed": 201,
+      "cfg": 2.0,
+      "steps": 20,
+      "exact_asr_matches": 3,
+      "clipped_samples": 0,
+      "formal_reference_cosine": 0.6635619401931763,
+      "chat_centroid_cosine": 0.0638194330670683,
+      "f0_median_hz": 222.21418383920118,
+      "longest_internal_low_energy_gap_s": 0.52,
+      "spectrum": {
+        "duration_s": 6.24,
+        "centroid_hz": 483.873913713887,
+        "band_2k_8k_fraction": 0.021012751385569572,
+        "band_4k_8k_fraction": 0.01442811917513609,
+        "rolloff95_hz": 1093.75,
+        "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+      },
+      "para": {
+        "match": true,
+        "cer": 0.0
+      },
+      "sense": {
+        "match": true,
+        "cer": 0.0
+      },
+      "qwen": {
+        "match": true,
+        "cer": 0.0
+      },
+      "human_accepted": false
+    },
+    {
+      "id": "v2_daily_raw_continuation",
+      "mode": "v2",
+      "reference_kind": "daily_raw",
+      "method": "continuation",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "duration": 4.96,
+      "seconds": 17.484000000004016,
+      "sr": 48000,
+      "sha256": "2550f75449bb2f18580668223e1f488436d0f72b108c66071b4648afcf3d3b6d",
+      "reference_sha256": "2a7b7bba5565161264db9040aa37d80bfa25ed9c59edcd64b3f9ce4347b7773f",
+      "checkpoint_sha256": "c9871e99377d07f15d24caefdb622e65c3886b0d9fc53ecd68a5ad87974738d4",
+      "seed": 201,
+      "cfg": 2.0,
+      "steps": 20,
+      "exact_asr_matches": 0,
+      "clipped_samples": 0,
+      "formal_reference_cosine": 0.1943623125553131,
+      "chat_centroid_cosine": 0.3787368145120387,
+      "f0_median_hz": 213.18315059740553,
+      "longest_internal_low_energy_gap_s": 0.98,
+      "spectrum": {
+        "duration_s": 4.96,
+        "centroid_hz": 297.6455581020542,
+        "band_2k_8k_fraction": 0.007008387707173824,
+        "band_4k_8k_fraction": 0.001023477059789002,
+        "rolloff95_hz": 562.5,
+        "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+      },
+      "para": {
+        "match": false,
+        "cer": 0.11538461538461539
+      },
+      "sense": {
+        "match": false,
+        "cer": 0.07692307692307693
+      },
+      "qwen": {
+        "match": false,
+        "cer": 0.11538461538461539
+      },
+      "human_accepted": false
+    },
+    {
+      "id": "v2_daily_clean_isolated",
+      "mode": "v2",
+      "reference_kind": "daily_clean",
+      "method": "isolated",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "duration": 4.96,
+      "seconds": 16.906999999999243,
+      "sr": 48000,
+      "sha256": "d3f2df27aac7405b7436f6cae3c54d7057fb6368f495100a1deccd4e9e7cc0a6",
+      "reference_sha256": "2ab65e64e59c6b8b6ab34fc8ca8e85fd226f44df549f2884a61495442180bcd3",
+      "checkpoint_sha256": "c9871e99377d07f15d24caefdb622e65c3886b0d9fc53ecd68a5ad87974738d4",
+      "seed": 201,
+      "cfg": 2.0,
+      "steps": 20,
+      "exact_asr_matches": 3,
+      "clipped_samples": 0,
+      "formal_reference_cosine": 0.20914487540721893,
+      "chat_centroid_cosine": 0.39565192155272705,
+      "f0_median_hz": 240.4686906738246,
+      "longest_internal_low_energy_gap_s": 0.26,
+      "spectrum": {
+        "duration_s": 4.96,
+        "centroid_hz": 439.1964168149022,
+        "band_2k_8k_fraction": 0.008434570394456387,
+        "band_4k_8k_fraction": 0.0007216965896077454,
+        "rolloff95_hz": 843.75,
+        "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+      },
+      "para": {
+        "match": true,
+        "cer": 0.0
+      },
+      "sense": {
+        "match": true,
+        "cer": 0.0
+      },
+      "qwen": {
+        "match": true,
+        "cer": 0.0
+      },
+      "human_accepted": false
+    },
+    {
+      "id": "v2_new_raw_continuation",
+      "mode": "v2",
+      "reference_kind": "new_raw",
+      "method": "continuation",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "duration": 4.64,
+      "seconds": 13.81199999999808,
+      "sr": 48000,
+      "sha256": "64e4a178510b8a1af03063fbb8531a39411e587bc1723f8337eecb05d33e21e4",
+      "reference_sha256": "2b0ead609a35637d508b2451167e80804fc93c8c994ebed9d608abc50d90708e",
+      "checkpoint_sha256": "c9871e99377d07f15d24caefdb622e65c3886b0d9fc53ecd68a5ad87974738d4",
+      "seed": 201,
+      "cfg": 2.0,
+      "steps": 20,
+      "exact_asr_matches": 2,
+      "clipped_samples": 0,
+      "formal_reference_cosine": 0.09246168285608292,
+      "chat_centroid_cosine": 0.5358150325047666,
+      "f0_median_hz": 218.6083886187198,
+      "longest_internal_low_energy_gap_s": 0.18,
+      "spectrum": {
+        "duration_s": 4.64,
+        "centroid_hz": 407.1912352979622,
+        "band_2k_8k_fraction": 0.014335515908896923,
+        "band_4k_8k_fraction": 0.00779692642390728,
+        "rolloff95_hz": 843.75,
+        "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+      },
+      "para": {
+        "match": false,
+        "cer": 0.038461538461538464
+      },
+      "sense": {
+        "match": true,
+        "cer": 0.0
+      },
+      "qwen": {
+        "match": true,
+        "cer": 0.0
+      },
+      "human_accepted": false
+    },
+    {
+      "id": "v2_formal_clean_continuation",
+      "mode": "v2",
+      "reference_kind": "formal_clean",
+      "method": "continuation",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "duration": 6.4,
+      "seconds": 18.156000000002678,
+      "sr": 48000,
+      "sha256": "da3bb51e932dcd424ae585cbc95e23afe6c3bf4d94402ce9be89864dc455ae14",
+      "reference_sha256": "47ff1bed242179de285905eb657a363ffdd278444f294bb3505cd02e6dcc544c",
+      "checkpoint_sha256": "c9871e99377d07f15d24caefdb622e65c3886b0d9fc53ecd68a5ad87974738d4",
+      "seed": 201,
+      "cfg": 2.0,
+      "steps": 20,
+      "exact_asr_matches": 3,
+      "clipped_samples": 0,
+      "formal_reference_cosine": 0.7308839559555054,
+      "chat_centroid_cosine": 0.1606470261740522,
+      "f0_median_hz": 221.47406158615914,
+      "longest_internal_low_energy_gap_s": 0.64,
+      "spectrum": {
+        "duration_s": 6.4,
+        "centroid_hz": 412.238303867959,
+        "band_2k_8k_fraction": 0.011038200929760933,
+        "band_4k_8k_fraction": 0.00763957342132926,
+        "rolloff95_hz": 1031.25,
+        "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+      },
+      "para": {
+        "match": true,
+        "cer": 0.0
+      },
+      "sense": {
+        "match": true,
+        "cer": 0.0
+      },
+      "qwen": {
+        "match": true,
+        "cer": 0.0
+      },
+      "human_accepted": false
+    },
+    {
+      "id": "v2_formal_raw_isolated",
+      "mode": "v2",
+      "reference_kind": "formal_raw",
+      "method": "isolated",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "duration": 5.92,
+      "seconds": 19.437999999994645,
+      "sr": 48000,
+      "sha256": "7e478d2a79af0aec3772f4d1c6136d36ad84a12ca7a813f60113f2a0d1b38eb7",
+      "reference_sha256": "fd266f406d87defb104e303e595d1ca9a0d56340c5583625a151b39409e1d89a",
+      "checkpoint_sha256": "c9871e99377d07f15d24caefdb622e65c3886b0d9fc53ecd68a5ad87974738d4",
+      "seed": 201,
+      "cfg": 2.0,
+      "steps": 20,
+      "exact_asr_matches": 3,
+      "clipped_samples": 0,
+      "formal_reference_cosine": 0.6157076358795166,
+      "chat_centroid_cosine": 0.2353518985142285,
+      "f0_median_hz": 214.67545498279242,
+      "longest_internal_low_energy_gap_s": 0.42,
+      "spectrum": {
+        "duration_s": 5.92,
+        "centroid_hz": 420.38610542812023,
+        "band_2k_8k_fraction": 0.014136090874671936,
+        "band_4k_8k_fraction": 0.011062869802117348,
+        "rolloff95_hz": 1031.25,
+        "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+      },
+      "para": {
+        "match": true,
+        "cer": 0.0
+      },
+      "sense": {
+        "match": true,
+        "cer": 0.0
+      },
+      "qwen": {
+        "match": true,
+        "cer": 0.0
+      },
+      "human_accepted": false
+    },
+    {
+      "id": "base_formal_clean_hifi",
+      "mode": "base",
+      "reference_kind": "formal_clean",
+      "method": "hifi",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "duration": 6.72,
+      "seconds": 21.07800000000134,
+      "sr": 48000,
+      "sha256": "82638509e699daae1ff2984bcd99710a86d29cc9ecd3ea028232e3c0d2222f81",
+      "reference_sha256": "47ff1bed242179de285905eb657a363ffdd278444f294bb3505cd02e6dcc544c",
+      "checkpoint_sha256": null,
+      "seed": 201,
+      "cfg": 2.0,
+      "steps": 20,
+      "exact_asr_matches": 3,
+      "clipped_samples": 0,
+      "formal_reference_cosine": 0.760988712310791,
+      "chat_centroid_cosine": 0.08022962597723024,
+      "f0_median_hz": 220.66156249185383,
+      "longest_internal_low_energy_gap_s": 0.7000000000000001,
+      "spectrum": {
+        "duration_s": 6.72,
+        "centroid_hz": 459.45955792627916,
+        "band_2k_8k_fraction": 0.011843168176710606,
+        "band_4k_8k_fraction": 0.008354834280908108,
+        "rolloff95_hz": 1062.5,
+        "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+      },
+      "para": {
+        "match": true,
+        "cer": 0.0
+      },
+      "sense": {
+        "match": true,
+        "cer": 0.0
+      },
+      "qwen": {
+        "match": true,
+        "cer": 0.0
+      },
+      "human_accepted": false
+    },
+    {
+      "id": "base_daily_clean_hifi",
+      "mode": "base",
+      "reference_kind": "daily_clean",
+      "method": "hifi",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "duration": 7.36,
+      "seconds": 19.01600000000326,
+      "sr": 48000,
+      "sha256": "a86b43f3d949b9055f5209969a900d9786cc42c98943368eec967a0e947ae0b6",
+      "reference_sha256": "2ab65e64e59c6b8b6ab34fc8ca8e85fd226f44df549f2884a61495442180bcd3",
+      "checkpoint_sha256": null,
+      "seed": 201,
+      "cfg": 2.0,
+      "steps": 20,
+      "exact_asr_matches": 3,
+      "clipped_samples": 0,
+      "formal_reference_cosine": 0.3061726689338684,
+      "chat_centroid_cosine": 0.34828278984979566,
+      "f0_median_hz": 209.81810081456078,
+      "longest_internal_low_energy_gap_s": 1.06,
+      "spectrum": {
+        "duration_s": 7.36,
+        "centroid_hz": 354.78200042004835,
+        "band_2k_8k_fraction": 0.007138306275010109,
+        "band_4k_8k_fraction": 0.0005388010758906603,
+        "rolloff95_hz": 656.25,
+        "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+      },
+      "para": {
+        "match": true,
+        "cer": 0.0
+      },
+      "sense": {
+        "match": true,
+        "cer": 0.0
+      },
+      "qwen": {
+        "match": true,
+        "cer": 0.0
+      },
+      "human_accepted": false
+    },
+    {
+      "id": "v2_formal_clean_hifi",
+      "mode": "v2",
+      "reference_kind": "formal_clean",
+      "method": "hifi",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "duration": 6.72,
+      "seconds": 17.718999999997322,
+      "sr": 48000,
+      "sha256": "d11144d8c5dc4266b94e7cfd7b630900bebbcf3b9789069e544f3335b3f9e542",
+      "reference_sha256": "47ff1bed242179de285905eb657a363ffdd278444f294bb3505cd02e6dcc544c",
+      "checkpoint_sha256": "c9871e99377d07f15d24caefdb622e65c3886b0d9fc53ecd68a5ad87974738d4",
+      "seed": 201,
+      "cfg": 2.0,
+      "steps": 20,
+      "exact_asr_matches": 3,
+      "clipped_samples": 0,
+      "formal_reference_cosine": 0.6876168251037598,
+      "chat_centroid_cosine": 0.18842511406099732,
+      "f0_median_hz": 222.72399408616073,
+      "longest_internal_low_energy_gap_s": 0.58,
+      "spectrum": {
+        "duration_s": 6.72,
+        "centroid_hz": 412.76802428776654,
+        "band_2k_8k_fraction": 0.007533285766839981,
+        "band_4k_8k_fraction": 0.004393273498862982,
+        "rolloff95_hz": 1000.0,
+        "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+      },
+      "para": {
+        "match": true,
+        "cer": 0.0
+      },
+      "sense": {
+        "match": true,
+        "cer": 0.0
+      },
+      "qwen": {
+        "match": true,
+        "cer": 0.0
+      },
+      "human_accepted": false
+    },
+    {
+      "id": "v2_daily_clean_hifi",
+      "mode": "v2",
+      "reference_kind": "daily_clean",
+      "method": "hifi",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "duration": 6.4,
+      "seconds": 17.10899999999674,
+      "sr": 48000,
+      "sha256": "fba4798f6f7ffbac37bc3866ced27992e3e8548900823db1aee436ffa2f2ddd0",
+      "reference_sha256": "2ab65e64e59c6b8b6ab34fc8ca8e85fd226f44df549f2884a61495442180bcd3",
+      "checkpoint_sha256": "c9871e99377d07f15d24caefdb622e65c3886b0d9fc53ecd68a5ad87974738d4",
+      "seed": 201,
+      "cfg": 2.0,
+      "steps": 20,
+      "exact_asr_matches": 3,
+      "clipped_samples": 0,
+      "formal_reference_cosine": 0.2474745810031891,
+      "chat_centroid_cosine": 0.5106000408081333,
+      "f0_median_hz": 207.7140563311938,
+      "longest_internal_low_energy_gap_s": 1.06,
+      "spectrum": {
+        "duration_s": 6.4,
+        "centroid_hz": 343.557902746294,
+        "band_2k_8k_fraction": 0.00828799419105053,
+        "band_4k_8k_fraction": 0.0006512166000902653,
+        "rolloff95_hz": 656.25,
+        "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+      },
+      "para": {
+        "match": true,
+        "cer": 0.0
+      },
+      "sense": {
+        "match": true,
+        "cer": 0.0
+      },
+      "qwen": {
+        "match": true,
+        "cer": 0.0
+      },
+      "human_accepted": false
+    },
+    {
+      "id": "qwen_formal_clean_clone",
+      "mode": "qwen_base",
+      "reference_kind": "formal_clean",
+      "method": "clone",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "duration": 6.16,
+      "seconds": 26.671000000002095,
+      "sr": 24000,
+      "sha256": "9c08934d64619012a88360a23cc092d49f83249e91ebfec52c23ffd2d4706426",
+      "reference_sha256": "47ff1bed242179de285905eb657a363ffdd278444f294bb3505cd02e6dcc544c",
+      "checkpoint_sha256": null,
+      "seed": 201,
+      "generation": {
+        "temperature": 0.8,
+        "top_p": 0.9,
+        "max_new_tokens": 1024
+      },
+      "exact_asr_matches": 3,
+      "clipped_samples": 0,
+      "formal_reference_cosine": 0.7191510796546936,
+      "chat_centroid_cosine": 0.09709768241587133,
+      "f0_median_hz": 220.2698969419928,
+      "longest_internal_low_energy_gap_s": 0.7000000000000001,
+      "spectrum": {
+        "duration_s": 6.16,
+        "centroid_hz": 413.65528290343144,
+        "band_2k_8k_fraction": 0.009748037904500961,
+        "band_4k_8k_fraction": 0.006229988299310207,
+        "rolloff95_hz": 968.75,
+        "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+      },
+      "para": {
+        "match": true,
+        "cer": 0.0
+      },
+      "sense": {
+        "match": true,
+        "cer": 0.0
+      },
+      "qwen": {
+        "match": true,
+        "cer": 0.0
+      },
+      "human_accepted": false
+    },
+    {
+      "id": "qwen_new_raw_clone",
+      "mode": "qwen_base",
+      "reference_kind": "new_raw",
+      "method": "clone",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "duration": 6.0,
+      "seconds": 12.671999999998661,
+      "sr": 24000,
+      "sha256": "c196b5821bdf2ee9bb1dfe179def030e49d000344592d9eea6ef553db02cdb0a",
+      "reference_sha256": "2b0ead609a35637d508b2451167e80804fc93c8c994ebed9d608abc50d90708e",
+      "checkpoint_sha256": null,
+      "seed": 201,
+      "generation": {
+        "temperature": 0.8,
+        "top_p": 0.9,
+        "max_new_tokens": 1024
+      },
+      "exact_asr_matches": 3,
+      "clipped_samples": 0,
+      "formal_reference_cosine": 0.1950562596321106,
+      "chat_centroid_cosine": 0.2830177880627038,
+      "f0_median_hz": 213.7963349323872,
+      "longest_internal_low_energy_gap_s": 0.36,
+      "spectrum": {
+        "duration_s": 6.0,
+        "centroid_hz": 447.77115041092276,
+        "band_2k_8k_fraction": 0.0176249872893095,
+        "band_4k_8k_fraction": 0.011330182664096355,
+        "rolloff95_hz": 1000.0,
+        "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+      },
+      "para": {
+        "match": true,
+        "cer": 0.0
+      },
+      "sense": {
+        "match": true,
+        "cer": 0.0
+      },
+      "qwen": {
+        "match": true,
+        "cer": 0.0
+      },
+      "human_accepted": false
+    }
+  ],
+  "exports": [
+    {
+      "file": "01_专属权重_原A完整参考.wav",
+      "id": "v2_formal_clean_hifi",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "duration_s": 6.72,
+      "sha256": "73b85e44594caca516229e8baf0fc9b685e848a13d002e071a0ef90ecebb9287",
+      "human_accepted": false
+    },
+    {
+      "file": "02_专属权重_未降噪日常参考.wav",
+      "id": "v2_new_raw_continuation",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "duration_s": 4.64,
+      "sha256": "bd7d0b85e0ef24d05dc97fb9718f1c66abb38538cc99b3c8b23b2dd1beb064cf",
+      "human_accepted": false
+    },
+    {
+      "file": "03_另一模型_未降噪日常参考.wav",
+      "id": "qwen_new_raw_clone",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "duration_s": 6.0,
+      "sha256": "52299ea62c812ed8be4069542054481d3f8a026e49dd5f2b71d288c1e364cb1a",
+      "human_accepted": false
+    },
+    {
+      "file": "对照_原A完整配置_基础模型.wav",
+      "id": "base_formal_clean_hifi",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "duration_s": 6.72,
+      "sha256": "d4f56b4351b2b30ab46136026a4f464c29eff8bcdb928cd7df76d82aab7efe15",
+      "human_accepted": false
+    }
+  ],
+  "all_audio_is_new_text_synthesis": true,
+  "private_reference_audio_exported": false,
+  "normalization": "one constant gain to -23 dBFS RMS with peak ceiling .85; no EQ, denoise, time stretching or internal edits",
+  "limitations": "ASR, spectral energy and speaker embeddings do not establish naturalness, clarity or speaker identity. Prior two samples were explicitly rejected."
+}
