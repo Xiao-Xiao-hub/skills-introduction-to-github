@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "unchanged": {
+    "base_model/config.json": true,
+    "base_model/model.safetensors": true,
+    "base_model/audiovae.pth": true,
+    "accepted_reference": true,
+    "accepted_audition": true,
+    "v1_lora_checkpoint": true
+  },
+  "accepted_profile_sha256": "e9bec14fdc7759b7fb018c7f7e0c4ef20daa72a7e5d9ca9560a7f541888d3a12"
+}

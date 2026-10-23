@@ -3,3 +3,7 @@
 {"step": 38, "optimizer_calls": 39, "loss": 0.9798029661178589, "best_loss": 0.9798029661178589, "best_step": 38, "stale": 0}
 {"step": 57, "optimizer_calls": 58, "loss": 0.9640147686004639, "best_loss": 0.9640147686004639, "best_step": 57, "stale": 0}
 {"step": 76, "optimizer_calls": 77, "loss": 0.9479338526725769, "best_loss": 0.9479338526725769, "best_step": 76, "stale": 0}
+{"step": 95, "optimizer_calls": 96, "loss": 0.937276303768158, "best_loss": 0.937276303768158, "best_step": 95, "stale": 0}
+{"step": 114, "optimizer_calls": 115, "loss": 0.9315614700317383, "best_loss": 0.9315614700317383, "best_step": 114, "stale": 0}
+{"step": 133, "optimizer_calls": 134, "loss": 0.9293544888496399, "best_loss": 0.9293544888496399, "best_step": 133, "stale": 0}
+{"step": 151, "optimizer_calls": 152, "loss": 0.9285595417022705, "best_loss": 0.9285595417022705, "best_step": 151, "stale": 1}

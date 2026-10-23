@@ -1,0 +1,11 @@
+{
+  "new_texts_max_similarity_to_any_corpus_split": {
+    "formal": 0.125,
+    "warm": 0.15384615384615385,
+    "happy": 0.14814814814814814,
+    "reflective": 0.1515151515151515,
+    "question": 0.11538461538461542,
+    "continuity": 0.1029411764705882
+  },
+  "passed": true
+}

@@ -1,0 +1,25 @@
+{
+  "completed": true,
+  "stopped_early": false,
+  "optimizer_steps": 152,
+  "planned_steps": 152,
+  "training_samples": 76,
+  "training_minutes": 8.087691666666666,
+  "approximate_passes": 8.0,
+  "elapsed_s": 1206.515999999996,
+  "peak_allocated_gib": 6.103537559509277,
+  "peak_reserved_gib": 7.375,
+  "best_validation_step": 151,
+  "best_validation_loss": 0.9285595417022705,
+  "selected_checkpoint": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\voices\\human-a-v1\\local\\qq-corpus-20261024-v2\\checkpoints-v2\\step_0000151",
+  "checkpoint_sha256": "c9871e99377d07f15d24caefdb622e65c3886b0d9fc53ecd68a5ad87974738d4",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "device": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "upstream": {
+    "url": "https://github.com/OpenBMB/VoxCPM",
+    "commit": "cce58a5b59303c9bd63d12f23afe6a49a4a80c59",
+    "archive_sha256": "8298ac486cf13c42d9cff610efa3779ab6be4a6a159910e3cce199d676d70aff"
+  },
+  "human_listening_accepted": false
+}
