@@ -1,0 +1,10 @@
+{
+  "reviewed_texts": 94,
+  "flags": {
+    "dialect_or_lexical_ambiguity_needs_listening": 6,
+    "unfinished_clause_or_continuation_intonation": 19
+  },
+  "human_audio_review_count": 0,
+  "training_manifests_changed": false,
+  "interpretation": "Text-only flags are not proven transcription errors. Do not guess corrected words. Natural fragments are not complete scripted sentences."
+}
