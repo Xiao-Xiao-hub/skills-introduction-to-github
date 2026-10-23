@@ -1,0 +1,42 @@
+{
+  "status": "awaiting_user_voice_choice",
+  "previews": [
+    {
+      "label": "A_VoxCPM2_参考1-1",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\human-clone-2026-10-23\\试听\\A_VoxCPM2_参考1-1.wav",
+      "sha256": "1d2c8ab5529784f69ae252831dd70edbffea2a6dff44f818d85a17031f0b8307",
+      "source_id": "vox_pilot_A_g05-06_s201",
+      "duration": 11.2,
+      "gain_db": -3.70906503560477,
+      "timing_and_pitch_unchanged": true
+    },
+    {
+      "label": "B_VoxCPM2_参考1-6",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\human-clone-2026-10-23\\试听\\B_VoxCPM2_参考1-6.wav",
+      "sha256": "2a7f2e99d12e8a95210380c66520231c2c6bce801e4b7006dec09bd16f323d24",
+      "source_id": "vox_pilot_B_g05-06_s201",
+      "duration": 10.08,
+      "gain_db": -2.900219064567413,
+      "timing_and_pitch_unchanged": true
+    },
+    {
+      "label": "C_Qwen3_参考1-6",
+      "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\dub\\out\\human-clone-2026-10-23\\试听\\C_Qwen3_参考1-6.wav",
+      "sha256": "e78ba8def4a3435cffa762c4a28a5ba6104f6f955a63c4be5ac530b198909281",
+      "source_id": "qwen_pilot_B_g05-06_s201",
+      "duration": 9.92,
+      "gain_db": -0.8353023692496184,
+      "timing_and_pitch_unchanged": true
+    }
+  ],
+  "full_generation_started": false,
+  "video_generated": false,
+  "reference_denoiser": "ZipEnhancer",
+  "models_directory": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\models",
+  "reference_audio_uploaded": false,
+  "selected_model": null,
+  "selected_reference": null,
+  "human_listening": false,
+  "note": "User requested audition before deciding. Five completed pilot takes retained; final queued Qwen technical take was stopped. No full-program synthesis was started.",
+  "execution_note": "While cancelling the queued Qwen take, the first cancellation guard failed because the venv child uses its base interpreter on C. ASR briefly overlapped the remaining Qwen process before its exact parent/command line was verified and it was stopped. No further TTS jobs are running; future model jobs must verify prior process exit."
+}
