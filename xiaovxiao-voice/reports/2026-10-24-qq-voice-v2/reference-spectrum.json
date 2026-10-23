@@ -1,0 +1,137 @@
+{
+  "daily_clean": {
+    "sha256": "2ab65e64e59c6b8b6ab34fc8ca8e85fd226f44df549f2884a61495442180bcd3",
+    "duration_s": 5.005,
+    "centroid_hz": 394.59324225848843,
+    "band_2k_8k_fraction": 0.003151161363348365,
+    "band_4k_8k_fraction": 0.00028012818074785173,
+    "rolloff95_hz": 750.0,
+    "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+  },
+  "daily_raw": {
+    "sha256": "2a7b7bba5565161264db9040aa37d80bfa25ed9c59edcd64b3f9ce4347b7773f",
+    "duration_s": 5.005,
+    "centroid_hz": 396.521672798459,
+    "band_2k_8k_fraction": 0.003350584302097559,
+    "band_4k_8k_fraction": 0.0003091714752372354,
+    "rolloff95_hz": 750.0,
+    "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+  },
+  "new_raw": {
+    "sha256": "2b0ead609a35637d508b2451167e80804fc93c8c994ebed9d608abc50d90708e",
+    "duration_s": 6.26,
+    "centroid_hz": 445.2831213272342,
+    "band_2k_8k_fraction": 0.0076778847724199295,
+    "band_4k_8k_fraction": 0.0032651240471750498,
+    "rolloff95_hz": 750.0,
+    "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+  },
+  "formal_clean": {
+    "sha256": "47ff1bed242179de285905eb657a363ffdd278444f294bb3505cd02e6dcc544c",
+    "duration_s": 8.47,
+    "centroid_hz": 433.1110867469872,
+    "band_2k_8k_fraction": 0.009620236232876778,
+    "band_4k_8k_fraction": 0.005546219181269407,
+    "rolloff95_hz": 1031.25,
+    "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+  },
+  "formal_raw": {
+    "sha256": "fd266f406d87defb104e303e595d1ca9a0d56340c5583625a151b39409e1d89a",
+    "duration_s": 8.47,
+    "centroid_hz": 434.1500972268343,
+    "band_2k_8k_fraction": 0.011538720689713955,
+    "band_4k_8k_fraction": 0.006933588068932295,
+    "rolloff95_hz": 1031.25,
+    "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+  },
+  "base_daily_formal": {
+    "sha256": "a96580274093ac5605b36580f1f5aa55e0325be11a16800ca06cf52b93b123ee",
+    "duration_s": 10.24,
+    "centroid_hz": 338.0544635128841,
+    "band_2k_8k_fraction": 0.003918477334082127,
+    "band_4k_8k_fraction": 0.000860120402649045,
+    "rolloff95_hz": 625.0,
+    "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+  },
+  "base_daily_warm": {
+    "sha256": "8e7aafc4de6abf617b338e74d21eb5947daab9502291f7170d7478c92e7edd51",
+    "duration_s": 6.4,
+    "centroid_hz": 351.72956361331023,
+    "band_2k_8k_fraction": 0.008425742387771606,
+    "band_4k_8k_fraction": 0.0010354295372962952,
+    "rolloff95_hz": 593.75,
+    "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+  },
+  "v1_daily_formal": {
+    "sha256": "1b280f5843f8d4d13dd55aef07f3e45113c59b95ad874b63f3b013a37679448e",
+    "duration_s": 9.76,
+    "centroid_hz": 355.4366788636243,
+    "band_2k_8k_fraction": 0.0060881320387125015,
+    "band_4k_8k_fraction": 0.0013407781952992082,
+    "rolloff95_hz": 656.25,
+    "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+  },
+  "v1_daily_warm": {
+    "sha256": "57a1c7bb4b3f4373cc647b7bd6e84a594ab3485096bf693a8cc8f8063a86b9a5",
+    "duration_s": 6.56,
+    "centroid_hz": 351.8622922175061,
+    "band_2k_8k_fraction": 0.007793887052685022,
+    "band_4k_8k_fraction": 0.0009013155358843505,
+    "rolloff95_hz": 625.0,
+    "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+  },
+  "v2_daily_formal": {
+    "sha256": "17473426c52d6b57161e554eaa5884c4dc40dbaf48a0a0109abd615115f93dac",
+    "duration_s": 5.76,
+    "centroid_hz": 334.7916973932507,
+    "band_2k_8k_fraction": 0.002347658621147275,
+    "band_4k_8k_fraction": 0.0004603636625688523,
+    "rolloff95_hz": 625.0,
+    "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+  },
+  "v2_daily_warm": {
+    "sha256": "1105f4c8a929180a07be1e29df0b53e5659220f66e00f08cdcaa01c31c95b058",
+    "duration_s": 5.28,
+    "centroid_hz": 311.9275352823712,
+    "band_2k_8k_fraction": 0.009342974983155727,
+    "band_4k_8k_fraction": 0.0011188446078449488,
+    "rolloff95_hz": 593.75,
+    "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+  },
+  "base_formal_formal": {
+    "sha256": "471df43c931aa2c986c68fcec756cbcf8583238d4bc7ceeb3fd2d56d20814bf0",
+    "duration_s": 7.04,
+    "centroid_hz": 381.23507680942663,
+    "band_2k_8k_fraction": 0.007187230978161097,
+    "band_4k_8k_fraction": 0.004025946371257305,
+    "rolloff95_hz": 906.25,
+    "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+  },
+  "v2_formal_formal": {
+    "sha256": "e35ef966bbe1c69830e04cf759e567e5b1575bed1e53258554469f2eeaf58814",
+    "duration_s": 6.56,
+    "centroid_hz": 362.13535231440744,
+    "band_2k_8k_fraction": 0.004766935016959906,
+    "band_4k_8k_fraction": 0.0028686695732176304,
+    "rolloff95_hz": 843.75,
+    "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+  },
+  "base_none_warm": {
+    "sha256": "2573efa63f696071b16f2992906d47945b09e47986fa424211d684eb2b08d64b",
+    "duration_s": 4.8,
+    "centroid_hz": 560.5255762973511,
+    "band_2k_8k_fraction": 0.02879769541323185,
+    "band_4k_8k_fraction": 0.014144562184810638,
+    "rolloff95_hz": 1343.75,
+    "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+  },
+  "v2_none_warm": {
+    "sha256": "b0ccb3833990aa670c44964e802a128020974575c87f17e21494653bedf9caed",
+    "duration_s": 5.28,
+    "centroid_hz": 521.4133633399549,
+    "band_2k_8k_fraction": 0.028912613168358803,
+    "band_4k_8k_fraction": 0.010044122114777565,
+    "rolloff95_hz": 1343.75,
+    "note": "Active-frame spectral description, not intelligibility/naturalness rating; noise can increase high-band energy."
+  }
+}

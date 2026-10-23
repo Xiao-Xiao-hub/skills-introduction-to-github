@@ -1,0 +1,11 @@
+{
+  "status": "rejected_by_user",
+  "samples": [
+    "base_daily_warm",
+    "v2_daily_warm"
+  ],
+  "user_feedback": "感觉都不行，主要感觉听起来有点闷，听不清，有点奇怪，AI感还是有点重",
+  "production_ready": false,
+  "training_continued": false,
+  "next_test": "Same new text, reference processing and cloning mode ablation; no EQ or time edits."
+}
