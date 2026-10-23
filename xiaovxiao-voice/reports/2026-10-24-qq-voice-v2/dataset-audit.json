@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "selected_audio_hashes_verified": 94,
+  "original_source_hashes_unchanged": 714,
+  "cross_split": {
+    "train_val": {
+      "source_overlap": 0,
+      "session_group_overlap": 0,
+      "max_text_similarity": 0.2222222222222222
+    },
+    "train_test": {
+      "source_overlap": 0,
+      "session_group_overlap": 0,
+      "max_text_similarity": 0.2857142857142857
+    },
+    "val_test": {
+      "source_overlap": 0,
+      "session_group_overlap": 0,
+      "max_text_similarity": 0.1428571428571429
+    }
+  },
+  "v1_holdout_groups_absent_from_train": true,
+  "v1_training_groups_absent_from_v2_test": true,
+  "refs_train_only_and_matching_emotion": true,
+  "protected_files": {
+    "common.py": true,
+    "dub.py": true,
+    "measure.py": true,
+    "specs.py": true,
+    "step1_audition.py": true,
+    "step2_refine.py": true,
+    "step3_clone_test.py": true,
+    "step4_finalize.py": true,
+    "dub\\xiaonian_v10.json": true
+  },
+  "human_reviewed_count": 0
+}

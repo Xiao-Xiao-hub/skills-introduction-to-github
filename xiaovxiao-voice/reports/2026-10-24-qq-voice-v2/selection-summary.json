@@ -1,0 +1,41 @@
+{
+  "total_segments": 1092,
+  "selected": 94,
+  "selected_minutes": 9.762816666666664,
+  "splits": {
+    "train": {
+      "count": 76,
+      "minutes": 8.087691666666666
+    },
+    "val": {
+      "count": 8,
+      "minutes": 0.6803958333333334
+    },
+    "test": {
+      "count": 10,
+      "minutes": 0.9947291666666666
+    }
+  },
+  "emotions": {
+    "HAPPY": 35,
+    "UNCERTAIN": 46,
+    "NEUTRAL": 6,
+    "SAD": 7
+  },
+  "variants": {
+    "verified_enhanced": 75,
+    "original": 19
+  },
+  "exclusion_counts": {
+    "transcript_requires_review": 891,
+    "absolute_audio_quality_gate": 943,
+    "duration_requires_separate_review": 168,
+    "speaker_consistency_review": 216,
+    "text_length_or_rate_review": 35,
+    "clipping_or_level_review": 19,
+    "nonverbal_event_needs_review": 11,
+    "repetition_review": 3
+  },
+  "human_reviewed_count": 0,
+  "v1_holdout_groups_preserved": true
+}
