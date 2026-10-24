@@ -1,0 +1,10 @@
+{
+  "sha256": {
+    "prepare_qwen_voice_20261024.py": "87b7cf455065defa0541c5983490198e01aebae5610d8c4a6b455f41ebeedbbb",
+    "train_qwen_voice_20261024.py": "0308875ec009deb20a272c46f774ffff2d37d290de85b144656e4aab84cb9d08",
+    "audition_qwen_voice_20261024.py": "9b59ee0eda474d6d54204ea5b17881fb9a3933d9d8d2a0adc2e1a6265174e4a0",
+    "use_qwen_xuan_20261024.py": "653535fc1dc5033b0fa50b890da70bd883519ca95c787dbdd67d608b96b1093c",
+    "package_qwen_voice_20261024.py": "a71febe5b9979ef3a0a3da4da57f1b902ffb05454d96646c67ece2a549be7671"
+  },
+  "note": "Exact local deployment helper snapshots for review. Require existing local corpus helper dependencies and ROOT placement; not a standalone public training corpus."
+}

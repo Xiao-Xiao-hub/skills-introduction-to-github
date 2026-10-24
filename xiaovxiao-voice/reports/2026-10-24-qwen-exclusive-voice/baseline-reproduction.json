@@ -1,0 +1,9 @@
+{
+  "original_sha256": "c196b5821bdf2ee9bb1dfe179def030e49d000344592d9eea6ef553db02cdb0a",
+  "new_sha256": "c196b5821bdf2ee9bb1dfe179def030e49d000344592d9eea6ef553db02cdb0a",
+  "same_length": true,
+  "same_sample_rate": true,
+  "overlap_max_abs_difference": 0.0,
+  "overlap_correlation": 1.0,
+  "same_reference_and_text_and_seed": true
+}

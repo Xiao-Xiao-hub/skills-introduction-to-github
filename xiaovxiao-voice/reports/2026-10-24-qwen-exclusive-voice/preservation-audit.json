@@ -1,0 +1,11 @@
+{
+  "all_anchors_unchanged": true,
+  "anchors": {
+    "qwen_base_weights": "38fc7fc51c5e776e840414b6fd443962e9411b9654888fd7913e4da643cb857c",
+    "qwen_base_config": "b4f01752d15a488abde3e1ab44723ae4f4b9e68a4037257b098b3737893cc1f9",
+    "accepted_third_sample": "52299ea62c812ed8be4069542054481d3f8a026e49dd5f2b71d288c1e364cb1a",
+    "approved_A_profile": "e9bec14fdc7759b7fb018c7f7e0c4ef20daa72a7e5d9ca9560a7f541888d3a12",
+    "previous_corpus_snapshot": "2e28c7096659be87c7a4aeb59b293f32f53db5d1eea26f69ab6c61f0523437c2"
+  },
+  "training_snapshot_sha256": "4e92d0f3d2353e1e306ef0d11f5e2bcc6d4d9275cad64f06c18b8ca64bdb59ac"
+}

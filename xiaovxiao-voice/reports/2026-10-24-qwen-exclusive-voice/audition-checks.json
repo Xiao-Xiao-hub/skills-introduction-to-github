@@ -1,0 +1,719 @@
+{
+  "rows": [
+    {
+      "id": "base_warm",
+      "mode": "base",
+      "kind": "warm",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "duration": 6.0,
+      "seconds": 39.29699999999866,
+      "sha256": "c196b5821bdf2ee9bb1dfe179def030e49d000344592d9eea6ef553db02cdb0a",
+      "reference_sha256": "2b0ead609a35637d508b2451167e80804fc93c8c994ebed9d608abc50d90708e",
+      "checkpoint_sha256": null,
+      "reference_audio_required_at_inference": true,
+      "generation_method": "voice_clone",
+      "seed": 201,
+      "temperature": 0.8,
+      "top_p": 0.9,
+      "clipped_samples": 0,
+      "longest_internal_low_energy_gap_s": 0.36,
+      "internal_gaps_over_0_6s": 0,
+      "f0_median_hz": 213.7963349323872,
+      "f0_p10_hz": 184.43435873334784,
+      "f0_p90_hz": 281.1043356777125,
+      "formal_reference_cosine": 0.1950562596321106,
+      "chat_centroid_cosine": 0.2830177880627038,
+      "exact_asr_matches": 3,
+      "asr": {
+        "para": {
+          "match": true,
+          "cer": 0.0
+        },
+        "sense": {
+          "match": true,
+          "cer": 0.0
+        },
+        "qwen": {
+          "match": true,
+          "cer": 0.0
+        }
+      }
+    },
+    {
+      "id": "base_daily",
+      "mode": "base",
+      "kind": "daily",
+      "text": "你等我一下，我再找找。哦，在这里！刚才还以为弄丢了呢。",
+      "duration": 4.64,
+      "seconds": 24.45300000000134,
+      "sha256": "fb0912a6e0ed701e8bcb8f7056a3fc6999e51cf20f7d8d5c62f149447ad79d56",
+      "reference_sha256": "2b0ead609a35637d508b2451167e80804fc93c8c994ebed9d608abc50d90708e",
+      "checkpoint_sha256": null,
+      "reference_audio_required_at_inference": true,
+      "generation_method": "voice_clone",
+      "seed": 201,
+      "temperature": 0.8,
+      "top_p": 0.9,
+      "clipped_samples": 0,
+      "longest_internal_low_energy_gap_s": 0.38,
+      "internal_gaps_over_0_6s": 0,
+      "f0_median_hz": 212.59804201206344,
+      "f0_p10_hz": 183.65086204998045,
+      "f0_p90_hz": 252.45333666294317,
+      "formal_reference_cosine": 0.13968156278133392,
+      "chat_centroid_cosine": 0.46378354789918996,
+      "exact_asr_matches": 3,
+      "asr": {
+        "para": {
+          "match": true,
+          "cer": 0.0
+        },
+        "sense": {
+          "match": true,
+          "cer": 0.0
+        },
+        "qwen": {
+          "match": true,
+          "cer": 0.0
+        }
+      }
+    },
+    {
+      "id": "base_happy",
+      "mode": "base",
+      "kind": "happy",
+      "text": "真的呀？那太好了！我还以为今天来不及了，没想到这么快就弄好了。",
+      "duration": 6.48,
+      "seconds": 32.32800000000134,
+      "sha256": "ff4c1597c66a2cb9268b456bd87ab5828b3fc809ed4a5dd1b224ee3075340667",
+      "reference_sha256": "2b0ead609a35637d508b2451167e80804fc93c8c994ebed9d608abc50d90708e",
+      "checkpoint_sha256": null,
+      "reference_audio_required_at_inference": true,
+      "generation_method": "voice_clone",
+      "seed": 201,
+      "temperature": 0.8,
+      "top_p": 0.9,
+      "clipped_samples": 0,
+      "longest_internal_low_energy_gap_s": 0.36,
+      "internal_gaps_over_0_6s": 0,
+      "f0_median_hz": 262.82087936600885,
+      "f0_p10_hz": 183.6512769565373,
+      "f0_p90_hz": 361.345003572354,
+      "formal_reference_cosine": 0.23510795831680298,
+      "chat_centroid_cosine": 0.2883420155266957,
+      "exact_asr_matches": 3,
+      "asr": {
+        "para": {
+          "match": true,
+          "cer": 0.0
+        },
+        "sense": {
+          "match": true,
+          "cer": 0.0
+        },
+        "qwen": {
+          "match": true,
+          "cer": 0.0
+        }
+      }
+    },
+    {
+      "id": "base_thoughtful",
+      "mode": "base",
+      "kind": "thoughtful",
+      "text": "我刚开始也有点拿不准。后来试了几次，才发现，慢一点反而更容易想清楚。",
+      "duration": 7.36,
+      "seconds": 34.64099999999962,
+      "sha256": "49e30f1d4686960dcf0c2d34dc6e8dfe99f1aee91f63f0a8afcc8f6cb81a557f",
+      "reference_sha256": "2b0ead609a35637d508b2451167e80804fc93c8c994ebed9d608abc50d90708e",
+      "checkpoint_sha256": null,
+      "reference_audio_required_at_inference": true,
+      "generation_method": "voice_clone",
+      "seed": 201,
+      "temperature": 0.8,
+      "top_p": 0.9,
+      "clipped_samples": 0,
+      "longest_internal_low_energy_gap_s": 0.52,
+      "internal_gaps_over_0_6s": 0,
+      "f0_median_hz": 215.6979887782486,
+      "f0_p10_hz": 186.29925781795424,
+      "f0_p90_hz": 334.81759574650454,
+      "formal_reference_cosine": 0.14943769574165344,
+      "chat_centroid_cosine": 0.4334844957842444,
+      "exact_asr_matches": 3,
+      "asr": {
+        "para": {
+          "match": true,
+          "cer": 0.0
+        },
+        "sense": {
+          "match": true,
+          "cer": 0.0
+        },
+        "qwen": {
+          "match": true,
+          "cer": 0.0
+        }
+      }
+    },
+    {
+      "id": "base_continuity",
+      "mode": "base",
+      "kind": "continuity",
+      "text": "其实，我想把这件事做得简单一点。想到什么，就先记下来，也不用马上整理得很漂亮。等过一阵子再回头看，有些问题，好像自己就慢慢想明白了。",
+      "duration": 12.96,
+      "seconds": 61.2029999999977,
+      "sha256": "d3a28b0be66d5b1d6f2d9aa8af1489074dad68420bc4e95c0b53d012629a3cd6",
+      "reference_sha256": "2b0ead609a35637d508b2451167e80804fc93c8c994ebed9d608abc50d90708e",
+      "checkpoint_sha256": null,
+      "reference_audio_required_at_inference": true,
+      "generation_method": "voice_clone",
+      "seed": 201,
+      "temperature": 0.8,
+      "top_p": 0.9,
+      "clipped_samples": 0,
+      "longest_internal_low_energy_gap_s": 0.36,
+      "internal_gaps_over_0_6s": 0,
+      "f0_median_hz": 218.90476357721192,
+      "f0_p10_hz": 185.7126214417424,
+      "f0_p90_hz": 275.76176240124835,
+      "formal_reference_cosine": 0.21734581887722015,
+      "chat_centroid_cosine": 0.41483490175537774,
+      "exact_asr_matches": 0,
+      "continuity_windows": [
+        {
+          "start_s": 0.0,
+          "cosine_to_utterance": 0.8779624104499817
+        },
+        {
+          "start_s": 2.0,
+          "cosine_to_utterance": 0.9292157888412476
+        },
+        {
+          "start_s": 4.0,
+          "cosine_to_utterance": 0.930366575717926
+        },
+        {
+          "start_s": 6.0,
+          "cosine_to_utterance": 0.8941947817802429
+        },
+        {
+          "start_s": 8.0,
+          "cosine_to_utterance": 0.8998298645019531
+        }
+      ],
+      "minimum_window_cosine": 0.8779624104499817,
+      "asr": {
+        "para": {
+          "match": false,
+          "cer": 0.034482758620689655
+        },
+        "sense": {
+          "match": false,
+          "cer": 0.05172413793103448
+        },
+        "qwen": {
+          "match": false,
+          "cer": 0.034482758620689655
+        }
+      }
+    },
+    {
+      "id": "trained_warm",
+      "mode": "trained",
+      "kind": "warm",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "duration": 6.0,
+      "seconds": 41.43799999999828,
+      "sha256": "daa25a4c4b8883fd847184c9b2f8f318b0dcff2197f1f14622e5699fc04bf4b0",
+      "reference_sha256": "2b0ead609a35637d508b2451167e80804fc93c8c994ebed9d608abc50d90708e",
+      "checkpoint_sha256": "38c412438326e05a74cd7cff5a674b2b6c05e114764ab892f435ff20bf11e796",
+      "reference_audio_required_at_inference": false,
+      "generation_method": "custom_voice_xuan",
+      "seed": 201,
+      "temperature": 0.8,
+      "top_p": 0.9,
+      "clipped_samples": 0,
+      "longest_internal_low_energy_gap_s": 0.2,
+      "internal_gaps_over_0_6s": 0,
+      "f0_median_hz": 221.6365171346428,
+      "f0_p10_hz": 185.7962960760848,
+      "f0_p90_hz": 268.1640145540703,
+      "formal_reference_cosine": 0.23827867209911346,
+      "chat_centroid_cosine": 0.48909023860518847,
+      "exact_asr_matches": 3,
+      "asr": {
+        "para": {
+          "match": true,
+          "cer": 0.0
+        },
+        "sense": {
+          "match": true,
+          "cer": 0.0
+        },
+        "qwen": {
+          "match": true,
+          "cer": 0.0
+        }
+      },
+      "duration_ratio_to_base": 1.0,
+      "large_tempo_change_flag": false
+    },
+    {
+      "id": "trained_daily",
+      "mode": "trained",
+      "kind": "daily",
+      "text": "你等我一下，我再找找。哦，在这里！刚才还以为弄丢了呢。",
+      "duration": 5.6,
+      "seconds": 40.78099999999904,
+      "sha256": "828dcfc764eabe624f67748006a3d2270aec268cb04cc78de66a15f94998289e",
+      "reference_sha256": "2b0ead609a35637d508b2451167e80804fc93c8c994ebed9d608abc50d90708e",
+      "checkpoint_sha256": "38c412438326e05a74cd7cff5a674b2b6c05e114764ab892f435ff20bf11e796",
+      "reference_audio_required_at_inference": false,
+      "generation_method": "custom_voice_xuan",
+      "seed": 201,
+      "temperature": 0.8,
+      "top_p": 0.9,
+      "clipped_samples": 0,
+      "longest_internal_low_energy_gap_s": 0.88,
+      "internal_gaps_over_0_6s": 1,
+      "f0_median_hz": 230.1163437588561,
+      "f0_p10_hz": 200.74471795258117,
+      "f0_p90_hz": 271.5322423780016,
+      "formal_reference_cosine": 0.23501315712928772,
+      "chat_centroid_cosine": 0.4514906715653663,
+      "exact_asr_matches": 3,
+      "asr": {
+        "para": {
+          "match": true,
+          "cer": 0.0
+        },
+        "sense": {
+          "match": true,
+          "cer": 0.0
+        },
+        "qwen": {
+          "match": true,
+          "cer": 0.0
+        }
+      },
+      "duration_ratio_to_base": 1.206896551724138,
+      "large_tempo_change_flag": false
+    },
+    {
+      "id": "trained_happy",
+      "mode": "trained",
+      "kind": "happy",
+      "text": "真的呀？那太好了！我还以为今天来不及了，没想到这么快就弄好了。",
+      "duration": 5.36,
+      "seconds": 37.375,
+      "sha256": "b6ad8d7d64c710bb37af6cc9f88fca6571daa2c08dc38741bc34a98b8070c87f",
+      "reference_sha256": "2b0ead609a35637d508b2451167e80804fc93c8c994ebed9d608abc50d90708e",
+      "checkpoint_sha256": "38c412438326e05a74cd7cff5a674b2b6c05e114764ab892f435ff20bf11e796",
+      "reference_audio_required_at_inference": false,
+      "generation_method": "custom_voice_xuan",
+      "seed": 201,
+      "temperature": 0.8,
+      "top_p": 0.9,
+      "clipped_samples": 0,
+      "longest_internal_low_energy_gap_s": 0.36,
+      "internal_gaps_over_0_6s": 0,
+      "f0_median_hz": 243.11104307620883,
+      "f0_p10_hz": 179.74557379431823,
+      "f0_p90_hz": 415.37134972249873,
+      "formal_reference_cosine": 0.12821540236473083,
+      "chat_centroid_cosine": 0.4754275258143785,
+      "exact_asr_matches": 3,
+      "asr": {
+        "para": {
+          "match": true,
+          "cer": 0.0
+        },
+        "sense": {
+          "match": true,
+          "cer": 0.0
+        },
+        "qwen": {
+          "match": true,
+          "cer": 0.0
+        }
+      },
+      "duration_ratio_to_base": 0.8271604938271605,
+      "large_tempo_change_flag": false
+    },
+    {
+      "id": "trained_thoughtful",
+      "mode": "trained",
+      "kind": "thoughtful",
+      "text": "我刚开始也有点拿不准。后来试了几次，才发现，慢一点反而更容易想清楚。",
+      "duration": 7.44,
+      "seconds": 52.9220000000023,
+      "sha256": "bf99d3854521dfac52cd0aa658b9e4c0b4f8d9f5b7fc501a9a72c99150181d4e",
+      "reference_sha256": "2b0ead609a35637d508b2451167e80804fc93c8c994ebed9d608abc50d90708e",
+      "checkpoint_sha256": "38c412438326e05a74cd7cff5a674b2b6c05e114764ab892f435ff20bf11e796",
+      "reference_audio_required_at_inference": false,
+      "generation_method": "custom_voice_xuan",
+      "seed": 201,
+      "temperature": 0.8,
+      "top_p": 0.9,
+      "clipped_samples": 0,
+      "longest_internal_low_energy_gap_s": 0.72,
+      "internal_gaps_over_0_6s": 1,
+      "f0_median_hz": 223.34001699747242,
+      "f0_p10_hz": 197.69754871016062,
+      "f0_p90_hz": 278.53913900129913,
+      "formal_reference_cosine": 0.29660049080848694,
+      "chat_centroid_cosine": 0.44072048022656685,
+      "exact_asr_matches": 2,
+      "asr": {
+        "para": {
+          "match": false,
+          "cer": 0.03333333333333333
+        },
+        "sense": {
+          "match": true,
+          "cer": 0.0
+        },
+        "qwen": {
+          "match": true,
+          "cer": 0.0
+        }
+      },
+      "duration_ratio_to_base": 1.0108695652173914,
+      "large_tempo_change_flag": false
+    },
+    {
+      "id": "trained_continuity",
+      "mode": "trained",
+      "kind": "continuity",
+      "text": "其实，我想把这件事做得简单一点。想到什么，就先记下来，也不用马上整理得很漂亮。等过一阵子再回头看，有些问题，好像自己就慢慢想明白了。",
+      "duration": 10.72,
+      "seconds": 77.54699999999866,
+      "sha256": "6e6724b3cf13f20846d6a7f8ae4fa3a0a9e2f0f2209c0b1c2bbe979d0e0aef4c",
+      "reference_sha256": "2b0ead609a35637d508b2451167e80804fc93c8c994ebed9d608abc50d90708e",
+      "checkpoint_sha256": "38c412438326e05a74cd7cff5a674b2b6c05e114764ab892f435ff20bf11e796",
+      "reference_audio_required_at_inference": false,
+      "generation_method": "custom_voice_xuan",
+      "seed": 201,
+      "temperature": 0.8,
+      "top_p": 0.9,
+      "clipped_samples": 0,
+      "longest_internal_low_energy_gap_s": 0.04,
+      "internal_gaps_over_0_6s": 0,
+      "f0_median_hz": 206.7247304314635,
+      "f0_p10_hz": 175.35460535688523,
+      "f0_p90_hz": 255.7574423866828,
+      "formal_reference_cosine": 0.08733047544956207,
+      "chat_centroid_cosine": 0.537148246913282,
+      "exact_asr_matches": 0,
+      "continuity_windows": [
+        {
+          "start_s": 0.0,
+          "cosine_to_utterance": 0.8863508105278015
+        },
+        {
+          "start_s": 2.0,
+          "cosine_to_utterance": 0.945163369178772
+        },
+        {
+          "start_s": 4.0,
+          "cosine_to_utterance": 0.9107517004013062
+        },
+        {
+          "start_s": 6.0,
+          "cosine_to_utterance": 0.9278210401535034
+        }
+      ],
+      "minimum_window_cosine": 0.8863508105278015,
+      "asr": {
+        "para": {
+          "match": false,
+          "cer": 0.034482758620689655
+        },
+        "sense": {
+          "match": false,
+          "cer": 0.034482758620689655
+        },
+        "qwen": {
+          "match": false,
+          "cer": 0.017241379310344827
+        }
+      },
+      "duration_ratio_to_base": 0.8271604938271605,
+      "large_tempo_change_flag": false
+    },
+    {
+      "id": "trained_clone_warm",
+      "mode": "trained_clone",
+      "kind": "warm",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "duration": 6.0,
+      "seconds": 44.93800000000192,
+      "sha256": "442d2c045fc21b67e153363def21d5fcc5fec406d663ce605b4fc9c653c5dc65",
+      "checkpoint_sha256": "38c412438326e05a74cd7cff5a674b2b6c05e114764ab892f435ff20bf11e796",
+      "reference_audio_required_at_inference": true,
+      "seed": 201,
+      "temperature": 0.8,
+      "top_p": 0.9,
+      "clipped_samples": 0,
+      "longest_internal_low_energy_gap_s": 0.58,
+      "internal_gaps_over_0_6s": 0,
+      "f0_median_hz": 214.78520627835852,
+      "f0_p10_hz": 193.29365183011166,
+      "f0_p90_hz": 279.3359594534804,
+      "formal_reference_cosine": 0.21846839785575867,
+      "chat_centroid_cosine": 0.43701738767826964,
+      "exact_asr_matches": 3,
+      "asr": {
+        "para": {
+          "match": true,
+          "cer": 0.0
+        },
+        "sense": {
+          "match": true,
+          "cer": 0.0
+        },
+        "qwen": {
+          "match": true,
+          "cer": 0.0
+        }
+      }
+    },
+    {
+      "id": "exported_custom_warm",
+      "mode": "export_smoke",
+      "kind": "warm",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "duration": 5.6,
+      "seconds": 44.28099999999904,
+      "sha256": "d004292c6a31bedbb112d40f4da12a62fd1866602209e05d8f9fe2749353008a",
+      "checkpoint_sha256": "38c412438326e05a74cd7cff5a674b2b6c05e114764ab892f435ff20bf11e796",
+      "reference_audio_required_at_inference": false,
+      "generation_method": "merged_custom_voice_xuan",
+      "seed": 201,
+      "clipped_samples": 0,
+      "longest_internal_low_energy_gap_s": 0.32,
+      "internal_gaps_over_0_6s": 0,
+      "f0_median_hz": 251.68875746496605,
+      "f0_p10_hz": 197.12056098661463,
+      "f0_p90_hz": 348.74353516784686,
+      "formal_reference_cosine": 0.20359328389167786,
+      "chat_centroid_cosine": 0.3972629528454606,
+      "exact_asr_matches": 3,
+      "asr": {
+        "para": {
+          "match": true,
+          "cer": 0.0
+        },
+        "sense": {
+          "match": true,
+          "cer": 0.0
+        },
+        "qwen": {
+          "match": true,
+          "cer": 0.0
+        }
+      }
+    },
+    {
+      "id": "exported_custom_daily",
+      "mode": "export_smoke",
+      "kind": "daily",
+      "text": "你等我一下，我再找找。哦，在这里！刚才还以为弄丢了呢。",
+      "duration": 11.68,
+      "seconds": 68.68799999999828,
+      "sha256": "041cd4e553253cfb8603c3c3ec668af0e363c4c82f5c83019d4aea4cf9103173",
+      "checkpoint_sha256": "38c412438326e05a74cd7cff5a674b2b6c05e114764ab892f435ff20bf11e796",
+      "reference_audio_required_at_inference": false,
+      "generation_method": "merged_custom_voice_xuan",
+      "seed": 201,
+      "temperature": 0.8,
+      "top_p": 0.9,
+      "clipped_samples": 0,
+      "longest_internal_low_energy_gap_s": 2.1,
+      "internal_gaps_over_0_6s": 3,
+      "f0_median_hz": 276.75132597478535,
+      "f0_p10_hz": 204.819479319402,
+      "f0_p90_hz": 371.82797765458764,
+      "formal_reference_cosine": 0.25786375999450684,
+      "chat_centroid_cosine": 0.3257391318533759,
+      "exact_asr_matches": 2,
+      "asr": {
+        "para": {
+          "match": false,
+          "cer": 0.045454545454545456
+        },
+        "sense": {
+          "match": true,
+          "cer": 0.0
+        },
+        "qwen": {
+          "match": true,
+          "cer": 0.0
+        }
+      }
+    },
+    {
+      "id": "exported_custom_happy",
+      "mode": "export_smoke",
+      "kind": "happy",
+      "text": "真的呀？那太好了！我还以为今天来不及了，没想到这么快就弄好了。",
+      "duration": 5.2,
+      "seconds": 22.9220000000023,
+      "sha256": "4f37cc743e06ba7d6e83d86409b1fc501b237cd163e39f77b63c41033c8d075a",
+      "checkpoint_sha256": "38c412438326e05a74cd7cff5a674b2b6c05e114764ab892f435ff20bf11e796",
+      "reference_audio_required_at_inference": false,
+      "generation_method": "merged_custom_voice_xuan",
+      "seed": 201,
+      "temperature": 0.8,
+      "top_p": 0.9,
+      "clipped_samples": 0,
+      "longest_internal_low_energy_gap_s": 0.28,
+      "internal_gaps_over_0_6s": 0,
+      "f0_median_hz": 206.20282480719987,
+      "f0_p10_hz": 185.3938879309474,
+      "f0_p90_hz": 269.0408265250964,
+      "formal_reference_cosine": 0.19943824410438538,
+      "chat_centroid_cosine": 0.5728927976443396,
+      "exact_asr_matches": 3,
+      "asr": {
+        "para": {
+          "match": true,
+          "cer": 0.0
+        },
+        "sense": {
+          "match": true,
+          "cer": 0.0
+        },
+        "qwen": {
+          "match": true,
+          "cer": 0.0
+        }
+      }
+    },
+    {
+      "id": "reloaded_adapter_warm",
+      "mode": "adapter_reload_smoke",
+      "kind": "warm",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "duration": 6.0,
+      "seconds": 34.78100000000268,
+      "sha256": "daa25a4c4b8883fd847184c9b2f8f318b0dcff2197f1f14622e5699fc04bf4b0",
+      "reference_sha256": "2b0ead609a35637d508b2451167e80804fc93c8c994ebed9d608abc50d90708e",
+      "checkpoint_sha256": "38c412438326e05a74cd7cff5a674b2b6c05e114764ab892f435ff20bf11e796",
+      "reference_audio_required_at_inference": false,
+      "generation_method": "base_plus_saved_adapter_CustomVoice",
+      "seed": 201,
+      "temperature": 0.8,
+      "top_p": 0.9,
+      "clipped_samples": 0,
+      "longest_internal_low_energy_gap_s": 0.2,
+      "internal_gaps_over_0_6s": 0,
+      "f0_median_hz": 221.6365171346428,
+      "f0_p10_hz": 185.7962960760848,
+      "f0_p90_hz": 268.1640145540703,
+      "formal_reference_cosine": 0.23827867209911346,
+      "chat_centroid_cosine": 0.48909023860518847,
+      "exact_asr_matches": 3,
+      "asr": {
+        "para": {
+          "match": true,
+          "cer": 0.0
+        },
+        "sense": {
+          "match": true,
+          "cer": 0.0
+        },
+        "qwen": {
+          "match": true,
+          "cer": 0.0
+        }
+      }
+    }
+  ],
+  "exports": [
+    {
+      "file": "audition/专属模型_日常交流.wav",
+      "id": "trained_daily",
+      "text": "你等我一下，我再找找。哦，在这里！刚才还以为弄丢了呢。",
+      "seconds": 5.6,
+      "sha256": "4f02abd5e988788b521763e1223de410a1771b555ec1009bd49b237f65414bce",
+      "human_accepted": false
+    },
+    {
+      "file": "audition/训练前对照_日常交流.wav",
+      "id": "base_daily",
+      "text": "你等我一下，我再找找。哦，在这里！刚才还以为弄丢了呢。",
+      "seconds": 4.64,
+      "sha256": "1af6ec8de23a3f1f54d42992b3ce5c9241110b609fa19805a2ee435bed24e25f",
+      "human_accepted": false
+    },
+    {
+      "file": "audition/专属模型_开心回应.wav",
+      "id": "trained_happy",
+      "text": "真的呀？那太好了！我还以为今天来不及了，没想到这么快就弄好了。",
+      "seconds": 5.36,
+      "sha256": "9b5a5f3eafba8b3b599ac1e614925351871a9a4741e5fd21f30dd366cfcdaf04",
+      "human_accepted": false
+    },
+    {
+      "file": "audition/训练前对照_开心回应.wav",
+      "id": "base_happy",
+      "text": "真的呀？那太好了！我还以为今天来不及了，没想到这么快就弄好了。",
+      "seconds": 6.48,
+      "sha256": "443c802c965b7dca1ccfa725f8ec61325f0141701fc775db0444d1e0e260f9b6",
+      "human_accepted": false
+    },
+    {
+      "file": "audition/专属模型_温和解释.wav",
+      "id": "trained_warm",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "seconds": 6.0,
+      "sha256": "95530fcad06269163f7b2ec699d639f644371439814eb773ec00eaaa52f50c1c",
+      "human_accepted": false
+    },
+    {
+      "file": "audition/训练前对照_温和解释.wav",
+      "id": "base_warm",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "seconds": 6.0,
+      "sha256": "52299ea62c812ed8be4069542054481d3f8a026e49dd5f2b71d288c1e364cb1a",
+      "human_accepted": false
+    },
+    {
+      "file": "audition/专属模型_认真思考.wav",
+      "id": "trained_thoughtful",
+      "text": "我刚开始也有点拿不准。后来试了几次，才发现，慢一点反而更容易想清楚。",
+      "seconds": 7.44,
+      "sha256": "229b4a931ec2d9f63eb6e30857c4c65adfd42e92ccfe668a32e373a35bdb2d36",
+      "human_accepted": false
+    },
+    {
+      "file": "audition/训练前对照_认真思考.wav",
+      "id": "base_thoughtful",
+      "text": "我刚开始也有点拿不准。后来试了几次，才发现，慢一点反而更容易想清楚。",
+      "seconds": 7.36,
+      "sha256": "1c290e92f98f1fe864502c74555c837f892ad7afca5b4616aa4e10d0eea43d6d",
+      "human_accepted": false
+    },
+    {
+      "file": "audition/trained_clone_warm.wav",
+      "id": "trained_clone_warm",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "seconds": 6.0,
+      "sha256": "e57371584c0166aedb57a5656f685373a37e75140cd7dfe58aeb8414b9a49bf8",
+      "human_accepted": false
+    },
+    {
+      "file": "audition/reloaded_adapter_warm.wav",
+      "id": "reloaded_adapter_warm",
+      "text": "不用急，我们先试一下。要是哪里不顺手，就停下来，一起换个办法。",
+      "seconds": 6.0,
+      "sha256": "95530fcad06269163f7b2ec699d639f644371439814eb773ec00eaaa52f50c1c",
+      "human_accepted": false
+    }
+  ],
+  "transcripts_are_checks_not_naturalness_acceptance": true,
+  "human_listening_accepted": false,
+  "normalization": "constant gain only, -23dBFS RMS and peak limit .85; no EQ/time edits"
+}

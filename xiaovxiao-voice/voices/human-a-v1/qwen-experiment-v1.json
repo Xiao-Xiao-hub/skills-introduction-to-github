@@ -1,0 +1,29 @@
+{
+  "id": "xuan-qwen-exclusive-v1",
+  "status": "trained_pending_user_listening",
+  "model_path": "models/Qwen3-TTS-Base",
+  "adapter_path": "models\\Qwen3-TTS-Xuan-20261024-v1-adapter",
+  "speaker": "xuan",
+  "adapter_checkpoint": "voices\\human-a-v1\\local\\qwen-corpus-20261024-v1\\checkpoints\\step_000098",
+  "adapter_sha256": "38c412438326e05a74cd7cff5a674b2b6c05e114764ab892f435ff20bf11e796",
+  "diagnostic_merged_weight_sha256": "ed6339637501a86df6286d4cbbb13201b73316a78da9ffabbfa9a5000fd09e06",
+  "merged_model_selected": false,
+  "reference_audio_required_at_inference": false,
+  "training": {
+    "train": {
+      "count": 54,
+      "minutes": 5.237025
+    },
+    "val": {
+      "count": 9,
+      "minutes": 0.7497291666666667
+    },
+    "test": {
+      "count": 9,
+      "minutes": 0.9444166666666667
+    }
+  },
+  "accepted_reference_clone_baseline": "reports/2026-10-24-qq-voice-v2/clarity-diagnosis/03_另一模型_未降噪日常参考.wav",
+  "report": "reports/2026-10-24-qwen-exclusive-voice/README.md",
+  "human_listening_accepted": false
+}

@@ -1,0 +1,6 @@
+{
+  "reloaded_adapter_sha256": "daa25a4c4b8883fd847184c9b2f8f318b0dcff2197f1f14622e5699fc04bf4b0",
+  "original_trained_audio_sha256": "daa25a4c4b8883fd847184c9b2f8f318b0dcff2197f1f14622e5699fc04bf4b0",
+  "bit_identical": true,
+  "reference_audio_required_at_inference": false
+}

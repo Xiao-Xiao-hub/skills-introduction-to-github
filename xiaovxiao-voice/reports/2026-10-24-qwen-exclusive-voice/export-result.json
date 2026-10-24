@@ -1,0 +1,14 @@
+{
+  "path": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\models\\Qwen3-TTS-Xuan-20261024-v1",
+  "source_base": "Qwen3-TTS-12Hz-1.7B-Base",
+  "adapter_sha256": "38c412438326e05a74cd7cff5a674b2b6c05e114764ab892f435ff20bf11e796",
+  "selected_epoch": 7,
+  "speaker": "xuan",
+  "speaker_id": 3000,
+  "exported_weight_sha256": "ed6339637501a86df6286d4cbbb13201b73316a78da9ffabbfa9a5000fd09e06",
+  "reference_audio_required_at_inference": false,
+  "human_listening_accepted": false,
+  "merged_export_selected": false,
+  "canonical_adapter_package": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\models\\Qwen3-TTS-Xuan-20261024-v1-adapter",
+  "merged_export_limitation": "One merged-model daily sample had a 2.1s internal low-energy gap and 2.52x base duration; keep unmerged personal adapter as canonical pending listening."
+}
