@@ -1,0 +1,22 @@
+{
+  "formal_sources": [
+    "1-1.m4a",
+    "1-6.m4a"
+  ],
+  "formal_and_daily_source_disjoint": true,
+  "all_audio_hashes_match": true,
+  "daily_date_groups_disjoint": true,
+  "formal_holdout_independent_sessions": false,
+  "formal_and_daily_audio_hashes_disjoint": true,
+  "protected_original_scripts_unchanged": true,
+  "reference_hashes": {
+    "formal": "172208fb56491eb0f25427d4696bac74af0cef766af060648d49d70d7b334db7",
+    "daily": "ae44232baa1bf4dbab5c51e79f418f65a07278a4bb404407829b0432590a8cb1"
+  },
+  "dataset_snapshots": {
+    "formal": "ac7f6f3b579b39d2f6e397a76294df451f1d424f0f75a504f6df82f054b01bf6",
+    "daily": "d878fb21761c9f606eed588f6804b748d3df1ddaf9a9864b79b79931d86f3970"
+  },
+  "synthetic_training_audio_count": 0,
+  "human_audio_reviewed_count": 0
+}

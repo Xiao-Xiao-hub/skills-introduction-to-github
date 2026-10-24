@@ -1,0 +1,15 @@
+{
+  "scene": "daily",
+  "codec_prefix": [
+    2155,
+    2156,
+    2157,
+    0,
+    2148
+  ],
+  "speaker_position": 6,
+  "inference_language": "Auto",
+  "next_frame_hidden_alignment_asserted": true,
+  "text_projection_used": true,
+  "sub_labels_direct_15_heads": true
+}

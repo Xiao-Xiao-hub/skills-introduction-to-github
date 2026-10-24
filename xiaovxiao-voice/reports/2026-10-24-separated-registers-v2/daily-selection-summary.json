@@ -1,0 +1,33 @@
+{
+  "scene": "daily",
+  "count": 37,
+  "minutes": 4.491458333333332,
+  "splits": {
+    "train": {
+      "count": 30,
+      "minutes": 3.591791666666666
+    },
+    "val": {
+      "count": 2,
+      "minutes": 0.26649999999999996
+    },
+    "test": {
+      "count": 5,
+      "minutes": 0.6331666666666665
+    }
+  },
+  "sources": 34,
+  "word_counts": {
+    "晓得": 3,
+    "噻": 2,
+    "嘞": 3,
+    "没得": 2,
+    "安逸": 1,
+    "家头": 1,
+    "要得": 3
+  },
+  "human_audio_reviewed_count": 0,
+  "forced_mandarin_rewriting": false,
+  "session_independent_holdout": true,
+  "source_files_disjoint_from_other_scene": true
+}

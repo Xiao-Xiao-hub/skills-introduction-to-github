@@ -1,0 +1,6 @@
+{
+  "unique_train_clips": 6,
+  "exposures_per_epoch": 6,
+  "dialect_core_indices": [],
+  "additional_exposures_are_not_new_recordings": true
+}

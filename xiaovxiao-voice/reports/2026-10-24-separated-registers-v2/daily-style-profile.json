@@ -1,0 +1,26 @@
+{
+  "scene": "daily",
+  "source": "genuine chat voice only",
+  "word_counts": {
+    "晓得": 3,
+    "噻": 2,
+    "嘞": 3,
+    "没得": 2,
+    "安逸": 1,
+    "家头": 1,
+    "要得": 3
+  },
+  "repetitions_not_removed": true,
+  "self_repairs_not_rewritten": true,
+  "accent_inferred_from_spelling": false,
+  "emotion_candidates": {
+    "UNCERTAIN": 14,
+    "HAPPY": 19,
+    "NEUTRAL": 1,
+    "SAD": 3
+  },
+  "emotion_labels_human_verified": false,
+  "explicit_emotion_conditioning_trained": false,
+  "tts_does_not_automatically_rewrite_written_language": true,
+  "human_audio_reviewed_count": 0
+}
