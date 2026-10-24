@@ -1,0 +1,14 @@
+{
+  "previous_first": "daily_grumble",
+  "first_feedback": "不像本人，否决",
+  "previous_second": "formal_same",
+  "second_feedback": "变化过大，几乎不像同一人，否决",
+  "previous_third": "daily_same",
+  "third_feedback": "音色尚可，情绪不对、语气稍有差异；仅作调整基准，未整体验收",
+  "requested_delivery": "亲近、轻松带笑，有一点活泼",
+  "adapter_fixed": "f21c4c39f03482d06c01d21d0349ef18ff1613a6e11a1962af3525c4789d7686",
+  "speaker_embedding_fixed": "5ef112c50983b0b1436ca6537428bb6f492244d40bb8e3754cc14745ade077cf",
+  "new_training_performed": false,
+  "synthetic_training_or_reference_audio_used": false,
+  "human_listening_accepted": false
+}
