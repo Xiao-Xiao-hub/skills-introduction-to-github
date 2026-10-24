@@ -1,0 +1,12 @@
+{
+  "completed": true,
+  "new_training_performed": false,
+  "personal_adapter_unchanged": true,
+  "speaker_embedding_unchanged": true,
+  "synthetic_reference_or_training_audio_used": false,
+  "original_toolkit_scripts_unchanged": true,
+  "private_reference_uploaded": false,
+  "new_candidates": 2,
+  "human_listening_accepted": false,
+  "helper_sha256": "d20e6d935fa419a7c1069fdd892c980f1757cf2e9dff5a94018fef8485945e51"
+}

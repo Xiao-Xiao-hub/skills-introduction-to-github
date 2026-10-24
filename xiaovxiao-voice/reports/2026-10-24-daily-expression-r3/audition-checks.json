@@ -1,0 +1,223 @@
+{
+  "rows": [
+    {
+      "id": "control_same",
+      "scene": "daily",
+      "kind": "same",
+      "mode": "custom",
+      "text": "我刚刚才看到消息，等一下就过来。你先别着急，我把这边弄好就来找你。",
+      "path": "audition/control_same.wav",
+      "sr": 24000,
+      "duration": 7.2,
+      "seconds": 76.0309999999954,
+      "sha256": "59b829477669e65e682910532f77f4edf930519c90709fce18ccb02f46624226",
+      "adapter_sha256": "f21c4c39f03482d06c01d21d0349ef18ff1613a6e11a1962af3525c4789d7686",
+      "speaker_embedding_sha256": "5ef112c50983b0b1436ca6537428bb6f492244d40bb8e3754cc14745ade077cf",
+      "reference_audio_sha256": null,
+      "identity_vector_same_as_user_third": true,
+      "reference_is_real_human": false,
+      "synthetic_reference_used": false,
+      "new_training_performed": false,
+      "seed": 201,
+      "settings": {
+        "temperature": 0.8,
+        "top_p": 0.9,
+        "subtalker_temperature": 0.9,
+        "subtalker_top_p": 1.0,
+        "max_new_tokens": 200,
+        "non_streaming_mode": true
+      },
+      "codec_frames": 91,
+      "human_accepted": false,
+      "para": {
+        "raw": "我 刚 刚 才 看 到 消 息 等 一 下 就 过 来 你 先 别 着 急 我 把 这 边 弄 好 就 来 找 你",
+        "match": true,
+        "cer": 0.0
+      },
+      "sense": {
+        "raw": "<|zh|><|HAPPY|><|Speech|><|woitn|>我刚刚才看到消息等一下就过来你先别着急我把这边弄好就来找你",
+        "match": true,
+        "cer": 0.0
+      },
+      "formal_reference_cosine": 0.21095064282417297,
+      "chat_centroid_cosine": 0.40013143949071356,
+      "f0_median_hz": 219.03575923279925,
+      "f0_p10_hz": 186.44080477476558,
+      "f0_p90_hz": 261.6375430584855,
+      "clipped_samples": 0,
+      "text_verified_by_one_asr": true,
+      "text_verified_by_both_asr": true,
+      "longest_internal_low_energy_gap_s": 0.9,
+      "internal_gaps_over_0_6s": 1,
+      "preview": "audition/control_same_试听.wav",
+      "cosine_to_user_third": 1.0,
+      "cosine_to_original_daily_reference": 0.4824042320251465,
+      "voice_windows": [
+        {
+          "start_s": 0.0,
+          "cosine_to_utterance": 0.8796723484992981,
+          "cosine_to_third": 0.8796723484992981
+        },
+        {
+          "start_s": 2.0,
+          "cosine_to_utterance": 0.9171314239501953,
+          "cosine_to_third": 0.9171314239501953
+        },
+        {
+          "start_s": 4.0,
+          "cosine_to_utterance": 0.8798304796218872,
+          "cosine_to_third": 0.8798304796218872
+        }
+      ],
+      "min_window_cosine_to_utterance": 0.8796723484992981
+    },
+    {
+      "id": "b_same",
+      "scene": "daily",
+      "kind": "same",
+      "mode": "real_context",
+      "text": "我刚刚才看到消息，等一下就过来。你先别着急，我把这边弄好就来找你。",
+      "path": "audition/b_same.wav",
+      "sr": 24000,
+      "duration": 6.32,
+      "seconds": 58.32800000000134,
+      "sha256": "81e350a81e57b28a9ea32181b680e1ccc8166e3afd5923ab515655ea9c24c2c2",
+      "adapter_sha256": "f21c4c39f03482d06c01d21d0349ef18ff1613a6e11a1962af3525c4789d7686",
+      "speaker_embedding_sha256": "5ef112c50983b0b1436ca6537428bb6f492244d40bb8e3754cc14745ade077cf",
+      "reference_audio_sha256": "ae44232baa1bf4dbab5c51e79f418f65a07278a4bb404407829b0432590a8cb1",
+      "identity_vector_same_as_user_third": true,
+      "reference_is_real_human": true,
+      "synthetic_reference_used": false,
+      "new_training_performed": false,
+      "seed": 201,
+      "settings": {
+        "temperature": 0.8,
+        "top_p": 0.9,
+        "subtalker_temperature": 0.9,
+        "subtalker_top_p": 1.0,
+        "max_new_tokens": 200,
+        "non_streaming_mode": true
+      },
+      "codec_frames": 80,
+      "human_accepted": false,
+      "para": {
+        "raw": "我 刚 刚 才 看 到 消 息 等 一 下 就 过 来 你 先 别 着 急 我 把 这 边 弄 好 就 来 找 你",
+        "match": true,
+        "cer": 0.0
+      },
+      "sense": {
+        "raw": "<|zh|><|HAPPY|><|Speech|><|woitn|>我刚刚才看到消息等一下就过来你先别着急我把这边弄好就来找你",
+        "match": true,
+        "cer": 0.0
+      },
+      "formal_reference_cosine": 0.15606474876403809,
+      "chat_centroid_cosine": 0.562590615966664,
+      "f0_median_hz": 214.35580106566997,
+      "f0_p10_hz": 182.2695447403205,
+      "f0_p90_hz": 262.19526838386344,
+      "clipped_samples": 0,
+      "text_verified_by_one_asr": true,
+      "text_verified_by_both_asr": true,
+      "longest_internal_low_energy_gap_s": 0.16,
+      "internal_gaps_over_0_6s": 0,
+      "preview": "audition/b_same_试听.wav",
+      "cosine_to_user_third": 0.5826663970947266,
+      "cosine_to_original_daily_reference": 0.6893523931503296,
+      "voice_windows": [
+        {
+          "start_s": 0.0,
+          "cosine_to_utterance": 0.9230850338935852,
+          "cosine_to_third": 0.53343665599823
+        },
+        {
+          "start_s": 2.0,
+          "cosine_to_utterance": 0.9008424282073975,
+          "cosine_to_third": 0.5133044719696045
+        }
+      ],
+      "min_window_cosine_to_utterance": 0.9008424282073975
+    },
+    {
+      "id": "c_same",
+      "scene": "daily",
+      "kind": "same",
+      "mode": "real_context",
+      "text": "我刚刚才看到消息，等一下就过来。你先别着急，我把这边弄好就来找你。",
+      "path": "audition/c_same.wav",
+      "sr": 24000,
+      "duration": 7.52,
+      "seconds": 63.57800000000134,
+      "sha256": "9f2360263c5d8c6b24484dd8d84c0ca4fc3164a23a05f9e0327669759532d993",
+      "adapter_sha256": "f21c4c39f03482d06c01d21d0349ef18ff1613a6e11a1962af3525c4789d7686",
+      "speaker_embedding_sha256": "5ef112c50983b0b1436ca6537428bb6f492244d40bb8e3754cc14745ade077cf",
+      "reference_audio_sha256": "ae44232baa1bf4dbab5c51e79f418f65a07278a4bb404407829b0432590a8cb1",
+      "identity_vector_same_as_user_third": true,
+      "reference_is_real_human": true,
+      "synthetic_reference_used": false,
+      "new_training_performed": false,
+      "seed": 201,
+      "settings": {
+        "temperature": 0.8,
+        "top_p": 0.9,
+        "subtalker_temperature": 0.9,
+        "subtalker_top_p": 1.0,
+        "max_new_tokens": 200,
+        "non_streaming_mode": false
+      },
+      "codec_frames": 95,
+      "human_accepted": false,
+      "para": {
+        "raw": "我 刚 刚 才 看 到 消 息 等 一 下 就 过 来 你 先 别 着 急 我 把 这 边 弄 好 就 来 找 你",
+        "match": true,
+        "cer": 0.0
+      },
+      "sense": {
+        "raw": "<|zh|><|HAPPY|><|Speech|><|woitn|>我刚刚才看到消息等一下就过来你先别着急我把这边弄好就来找你",
+        "match": true,
+        "cer": 0.0
+      },
+      "formal_reference_cosine": 0.1582718789577484,
+      "chat_centroid_cosine": 0.493062559714162,
+      "f0_median_hz": 213.30079243030647,
+      "f0_p10_hz": 190.53534715393175,
+      "f0_p90_hz": 232.36579069992726,
+      "clipped_samples": 0,
+      "text_verified_by_one_asr": true,
+      "text_verified_by_both_asr": true,
+      "longest_internal_low_energy_gap_s": 0.2,
+      "internal_gaps_over_0_6s": 0,
+      "preview": "audition/c_same_试听.wav",
+      "cosine_to_user_third": 0.58199542760849,
+      "cosine_to_original_daily_reference": 0.5646095871925354,
+      "voice_windows": [
+        {
+          "start_s": 0.0,
+          "cosine_to_utterance": 0.8820830583572388,
+          "cosine_to_third": 0.5688866972923279
+        },
+        {
+          "start_s": 2.0,
+          "cosine_to_utterance": 0.9146621227264404,
+          "cosine_to_third": 0.6072431802749634
+        },
+        {
+          "start_s": 4.0,
+          "cosine_to_utterance": 0.9196875095367432,
+          "cosine_to_third": 0.48425790667533875
+        }
+      ],
+      "min_window_cosine_to_utterance": 0.8820830583572388
+    }
+  ],
+  "human_listening": false,
+  "cosines_are_not_identity_probabilities": true,
+  "pairs": {
+    "context_variants": 0.7014614939689636
+  },
+  "baseline": {
+    "third_sha256": "59b829477669e65e682910532f77f4edf930519c90709fce18ccb02f46624226",
+    "human_reference_cosine": 0.4824042320251465
+  },
+  "human_listening_accepted": false,
+  "similarities_are_not_identity_or_emotion_acceptance": true
+}

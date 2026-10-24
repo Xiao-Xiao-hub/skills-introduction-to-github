@@ -1,0 +1,13 @@
+{
+  "completed": false,
+  "settings": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "subtalker_temperature": 0.7,
+    "subtalker_top_p": 0.9,
+    "max_new_tokens": 640
+  },
+  "observation": "No first waveform after more than five minutes; stopped own generator only. Cause not established; no EOS or audio available for diagnosis.",
+  "failed_audio_delivered": false,
+  "weights_unchanged": true
+}
