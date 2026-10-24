@@ -1,0 +1,65 @@
+{
+  "completed": true,
+  "scene": "daily",
+  "started_from": "original_Qwen3-TTS-Base_no_previous_adapter",
+  "epochs": 12,
+  "optimizer_steps": 216,
+  "selected_epoch": 2,
+  "selected_checkpoint": "E:\\skills-introduction-to-github\\xiaovxiao-voice\\voices\\human-a-v1\\local\\scene-split-20261024\\daily\\checkpoints\\step_000036",
+  "adapter_sha256": "f21c4c39f03482d06c01d21d0349ef18ff1613a6e11a1962af3525c4789d7686",
+  "base_validation": {
+    "mean": 3.918862462043762,
+    "per_clip": [
+      3.808394193649292,
+      4.029330730438232
+    ]
+  },
+  "best_validation": 3.5205917358398438,
+  "base_test": {
+    "mean": 3.831936979293823,
+    "per_clip": [
+      3.7754902839660645,
+      3.867004632949829,
+      3.8423595428466797,
+      3.351815700531006,
+      4.323014736175537
+    ]
+  },
+  "selected_test": {
+    "mean": 3.4828504085540772,
+    "per_clip": [
+      3.4672698974609375,
+      3.693753719329834,
+      3.3949830532073975,
+      3.006831645965576,
+      3.8514137268066406
+    ]
+  },
+  "weight_update_proof": {
+    "tensors": 462,
+    "changed": 462,
+    "all_finite": true
+  },
+  "elapsed_s": 956.8910000000033,
+  "peak_gib": 4.51771879196167,
+  "environment": {
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "capability": [
+      12,
+      0
+    ],
+    "packages": {
+      "qwen-tts": "0.1.1",
+      "transformers": "4.57.3",
+      "accelerate": "1.12.0",
+      "peft": "0.18.1",
+      "soundfile": "0.14.0"
+    },
+    "flash_attn_installed": false
+  },
+  "language": "Auto",
+  "speaker": "xuan_daily",
+  "snapshot_sha256": "d878fb21761c9f606eed588f6804b748d3df1ddaf9a9864b79b79931d86f3970",
+  "human_listening_accepted": false
+}
