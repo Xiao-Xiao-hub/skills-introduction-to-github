@@ -1,0 +1,25 @@
+{
+  "scene": "formal",
+  "count": 8,
+  "minutes": 0.7429166666666666,
+  "splits": {
+    "train": {
+      "count": 6,
+      "minutes": 0.5443333333333334
+    },
+    "val": {
+      "count": 1,
+      "minutes": 0.10833333333333334
+    },
+    "test": {
+      "count": 1,
+      "minutes": 0.09025
+    }
+  },
+  "sources": 2,
+  "word_counts": {},
+  "human_audio_reviewed_count": 0,
+  "forced_mandarin_rewriting": false,
+  "session_independent_holdout": false,
+  "source_files_disjoint_from_other_scene": true
+}

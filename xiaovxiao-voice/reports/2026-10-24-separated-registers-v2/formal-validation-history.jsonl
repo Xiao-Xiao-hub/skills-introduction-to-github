@@ -1,0 +1,6 @@
+{"epoch": 1, "step": 3, "validation": {"mean": 2.9557089805603027, "per_clip": [2.9557089805603027]}, "elapsed_s": 20.9220000000023}
+{"epoch": 2, "step": 6, "validation": {"mean": 2.959507465362549, "per_clip": [2.959507465362549]}, "elapsed_s": 26.625}
+{"epoch": 3, "step": 9, "validation": {"mean": 2.949995279312134, "per_clip": [2.949995279312134]}, "elapsed_s": 32.43800000000192}
+{"epoch": 4, "step": 12, "validation": {"mean": 2.9531197547912598, "per_clip": [2.9531197547912598]}, "elapsed_s": 38.5470000000023}
+{"epoch": 5, "step": 15, "validation": {"mean": 2.9459667205810547, "per_clip": [2.9459667205810547]}, "elapsed_s": 44.48500000000058}
+{"epoch": 6, "step": 18, "validation": {"mean": 2.946286678314209, "per_clip": [2.946286678314209]}, "elapsed_s": 50.68800000000192}

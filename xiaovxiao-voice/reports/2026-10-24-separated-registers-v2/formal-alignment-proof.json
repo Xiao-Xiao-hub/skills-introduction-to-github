@@ -1,0 +1,16 @@
+{
+  "scene": "formal",
+  "codec_prefix": [
+    2154,
+    2156,
+    2055,
+    2157,
+    0,
+    2148
+  ],
+  "speaker_position": 7,
+  "inference_language": "Chinese",
+  "next_frame_hidden_alignment_asserted": true,
+  "text_projection_used": true,
+  "sub_labels_direct_15_heads": true
+}
