@@ -26,3 +26,8 @@
 
 - [Qwen官方训练说明](https://github.com/QwenLM/Qwen3-TTS/blob/022e286b98fbec7e1e916cb940cdf532cd9f488e/finetuning/README.md)：单说话人训练、固定ref_audio、音频编码与CustomVoice导出。
 - [官方训练目标](https://github.com/QwenLM/Qwen3-TTS/blob/022e286b98fbec7e1e916cb940cdf532cd9f488e/finetuning/sft_12hz.py)：数据布局及损失复用，12GB执行方式单独实现。
+
+
+## 实际冒烟通过，正式训练中
+
+前向/反向及梯度数值检查通过，峰值4.085GiB。PEFT训练参数19,234,816，总参数1,947,912,256。真实训练8轮、54段每轮、每4段累积；预计112个优化步。首轮验证14.2276降至9.8426，峰值4.393GiB；该下降不代表听感验收。模型权重与数据独立保存。
