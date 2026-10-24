@@ -1,0 +1,13 @@
+{
+  "fresh_process": true,
+  "scene": "daily",
+  "reference_audio_required": false,
+  "adapter_sha256": "f21c4c39f03482d06c01d21d0349ef18ff1613a6e11a1962af3525c4789d7686",
+  "speaker_embedding_sha256": "5ef112c50983b0b1436ca6537428bb6f492244d40bb8e3754cc14745ade077cf",
+  "waveform_bit_identical": true,
+  "sample_counts": [
+    172800,
+    172800
+  ],
+  "max_abs_delta": 0.0
+}

@@ -1,0 +1,266 @@
+{
+  "rows": [
+    {
+      "id": "formal_intro",
+      "scene": "formal",
+      "kind": "intro",
+      "mode": "formal",
+      "text": "本作品支持记录与整理。原始内容会一并保留，方便之后查看和继续思考。",
+      "path": "audition/formal_intro.wav",
+      "sr": 24000,
+      "duration": 8.16,
+      "seconds": 90.53100000000268,
+      "sha256": "16e58824bd8378ae62a6f9fbe784fcfc492d835d257288c456dba78c4b45b7c3",
+      "adapter_sha256": "fe37623c1d55768d9c75203d5ae9ee77b0ba24e13f6ec41106ac2908dc825835",
+      "language": "Chinese",
+      "speaker": "xuan_formal",
+      "seed": 201,
+      "reference_audio_required_at_inference": false,
+      "human_accepted": false,
+      "para": {
+        "raw": "本 作 品 支 持 记 录 与 整 理 原 始 内 容 会 一 并 保 留 方 便 之 后 查 看 和 继 续 思 考",
+        "match": true,
+        "cer": 0.0
+      },
+      "sense": {
+        "raw": "<|zh|><|NEUTRAL|><|Speech|><|woitn|>本作品支持记录与整理原始内容会一并保留方便之后查看和继续思考",
+        "match": true,
+        "cer": 0.0
+      },
+      "formal_reference_cosine": 0.689643919467926,
+      "chat_centroid_cosine": 0.03573380186437057,
+      "f0_median_hz": 221.9882028298174,
+      "f0_p10_hz": 180.95942557016832,
+      "f0_p90_hz": 267.04615663042887,
+      "clipped_samples": 0,
+      "text_verified_by_one_asr": true,
+      "text_verified_by_both_asr": true,
+      "longest_internal_low_energy_gap_s": 0.78,
+      "internal_gaps_over_0_6s": 1,
+      "preview": "audition/formal_intro_试听.wav",
+      "scene_reference_cosines": {
+        "formal": 0.7017425298690796,
+        "daily": 0.049097754061222076
+      }
+    },
+    {
+      "id": "formal_same",
+      "scene": "formal",
+      "kind": "same",
+      "mode": "formal",
+      "text": "我刚刚才看到消息，等一下就过来。你先别着急，我把这边弄好就来找你。",
+      "path": "audition/formal_same.wav",
+      "sr": 24000,
+      "duration": 7.76,
+      "seconds": 60.375,
+      "sha256": "8e6457a3dbc1786694afd89ef293e5d7dcbb048b18b0b2db8a19ef09e9682672",
+      "adapter_sha256": "fe37623c1d55768d9c75203d5ae9ee77b0ba24e13f6ec41106ac2908dc825835",
+      "language": "Chinese",
+      "speaker": "xuan_formal",
+      "seed": 201,
+      "reference_audio_required_at_inference": false,
+      "human_accepted": false,
+      "para": {
+        "raw": "我 刚 刚 才 看 到 消 息 等 一 下 就 过 来 你 先 别 着 急 我 把 这 边 弄 好 就 来 找 你",
+        "match": true,
+        "cer": 0.0
+      },
+      "sense": {
+        "raw": "<|zh|><|NEUTRAL|><|Speech|><|woitn|>我刚刚才看到消息等一下就过来你先别着急我把这边弄好就来找你",
+        "match": true,
+        "cer": 0.0
+      },
+      "formal_reference_cosine": 0.6832528114318848,
+      "chat_centroid_cosine": 0.04103920048946894,
+      "f0_median_hz": 223.80551574022118,
+      "f0_p10_hz": 189.31142223883342,
+      "f0_p90_hz": 282.88800759960696,
+      "clipped_samples": 0,
+      "text_verified_by_one_asr": true,
+      "text_verified_by_both_asr": true,
+      "longest_internal_low_energy_gap_s": 1.12,
+      "internal_gaps_over_0_6s": 1,
+      "preview": "audition/formal_same_试听.wav",
+      "scene_reference_cosines": {
+        "formal": 0.6916208267211914,
+        "daily": 0.13639210164546967
+      }
+    },
+    {
+      "id": "daily_reply",
+      "scene": "daily",
+      "kind": "reply",
+      "mode": "daily",
+      "text": "要得，你先过去嘛。我这边还没弄好，等一下就来。你到了喊我一声。",
+      "path": "audition/daily_reply.wav",
+      "sr": 24000,
+      "duration": 6.88,
+      "seconds": 67.18699999999808,
+      "sha256": "17c4a8beefe8335ce2cd6ee5e746960d5f85a1b8a45ba73edbc37e20f657ca14",
+      "adapter_sha256": "f21c4c39f03482d06c01d21d0349ef18ff1613a6e11a1962af3525c4789d7686",
+      "language": "Auto",
+      "speaker": "xuan_daily",
+      "seed": 201,
+      "reference_audio_required_at_inference": false,
+      "human_accepted": false,
+      "para": {
+        "raw": "要 得 你 先 过 去 嘛 我 这 边 还 没 弄 好 等 一 下 就 来 你 到 了 喊 我 一 声",
+        "match": true,
+        "cer": 0.0
+      },
+      "sense": {
+        "raw": "<|zh|><|EMO_UNKNOWN|><|Speech|><|woitn|>要得你先过去嘛我这边还没弄好等一下就来你到了喊我一声",
+        "match": true,
+        "cer": 0.0
+      },
+      "formal_reference_cosine": 0.20043611526489258,
+      "chat_centroid_cosine": 0.3350816402209277,
+      "f0_median_hz": 247.40604945128476,
+      "f0_p10_hz": 210.8603636263611,
+      "f0_p90_hz": 279.402918611597,
+      "clipped_samples": 0,
+      "text_verified_by_one_asr": true,
+      "text_verified_by_both_asr": true,
+      "longest_internal_low_energy_gap_s": 0.66,
+      "internal_gaps_over_0_6s": 1,
+      "preview": "audition/daily_reply_试听.wav",
+      "scene_reference_cosines": {
+        "formal": 0.20477142930030823,
+        "daily": 0.3931879997253418
+      }
+    },
+    {
+      "id": "daily_grumble",
+      "scene": "daily",
+      "kind": "grumble",
+      "mode": "daily",
+      "text": "哎呀，我刚刚才晓得。我还以为是我弄错了，白整了半天，真是。",
+      "path": "audition/daily_grumble.wav",
+      "sr": 24000,
+      "duration": 6.8,
+      "seconds": 59.5,
+      "sha256": "73ed066493c1a4f485a378f788cbf98371466fc9286fb80dacc6b0092a9b82c2",
+      "adapter_sha256": "f21c4c39f03482d06c01d21d0349ef18ff1613a6e11a1962af3525c4789d7686",
+      "language": "Auto",
+      "speaker": "xuan_daily",
+      "seed": 201,
+      "reference_audio_required_at_inference": false,
+      "human_accepted": false,
+      "para": {
+        "raw": "哎 呀 我 刚 刚 才 晓 得 我 还 以 为 是 我 弄 错 了 白 整 了 半 天 真 是",
+        "match": true,
+        "cer": 0.0
+      },
+      "sense": {
+        "raw": "<|zh|><|SAD|><|Speech|><|woitn|>哎呀我刚刚才晓得我还以为是我弄错了白整了半天真是",
+        "match": true,
+        "cer": 0.0
+      },
+      "formal_reference_cosine": 0.2318313717842102,
+      "chat_centroid_cosine": 0.32099624643624447,
+      "f0_median_hz": 232.5225570007155,
+      "f0_p10_hz": 196.187655798168,
+      "f0_p90_hz": 288.14270812192314,
+      "clipped_samples": 0,
+      "text_verified_by_one_asr": true,
+      "text_verified_by_both_asr": true,
+      "longest_internal_low_energy_gap_s": 0.3,
+      "internal_gaps_over_0_6s": 0,
+      "preview": "audition/daily_grumble_试听.wav",
+      "scene_reference_cosines": {
+        "formal": 0.2430124133825302,
+        "daily": 0.41044026613235474
+      }
+    },
+    {
+      "id": "daily_happy",
+      "scene": "daily",
+      "kind": "happy",
+      "mode": "daily",
+      "text": "这个好乖哟！我也想拿来耍一下，感觉还挺安逸的。",
+      "path": "audition/daily_happy.wav",
+      "sr": 24000,
+      "duration": 5.36,
+      "seconds": 43.171000000002095,
+      "sha256": "8416e4cdc4b67f607a3a1a6ac3aacca77c29ae631f3df7086166e42082ead2c5",
+      "adapter_sha256": "f21c4c39f03482d06c01d21d0349ef18ff1613a6e11a1962af3525c4789d7686",
+      "language": "Auto",
+      "speaker": "xuan_daily",
+      "seed": 201,
+      "reference_audio_required_at_inference": false,
+      "human_accepted": false,
+      "para": {
+        "raw": "这 个 好 乖 哟 我 也 想 拿 来 耍 一 下 感 觉 还 挺 安 逸 的",
+        "match": true,
+        "cer": 0.0
+      },
+      "sense": {
+        "raw": "<|zh|><|SAD|><|Speech|><|woitn|>这个好乖哟我也想拿来耍一下感觉还挺安逸的",
+        "match": true,
+        "cer": 0.0
+      },
+      "formal_reference_cosine": 0.10557977855205536,
+      "chat_centroid_cosine": 0.48165327310568606,
+      "f0_median_hz": 216.01299226619403,
+      "f0_p10_hz": 189.65004036473715,
+      "f0_p90_hz": 257.4875151746965,
+      "clipped_samples": 0,
+      "text_verified_by_one_asr": true,
+      "text_verified_by_both_asr": true,
+      "longest_internal_low_energy_gap_s": 0.28,
+      "internal_gaps_over_0_6s": 0,
+      "preview": "audition/daily_happy_试听.wav",
+      "scene_reference_cosines": {
+        "formal": 0.10890617966651917,
+        "daily": 0.4890592694282532
+      }
+    },
+    {
+      "id": "daily_same",
+      "scene": "daily",
+      "kind": "same",
+      "mode": "daily",
+      "text": "我刚刚才看到消息，等一下就过来。你先别着急，我把这边弄好就来找你。",
+      "path": "audition/daily_same.wav",
+      "sr": 24000,
+      "duration": 7.2,
+      "seconds": 59.8440000000046,
+      "sha256": "59b829477669e65e682910532f77f4edf930519c90709fce18ccb02f46624226",
+      "adapter_sha256": "f21c4c39f03482d06c01d21d0349ef18ff1613a6e11a1962af3525c4789d7686",
+      "language": "Auto",
+      "speaker": "xuan_daily",
+      "seed": 201,
+      "reference_audio_required_at_inference": false,
+      "human_accepted": false,
+      "para": {
+        "raw": "我 刚 刚 才 看 到 消 息 等 一 下 就 过 来 你 先 别 着 急 我 把 这 边 弄 好 就 来 找 你",
+        "match": true,
+        "cer": 0.0
+      },
+      "sense": {
+        "raw": "<|zh|><|HAPPY|><|Speech|><|woitn|>我刚刚才看到消息等一下就过来你先别着急我把这边弄好就来找你",
+        "match": true,
+        "cer": 0.0
+      },
+      "formal_reference_cosine": 0.21095064282417297,
+      "chat_centroid_cosine": 0.40013143949071356,
+      "f0_median_hz": 219.03575923279925,
+      "f0_p10_hz": 186.44080477476558,
+      "f0_p90_hz": 261.6375430584855,
+      "clipped_samples": 0,
+      "text_verified_by_one_asr": true,
+      "text_verified_by_both_asr": true,
+      "longest_internal_low_energy_gap_s": 0.9,
+      "internal_gaps_over_0_6s": 1,
+      "preview": "audition/daily_same_试听.wav",
+      "scene_reference_cosines": {
+        "formal": 0.22263771295547485,
+        "daily": 0.4824042320251465
+      }
+    }
+  ],
+  "human_listening_accepted": false,
+  "asr_and_pitch_are_not_naturalness_acceptance": true,
+  "formal_daily_reference_cosine": 0.11274728178977966,
+  "similarities_are_not_identity_acceptance": true
+}

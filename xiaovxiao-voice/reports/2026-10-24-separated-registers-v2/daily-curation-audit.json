@@ -1,0 +1,27 @@
+{
+  "candidates": 69,
+  "accepted": 37,
+  "rejected": 32,
+  "exclusion_reason_counts": {
+    "content_disagreement_needs_listening_not_normalized": 28,
+    "overlap_or_duplicate": 2,
+    "fresh_crop_transcription_gross_disagreement": 2
+  },
+  "accepted_audio_variants": {
+    "original": 15,
+    "light_restoration_0.25": 2,
+    "light_restoration_0.5": 2,
+    "enhanced_strict_pitch_and_identity_preservation": 9,
+    "original_continuous_phrase": 3,
+    "light_restoration_0.5_continuous_phrase": 2,
+    "enhanced_strict_pitch_and_identity_preservation_continuous_phrase": 4
+  },
+  "native_bandwidth_originals": 18,
+  "human_audio_reviewed_count": 0,
+  "complete_verbatim_annotations_kept_private": true,
+  "quality_gates": {
+    "SIG_min": 3.2,
+    "BAK_min": 3.3,
+    "OVRL_min": 2.95
+  }
+}

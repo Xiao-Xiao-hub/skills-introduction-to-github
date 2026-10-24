@@ -1,0 +1,12 @@
+{
+  "completed": true,
+  "separate_adapters": true,
+  "initialization": "original Base independently for each scene",
+  "adapter_sha256": {
+    "formal": "fe37623c1d55768d9c75203d5ae9ee77b0ba24e13f6ec41106ac2908dc825835",
+    "daily": "f21c4c39f03482d06c01d21d0349ef18ff1613a6e11a1962af3525c4789d7686"
+  },
+  "synthetic_audition_count": 6,
+  "human_listening_accepted": false,
+  "private_data_and_weights_uploaded": false
+}

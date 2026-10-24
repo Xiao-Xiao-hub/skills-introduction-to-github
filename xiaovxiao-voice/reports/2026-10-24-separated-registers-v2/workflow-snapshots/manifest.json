@@ -1,0 +1,11 @@
+{
+  "files": {
+    "split_voice_scenes_20261024.py": "df357b8cb0a893ef243d662a18ad4cf7584c456e50ae60968b0903b97e75a61f",
+    "train_scene_qwen_20261024.py": "59a46593989f16335fc14295b31ac7457946614455e4b831bba555a9eedf313e",
+    "scene_voice_runtime_20261024.py": "d4248f7ee66bde9d818496e4c6403bcfe5503fe916a74ceaf29b0c113f157c64",
+    "audition_scene_qwen_20261024.py": "7cfdcaa77cc44701317981c285548a852ce72d85826fd85fcd5877309568012a",
+    "report_scene_qwen_20261024.py": "d8a24c23f15ca2c6c4810017ba421245e8a43a0ecfbe239ab5c0a150881e464f"
+  },
+  "dependencies": "deployment helpers preserved in previous qwen-exclusive-voice workflow snapshot; upstream Qwen trainer pinned at 022e286b98fbec7e1e916cb940cdf532cd9f488e",
+  "original_toolkit_logic_modified": false
+}
