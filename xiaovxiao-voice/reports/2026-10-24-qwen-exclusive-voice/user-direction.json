@@ -1,0 +1,7 @@
+{
+  "user_preference": "Third sample acceptable as baseline; second sample rejected as unnatural",
+  "baseline_model": "Qwen3-TTS-12Hz-1.7B-Base",
+  "baseline_sample_sha256": "52299ea62c812ed8be4069542054481d3f8a026e49dd5f2b71d288c1e364cb1a",
+  "requested_work": "Continue quality curation and genuine Qwen weight training, then new-text listening",
+  "previous_voxcpm_weights_preserved": true
+}

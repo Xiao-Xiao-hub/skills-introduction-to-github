@@ -1,0 +1,36 @@
+{
+  "candidate_segments": 1092,
+  "selected": 72,
+  "selected_minutes": 6.931170833333334,
+  "splits": {
+    "train": {
+      "count": 54,
+      "minutes": 5.237025
+    },
+    "val": {
+      "count": 9,
+      "minutes": 0.7497291666666667
+    },
+    "test": {
+      "count": 9,
+      "minutes": 0.9444166666666667
+    }
+  },
+  "newly_recovered": 3,
+  "variants": {
+    "verified_enhanced": 56,
+    "original": 13,
+    "light_restoration": 3
+  },
+  "emotions": {
+    "HAPPY": 28,
+    "UNCERTAIN": 34,
+    "NEUTRAL": 5,
+    "SAD": 5
+  },
+  "native_24k_clips": 13,
+  "human_audio_reviewed_count": 0,
+  "no_validation_or_test_groups_moved": true,
+  "original_training_sets_unchanged": true,
+  "retained_fillers_and_internal_pauses": true
+}
