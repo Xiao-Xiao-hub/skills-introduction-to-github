@@ -1,0 +1,12 @@
+{
+  "main": "unshifted full forward; explicit logits[t] vs labels[t+1] CE",
+  "sub_hidden": "hidden[p-1] predicts frame p; asserted for every audio position",
+  "sub_labels": "15 heads against codebooks1..15 directly; no loss-time shift",
+  "target_frames": 58,
+  "text_projection_used": true,
+  "original_toolkit_and_library_files_modified": false,
+  "sources": [
+    "https://github.com/QwenLM/Qwen3-TTS/pull/278",
+    "https://github.com/QwenLM/Qwen3-TTS/issues/371"
+  ]
+}
